@@ -1,5 +1,0 @@
-Reading /home/yl2800/wejlab/work/Yaoan/CAMI-III/db/nucl_gb.accession2taxid.gz.
-Reading in values. This may take a while.
-Adding index. This may also take a while.
-/home/yl2800/wejlab/work/Yaoan/CAMI-III/db/accessionTaxa.sql already contains table accessionTaxa. Delete file or set overwrite=TRUE to reload
-Done building accession taxa!
