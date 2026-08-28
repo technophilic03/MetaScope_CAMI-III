@@ -1,0 +1,63 @@
+#!/bin/bash -l
+
+SGE_TASK_ID="$1"
+NSLOTS="$2"
+
+nproc --all
+
+stem=/restricted/projectnb/pathoscope/work/Yaoan/metagenomics_benchmarking
+index=$(($SGE_TASK_ID-1))
+
+# Create a flat array of ALL R1 files across all directories *
+baseDir="$stem"/MeSS_out/fastq
+all_r1_files=($(find "$baseDir" -name "*_R1.fq.gz" | sort))
+# mapfile -t all_r1_files < "${stem}/failed_samples_r1_paths.txt"
+
+# Select the specific file for this task
+readPath1="${all_r1_files[$index]}"
+readPath2="${readPath1%_R1.fq.gz}_R2.fq.gz"
+sampleName=$(basename "$readPath1" _R1.fq.gz)
+
+# Get the sample type from the parent directory
+sampleType=$(basename "$(dirname "$readPath1")")
+
+
+echo "Task ID: $SGE_TASK_ID"
+echo "Sample Name: $sampleName"
+echo "Sample Type: $sampleType"
+echo "R1 Read Path: $readPath1"
+echo "R2 Read Path: $readPath2"
+
+
+
+### MAKE WORKING DIR
+workingDir="${sampleName}_tmp"
+rm -rf "$TMPDIR/$workingDir"
+mkdir "$TMPDIR/$workingDir"
+
+### Run MetaScope
+indexDir="/restricted/projectnb/pathoscope/work/Yaoan/2025_index_bowtie"
+expTag=$sampleName
+outDir="${stem}/profilers/MetaScope/rerun/${sampleType}"
+mkdir -p "$outDir"
+tmpDir="$TMPDIR/$workingDir/"
+
+### NEW parameters for MetaScope 1.7.3
+taxDB=/restricted/projectnb/pathoscope/work/Yaoan/blastdb/2024_accession_taxa/accessionTaxa.sql
+
+
+### Choose filter and targets to use
+target="target_reference_2"
+filter="filter_reference"
+
+# Run MetaScope
+module load samtools
+module load R/4.4.3
+
+export R_LIBS_USER="/restricted/projectnb/pathoscope/work/Yaoan/R"
+Rscript --vanilla --max-ppsize=500000 "$stem"/profilers/MetaScope/run_metascope_metag.R \
+${readPath1} ${readPath2} ${indexDir} ${expTag} ${outDir} ${tmpDir} ${NSLOTS} \
+${target} ${filter} \
+${taxDB}
+
+rm -rf $TMPDIR/$workingDir
