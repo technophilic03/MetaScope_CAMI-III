@@ -11,6 +11,7 @@
 #          Rscript --vanilla db/build_accession_tax.R
 /db/*
 !/db/build_accession_tax.R
+!/db/build_genome_lengths.R
 !/db/build_accession_tax.log
 !/db/readme.txt
 
