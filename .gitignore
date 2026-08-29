@@ -24,3 +24,6 @@ slurm-*.out
 # output logs
 /output/*/logs/*.err
 /output/*/logs/*.out
+
+# output scratch files
+/output/*/*/scratch/*
