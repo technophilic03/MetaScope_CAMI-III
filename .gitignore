@@ -1,13 +1,10 @@
-# Bulk data lives here but is never committed — it is re-downloadable or rebuildable.
-# See CLAUDE.md for how to restore each tree.
-
 # --- toy_db/ : CAMI III human-gut-toy download, ~176 GB -----------------------
 # Restore: wget -c -i toy_db/CAMI3_toy_dataset_download.list -P toy_db/
 /toy_db/*
 !/toy_db/CAMI3_toy_dataset_download.list
 # Gold-standard profiles (15 MB, extracted from taxonomic_profiles.tar.gz).
 # Uncomment to version them alongside benchmark results:
-# !/toy_db/taxonomic_profiles/
+!/toy_db/taxonomic_profiles/
 
 # --- db/ : NCBI taxonomy dumps + taxonomizr SQLite, ~36 GB --------------------
 # Restore: fetch dumps (mirrored in reflib/2026_accession_taxa), then
