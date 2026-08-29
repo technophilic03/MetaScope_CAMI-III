@@ -94,11 +94,6 @@ message(sprintf(
   100 * missing_bases
 ))
 
-# Unresolved bases still recruit reads in MetaScope but carry no genome length,
-# so those taxa drop out of the profile and the survivors renormalise upward.
-# TODO(human): stop above the fraction of reference you are unwilling to lose,
-# warn below it.
-
 # Contigs of one genome share a taxid, so the sum over a taxid is that genome.
 lengths_tbl <- seqs |>
   filter(!is.na(taxid)) |>
