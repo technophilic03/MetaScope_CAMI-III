@@ -1,12 +1,12 @@
 #!/bin/bash -l
-#SBATCH --job-name=metascope_metag
+#SBATCH --job-name=metascope_b
 #SBATCH --partition=p_wj183_1
-#SBATCH --array=1-19
+#SBATCH --array=0
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=240G
-#SBATCH --time=3-00:00:00
+#SBATCH --time=7-00:00:00
 #SBATCH --mail-user=yl2800@rutgers.edu
 #SBATCH --mail-type=END,FAIL
 #SBATCH --output=/projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/logs/%x_%A_%a.out
@@ -23,7 +23,7 @@ sampleName="sample_${SLURM_ARRAY_TASK_ID}"
 readsTar="${stem}/toy_db/${sampleName}_reads.tar.gz"
 
 ### MAKE WORKING DIR
-workingDir="${stem}/output/toy/metascope/scratch/${sampleName}_${SLURM_ARRAY_JOB_ID}"
+workingDir="${stem}/output/toy/metascope_blast/scratch/${sampleName}_${SLURM_ARRAY_JOB_ID}"
 rm -rf "$workingDir"
 mkdir -p "$workingDir"
 
@@ -31,7 +31,7 @@ mkdir -p "$workingDir"
 ### Run MetaScope
 indexDir="/home/yl2800/wejlab/reflib/2025_reference/bowtie_indices"
 expTag=$sampleName
-outDir="${stem}/output/toy/metascope/results"
+outDir="${stem}/output/toy/metascope_blast/results"
 mkdir -p "$outDir"
 tmpDir="${workingDir}/"
 
@@ -41,7 +41,14 @@ taxDB="${stem}/db/accessionTaxa.sql"
 target="target_reference"
 filter="filter_reference"
 
-for f in "$readsTar" "$taxDB" "${indexDir}/${target}.1.bt2l" "${indexDir}/${filter}.1.bt2l"; do
+## No priors file exists for the CAMI toy samples; the EM step starts from uniform weights
+priors_df="NONE"
+
+# BLAST db
+blast_db="/home/yl2800/wejlab/reflib/2024_blast_nt/nt"
+
+for f in "$readsTar" "$taxDB" "${blast_db}.nal" \
+         "${indexDir}/${target}.1.bt2l" "${indexDir}/${filter}.1.bt2l"; do
     [[ -e "$f" ]] || { echo "MISSING INPUT: $f" >&2; exit 1; }
 done
 
@@ -83,12 +90,13 @@ echo "R2 Read Path: $readPath2"
 module purge
 module load samtools/1.23-ez82
 module load R/4.5.2
+module load blast/2.17.0-ty308
 # deactivate conda if something breaks
 conda deactivate
 
 export R_LIBS_USER="/home/yl2800/wejlab/work/Yaoan/R-4.5"
 Rscript --vanilla --max-ppsize=500000 \
-"$stem"/code/run_metascope_metag.R \
+"$stem"/code/run_metascope_b.R \
 ${readPath1} ${readPath2} ${indexDir} ${expTag} ${outDir} ${tmpDir} ${SLURM_CPUS_PER_TASK} \
 ${target} ${filter} \
-${taxDB}
+${taxDB} ${priors_df} ${blast_db}
