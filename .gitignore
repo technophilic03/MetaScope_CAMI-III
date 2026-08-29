@@ -14,7 +14,7 @@
 !/db/build_genome_lengths.R
 !/db/build_accession_tax.log
 !/db/readme.txt
-
+!/db/genome_lengths.tsv
 # --- R session / HPC job artifacts -------------------------------------------
 .Rhistory
 .RData
