@@ -13,6 +13,7 @@
 !/db/build_accession_tax.R
 !/db/build_genome_lengths.R
 !/db/build_accession_tax.log
+!/db/make_target_manifests.sh
 !/db/readme.txt
 !/db/genome_lengths.tsv
 # --- R session / HPC job artifacts -------------------------------------------
