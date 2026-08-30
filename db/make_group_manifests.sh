@@ -5,33 +5,39 @@
 # Run this after unpacking refseq_microbial_genomes.zip and plasmids.zip:
 #
 #   db/make_group_manifests.sh db/assembly_summary.txt refdb/genomes db/manifests
-#   db/make_group_manifests.sh db/assembly_summary.txt refdb/genomes db/manifests species refdb/plasmids
+#   db/make_group_manifests.sh db/assembly_summary.txt refdb/genomes db/manifests refdb/plasmids
 #
 # It writes one <group>_<NN>.manifest per library, listing the FASTA files that
 # belong in it, plus libraries.txt naming them all. db/build_bowtie_indices.sbatch
 # turns each manifest into an index. Pass the names to args[8] and args[9] of
 # code/run_metascope_metag.R, comma joined.
 #
-# Why one library per group: align_target_bowtie() already loops over `libs`, so
-# groups cost nothing kept apart. Apart, a group can be added or dropped without
-# rebuilding the others, and a change in recall points at the group that caused it.
+# EVERY ASSEMBLY IS KEPT
+# All 150209 rows of assembly_summary.txt end up in a library. CAMI publishes
+# this database for its challenge datasets, so the reference is theirs and this
+# script does not choose a subset of it. Sharding below is only about index size.
+# No row is ever dropped, and no row is ever tested against a column.
 #
-# Why bacteria are sharded: they are 388.90 Gbp, and no single index holds that.
-# The one index known to build and align on these nodes holds 124.61 Gbp.
-#
-# WHY refseq_category IS NEVER TESTED OUTSIDE BACTERIA
-# NCBI marks no virus as a reference genome. All 15093 viral rows carry "na" in
-# column 5. So this filter, which looks like it keeps viruses, keeps none:
+# In particular, refseq_category is never read. NCBI marks no virus as a
+# reference genome: all 15093 viral rows carry "na" in column 5. So this filter,
+# which looks like it keeps viruses, keeps none:
 #     $5 == "reference genome" && $25 ~ /bacteria|archaea|fungi|protozoa|viral/
 # Column 5 rejects every viral row before column 25 is ever read. Nearly half of
 # the CAMI toy reads are viral, so that filter costs about half the dataset.
+#
+# Why one library per group: align_target_bowtie() already loops over `libs`, so
+# groups cost nothing kept apart. Apart, a group can be dropped from a run
+# without rebuilding the others, and a change in recall points at the group that
+# caused it.
+#
+# Why bacteria are sharded: they are 624.00 Gbp, and no single index holds that.
+# The one index known to build and align on these nodes holds 124.61 Gbp.
 
 set -euo pipefail
 
 # assembly_summary.txt columns used. This is the 38-column NCBI layout, and the
 # CAMI copy carries no header line and no comment lines.
-#    5 refseq_category    7 species_taxid   12 assembly_level
-#   20 ftp_path          25 group          26 genome_size
+#   20 ftp_path    25 group    26 genome_size
 
 # One shard holds at most this many Gbp. 124.61 Gbp already builds and aligns on
 # these nodes, so 100 stays inside a proven envelope.
@@ -40,24 +46,18 @@ SHARD_GBP=100
 
 ### ARGUMENTS ################################################################
 
-if [[ $# -lt 3 || $# -gt 5 ]]; then
-    echo "Usage: $0 <assembly_summary.txt> <genomes_dir> <out_dir> [bacteria_rule] [plasmids_dir]" >&2
-    echo "  bacteria_rule  species    one genome per species taxid (default, 388.90 Gbp)" >&2
-    echo "                 reference  refseq_category == 'reference genome' (101.75 Gbp)" >&2
-    echo "  Archaea, fungi and viruses are always kept whole. Together they are 28.76 Gbp." >&2
+if [[ $# -lt 3 || $# -gt 4 ]]; then
+    echo "Usage: $0 <assembly_summary.txt> <genomes_dir> <out_dir> [plasmids_dir]" >&2
+    echo "  Builds 10 libraries from all 150209 assemblies: bacteria_01..07 (624.00 Gbp)," >&2
+    echo "  archaea_01 (6.29), fungi_01 (21.92), viral_01 (0.55). Total 652.76 Gbp." >&2
+    echo "  Give plasmids_dir to add plasmid_01 as an eleventh library." >&2
     exit 1
 fi
 
 summary=$1
 genomes_dir=$2
 out_dir=$3
-bacteria_rule=${4:-species}
-plasmids_dir=${5:-}
-
-case "$bacteria_rule" in
-    species|reference) ;;
-    *) echo "bacteria_rule must be 'species' or 'reference', got '$bacteria_rule'" >&2; exit 1 ;;
-esac
+plasmids_dir=${4:-}
 
 for f in "$summary" "$genomes_dir"; do
     [[ -e "$f" ]] || { echo "MISSING INPUT: $f" >&2; exit 1; }
@@ -73,52 +73,27 @@ selected="$out_dir/selected.tsv"     # group, bases, path
 assigned="$out_dir/assigned.tsv"     # library, bases, path
 
 
-### STEP 1  CHOOSE ASSEMBLIES ################################################
+### STEP 1  LIST EVERY ASSEMBLY ##############################################
 #
 # The archive names each file after the basename of column 20. That was checked
 # against the zip central directory: 7461 of 7461 sampled entries matched.
 # Rebuilding the name from columns 1 and 16 does not match, because NCBI rewrites
 # the punctuation of asm_name.
 
-echo "Step 1: choosing assemblies (bacteria rule: $bacteria_rule)"
+echo "Step 1: listing every assembly in the database"
 
-# Archaea, fungi and viruses are small enough to keep whole, so no row is tested.
 awk -F'\t' -v dir="$genomes_dir" '
-    $25 != "bacteria" {
+    {
         name = $20; sub(/\/$/, "", name); sub(/.*\//, "", name)
         print $25 "\t" $26 "\t" dir "/" name "_genomic.fna.gz"
     }
 ' "$summary" > "$selected"
 
-# Bacteria are the only group large enough to need thinning.
-awk -F'\t' -v dir="$genomes_dir" -v rule="$bacteria_rule" '
-    $25 != "bacteria" { next }
-
-    rule == "reference" && $5 != "reference genome" { next }
-
-    {
-        name = $20; sub(/\/$/, "", name); sub(/.*\//, "", name)
-        path = dir "/" name "_genomic.fna.gz"
-
-        if (rule == "reference") { print "bacteria\t" $26 "\t" path; next }
-
-        # One genome per species keeps every species taxid the database knows,
-        # which is the rank the gold standard is scored on. A closed genome wins
-        # the tie over a pile of contigs.
-        level = ($12 == "Complete Genome") ? 4 : ($12 == "Chromosome") ? 3 : ($12 == "Scaffold") ? 2 : 1
-        if (!($7 in best_level) || level > best_level[$7]) {
-            best_level[$7] = level
-            best_bases[$7] = $26
-            best_path[$7]  = path
-        }
-    }
-
-    END { for (taxid in best_path) print "bacteria\t" best_bases[taxid] "\t" best_path[taxid] }
-' "$summary" >> "$selected"
-
 n_selected=$(wc -l < "$selected")
-[[ $n_selected -gt 0 ]] || { echo "no assemblies selected from $summary" >&2; exit 1; }
-echo "  $n_selected assemblies selected"
+n_rows=$(wc -l < "$summary")
+[[ $n_selected -eq $n_rows ]] || {
+    echo "read $n_rows rows but listed $n_selected assemblies" >&2; exit 1; }
+echo "  $n_selected assemblies listed"
 
 
 ### STEP 2  CHECK EVERY FILE IS THERE ########################################

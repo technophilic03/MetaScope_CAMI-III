@@ -13,8 +13,9 @@
 
 # Build one bowtie2 index per library listed in db/manifests/libraries.txt.
 #
-# Set the array range to the number of lines in that file. With the default
-# rules that is 7: bacteria_01..04, archaea_01, fungi_01, viral_01.
+# Set the array range to the number of lines in that file. For the whole CAMI III
+# database that is 10: bacteria_01..07, archaea_01, fungi_01, viral_01. Add
+# plasmid_01 and any host library and it grows from there.
 #   sbatch --array=1-$(wc -l < db/manifests/libraries.txt) db/build_bowtie_indices.sbatch
 #
 # Every index lands in one directory because align_target_bowtie() takes a single
