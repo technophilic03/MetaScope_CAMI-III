@@ -8,8 +8,8 @@
 #SBATCH --time=01:00:00
 #SBATCH --mail-user=yl2800@rutgers.edu
 #SBATCH --mail-type=END,FAIL
-#SBATCH --output=/projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/logs/%x_%j.out
-#SBATCH --error=/projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/logs/%x_%j.err
+#SBATCH --output=./%x_%j.out
+#SBATCH --error=./%x_%j.err
 
 # Turn every MetaScope result table into one CAMI III taxonomic profile, ready
 # for OPAL. All samples go into a single file, one @SampleID block each.

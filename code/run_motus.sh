@@ -3,8 +3,7 @@
 # Profile one paired-end sample with mOTUs 3.1.0, then write the same sample
 # again in CAMI/bioboxes format.
 #
-# Both calls are the ones printed in Ruscheweyh et al. 2021, Current Protocols
-# 1:e218 (doi:10.1002/cpz1.218) -- Basic Protocol 1 and Support Protocol 3:
+# Reference: https://currentprotocols.onlinelibrary.wiley.com/doi/10.1002/cpz1.218
 #
 #   motus profile -f input/ERR479298s.1.fq.gz -r input/ERR479298s.2.fq.gz \
 #       -n ERR479298s -o ERR479298s-default.motus
@@ -24,14 +23,6 @@
 #   <sampleName>.motus         native relative-abundance profile
 #   <sampleName>.cami.profile  the same sample in CAMI format
 #
-# One mOTU can map to several NCBI taxids, and -C decides what happens to those
-# discrepancies: precision deletes them, recall splits their relative abundance
-# across the taxids, parenthesis keeps them all. One mode is written per run, so
-# OPAL scores a single mOTUs entry.
-#
-# Each call reads the FASTQ files, so the sample is aligned twice. That is the
-# cost of staying on the documented one-call-per-output form.
-
 set -euo pipefail
 
 if [[ $# -lt 7 || $# -gt 8 ]]; then
