@@ -41,18 +41,21 @@ stem=/projectsp/f_wj183_1/work/Yaoan/CAMI-III
 motusEnv="motus"
 motusDB=""
 
-# What -C does with an mOTU that maps to several NCBI taxids. The mOTUs wiki
-# lists three modes: "precision" deletes it, "recall" splits its relative
-# abundance across the taxids, "parenthesis" keeps them all.
+# What -C does with an mOTU that maps to several NCBI taxids.
 #
-# Precision is the only mode the protocol prints, and Support Protocol 3 says
-# "The -C option should be used for reproducing the challenge results". This is
-# a CAMI challenge dataset, so precision is the default here.
+#   precision    the ambiguous mOTU is deleted
+#   recall       its relative abundance is split across the candidate taxids
 #
-# It costs recall, measured on the finished version 3 run over all 20 samples:
-# 1145 species rows against 1746, and a mean 12.15% of species abundance held
-# only by taxa that precision deletes (min 0.56%, max 38.84%).
-camiMode="precision"
+# Both are written, from one alignment, and scored as two OPAL entries. They
+# trade against each other, so one number cannot stand for both. Measured on
+# the finished run over 20 samples: precision keeps 1145 species rows and
+# recall keeps 1746. A mean 12.15% of species abundance is held only by taxa
+# precision deletes (min 0.56%, max 38.84%).
+#
+# mOTUs has a third mode, "parenthesis", which run_motus.sh also accepts. It
+# is not scorable. It writes TAXID as "(1328/1338)", and print_CAMI.py itself
+# calls that "not tecnically in CAMI format". OPAL matches on taxid.
+camiModes="precision,recall"
 
 # One array task per CAMI III toy sample: sample_0 .. sample_19.
 # The gold standard names its samples by bare index, so that index is the
@@ -122,7 +125,7 @@ motus --version
 
 bash "${stem}/code/run_motus.sh" \
     "$readPath1" "$readPath2" "$sampleName" "$sampleId" \
-    "$outDir" "$SLURM_CPUS_PER_TASK" "$camiMode" "$motusDB"
+    "$outDir" "$SLURM_CPUS_PER_TASK" "$camiModes" "$motusDB"
 
 # The split FASTQ files are large and fully reproducible from the tarball.
 rm -rf "$workingDir"
@@ -137,11 +140,13 @@ echo "Once every array task is done, merge the native profiles:"
 echo "  motus merge -i \$(ls ${outDir}/sample_*.motus | paste -sd, -) \\"
 echo "              -o ${stem}/output/toy/motus/motus_toy_merged.motus"
 echo
-echo "Then build the CAMI file and score it. A CAMI file holds one @SampleID"
+echo "Then build the CAMI files and score them. A CAMI file holds one @SampleID"
 echo "block per sample, so the twenty profiles are concatenated:"
-echo "  cat ${outDir}/sample_*.cami.profile > ${stem}/output/toy/cami/motus_toy.profile"
+echo "  cat ${outDir}/sample_*.cami_precision.profile > ${stem}/output/toy/cami/motus_toy_precision.profile"
+echo "  cat ${outDir}/sample_*.cami_recall.profile    > ${stem}/output/toy/cami/motus_toy_recall.profile"
 echo "  opal.py -g ${stem}/output/toy/cami/gold_standard.profile \\"
 echo "          -o ${stem}/output/toy/cami/opal_motus \\"
-echo "          -l \"MetaScope,mOTUs\" \\"
+echo "          -l \"MetaScope,mOTUs-precision,mOTUs-recall\" \\"
 echo "          ${stem}/output/toy/cami/metascope_toy.profile \\"
-echo "          ${stem}/output/toy/cami/motus_toy.profile"
+echo "          ${stem}/output/toy/cami/motus_toy_precision.profile \\"
+echo "          ${stem}/output/toy/cami/motus_toy_recall.profile"
