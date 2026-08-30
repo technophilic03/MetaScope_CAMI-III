@@ -1,0 +1,10 @@
+2026-08-29 23:43:45,924 INFO /opt/anaconda3/envs/CAMI/bin/opal.py -g output/toy/cami/gold_standard_cellular.profile -f 2 -o output/toy/cami/opal_cellular_f2 output/toy/cami/metascope_toy.profile
+2026-08-29 23:43:45,924 INFO Loading profiles
+2026-08-29 23:43:46,075 INFO Computing metrics
+2026-08-29 23:43:57,228 INFO Saving computed metrics
+2026-08-29 23:43:57,376 INFO Creating beta diversity plots
+2026-08-29 23:43:58,335 INFO Creating rarefaction curves
+2026-08-29 23:43:58,661 INFO Creating more plots
+2026-08-29 23:43:58,888 INFO Computing rankings
+2026-08-29 23:43:59,212 INFO Creating HTML page
+2026-08-29 23:44:08,664 INFO OPAL finished successfully. All results have been saved to /Users/yaoanleng/Library/CloudStorage/OneDrive-Personal/Desktop/Files/microbiome/MetaScope_CAMI-III/output/toy/cami/opal_cellular_f2

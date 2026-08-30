@@ -1,0 +1,26 @@
+2026-08-29 23:35:51,313 INFO /opt/anaconda3/envs/CAMI/bin/opal.py -g output/toy/cami/gold_standard_cellular.profile -f 0.01 -o output/toy/cami/opal_cellular_f001 output/toy/cami/metascope_toy.profile
+2026-08-29 23:35:51,313 INFO Loading profiles
+2026-08-29 23:35:51,449 INFO Computing metrics
+2026-08-29 23:36:05,471 INFO Saving computed metrics
+2026-08-29 23:36:05,619 INFO Creating beta diversity plots
+2026-08-29 23:36:06,561 INFO Creating rarefaction curves
+2026-08-29 23:36:06,886 INFO Creating more plots
+2026-08-29 23:36:07,167 INFO Computing rankings
+2026-08-29 23:36:07,430 INFO Creating HTML page
+2026-08-29 23:36:16,681 INFO OPAL finished successfully. All results have been saved to /Users/yaoanleng/Library/CloudStorage/OneDrive-Personal/Desktop/Files/microbiome/MetaScope_CAMI-III/output/toy/cami/opal_cellular_f001
+2026-08-29 23:37:49,009 INFO /opt/anaconda3/envs/CAMI/bin/opal.py -g output/toy/cami/gold_standard_cellular.profile -f 0.01 -o output/toy/cami/opal_cellular_f001 output/toy/cami/metascope_toy.profile
+2026-08-29 23:37:49,010 INFO Loading profiles
+2026-08-29 23:37:49,045 CRITICAL Input file could not be read.
+2026-08-29 23:38:07,566 INFO /opt/anaconda3/envs/CAMI/bin/opal.py -g output/toy/cami/gold_standard_cellular.profile -f 0.1 -o output/toy/cami/opal_cellular_f001 output/toy/cami/metascope_toy.profile
+2026-08-29 23:38:07,567 INFO Loading profiles
+2026-08-29 23:38:07,715 INFO Computing metrics
+2026-08-29 23:39:17,190 INFO /opt/anaconda3/envs/CAMI/bin/opal.py -g output/toy/cami/gold_standard_cellular.profile -f 0.01 -o output/toy/cami/opal_cellular_f001 output/toy/cami/metascope_toy.profile
+2026-08-29 23:39:17,190 INFO Loading profiles
+2026-08-29 23:39:17,325 INFO Computing metrics
+2026-08-29 23:39:31,998 INFO Saving computed metrics
+2026-08-29 23:39:32,159 INFO Creating beta diversity plots
+2026-08-29 23:39:33,133 INFO Creating rarefaction curves
+2026-08-29 23:39:33,462 INFO Creating more plots
+2026-08-29 23:39:33,791 INFO Computing rankings
+2026-08-29 23:39:34,089 INFO Creating HTML page
+2026-08-29 23:39:43,190 INFO OPAL finished successfully. All results have been saved to /Users/yaoanleng/Library/CloudStorage/OneDrive-Personal/Desktop/Files/microbiome/MetaScope_CAMI-III/output/toy/cami/opal_cellular_f001
