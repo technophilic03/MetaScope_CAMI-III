@@ -9,11 +9,20 @@
 # --- db/ : NCBI taxonomy dumps + taxonomizr SQLite, ~36 GB --------------------
 # Restore: fetch dumps (mirrored in reflib/2026_accession_taxa), then
 #          Rscript --vanilla db/build_accession_tax.R
+#
+# Also ignored here: the CAMI III reference database, ~180 GB compressed, and
+# everything derived from it (assembly_summary.txt, manifests/, bowtie_indices/).
+# Restore: the signed links expire 2027-07-16, so regenerate the list first with
+#   curl -sL https://cami-challenge.org/reference-databases/ \
+#     | grep -o 'https://s3\.bi\.denbi\.de/cami3__human-gut-challenge/databases/[^"]*' \
+#     | sed 's/&amp;/\&/g' | sort -u > db/cami3_database_download.list
 /db/*
 !/db/build_accession_tax.R
 !/db/build_genome_lengths.R
 !/db/build_accession_tax.log
+!/db/make_group_manifests.sh
 !/db/make_target_manifests.sh
+!/db/build_bowtie_indices.sbatch
 !/db/readme.txt
 !/db/genome_lengths.tsv
 # --- R session / HPC job artifacts -------------------------------------------

@@ -9,7 +9,12 @@ outDir <- args[5]
 tmpDir <- args[6]
 threads <- args[7]
 targets <- stringr::str_split(args[8], ",")[[1]]
-filters <- stringr::str_split(args[9], ",")[[1]]
+# CAMI ships no host genome with the CAMI III database, and that database holds
+# only bacteria, archaea, fungi and viruses. Pass "none" for args[9] to run with
+# no filter library at all.
+filters <- if (identical(args[9], "none")) {
+    character(0)
+} else stringr::str_split(args[9], ",")[[1]]
 taxDB <- args[10]
 
 # Time this!
@@ -35,21 +40,29 @@ target_map <- align_target_bowtie(read1 = readPath1,
                                   quiet = FALSE,
                                   bowtie2_options = bt2_params)
 message("TARGET STEP COMPLETE")
-# Align to filters
-output <- paste(file.path(tmpDir, expTag), "filtered", sep = ".")
-final_map <- filter_host_bowtie(reads_bam = target_map,
-                                lib_dir = indexDir,
-                                libs = filters,
-                                make_bam = FALSE,
-                                output = output,
-                                bowtie2_options = bt2_params,
-                                threads = threads,
-                                overwrite = TRUE,
-                                quiet = FALSE)
-message("FILTER STEP COMPLETE")
+# Align to filters. With no filter library the target BAM goes straight to the
+# EM step, which reads a bam as readily as the filter step's csv.gz.
+if (length(filters) == 0) {
+    final_map <- target_map
+    idInput <- "bam"
+    message("NO FILTER LIBRARY, FILTER STEP SKIPPED")
+} else {
+    output <- paste(file.path(tmpDir, expTag), "filtered", sep = ".")
+    final_map <- filter_host_bowtie(reads_bam = target_map,
+                                    lib_dir = indexDir,
+                                    libs = filters,
+                                    make_bam = FALSE,
+                                    output = output,
+                                    bowtie2_options = bt2_params,
+                                    threads = threads,
+                                    overwrite = TRUE,
+                                    quiet = FALSE)
+    idInput <- "csv.gz"
+    message("FILTER STEP COMPLETE")
+}
 # MetaScope ID
 message("running id step")
-metascope_id(final_map, input_type = "csv.gz", aligner = "bowtie2",
+metascope_id(final_map, input_type = idInput, aligner = "bowtie2",
              db = "ncbi",
              num_species_plot = 0,
              maxitsEM = 100,

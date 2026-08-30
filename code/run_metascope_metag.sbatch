@@ -29,7 +29,7 @@ mkdir -p "$workingDir"
 
 
 ### Run MetaScope
-indexDir="/home/yl2800/wejlab/reflib/2025_reference/bowtie_indices"
+indexDir="${stem}/db/bowtie_indices"
 expTag=$sampleName
 outDir="${stem}/output/toy/metascope/results"
 mkdir -p "$outDir"
@@ -38,11 +38,23 @@ tmpDir="${workingDir}/"
 taxDB="${stem}/db/accessionTaxa.sql"
 
 ### Choose filter and targets to use
-target="target_reference"
-filter="filter_reference"
+# Every library built by db/build_bowtie_indices.sbatch, comma joined. If you
+# built plasmid_01 it becomes a target too, which inflates its host taxon: a
+# plasmid is not a cell, and its short length turns few reads into a big count.
+# Drop that line from libraries.txt to leave it out.
+target=$(paste -sd, "${stem}/db/manifests/libraries.txt")
 
-for f in "$readsTar" "$taxDB" "${indexDir}/${target}.1.bt2l" "${indexDir}/${filter}.1.bt2l"; do
+# CAMI provides no host genome, so there is nothing to filter against. "none"
+# tells the R driver to skip the filter step. Homo sapiens is 0.0010% of each
+# gold-standard sample, so this costs almost nothing.
+filter="none"
+
+for f in "$readsTar" "$taxDB"; do
     [[ -e "$f" ]] || { echo "MISSING INPUT: $f" >&2; exit 1; }
+done
+
+for lib in ${target//,/ }; do
+    [[ -e "${indexDir}/${lib}.1.bt2l" ]] || { echo "MISSING INDEX: ${lib}" >&2; exit 1; }
 done
 
 ### SPLIT READS
