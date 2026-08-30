@@ -4,10 +4,10 @@
 
 @SampleID: 8
 @Version:0.9.3
-@Ranks:superkingdom|phylum|class|order|family|genus|species|strain
+@Ranks:domain|phylum|class|order|family|genus|species|strain
 @TaxonomyID: Jan 08 2019
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-2	superkingdom	2	Bacteria	100.0
+2	domain	2	Bacteria	100.0
 1224	phylum	2|1224	Bacteria|Proteobacteria	2.4016921930629938
 1239	phylum	2|1239	Bacteria|Firmicutes	70.62893459329297
 201174	phylum	2|201174	Bacteria|Actinobacteria	0.905870256531191

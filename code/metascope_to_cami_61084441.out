@@ -1,0 +1,9 @@
+taxonomy dump  : /projectsp/f_wj183_1/work/Yaoan/CAMI-III/db
+genome lengths : /projectsp/f_wj183_1/work/Yaoan/CAMI-III/db/genome_lengths.tsv
+sample map     : /projectsp/f_wj183_1/work/Yaoan/CAMI-III/code/sample_map_toy.tsv
+input files    : 20 from /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/metascope/results
+output         : /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/metascope_toy.profile
+
+Next, score it:
+  cat /projectsp/f_wj183_1/work/Yaoan/CAMI-III/toy_db/taxonomic_profiles/taxonomic_profile_*.txt > /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/gold_standard.profile
+  opal.py -g /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/gold_standard.profile -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/opal /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/metascope_toy.profile

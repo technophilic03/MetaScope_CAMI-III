@@ -1,0 +1,10 @@
+2026-08-30 15:52:05,211 INFO /home/yl2800/miniconda3/envs/CAMI/bin/opal.py -g /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/gold_standard.profile -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/opal_motus -l MetaScope,mOTUs-precision,mOTUs-recall /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/metascope_toy.profile /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/motus_toy_precision.profile /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/motus_toy_recall.profile
+2026-08-30 15:52:05,211 INFO Loading profiles
+2026-08-30 15:52:05,656 INFO Computing metrics
+2026-08-30 15:52:25,503 INFO Saving computed metrics
+2026-08-30 15:52:25,812 INFO Creating beta diversity plots
+2026-08-30 15:52:31,198 INFO Creating rarefaction curves
+2026-08-30 15:52:31,881 INFO Creating more plots
+2026-08-30 15:52:33,560 INFO Computing rankings
+2026-08-30 15:52:34,268 INFO Creating HTML page
+2026-08-30 15:52:45,984 INFO OPAL finished successfully. All results have been saved to /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/opal_motus

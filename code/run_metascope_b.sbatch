@@ -86,13 +86,16 @@ echo "Sample Name: $sampleName"
 echo "R1 Read Path: $readPath1"
 echo "R2 Read Path: $readPath2"
 
+# deactivate conda if something breaks
+conda deactivate
+
 # Run MetaScope
+export MODULEPATH=$MODULEPATH:/projects/community/modulefiles
 module purge
 module load samtools/1.23-ez82
 module load R/4.5.2
-module load blast/2.17.0-ty308
-# deactivate conda if something breaks
-conda deactivate
+module load blast
+module list
 
 export R_LIBS_USER="/home/yl2800/wejlab/work/Yaoan/R-4.5"
 Rscript --vanilla --max-ppsize=500000 \

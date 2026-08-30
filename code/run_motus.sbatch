@@ -23,14 +23,8 @@
 #   conda create -y -n motus -c bioconda -c conda-forge motus=3.1.0
 #   conda activate motus
 #   motus downloadDB                     # ~3.5 GB into the env's package dir
-#
-# Neither conda nor pip ships the database, so downloadDB is not optional.
-# Set motusDB below only if the database lives outside the conda env.
-#
-# This job is version 3.1.0 only. Version 4.x dropped CAMI output: its profile
-# command has no -C flag, and it reports GTDB lineages instead of NCBI taxids.
-# Version 4 runs separately in run_motus4.sbatch, which converts GTDB to NCBI
-# afterwards. Keep both jobs; they are two profilers, not two attempts.
+##
+# This job is version 3.1.0 only.
 
 set -euo pipefail
 
@@ -46,15 +40,6 @@ motusDB=""
 #   precision    the ambiguous mOTU is deleted
 #   recall       its relative abundance is split across the candidate taxids
 #
-# Both are written, from one alignment, and scored as two OPAL entries. They
-# trade against each other, so one number cannot stand for both. Measured on
-# the finished run over 20 samples: precision keeps 1145 species rows and
-# recall keeps 1746. A mean 12.15% of species abundance is held only by taxa
-# precision deletes (min 0.56%, max 38.84%).
-#
-# mOTUs has a third mode, "parenthesis", which run_motus.sh also accepts. It
-# is not scorable. It writes TAXID as "(1328/1338)", and print_CAMI.py itself
-# calls that "not tecnically in CAMI format". OPAL matches on taxid.
 camiModes="precision,recall"
 
 # One array task per CAMI III toy sample: sample_0 .. sample_19.
@@ -130,11 +115,6 @@ bash "${stem}/code/run_motus.sh" \
 # The split FASTQ files are large and fully reproducible from the tarball.
 rm -rf "$workingDir"
 
-# Score against the full gold standard, viral subtree included. MetaScope is
-# being rerun on a RefSeq that carries viral sequences, so both profilers must
-# be measured against the same complete truth. mOTUs profiles prokaryotes only
-# and will lose recall on the viral subtree. That is a real limit of the tool,
-# not a scoring artefact, so it belongs in the numbers.
 echo
 echo "Once every array task is done, merge the native profiles:"
 echo "  motus merge -i \$(ls ${outDir}/sample_*.motus | paste -sd, -) \\"

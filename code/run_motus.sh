@@ -49,6 +49,7 @@ threads="$6"
 camiModes="$7"
 motusDB="${8:-}"
 
+# input check
 for f in "$readPath1" "$readPath2"; do
     [[ -s "$f" ]] || { echo "MISSING OR EMPTY INPUT: $f" >&2; exit 1; }
 done
@@ -118,6 +119,7 @@ check_cami() {
 
 now=$SECONDS
 
+# profiling in mOTUs format output
 echo "PROFILING ${sampleName} AS @SampleID:${sampleId}"
 run_profile -f "$readPath1" -r "$readPath2" -n "$sampleId" -t "$threads" \
     -M "$mgcOut" -o "$nativeOut"
@@ -125,6 +127,7 @@ run_profile -f "$readPath1" -r "$readPath2" -n "$sampleId" -t "$threads" \
 [[ -s "$mgcOut" ]] || { echo "NO MARKER GENE COUNTS: $mgcOut" >&2; exit 1; }
 echo "NATIVE PROFILE DONE after $((SECONDS - now))s"
 
+# profiling in CAMI format output
 for mode in "${modes[@]}"; do
     camiOut="${outDir}/${sampleName}.cami_${mode}.profile"
     run_profile -m "$mgcOut" -n "$sampleId" -C "$mode" -o "$camiOut"

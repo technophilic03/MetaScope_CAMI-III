@@ -1,5 +1,5 @@
 # git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C no_CAMI -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
-# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -f /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/scratch/sample_17_61084846/sample_17_R1.fq.gz -r /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/scratch/sample_17_61084846/sample_17_R2.fq.gz -n 17 -t 16 -M /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_17.mgc.tsv -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_17.motus
+# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -f /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/scratch/sample_17_61086109/sample_17_R1.fq.gz -r /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/scratch/sample_17_61086109/sample_17_R2.fq.gz -n 17 -t 16 -M /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_17.mgc.tsv -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_17.motus
 #consensus_taxonomy	17
 Leptospira alexanderi [ref_mOTU_v31_00001]	0.0000000000
 Leptospira weilii [ref_mOTU_v31_00002]	0.0000000000

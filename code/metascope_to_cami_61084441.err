@@ -1,0 +1,24 @@
+Reading taxonomy from /projectsp/f_wj183_1/work/Yaoan/CAMI-III/db
+  2688099 nodes, 2688099 scientific names, 91945 merged taxids
+Genome lengths for 22867 taxids
+0: 1460 input rows, 4 merged taxids, 13 rows dropped (0.0148% of reads), 1444 taxa, 1444 species rows, species total 99.999266%
+10: 1369 input rows, 4 merged taxids, 6 rows dropped (0.0037% of reads), 1360 taxa, 1360 species rows, species total 99.999316%
+11: 1181 input rows, 2 merged taxids, 11 rows dropped (0.0320% of reads), 1169 taxa, 1169 species rows, species total 99.999398%
+12: 1372 input rows, 3 merged taxids, 9 rows dropped (0.0009% of reads), 1361 taxa, 1361 species rows, species total 99.999324%
+13: 1235 input rows, 2 merged taxids, 14 rows dropped (1.0363% of reads), 1220 taxa, 1220 species rows, species total 99.999381%
+14: 1375 input rows, 3 merged taxids, 12 rows dropped (0.0025% of reads), 1361 taxa, 1361 species rows, species total 99.999304%
+15: 1419 input rows, 3 merged taxids, 7 rows dropped (0.0011% of reads), 1410 taxa, 1410 species rows, species total 99.999294%
+16: 1387 input rows, 1 merged taxids, 11 rows dropped (0.0040% of reads), 1376 taxa, 1376 species rows, species total 99.999323%
+17: 1503 input rows, 3 merged taxids, 15 rows dropped (0.0031% of reads), 1486 taxa, 1486 species rows, species total 99.999254%
+18: 1446 input rows, 3 merged taxids, 12 rows dropped (0.0037% of reads), 1432 taxa, 1432 species rows, species total 99.999291%
+19: 1663 input rows, 4 merged taxids, 9 rows dropped (0.0083% of reads), 1651 taxa, 1651 species rows, species total 99.999180%
+1: 1450 input rows, 4 merged taxids, 10 rows dropped (0.0337% of reads), 1437 taxa, 1437 species rows, species total 99.999277%
+2: 1227 input rows, 1 merged taxids, 6 rows dropped (0.0059% of reads), 1221 taxa, 1221 species rows, species total 99.999417%
+3: 1297 input rows, 2 merged taxids, 11 rows dropped (0.0865% of reads), 1285 taxa, 1285 species rows, species total 99.999342%
+4: 1286 input rows, 3 merged taxids, 13 rows dropped (0.0024% of reads), 1271 taxa, 1271 species rows, species total 99.999355%
+5: 1400 input rows, 2 merged taxids, 8 rows dropped (0.3109% of reads), 1391 taxa, 1391 species rows, species total 99.999293%
+6: 1808 input rows, 6 merged taxids, 253 rows dropped (0.0830% of reads), 1550 taxa, 1550 species rows, species total 99.999220%
+7: 1112 input rows, 2 merged taxids, 6 rows dropped (0.0041% of reads), 1105 taxa, 1105 species rows, species total 99.999449%
+8: 1332 input rows, 4 merged taxids, 10 rows dropped (0.0015% of reads), 1319 taxa, 1319 species rows, species total 99.999337%
+9: 1407 input rows, 1 merged taxids, 11 rows dropped (0.0009% of reads), 1396 taxa, 1396 species rows, species total 99.999298%
+Wrote /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/metascope_toy.profile with 20 sample block(s)
