@@ -21,6 +21,7 @@
 !/db/build_genome_lengths.R
 !/db/build_accession_tax.log
 !/db/make_group_manifests.sh
+!/db/make_target_manifests.sh
 !/db/build_bowtie_indices.sbatch
 !/db/readme.txt
 !/db/genome_lengths.tsv
