@@ -62,15 +62,20 @@ run_profile() {
 
 # Every CAMI profile must carry the @SampleID the gold standard uses, or OPAL
 # pairs the sample with nothing and scores it as absent.
+#
+# mOTUs writes three '#' comment lines and a blank line before the header
+# block, so the sample id is not on line 1. It also writes "@SampleID: 1" with
+# a space, while the gold standard writes "@SampleID:0" without one. OPAL skips
+# comments and trims the value, so both spellings pair. Compare the trimmed id.
 check_cami() {
     local f="$1"
     [[ -s "$f" ]] || { echo "EMPTY OUTPUT: $f" >&2; exit 1; }
     local got
-    got=$(head -1 "$f")
-    [[ "$got" == "@SampleID:${sampleId}" ]] \
-        || { echo "WRONG HEADER IN $f: got '${got}', want '@SampleID:${sampleId}'" >&2; exit 1; }
+    got=$(sed -n 's/^@SampleID:[[:space:]]*//p' "$f" | head -1 | tr -d '[:space:]')
+    [[ "$got" == "$sampleId" ]] \
+        || { echo "WRONG @SampleID IN $f: got '${got}', want '${sampleId}'" >&2; exit 1; }
     local rows
-    rows=$(grep -vc '^@' "$f" || true)
+    rows=$(awk 'NF && $0 !~ /^[@#]/' "$f" | wc -l | tr -d ' ')
     [[ "$rows" -gt 0 ]] || { echo "NO TAXON ROWS IN $f" >&2; exit 1; }
     echo "$f  ${rows} taxon rows"
 }
