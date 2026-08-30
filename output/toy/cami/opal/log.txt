@@ -1,0 +1,10 @@
+2026-08-29 23:23:14,550 INFO app/OPAL/opal.py -g /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/gold_standard.profile -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/opal /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/metascope_toy.profile
+2026-08-29 23:23:14,551 INFO Loading profiles
+2026-08-29 23:23:14,955 INFO Computing metrics
+2026-08-29 23:23:36,703 INFO Saving computed metrics
+2026-08-29 23:23:37,228 INFO Creating beta diversity plots
+2026-08-29 23:23:44,148 INFO Creating rarefaction curves
+2026-08-29 23:23:44,978 INFO Creating more plots
+2026-08-29 23:23:45,734 INFO Computing rankings
+2026-08-29 23:23:46,766 INFO Creating HTML page
+2026-08-29 23:24:04,208 INFO OPAL finished successfully. All results have been saved to /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/cami/opal
