@@ -104,14 +104,16 @@ bash "${stem}/code/run_motus.sh" \
 # The split FASTQ files are large and fully reproducible from the tarball.
 rm -rf "$workingDir"
 
-# Score against the same cellular-only gold standard MetaScope is scored on.
-# mOTUs profiles prokaryotes only, so the viral and "other entries" subtrees
-# must be out of the gold standard for the comparison to be fair.
+# Score against the full gold standard, viral subtree included. MetaScope is
+# being rerun on a RefSeq that carries viral sequences, so both profilers must
+# be measured against the same complete truth. mOTUs profiles prokaryotes only
+# and will lose recall on the viral subtree. That is a real limit of the tool,
+# not a scoring artefact, so it belongs in the numbers.
 echo
 echo "Once every array task is done, score it:"
 echo "  cat ${outDir}/sample_*.cami_precision.profile > ${stem}/output/toy/cami/motus_toy_precision.profile"
 echo "  cat ${outDir}/sample_*.cami_recall.profile    > ${stem}/output/toy/cami/motus_toy_recall.profile"
-echo "  opal.py -g ${stem}/output/toy/cami/gold_standard_cellular.profile \\"
+echo "  opal.py -g ${stem}/output/toy/cami/gold_standard.profile \\"
 echo "          -o ${stem}/output/toy/cami/opal_motus \\"
 echo "          ${stem}/output/toy/cami/motus_toy_precision.profile \\"
 echo "          ${stem}/output/toy/cami/motus_toy_recall.profile \\"
