@@ -4,7 +4,8 @@
 # again in CAMI/bioboxes format.
 #
 # Both calls are the ones printed in Ruscheweyh et al. 2021, Current Protocols
-# 1:e218 (doi:10.1002/cpz1.218) -- Basic Protocol 1 and Support Protocol 3:
+# 1:e218 (doi:10.1002/cpz1.218). Basic Protocol 1 writes the native .motus
+# table, and that table is its only output. CAMI output is Support Protocol 3:
 #
 #   motus profile -f input/ERR479298s.1.fq.gz -r input/ERR479298s.2.fq.gz \
 #       -n ERR479298s -o ERR479298s-default.motus
@@ -25,9 +26,10 @@
 #   <sampleName>.cami.profile  the same sample in CAMI format
 #
 # One mOTU can map to several NCBI taxids, and -C decides what happens to those
-# discrepancies: precision deletes them, recall splits their relative abundance
+# discrepancies. The protocol prints only "precision"; the mOTUs wiki documents
+# all three: precision deletes them, recall splits their relative abundance
 # across the taxids, parenthesis keeps them all. One mode is written per run, so
-# OPAL scores a single mOTUs entry.
+# OPAL scores a single mOTUs entry. The sbatch picks the mode.
 #
 # Each call reads the FASTQ files, so the sample is aligned twice. That is the
 # cost of staying on the documented one-call-per-output form.

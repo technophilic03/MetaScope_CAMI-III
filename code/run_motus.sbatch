@@ -41,11 +41,18 @@ stem=/projectsp/f_wj183_1/work/Yaoan/CAMI-III
 motusEnv="motus"
 motusDB=""
 
-# What -C does with an mOTU that maps to several NCBI taxids. "precision"
-# deletes it, "recall" splits its relative abundance across the taxids,
-# "parenthesis" keeps them all. Recall is used here because it is the only
-# mode that keeps every mOTU and all of the abundance.
-camiMode="recall"
+# What -C does with an mOTU that maps to several NCBI taxids. The mOTUs wiki
+# lists three modes: "precision" deletes it, "recall" splits its relative
+# abundance across the taxids, "parenthesis" keeps them all.
+#
+# Precision is the only mode the protocol prints, and Support Protocol 3 says
+# "The -C option should be used for reproducing the challenge results". This is
+# a CAMI challenge dataset, so precision is the default here.
+#
+# It costs recall, measured on the finished version 3 run over all 20 samples:
+# 1145 species rows against 1746, and a mean 12.15% of species abundance held
+# only by taxa that precision deletes (min 0.56%, max 38.84%).
+camiMode="precision"
 
 # One array task per CAMI III toy sample: sample_0 .. sample_19.
 # The gold standard names its samples by bare index, so that index is the
