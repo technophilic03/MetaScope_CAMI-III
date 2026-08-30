@@ -1,36 +1,36 @@
 #!/bin/bash -l
-#SBATCH --job-name=motus_metag
+#SBATCH --job-name=motus4_metag
 #SBATCH --partition=p_wj183_1
 #SBATCH --array=0-19
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
-#SBATCH --mem=64G
-#SBATCH --time=12:00:00
+#SBATCH --mem=96G
+#SBATCH --time=1-00:00:00
 #SBATCH --mail-user=yl2800@rutgers.edu
 #SBATCH --mail-type=END,FAIL
 #SBATCH --output=/projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/logs/%x_%A_%a.out
 #SBATCH --error=/projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/logs/%x_%A_%a.err
 
-# Run mOTUs on the CAMI III human-gut toy samples, one array task per sample.
-# mOTUs is the reference profiler MetaScope is measured against here.
+# Run mOTUs 4 on the CAMI III human-gut toy samples, one array task per sample.
 #
-# The mOTUs calls follow Ruscheweyh et al. 2021, Current Protocols 1:e218
-# (doi:10.1002/cpz1.218). Install, database and merge are Basic Protocol 1;
-# the CAMI output flag is Support Protocol 3.
+# This is the newer database: 124,295 mOTUs built from 3.90 million prokaryotic
+# genomes, against 33k in version 3. It is still prokaryotes only.
 #
-# Prerequisite, built once on a compute node, not the login node:
-#   conda create -y -n motus -c bioconda -c conda-forge motus=3.1.0
-#   conda activate motus
-#   motus downloadDB                     # ~3.5 GB into the env's package dir
+# It runs alongside the version 3 job in run_motus.sbatch. Keep both. Version 3
+# writes CAMI profiles itself; version 4 does not, and reports GTDB lineages
+# instead of NCBI taxids, so code/motus4_to_cami.R converts afterwards.
 #
-# Neither conda nor pip ships the database, so downloadDB is not optional.
+# Prerequisite, built once on a compute node, not the login node. The channel
+# and pin come from the project's own mOTUs4-conda.yaml, which installs the
+# tool from PyPI and its aligners from conda:
+#   conda create -y -n motus4 -c conda-forge -c bioconda \
+#       python==3.12 bwa==0.7.19 vsearch pip
+#   conda activate motus4
+#   pip install motus-tool==4.1.0
+#   motus downloadMGDB              # add --toy for a small test database
+#
 # Set motusDB below only if the database lives outside the conda env.
-#
-# This job is version 3.1.0 only. Version 4.x dropped CAMI output: its profile
-# command has no -C flag, and it reports GTDB lineages instead of NCBI taxids.
-# Version 4 runs separately in run_motus4.sbatch, which converts GTDB to NCBI
-# afterwards. Keep both jobs; they are two profilers, not two attempts.
 
 set -euo pipefail
 
@@ -38,14 +38,13 @@ nproc --all
 
 stem=/projectsp/f_wj183_1/work/Yaoan/CAMI-III
 
-motusEnv="motus"
+motusEnv="motus4"
 motusDB=""
 
-# What -C does with an mOTU that maps to several NCBI taxids. "precision"
-# deletes it, "recall" splits its relative abundance across the taxids,
-# "parenthesis" keeps them all. Recall is used here because it is the only
-# mode that keeps every mOTU and all of the abundance.
-camiMode="recall"
+# Marker genes needed to call a mOTU present. 1 is highest recall, 3 is the
+# mOTUs default, 10 is strictest. Version 3 ran at its own default of 3, so 3
+# keeps the two versions comparable.
+markerGenes=3
 
 # One array task per CAMI III toy sample: sample_0 .. sample_19.
 # The gold standard names its samples by bare index, so that index is the
@@ -57,11 +56,11 @@ readsTar="${stem}/toy_db/${sampleName}_reads.tar.gz"
 [[ -e "$readsTar" ]] || { echo "MISSING INPUT: $readsTar" >&2; exit 1; }
 
 ### MAKE WORKING DIR
-workingDir="${stem}/output/toy/motus/scratch/${sampleName}_${SLURM_ARRAY_JOB_ID}"
+workingDir="${stem}/output/toy/motus4/scratch/${sampleName}_${SLURM_ARRAY_JOB_ID}"
 rm -rf "$workingDir"
 mkdir -p "$workingDir"
 
-outDir="${stem}/output/toy/motus/results"
+outDir="${stem}/output/toy/motus4/results"
 mkdir -p "$outDir"
 
 ### SPLIT READS
@@ -101,8 +100,9 @@ echo "Sample ID: $sampleId"
 echo "R1 Read Path: $readPath1"
 echo "R2 Read Path: $readPath2"
 echo "Output Dir: $outDir"
+echo "Marker gene cutoff: $markerGenes"
 
-### Run mOTUs
+### Run mOTUs 4
 module purge
 
 command -v conda >/dev/null || { echo "conda is not on PATH" >&2; exit 1; }
@@ -111,30 +111,14 @@ conda activate "$motusEnv"
 
 command -v motus >/dev/null \
     || { echo "motus is not in conda env '${motusEnv}'; see the header of this script" >&2; exit 1; }
-motus --version
 
-bash "${stem}/code/run_motus.sh" \
+bash "${stem}/code/run_motus4.sh" \
     "$readPath1" "$readPath2" "$sampleName" "$sampleId" \
-    "$outDir" "$SLURM_CPUS_PER_TASK" "$camiMode" "$motusDB"
+    "$outDir" "$SLURM_CPUS_PER_TASK" "$markerGenes" "$motusDB"
 
 # The split FASTQ files are large and fully reproducible from the tarball.
 rm -rf "$workingDir"
 
-# Score against the full gold standard, viral subtree included. MetaScope is
-# being rerun on a RefSeq that carries viral sequences, so both profilers must
-# be measured against the same complete truth. mOTUs profiles prokaryotes only
-# and will lose recall on the viral subtree. That is a real limit of the tool,
-# not a scoring artefact, so it belongs in the numbers.
 echo
-echo "Once every array task is done, merge the native profiles:"
-echo "  motus merge -i \$(ls ${outDir}/sample_*.motus | paste -sd, -) \\"
-echo "              -o ${stem}/output/toy/motus/motus_toy_merged.motus"
-echo
-echo "Then build the CAMI file and score it. A CAMI file holds one @SampleID"
-echo "block per sample, so the twenty profiles are concatenated:"
-echo "  cat ${outDir}/sample_*.cami.profile > ${stem}/output/toy/cami/motus_toy.profile"
-echo "  opal.py -g ${stem}/output/toy/cami/gold_standard.profile \\"
-echo "          -o ${stem}/output/toy/cami/opal_motus \\"
-echo "          -l \"MetaScope,mOTUs\" \\"
-echo "          ${stem}/output/toy/cami/metascope_toy.profile \\"
-echo "          ${stem}/output/toy/cami/motus_toy.profile"
+echo "Once every array task is done, convert and score:"
+echo "  sbatch ${stem}/code/motus4_to_cami.sbatch"

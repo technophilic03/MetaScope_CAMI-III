@@ -1,31 +1,41 @@
 #!/bin/bash -l
 
-# Profile one paired-end sample with mOTUs and write it in CAMI format.
+# Profile one paired-end sample with mOTUs 3.1.0, then write the same sample
+# again in CAMI/bioboxes format.
+#
+# Both calls are the ones printed in Ruscheweyh et al. 2021, Current Protocols
+# 1:e218 (doi:10.1002/cpz1.218) -- Basic Protocol 1 and Support Protocol 3:
+#
+#   motus profile -f input/ERR479298s.1.fq.gz -r input/ERR479298s.2.fq.gz \
+#       -n ERR479298s -o ERR479298s-default.motus
+#   motus profile -f input/ERR479298s.1.fq.gz -r input/ERR479298s.2.fq.gz \
+#       -o ERR479298s-C_precision.cami -C precision
 #
 # Usage:
-#   run_motus.sh read1 read2 sampleName sampleId outDir threads [motusDB]
+#   run_motus.sh read1 read2 sampleName sampleId outDir threads camiMode [motusDB]
 #
 #   sampleName   file stem for the outputs, e.g. sample_0
 #   sampleId     the @SampleID OPAL pairs on, e.g. 0
+#   camiMode     precision, recall or parenthesis
 #   motusDB      optional path to a mOTUs database; empty means the one that
 #                ships with the installed package
 #
-# Outputs, all in outDir:
-#   <sampleName>.motus                   native relative-abundance profile
-#   <sampleName>.mgc.tsv                 marker gene cluster read counts
-#   <sampleName>.cami_precision.profile  CAMI profile, unambiguous taxids only
-#   <sampleName>.cami_recall.profile     CAMI profile, every mOTU mapped
+# Outputs, both in outDir:
+#   <sampleName>.motus         native relative-abundance profile
+#   <sampleName>.cami.profile  the same sample in CAMI format
 #
-# One mOTU can map to several NCBI taxids, so mOTUs offers two ways to write a
-# CAMI profile. "precision" drops the ambiguous ones, "recall" keeps them all.
-# The choice moves OPAL's precision and recall in opposite directions, so both
-# are written here. Only the first call reads the FASTQ files; the other two
-# re-profile from the saved counts and take seconds.
+# One mOTU can map to several NCBI taxids, and -C decides what happens to those
+# discrepancies: precision deletes them, recall splits their relative abundance
+# across the taxids, parenthesis keeps them all. One mode is written per run, so
+# OPAL scores a single mOTUs entry.
+#
+# Each call reads the FASTQ files, so the sample is aligned twice. That is the
+# cost of staying on the documented one-call-per-output form.
 
 set -euo pipefail
 
-if [[ $# -lt 6 || $# -gt 7 ]]; then
-    echo "usage: $0 read1 read2 sampleName sampleId outDir threads [motusDB]" >&2
+if [[ $# -lt 7 || $# -gt 8 ]]; then
+    echo "usage: $0 read1 read2 sampleName sampleId outDir threads camiMode [motusDB]" >&2
     exit 1
 fi
 
@@ -35,11 +45,16 @@ sampleName="$3"
 sampleId="$4"
 outDir="$5"
 threads="$6"
-motusDB="${7:-}"
+camiMode="$7"
+motusDB="${8:-}"
 
 for f in "$readPath1" "$readPath2"; do
     [[ -s "$f" ]] || { echo "MISSING OR EMPTY INPUT: $f" >&2; exit 1; }
 done
+case "$camiMode" in
+    precision|recall|parenthesis) ;;
+    *) echo "BAD CAMI MODE: '${camiMode}'; use precision, recall or parenthesis" >&2; exit 1;;
+esac
 if [[ -n "$motusDB" ]]; then
     [[ -d "$motusDB" ]] || { echo "MISSING DATABASE: $motusDB" >&2; exit 1; }
 fi
@@ -49,7 +64,7 @@ command -v motus >/dev/null || { echo "motus is not on PATH" >&2; exit 1; }
 mkdir -p "$outDir"
 
 nativeOut="${outDir}/${sampleName}.motus"
-mgcOut="${outDir}/${sampleName}.mgc.tsv"
+camiOut="${outDir}/${sampleName}.cami.profile"
 
 # The -db flag is optional, so wrap the call instead of building an array.
 run_profile() {
@@ -60,6 +75,28 @@ run_profile() {
     fi
 }
 
+now=$SECONDS
+
+echo "PROFILING ${sampleName} AS @SampleID:${sampleId}"
+run_profile -f "$readPath1" -r "$readPath2" -n "$sampleId" -t "$threads" \
+    -o "$nativeOut"
+[[ -s "$nativeOut" ]] || { echo "EMPTY OUTPUT: $nativeOut" >&2; exit 1; }
+echo "NATIVE PROFILE DONE after $((SECONDS - now))s"
+
+run_profile -f "$readPath1" -r "$readPath2" -n "$sampleId" -t "$threads" \
+    -C "$camiMode" -o "$camiOut"
+
+# mOTUs names the top rank "superkingdom"; the CAMI III gold standard and
+# MetaScope name it "domain". OPAL groups taxa by rank name, so an unrenamed
+# profile scores zero at that rank. Rename it here, so the file on disk is
+# ready for OPAL and the combine step downstream is a plain cat.
+awk 'BEGIN { FS = OFS = "\t" }
+     /^@Ranks:superkingdom/ { sub(/^@Ranks:superkingdom/, "@Ranks:domain") }
+     /^[@#]/ || NF < 2 { print; next }
+     $2 == "superkingdom" { $2 = "domain" }
+     { print }' "$camiOut" > "${camiOut}.tmp"
+mv "${camiOut}.tmp" "$camiOut"
+
 # Every CAMI profile must carry the @SampleID the gold standard uses, or OPAL
 # pairs the sample with nothing and scores it as absent.
 #
@@ -67,34 +104,12 @@ run_profile() {
 # block, so the sample id is not on line 1. It also writes "@SampleID: 1" with
 # a space, while the gold standard writes "@SampleID:0" without one. OPAL skips
 # comments and trims the value, so both spellings pair. Compare the trimmed id.
-check_cami() {
-    local f="$1"
-    [[ -s "$f" ]] || { echo "EMPTY OUTPUT: $f" >&2; exit 1; }
-    local got
-    got=$(sed -n 's/^@SampleID:[[:space:]]*//p' "$f" | head -1 | tr -d '[:space:]')
-    [[ "$got" == "$sampleId" ]] \
-        || { echo "WRONG @SampleID IN $f: got '${got}', want '${sampleId}'" >&2; exit 1; }
-    local rows
-    rows=$(awk 'NF && $0 !~ /^[@#]/' "$f" | wc -l | tr -d ' ')
-    [[ "$rows" -gt 0 ]] || { echo "NO TAXON ROWS IN $f" >&2; exit 1; }
-    echo "$f  ${rows} taxon rows"
-}
+[[ -s "$camiOut" ]] || { echo "EMPTY OUTPUT: $camiOut" >&2; exit 1; }
+got=$(sed -n 's/^@SampleID:[[:space:]]*//p' "$camiOut" | head -1 | tr -d '[:space:]')
+[[ "$got" == "$sampleId" ]] \
+    || { echo "WRONG @SampleID IN $camiOut: got '${got}', want '${sampleId}'" >&2; exit 1; }
+rows=$(awk 'NF && $0 !~ /^[@#]/' "$camiOut" | wc -l | tr -d ' ')
+[[ "$rows" -gt 0 ]] || { echo "NO TAXON ROWS IN $camiOut" >&2; exit 1; }
 
-now=$SECONDS
-
-echo "PROFILING ${sampleName} AS @SampleID:${sampleId}"
-run_profile -f "$readPath1" -r "$readPath2" -n "$sampleId" -t "$threads" \
-    -M "$mgcOut" -o "$nativeOut"
-
-[[ -s "$nativeOut" ]] || { echo "EMPTY OUTPUT: $nativeOut" >&2; exit 1; }
-[[ -s "$mgcOut" ]] || { echo "NO MARKER GENE COUNTS: $mgcOut" >&2; exit 1; }
-echo "PROFILE STEP COMPLETE after $((SECONDS - now))s"
-
-for mode in precision recall; do
-    camiOut="${outDir}/${sampleName}.cami_${mode}.profile"
-    run_profile -m "$mgcOut" -n "$sampleId" -C "$mode" -o "$camiOut"
-    check_cami "$camiOut"
-done
-
-echo "CAMI STEP COMPLETE"
+echo "${camiOut}  ${camiMode}, ${rows} taxon rows"
 echo "TOTAL $((SECONDS - now))s"
