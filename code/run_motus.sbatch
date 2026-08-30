@@ -20,7 +20,14 @@
 #   conda activate motus
 #   motus downloadDB                     # ~3.5 GB into the env's package dir
 #
+# Neither conda nor pip ships the database, so downloadDB is not optional.
 # Set motusDB below only if the database lives outside the conda env.
+#
+# Do not upgrade to mOTUs 4.x. Version 3.1.0 is pinned because 4.x dropped
+# CAMI output: its profile command has no -C flag, and it reports GTDB
+# lineages instead of NCBI taxids. OPAL scores this benchmark on NCBI taxids,
+# so 4.x would need a lossy GTDB-to-NCBI converter before it could be scored.
+# In 4.x the database command is also renamed to downloadMGDB.
 
 set -euo pipefail
 
