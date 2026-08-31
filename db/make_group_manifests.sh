@@ -19,7 +19,7 @@
 # No row is ever dropped, and no row is ever tested against a column.
 #
 # In particular, refseq_category is never read. NCBI marks no virus as a
-# reference genome: all 15093 viral rows carry "na" in column 5. So this filter,
+# reference genome: all 14990 viral rows carry "na" in column 5. So this filter,
 # which looks like it keeps viruses, keeps none:
 #     $5 == "reference genome" && $25 ~ /bacteria|archaea|fungi|protozoa|viral/
 # Column 5 rejects every viral row before column 25 is ever read. Nearly half of

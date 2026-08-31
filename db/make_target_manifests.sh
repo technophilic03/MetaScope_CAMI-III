@@ -27,7 +27,7 @@
 #
 # Every assembly is kept. No row is dropped, and no row is tested against a
 # column. In particular refseq_category is never read: NCBI marks no virus as a
-# reference genome, so testing it would silently discard all 15093 viral rows.
+# reference genome, so testing it would silently discard all 14990 viral rows.
 
 set -euo pipefail
 
