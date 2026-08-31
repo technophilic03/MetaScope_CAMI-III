@@ -38,19 +38,35 @@ disagree on which one they print.
 - `singularity`/`apptainer` and `nextflow` are on `PATH`. Prebuilt MetaScope containers live one
   level up in `../metascope_16s*.sif`.
 
-### R: version/library mismatch (read this before running any R)
+### R: pair the interpreter with its library (read this before running any R)
 
-`~/.Renviron` sets `R_LIBS_USER=/home/yl2800/wejlab/work/Yaoan/R`, but that library's packages
-(`taxonomizr`, `data.table`, …) are **built for R 4.6.1** while the `R` on `PATH` is 4.5.1.
-Running under 4.5.1 fails with `undefined symbol: R_duplicateAsResizable`. Use the matching interpreter:
+Packages here are compiled against one R version and break under another. The failure is
+`undefined symbol: R_duplicateAsResizable`, which does not name the real cause. So always choose the
+interpreter and the library together. There are **two** working pairings, and they are not interchangeable.
+
+**Pairing A — R 4.5.2, used by the pipeline.** `code/run_metascope_metag.sbatch` sets it:
+
+```bash
+export MODULEPATH=$MODULEPATH:/projects/community/modulefiles
+module load R/4.5.2
+export R_LIBS_USER="/home/yl2800/wejlab/work/Yaoan/R-4.5"
+```
+
+**Pairing B — R 4.6.1.** Reached by full path, with `R_LIBS_USER=/home/yl2800/wejlab/work/Yaoan/R`,
+which is what `~/.Renviron` sets. Use it for scripts run outside the sbatch:
 
 ```bash
 /cache/home/yl2800/r-envs/r-base-4.6.1/bin/Rscript --vanilla script.R
 ```
 
-`MetaScope` itself is **not** installed in that library — only the `taxonomizr` dependency chain is.
-Installing MetaScope (or pointing at `../MetaScope_fork`, a fork of wejlab/MetaScope at v1.99.10)
-is a prerequisite for `code/run_metascope_metag.R`.
+`MetaScope` must be installed in whichever library runs `code/run_metascope_metag.R` (or point at
+`../MetaScope_fork`, a fork of wejlab/MetaScope at v1.99.10). Confirm before a batch run, because the
+array fails 20 times otherwise:
+
+```bash
+module load R/4.5.2
+R_LIBS_USER=/home/yl2800/wejlab/work/Yaoan/R-4.5 Rscript -e 'packageVersion("MetaScope")'
+```
 
 ## Pipeline architecture
 
