@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH --job-name=metascope_metag
-#SBATCH --partition=p_wj183_1
-#SBATCH --array=1-19
+#SBATCH --partition=p_wj183_1,main,mem
+#SBATCH --array=0-19
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
@@ -31,22 +31,16 @@ mkdir -p "$workingDir"
 ### Run MetaScope
 indexDir="${stem}/db/bowtie_indices"
 expTag=$sampleName
-outDir="${stem}/output/toy/metascope/results"
+outDir="${stem}/output/toy/metascope/result_cami_refseq"
 mkdir -p "$outDir"
 tmpDir="${workingDir}/"
 
 taxDB="${stem}/db/accessionTaxa.sql"
 
 ### Choose filter and targets to use
-# Every library built by db/build_bowtie_indices.sbatch, comma joined. If you
-# built plasmid_01 it becomes a target too, which inflates its host taxon: a
-# plasmid is not a cell, and its short length turns few reads into a big count.
-# Drop that line from libraries.txt to leave it out.
 target=$(paste -sd, "${stem}/db/manifests/libraries.txt")
 
 # CAMI provides no host genome, so there is nothing to filter against. "none"
-# tells the R driver to skip the filter step. Homo sapiens is 0.0010% of each
-# gold-standard sample, so this costs almost nothing.
 filter="none"
 
 for f in "$readsTar" "$taxDB"; do
@@ -91,12 +85,15 @@ echo "Sample Name: $sampleName"
 echo "R1 Read Path: $readPath1"
 echo "R2 Read Path: $readPath2"
 
+# deactivate conda if something breaks
+conda deactivate
+
+export MODULEPATH=$MODULEPATH:/projects/community/modulefiles
+
 # Run MetaScope
 module purge
 module load samtools/1.23-ez82
 module load R/4.5.2
-# deactivate conda if something breaks
-conda deactivate
 
 export R_LIBS_USER="/home/yl2800/wejlab/work/Yaoan/R-4.5"
 Rscript --vanilla --max-ppsize=500000 \
