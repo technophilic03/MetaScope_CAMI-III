@@ -95,19 +95,23 @@ Built by `db/build_accession_tax.R` via `taxonomizr` from `names.dmp`, `nodes.dm
 /cache/home/yl2800/r-envs/r-base-4.6.1/bin/Rscript --vanilla db/build_accession_tax.R
 ```
 
-**Known defect — the current `accessionTaxa.sql` is incomplete.** `read.accession2taxid()` defaults to
-`overwrite = FALSE` and refuses to append once the `accessionTaxa` table exists, so the script's two
-sequential calls silently loaded only `nucl_gb` and skipped `nucl_wgs`
-(see `db/build_accession_tax.log`: *"already contains table accessionTaxa"*). WGS accessions therefore
-resolve to `NA`, which would drop a large fraction of hits at the `metascope_id` step. Verify before
-trusting a run:
+Both `accession2taxid` dumps go to one `read.accession2taxid()` call with `overwrite = TRUE`. That is
+deliberate, and it must stay that way. The default `overwrite = FALSE` refuses to append once the
+`accessionTaxa` table exists, so two sequential calls silently load only `nucl_gb` and skip `nucl_wgs`
+(see `db/build_accession_tax.log`: *"already contains table accessionTaxa"*). WGS accessions then
+resolve to `NA` and a large fraction of hits vanish at the `metascope_id` step.
+
+The database was rebuilt that way and works as of 2026-08-31. Verify before trusting a run — neither
+accession may come back `NA`:
 
 ```r
-accessionToTaxa(c("Z17240.1", "AAAA02000001.1"), "db/accessionTaxa.sql")  # -> 9606, NA  (NA = broken)
+accessionToTaxa(c("Z17240.1", "AAAA02000001.1"), "db/accessionTaxa.sql")  # -> 9606 and a taxid
 ```
 
-Fix by passing both dumps to a **single** call (`read.accession2taxid(c(gb, wgs), out)`) and rebuilding
-from scratch — the rebuild is multi-hour and produces a ~28 GB file, so submit it as a batch job.
+Pass a bare accession. A `>` left on from a FASTA header makes the lookup miss and return `NA`, which
+looks exactly like a missing accession.
+
+A rebuild is multi-hour and produces a ~28 GB file, so submit it as a batch job.
 
 ## CAMI III data and evaluation
 
