@@ -106,19 +106,33 @@ message(sprintf(
   "TOTAL", nrow(seqs), sum(seqs$length) / 1e9
 ))
 
-# One accession in two libraries would have its length added twice, so its taxon
-# would look twice as large and half as abundant. The manifests are disjoint by
-# file, so this should never fire. Stop rather than guess which copy to drop.
+# RefSeq extracts its plasmid collection from the same assemblies the target
+# libraries hold, so the manifests overlap by design. NC_000914.2, the
+# Sinorhizobium fredii NGR234 plasmid, is in both plasmid_01 and
+# target_reference_06. A sequence in two indices is still one sequence, and
+# adding its length twice would make its taxon look larger and half as abundant.
 dups <- seqs |>
-  count(accession, name = "n") |>
-  filter(n > 1)
-if (nrow(dups) > 0) {
-  offender <- filter(seqs, accession == dups$accession[1])
+  group_by(accession) |>
+  summarise(copies = n(), lengths = n_distinct(length), .groups = "drop") |>
+  filter(copies > 1)
+
+# Two copies of one accession with different lengths is a real defect, not an
+# overlap, so there is no right copy to keep.
+if (any(dups$lengths > 1)) {
   stop(sprintf(
-    "%d accessions appear in more than one library; %s is in %s",
-    nrow(dups),
-    dups$accession[1],
-    str_c(offender$library, collapse = ", ")
+    "%s is in more than one library with different lengths",
+    filter(dups, lengths > 1)$accession[1]
+  ))
+}
+if (nrow(dups) > 0) {
+  message(sprintf(
+    "  %d accessions are in more than one library; keeping one copy of each",
+    nrow(dups)
+  ))
+  seqs <- distinct(seqs, accession, .keep_all = TRUE)
+  message(sprintf(
+    "  %-22s %9d sequences  %8.2f Gbp",
+    "DEDUPLICATED", nrow(seqs), sum(seqs$length) / 1e9
   ))
 }
 
