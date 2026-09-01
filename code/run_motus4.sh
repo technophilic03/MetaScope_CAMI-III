@@ -2,29 +2,35 @@
 
 # Profile one paired-end sample with mOTUs 4.
 #
+# The call is the one printed in the mOTUs 4 tutorial, "Profiling one sample":
+#
+#   motus profile -f sampleA_1.fastq -r sampleA_2.fastq -n sampleA \
+#       -o sampleA.mOTUs4 -t 4
+#
+# Nothing else is passed. -g defaults to 3 marker genes, -l to 75 bp, -y to
+# INSERT_SCALED, and -db to the database "motus downloadMGDB" installed. Those
+# are the values this benchmark wants, and version 3 ran at the same ones.
+#
 # Usage:
-#   run_motus4.sh read1 read2 sampleName sampleId outDir threads markerGenes [motusDB]
+#   run_motus4.sh read1 read2 sampleName sampleId outDir threads
 #
 #   sampleName   file stem for the output, e.g. sample_0
 #   sampleId     the @SampleID OPAL pairs on, e.g. 0. mOTUs writes it as the
 #                abundance column header, and motus4_to_cami.R reads it back
 #                from there, so there is one source of truth.
-#   markerGenes  -g cutoff: marker genes needed to call a mOTU present.
-#                1 is highest recall, 3 is the mOTUs default, 10 is strictest.
-#   motusDB      optional path to a mOTUs marker gene database; empty means the
-#                one downloaded by "motus downloadMGDB"
 #
 # Output, in outDir:
 #   <sampleName>.motus4    relative abundances against GTDB lineages
 #
-# mOTUs 4 dropped the CAMI writer that version 3 had, and it reports GTDB
-# lineages instead of NCBI taxids. The CAMI profile is therefore built in a
-# second step by code/motus4_to_cami.R.
+# mOTUs 4 has no CAMI writer. Its profile parser accepts only -f -r -s -n -o
+# -g -l -t -y --skip-pair-check -db, with no -C, and it reports GTDB lineages
+# instead of NCBI taxids. The CAMI profile is therefore built in a second step
+# by code/motus4_to_cami.R.
 
 set -euo pipefail
 
-if [[ $# -lt 7 || $# -gt 8 ]]; then
-    echo "usage: $0 read1 read2 sampleName sampleId outDir threads markerGenes [motusDB]" >&2
+if [[ $# -ne 6 ]]; then
+    echo "usage: $0 read1 read2 sampleName sampleId outDir threads" >&2
     exit 1
 fi
 
@@ -34,15 +40,10 @@ sampleName="$3"
 sampleId="$4"
 outDir="$5"
 threads="$6"
-markerGenes="$7"
-motusDB="${8:-}"
 
 for f in "$readPath1" "$readPath2"; do
     [[ -s "$f" ]] || { echo "MISSING OR EMPTY INPUT: $f" >&2; exit 1; }
 done
-if [[ -n "$motusDB" ]]; then
-    [[ -d "$motusDB" ]] || { echo "MISSING DATABASE: $motusDB" >&2; exit 1; }
-fi
 
 command -v motus >/dev/null || { echo "motus is not on PATH" >&2; exit 1; }
 
@@ -54,13 +55,8 @@ now=$SECONDS
 echo "PROFILING ${sampleName} AS SAMPLE ${sampleId}"
 motus --version
 
-if [[ -n "$motusDB" ]]; then
-    motus profile -db "$motusDB" -f "$readPath1" -r "$readPath2" \
-        -n "$sampleId" -t "$threads" -g "$markerGenes" -o "$profileOut"
-else
-    motus profile -f "$readPath1" -r "$readPath2" \
-        -n "$sampleId" -t "$threads" -g "$markerGenes" -o "$profileOut"
-fi
+motus profile -f "$readPath1" -r "$readPath2" \
+    -n "$sampleId" -t "$threads" -o "$profileOut"
 
 [[ -s "$profileOut" ]] || { echo "EMPTY OUTPUT: $profileOut" >&2; exit 1; }
 
