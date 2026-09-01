@@ -30,7 +30,9 @@
 #   pip install motus-tool==4.1.0
 #   motus downloadMGDB              # add --toy for a small test database
 #
-# Set motusDB below only if the database lives outside the conda env.
+# downloadMGDB installs the database where motus profile looks by default, so
+# no -db flag is needed. The same is true of -g, -l and -y: their defaults are
+# 3 marker genes, 75 bp and INSERT_SCALED, which is what version 3 ran at.
 
 set -euo pipefail
 
@@ -39,12 +41,6 @@ nproc --all
 stem=/projectsp/f_wj183_1/work/Yaoan/CAMI-III
 
 motusEnv="motus4"
-motusDB=""
-
-# Marker genes needed to call a mOTU present. 1 is highest recall, 3 is the
-# mOTUs default, 10 is strictest. Version 3 ran at its own default of 3, so 3
-# keeps the two versions comparable.
-markerGenes=3
 
 # One array task per CAMI III toy sample: sample_0 .. sample_19.
 # The gold standard names its samples by bare index, so that index is the
@@ -100,7 +96,6 @@ echo "Sample ID: $sampleId"
 echo "R1 Read Path: $readPath1"
 echo "R2 Read Path: $readPath2"
 echo "Output Dir: $outDir"
-echo "Marker gene cutoff: $markerGenes"
 
 ### Run mOTUs 4
 module purge
@@ -114,7 +109,7 @@ command -v motus >/dev/null \
 
 bash "${stem}/code/run_motus4.sh" \
     "$readPath1" "$readPath2" "$sampleName" "$sampleId" \
-    "$outDir" "$SLURM_CPUS_PER_TASK" "$markerGenes" "$motusDB"
+    "$outDir" "$SLURM_CPUS_PER_TASK"
 
 # The split FASTQ files are large and fully reproducible from the tarball.
 rm -rf "$workingDir"
