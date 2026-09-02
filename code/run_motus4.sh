@@ -19,8 +19,14 @@
 #                abundance column header, and motus4_to_cami.R reads it back
 #                from there, so there is one source of truth.
 #
-# Output, in outDir:
-#   <sampleName>.motus4    relative abundances against GTDB lineages
+# Outputs, both in outDir. One -o makes two files:
+#   <sampleName>.motus4        integer counts against GTDB lineages
+#   <sampleName>.motus4.relab  the same rows as relative abundances
+#
+# The counts file is the default; line 1 of it says value_type=counts. mOTUs
+# derives the second name itself, as str(motu_file) + '.relab' in mentities.py.
+# code/motus4_to_cami.R reads the .relab file, because a CAMI PERCENTAGE is a
+# proportion, not a count.
 #
 # mOTUs 4 has no CAMI writer. Its profile parser accepts only -f -r -s -n -o
 # -g -l -t -y --skip-pair-check -db, with no -C, and it reports GTDB lineages
@@ -49,6 +55,7 @@ command -v motus >/dev/null || { echo "motus is not on PATH" >&2; exit 1; }
 
 mkdir -p "$outDir"
 profileOut="${outDir}/${sampleName}.motus4"
+relabOut="${profileOut}.relab"
 
 now=$SECONDS
 
@@ -58,22 +65,26 @@ motus --version
 motus profile -f "$readPath1" -r "$readPath2" \
     -n "$sampleId" -t "$threads" -o "$profileOut"
 
-[[ -s "$profileOut" ]] || { echo "EMPTY OUTPUT: $profileOut" >&2; exit 1; }
-
 # Line 1 records the run parameters, line 2 is "mOTU<TAB>Taxonomy<TAB><sample>".
 # The column header is the sample id the converter will read back.
-got=$(awk -F'\t' 'NR == 2 { print $3; exit }' "$profileOut")
-[[ "$got" == "$sampleId" ]] \
-    || { echo "WRONG SAMPLE COLUMN IN $profileOut: got '${got}', want '${sampleId}'" >&2; exit 1; }
+for f in "$profileOut" "$relabOut"; do
+    [[ -s "$f" ]] || { echo "EMPTY OUTPUT: $f" >&2; exit 1; }
+    got=$(awk -F'\t' 'NR == 2 { print $3; exit }' "$f")
+    [[ "$got" == "$sampleId" ]] \
+        || { echo "WRONG SAMPLE COLUMN IN $f: got '${got}', want '${sampleId}'" >&2; exit 1; }
+done
 
-# mOTUs reports relative abundances, so the column must sum to 1.
+# Only the .relab file sums to 1. The counts file sums to the assigned inserts,
+# so its total is reported but not asserted.
 awk -F'\t' '
     NR > 2 { s += $3; n++ }
     END {
         if (n == 0) { print "NO TAXON ROWS" > "/dev/stderr"; exit 1 }
         d = s - 1; if (d < 0) d = -d
-        if (d > 1e-4) { printf "ABUNDANCES SUM TO %.6f, NOT 1\n", s > "/dev/stderr"; exit 1 }
-        printf "%d mOTUs, abundances sum to %.6f\n", n, s
-    }' "$profileOut"
+        if (d > 1e-4) { printf "RELATIVE ABUNDANCES SUM TO %.6f, NOT 1\n", s > "/dev/stderr"; exit 1 }
+        printf "%d mOTUs, relative abundances sum to %.6f\n", n, s
+    }' "$relabOut"
+
+awk -F'\t' 'NR > 2 { s += $3 } END { printf "counts total %d\n", s }' "$profileOut"
 
 echo "PROFILE STEP COMPLETE after $((SECONDS - now))s"

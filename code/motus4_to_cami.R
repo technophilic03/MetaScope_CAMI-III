@@ -13,10 +13,15 @@
 # per read. Dividing by genome length again would double-correct.
 #
 # Usage:
-#   Rscript code/motus4_to_cami.R --taxdump DIR --out FILE in1.motus4 [in2.motus4 ...]
+#   Rscript code/motus4_to_cami.R --taxdump DIR --out FILE in1.motus4.relab ...
 #
 #   --taxdump   directory holding nodes.dmp and names.dmp
 #   --out       output profile; one @SampleID block per input file
+#
+# The inputs are the .relab files, not the .motus4 files. One "motus profile -o"
+# writes both: the named file holds integer counts, and "<name>.relab" holds the
+# same rows as relative abundances. A CAMI PERCENTAGE is a proportion, so the
+# .relab file is what this reads, and its column must sum to 1.
 #
 # merged.dmp is not needed here. metascope_to_cami.R reads it because MetaScope
 # hands it taxids that the taxonomy may since have retired. A name lookup can
@@ -124,7 +129,7 @@ parse_args <- function(argv) {
     }
   }
   if (length(opts$inputs) == 0) {
-    stop("No input .motus4 file given", call. = FALSE)
+    stop("No input .motus4.relab file given", call. = FALSE)
   }
   absent <- opts$inputs[!file.exists(opts$inputs)]
   if (length(absent) > 0) {
