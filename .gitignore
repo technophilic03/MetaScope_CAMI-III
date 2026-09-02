@@ -38,3 +38,6 @@ slurm-*.out
 
 # output scratch files
 /output/*/*/scratch/*
+
+# bam files
+*.bam
