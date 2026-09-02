@@ -33,7 +33,10 @@ for f in "${taxDump}/nodes.dmp" "${taxDump}/names.dmp"; do
 done
 
 shopt -s nullglob
-inputs=("${inDir}"/*.motus4)
+# The .relab files, not the .motus4 files. One "motus profile -o" writes both:
+# the named file holds integer counts, and "<name>.relab" holds the same rows as
+# relative abundances. A CAMI PERCENTAGE is a proportion, so .relab is the input.
+inputs=("${inDir}"/*.motus4.relab)
 [[ ${#inputs[@]} -gt 0 ]] || { echo "NO INPUTS IN: $inDir" >&2; exit 1; }
 
 echo "taxonomy dump : $taxDump"

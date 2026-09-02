@@ -24,11 +24,16 @@
 # Prerequisite, built once on a compute node, not the login node. The channel
 # and pin come from the project's own mOTUs4-conda.yaml, which installs the
 # tool from PyPI and its aligners from conda:
-#   conda create -y -n motus4 -c conda-forge -c bioconda \
-#       python==3.12 bwa==0.7.19 vsearch pip
-#   conda activate motus4
+#   conda create -y -n mOTUs4 -c conda-forge -c bioconda \
+#       python==3.12 bwa==0.7.19 vsearch pysam pip
+#   conda activate mOTUs4
 #   pip install motus-tool==4.1.0
 #   motus downloadMGDB              # add --toy for a small test database
+#
+# pysam is installed through conda first on purpose, so conda pulls its C
+# libraries. If "motus --version" still fails with
+# "ImportError: libbz2.so.1.0: cannot open shared object file", run:
+#   conda install -y -c conda-forge bzip2 libstdcxx-ng
 #
 # downloadMGDB installs the database where motus profile looks by default, so
 # no -db flag is needed. The same is true of -g, -l and -y: their defaults are
