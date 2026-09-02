@@ -158,1577 +158,6 @@
 626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	1.2280084541824066
 # Taxonomic Profiling Output
 # git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
-# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_1.mgc.tsv -n 1 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_1.cami_precision.profile
-
-@SampleID: 1
-@Version:0.9.3
-@Ranks:domain|phylum|class|order|family|genus|species|strain
-@TaxonomyID: Jan 08 2019
-@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-2	domain	2	Bacteria	100.0
-1224	phylum	2|1224	Bacteria|Proteobacteria	2.966842166029954
-1239	phylum	2|1239	Bacteria|Firmicutes	68.35014685373895
-201174	phylum	2|201174	Bacteria|Actinobacteria	0.9956394284543566
-976	phylum	2|976	Bacteria|Bacteroidetes	27.515623764326268
-32066	phylum	2|32066	Bacteria|Fusobacteria	0.17174778745047453
-1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	1.1779213137718423
-91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	1.277726975087229
-84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	0.3345573451519628
-186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	61.567664660862874
-200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	28.398559166251914
-203490	class	2|32066|203490	Bacteria|Fusobacteria|Fusobacteriia	0.17725891825533122
-1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.6930306702748283
-29547	class	2|1224|29547	Bacteria|Proteobacteria|Epsilonproteobacteria	0.020223102058678173
-909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	4.331961891024993
-526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	0.15719665892413204
-28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.8004387664553714
-28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	1.0634605318808628
-91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	1.1779213137718423
-186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	1.2546715134613105
-1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.04986413793626943
-186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	61.56766466086289
-171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	28.398559166251918
-203491	order	2|32066|203490|203491	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales	0.17725891825533122
-85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.6751819328637115
-2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.017848737411117036
-213849	order	2|1224|29547|213849	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales	0.020223102058678173
-1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	4.331961891024994
-526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	0.1571966589241321
-213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.8004387664553716
-80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	1.063460531880863
-1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.023055461625918733
-84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.2846932072156934
-543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	1.3098708813595827
-81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.5841471929328178
-1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	0.6572846439629476
-33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.15378672476841224
-1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.055449868801226536
-186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	7.533981386391178
-815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	12.40914778966508
-186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	28.734000516666853
-203492	family	2|32066|203490|203491|203492	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae	0.19711528501039616
-31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.7508151377669703
-2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.019848135126268825
-31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	10.839838578175833
-72294	family	2|1224|29547|213849|72294	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	0.022488473727164844
-909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	4.8172239298762864
-1853231	family	2|976|200643|171549|1853231	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae	0.5490785162426713
-541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	8.992575620474065
-171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	0.2738502191173245
-216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.6242876063952537
-128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	0.1748056714521916
-2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	0.9062808957871529
-171552	family	2|976|200643|171549|171552	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae	17.441379943245533
-194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.8901031165943896
-186806	family	2|1239|186801|186802|186806	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae	0.021747751195849024
-995019	family	2|1224|28216|80840|995019	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae	1.1291463778646174
-80864	family	2|1224|28216|80840|80864	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae	0.05344193928313834
-990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	0.5204738657902614
-543314	family	2|1239|186801|186802|543314	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis	0.021245676746169184
-84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.316584255580367
-561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	0.1531566699407501
-544	genus	2|1224|1236|91347|543|544	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.03716385175705717
-590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	1.1348926841007196
-1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.5909892228470728
-1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	0.6649833220539885
-1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.15558800599343695
-84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.05609934493612793
-1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	7.243777681614295
-816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	12.5544943074854
-207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	5.540272669705126
-841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	1.624095747770115
-848	genus	2|32066|203490|203491|203492|848	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae|Fusobacterium	0.19942406727095408
-1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.7596093247370134
-1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.02008061340557766
-572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	1.660598990705954
-1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	10.420661585057617
-33042	genus	2|1239|186801|186802|186803|33042	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Coprococcus	11.654247574669617
-194	genus	2|1224|29547|213849|72294|194	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	0.022751877903079278
-904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	0.028999989240009152
-574697	genus	2|976|200643|171549|1853231|574697	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas	0.5555097919191757
-1407607	genus	2|1239|186801|186802|186803|1407607	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter	0.21596064174217328
-946234	genus	2|1239|186801|186802|541000|946234	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor	0.050288497090408425
-239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	0.27705778634334977
-459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.6315997950520367
-244127	genus	2|1239|186801|186802|541000|244127	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Anaerotruncus	0.02135138008843304
-1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.011070083502102136
-1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	2.510531112650901
-375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.9168960302510563
-1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	0.014897822861612477
-1505657	genus	2|1239|186801|186802|186804|1505657	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter	0.027312869895943063
-189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	4.117385365828889
-577309	genus	2|976|200643|171549|171552|577309	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Paraprevotella	17.64566825407081
-33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	4.844647374028808
-1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	0.01881914195428703
-35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.21618937698854288
-1730	genus	2|1239|186801|186802|186806|1730	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium	0.022002479398004208
-191303	genus	2|1239|526524|526525|128827|191303	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter	0.15088523813589927
-40544	genus	2|1224|28216|80840|995019|40544	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	1.142371902849398
-283	genus	2|1224|28216|80840|80864|283	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas	0.025199420850490133
-216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	9.026264455212118
-872	genus	2|1224|28221|213115|194924|872	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio	0.684339386128145
-990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	0.5265700994149507
-1164882	genus	2|1239|186801|186802|186803|1164882	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoanaerobaculum	0.560291199986338
-580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.5461424236036514
-1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.3511352476638278
-1926556	genus	2|1239|186801|186802|543314|1926556	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia	0.021494524224346827
-1378	genus	2|1239|91061|1385||1378	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella	0.02593840679783024
-102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.3202923602725899
-562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	0.20256646289814034
-546	species	2|1224|1236|91347|543|544|546	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.04915326247959187
-28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	1.5010198176559635
-1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.5125867768275086
-1354	species	2|1239|91061|186826|81852|1350|1354	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus hirae	0.26906116922253853
-1328	species	2|1239|91061|186826|1300|1301|1328	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus anginosus	0.1965291018703013
-76860	species	2|1239|91061|186826|1300|1301|76860	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus constellatus	0.020778821438283576
-47715	species	2|1239|91061|186826|33958|1578|47715	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus rhamnosus	0.11702439447777407
-84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.07419752518130832
-1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	9.580689000046512
-820	species	2|976|200643|171549|815|816|820	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	0.0591275458003006
-649756	species	2|1239|186801|186802|186803|207244|649756	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes hadrus	7.327617129750632
-301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	2.1480444251038744
-851	species	2|32066|203490|203491|203492|848|851	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae|Fusobacterium|Fusobacterium nucleatum	0.2637601610133318
-1596	species	2|1239|91061|186826|33958|1578|1596	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus gasseri	0.026383291709022497
-1685	species	2|201174|1760|85004|31953|1678|1685	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium breve	0.6309030005615521
-216816	species	2|201174|1760|85004|31953|1678|216816	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium longum	0.011205437232208746
-103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.026558809563869804
-1623	species	2|1239|91061|186826|33958|1578|1623	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus ruminis	0.020668686343908796
-1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	0.6162421911522298
-33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.14789323587774195
-817	species	2|976|200643|171549|815|816|817	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	1.1502504549890558
-1309	species	2|1239|91061|186826|1300|1301|1309	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mutans	0.045963128330651186
-1502	species	2|1239|186801|186802|31979|1485|1502	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium perfringens	0.05362357336611126
-818	species	2|976|200643|171549|815|816|818	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides thetaiotaomicron	13.60349592406557
-197	species	2|1224|29547|213849|72294|194|197	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter jejuni	0.03009184929980565
-187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	0.038355660557945995
-544644	species	2|976|200643|171549|1853231|574697|544644	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|Butyricimonas synergistica	0.7347225145198153
-1150298	species	2|1239|186801|186802|186803|1407607|1150298	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter|Fusicatenibacter saccharivorans	0.2856315911011133
-28026	species	2|201174|1760|85004|31953|1678|28026	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium pseudocatenulatum	0.022439697550624825
-292800	species	2|1239|186801|186802|541000|946234|292800	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor|Flavonifractor plautii	0.06651204275992868
-1681	species	2|201174|1760|85004|31953|1678|1681	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium bifidum	0.32622467770632585
-169435	species	2|1239|186801|186802|541000|244127|169435	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Anaerotruncus|Anaerotruncus colihominis	0.028239537619751412
-1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.014641397334346513
-1504823	species	2||||||1504823	Bacteria|Bacteria phylum incertae sedis|Bacteria class incertae sedis|Bacteria order incertae sedis|Bacteria fam. incertae sedis|Bacteria gen. incertae sedis|bacterium LF-3	0.027269175921920203
-823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	1.212695377649271
-39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	1.146143065800347
-39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	0.01970400168094116
-214856	species	2|976|200643|171549|171550|239759|214856	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|Alistipes finegoldii	0.01715319130614251
-261299	species	2|1239|186801|186802|186804|1505657|261299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter|Intestinibacter bartlettii	0.03612426052720161
-88431	species	2|1239|186801|186802|186803|189330|88431	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea longicatena	5.44569289908941
-454155	species	2|976|200643|171549|171552|577309|454155	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Paraprevotella|Paraprevotella xylaniphila	23.33832803418826
-626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	6.407576522298555
-1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	0.02489037546933262
-35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.28593411850534034
-1683	species	2|201174|1760|85004|31953|1678|1683	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium angulatum	0.013893677517071113
-1561	species	2|1239|186801|186802|31979|1485|1561	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium baratii	0.12604190519686778
-1736	species	2|1239|186801|186802|186806|1730|1736	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium|Eubacterium limosum	0.029100687736075274
-154288	species	2|1239|526524|526525|128827|191303|154288	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter|Turicibacter sanguinis	0.1995622456701151
-40545	species	2|1224|28216|80840|995019|40544|40545	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|Sutterella wadsworthensis	1.510911903242228
-40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	2.048430724219189
-225992	species	2|1224|28216|80840|80864|283|225992	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas|Comamonas kerstersii	0.03332899279372013
-853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	11.938222896742705
-44742	species	2|1224|28221|213115|194924|872|44742	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio|Desulfovibrio fairfieldensis	0.9051137565441382
-59620	species	2|1239|186801|186802|31979|1485|59620	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|uncultured Clostridium sp.	0.05187794443670874
-626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	0.6964466029959587
-1193532	species	2|1239|186801|186802|31979|580596|1193532	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus|uncultured Butyricicoccus sp.	0.04026649509753696
-1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.46441480573872884
-1776384	species	2|1239|186801|186802|543314|1926556|1776384	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia|Emergencia timonensis	0.028428861410271823
-89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	3.2923170895808007
-29391	species	2|1239|91061|1385||1378|29391	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella|Gemella morbillorum	0.034306382609926155
-626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.42362171062360465
-# Taxonomic Profiling Output
-# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
-# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_2.mgc.tsv -n 2 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_2.cami_precision.profile
-
-@SampleID: 2
-@Version:0.9.3
-@Ranks:domain|phylum|class|order|family|genus|species|strain
-@TaxonomyID: Jan 08 2019
-@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-2	domain	2	Bacteria	100.0
-1224	phylum	2|1224	Bacteria|Proteobacteria	3.195589270312819
-1239	phylum	2|1239	Bacteria|Firmicutes	62.55839910673288
-201174	phylum	2|201174	Bacteria|Actinobacteria	1.5687633679037267
-32066	phylum	2|32066	Bacteria|Fusobacteria	0.11167793551807326
-976	phylum	2|976	Bacteria|Bacteroidetes	31.29316850765726
-74201	phylum	2|74201	Bacteria|Verrucomicrobia	1.2724018118752438
-1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	2.7557666346339222
-91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	1.760167219932101
-84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	1.0981031392862572
-186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	55.22453623495952
-203490	class	2|32066|203490	Bacteria|Fusobacteria|Fusobacteriia	0.11167793551807326
-1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.47066022861746964
-200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	31.29316850765726
-909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	2.4298721547605293
-526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	3.143823497080732
-203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	1.2724018118752438
-28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.41333135232592344
-28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	0.026491283352973224
-91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	2.755766634633922
-186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	1.7369103432692254
-1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.15589313759596082
-186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	55.22453623495951
-203491	order	2|32066|203490|203491	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales	0.11167793551807323
-85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.4706602286174696
-171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	31.293168507657253
-1843489	order	2|1239|909932|1843489	Bacteria|Firmicutes|Negativicutes|Veillonellales	0.03969438734209571
-1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	2.3901777674184332
-526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	3.143823497080731
-48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	1.2724018118752436
-213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.41333135232592344
-80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	0.026491283352973218
-1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.023256876662875167
-84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.9422100016902961
-543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	2.8320007029507193
-81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.15964804817038122
-1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.16020568277023287
-186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	46.612055939355905
-1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	1.10066395119901
-33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.524647311510086
-203492	family	2|32066|203490|203491|203492	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae	0.11476733476500718
-31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.4836803238503122
-31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.4809725354130249
-815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	29.38324358769932
-2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	2.7756025560393023
-31977	family	2|1239|909932|1843489|31977	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae	0.04079247184547846
-909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	2.456298378982799
-128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	3.23079256486765
-541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	6.553776565679685
-216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.2531121633731424
-1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	1.3076008615457901
-186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	0.0902482470159998
-194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.4247655318949327
-80864	family	2|1224|28216|80840|80864	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae	0.027224124181927694
-990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	0.019626316846746757
-84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.9682748000425593
-570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.09744622605616848
-561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	2.747652492412133
-590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.018254389453564713
-1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.1614154736706206
-84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.16197928171025358
-841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	0.3127728188647023
-1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.019145352843856805
-1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	1.0937037866918575
-1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.5304555568824649
-848	genus	2|32066|203490|203491|203492|848	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae|Fusobacterium	0.11603789658134521
-1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.4890350334639538
-572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	33.31821577934224
-1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.2507220454319308
-816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	29.708538475997738
-375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	2.806330590564585
-33042	genus	2|1239|186801|186802|186803|33042	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Coprococcus	0.4468290235396733
-29465	genus	2|1239|909932|1843489|31977|29465	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella	0.04124407558121941
-904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	2.455930924263944
-123375	genus	2|1239|526524|526525|128827|123375	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Solobacterium	1.258528787640692
-1407607	genus	2|1239|186801|186802|186803|1407607	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter	2.3354298645218634
-946234	genus	2|1239|186801|186802|541000|946234	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor	0.016050924222820596
-459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.25591430782209307
-1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.18637536167127153
-207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	4.092299058874499
-1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	2.6885356925567443
-239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	1.3220769991078638
-189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	0.04845047918756478
-1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	1.1546899085085673
-1505657	genus	2|1239|186801|186802|186804|1505657	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter	0.03695426560736199
-33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	0.027560548783979833
-1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	2.754313178622803
-35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.4294680098850966
-283	genus	2|1224|28216|80840|80864|283	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas	0.027525515973761377
-216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	6.6102809401767795
-990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	0.019843595123983804
-1573536	genus	2|1239|526524|526525|128827|1573536	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus	0.6184972903876085
-61170	genus	2|1239|526524|526525|128827|61170	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.048468551309520366
-1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.05429309824693294
-1378	genus	2|1239|91061|1385||1378	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella	0.024164836469197377
-102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.9789943396325953
-580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.2355752223141605
-573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.10108281757852604
-562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	2.8501920176938107
-28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.01893562422908473
-1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.09637143811413296
-1354	species	2|1239|91061|186826|81852|1350|1354	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus hirae	0.018495260874629472
-84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.16802417956320423
-301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	0.32444517425024216
-1363	species	2|1239|91061|186826|1300|1357|1363	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus garvieae	0.01985983744384924
-1624	species	2|1239|91061|186826|33958|1578|1624	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus salivarius	0.021617790116535043
-1685	species	2|201174|1760|85004|31953|1678|1685	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium breve	0.01499664848405979
-1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	1.0402102921742467
-33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	1.9685915141261747
-1309	species	2|1239|91061|186826|1300|1301|1309	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mutans	0.02737182804241266
-1502	species	2|1239|186801|186802|31979|1485|1502	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium perfringens	0.26007873067041665
-818	species	2|976|200643|171549|815|816|818	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides thetaiotaomicron	8.45461202045142
-328812	species	2|976|200643|171549|2005525|375288|328812	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	2.819351731888349
-1311	species	2|1239|91061|186826|1300|1301|1311	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus agalactiae	0.019903903807385707
-29466	species	2|1239|909932|1843489|31977|29465|29466	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella parvula	0.042783261465336495
-187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	2.5475837048808763
-33035	species	2|1239|186801|186802|186803|572511|33035	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia producta	11.902120714331106
-102148	species	2|1239|526524|526525|128827|123375|102148	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Solobacterium|Solobacterium moorei	1.305495769380334
-1150298	species	2|1239|186801|186802|186803|1407607|1150298	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter|Fusicatenibacter saccharivorans	2.4225856712689144
-1680	species	2|201174|1760|85004|31953|1678|1680	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium adolescentis	0.013685041947457746
-292800	species	2|1239|186801|186802|541000|946234|292800	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor|Flavonifractor plautii	0.016649927974090224
-1681	species	2|201174|1760|85004|31953|1678|1681	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium bifidum	0.4786036204295904
-1353	species	2|1239|91061|186826|81852|1350|1353	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus gallinarum	0.05257263180680784
-1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	8.432679579161311
-1579	species	2|1239|91061|186826|33958|1578|1579	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus acidophilus	0.528633814896458
-1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.19333069578384557
-105841	species	2|1239|186801|186802|186803|207244|105841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes caccae	4.245019391582681
-47678	species	2|976|200643|171549|815|816|47678	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides caccae	20.912499207607524
-239935	species	2|74201|203494|48461|1647988|239934|239935	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia muciniphila	0.02339106522416349
-823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.020584137397620758
-39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	0.3047295264658239
-39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	0.05025860053816589
-39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	1.1977817315804395
-261299	species	2|1239|186801|186802|186804|1505657|261299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter|Intestinibacter bartlettii	0.03833336025742284
-626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	0.028589079719611676
-1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	2.8571012737669284
-35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.4454953080892537
-40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	12.258225034514888
-225992	species	2|1224|28216|80840|80864|283|225992	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas|Comamonas kerstersii	0.028552739521454245
-853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	6.856969730500917
-626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	0.020584137397620758
-1323	species	2|1239|526524|526525|128827|1573536|1323	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus|Faecalicoccus pleomorphus	0.6415789641871483
-1468449	species	2|1239|526524|526525|128827|61170|1468449	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis	0.05027734709286406
-1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.056319260047119186
-89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	2.7622488313906004
-29391	species	2|1239|91061|1385||1378|29391	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella|Gemella morbillorum	0.025066642962887416
-626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	1.0155293873202484
-# Taxonomic Profiling Output
-# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
-# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_3.mgc.tsv -n 3 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_3.cami_precision.profile
-
-@SampleID: 3
-@Version:0.9.3
-@Ranks:domain|phylum|class|order|family|genus|species|strain
-@TaxonomyID: Jan 08 2019
-@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-2	domain	2	Bacteria	100.0
-1224	phylum	2|1224	Bacteria|Proteobacteria	4.01735451721685
-1239	phylum	2|1239	Bacteria|Firmicutes	81.11169134685306
-201174	phylum	2|201174	Bacteria|Actinobacteria	2.6459374001680547
-976	phylum	2|976	Bacteria|Bacteroidetes	10.569262420472022
-74201	phylum	2|74201	Bacteria|Verrucomicrobia	1.6557543152899872
-1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	3.9126001826616714
-91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	4.078509395280923
-84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	2.553888097538929
-186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	75.69921742586152
-1737404	class	2|1239|1737404	Bacteria|Firmicutes|Tissierellia	0.021287850076379837
-1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.09310751760620707
-200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	10.573489486384217
-909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	0.8329474964752223
-203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	1.6564165169031835
-526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	0.4721749977535033
-28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.10636103345821968
-91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	3.893775320895986
-186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	4.078509395280923
-135623	order	2|1224|1236|135623	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales	0.01882486176568488
-1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.17019915280787587
-186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	75.69921742586152
-1737405	order	2|1239|1737404|1737405	Bacteria|Firmicutes|Tissierellia|Tissierellales	0.021287850076379837
-85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.06280630655497604
-2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.03030121105123102
-171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	10.573489486384217
-1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	0.2912737556295952
-909929	order	2|1239|909932|909929	Bacteria|Firmicutes|Negativicutes|Selenomonadales	0.5416737408456271
-48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	1.6564165169031835
-526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	0.4721749977535033
-213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.10636103345821968
-84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	2.3836889447310536
-543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	3.964275914209134
-1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	3.986329147793949
-81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.015010273549887713
-641	family	2|1224|1236|135623|641	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae	0.019165704216556792
-33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.15101535753112158
-1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.1732807741818562
-186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	0.733622251351906
-186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	50.34798611957512
-1570339	family	2|1239|1737404|1737405|1570339	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae	0.021673287328676346
-31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.06394347588577202
-2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.0308498439797296
-815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	6.923684436201015
-909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	0.29654755057051896
-1843491	family	2|1239|909932|909929|1843491	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae	0.5514812713178735
-541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	23.292364331724933
-171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	2.7621646055989837
-216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.0990209392268655
-1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	1.6864075506920821
-2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	0.9363477732127881
-128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	0.48072418581543697
-1853231	family	2|976|200643|171549|1853231	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae	0.1427359932755005
-31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.18190976321102126
-194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.10828680352614403
-990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	0.5893525535630159
-543314	family	2|1239|186801|186802|543314	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis	0.014972138534147366
-84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	2.164994882069072
-1643824	family	2|201174|84998|84999|1643824	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae	0.26185307185690815
-570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.04329147131769351
-561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	4.028319156066543
-590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.01994150442900749
-1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	4.071581304982664
-1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.015492190269101203
-662	genus	2|1224|1236|135623|641|662	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae|Vibrio	0.019781034328080864
-1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.1558638251763228
-84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.1788440906609965
-1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	0.043105682092218586
-207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	35.96188200771067
-841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	0.5608743360665759
-165779	genus	2|1239|1737404|1737405|1570339|165779	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae|Anaerococcus	0.011174160526101845
-1257	genus	2|1239|186801|186802|186804|1257	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Peptostreptococcus	0.007141381388321076
-1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.06599643181702544
-1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.03184030265122201
-1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.042732096943971634
-572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	6.661328073354163
-816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	7.145974808010293
-904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	0.29082078568315345
-158846	genus	2|1239|909932|909929|1843491|158846	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae|Megamonas	0.5691870142610581
-1263	genus	2|1239|186801|186802|541000|1263	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruminococcus	21.967855997787204
-239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	2.8508460876675
-459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.10220008489713255
-1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	3.5290958868846327
-239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	1.7405510006022584
-375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.9664099599817255
-189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	1.4077633063342814
-1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	0.031321167282396756
-1505657	genus	2|1239|186801|186802|186804|1505657	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter	0.09395453613675918
-283168	genus	2|976|200643|171549|1853231|283168	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter	0.1473186453747038
-33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	0.015247658839548733
-1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.027168531920687158
-1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	0.021147640695782143
-35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.11176343710753707
-191303	genus	2|1239|526524|526525|128827|191303	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter	0.02080539631774246
-2316020	genus	2|1239|186801|186802|186803|2316020	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Mediterraneibacter	0.80158016530515
-216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	2.072328136432546
-990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	0.608274184013602
-162289	genus	2|1239|1737404|1737405|1570339|162289	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae|Peptoniphilus	0.01119496485571146
-1573536	genus	2|1239|526524|526525|128827|1573536	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus	0.23802519116082743
-61170	genus	2|1239|526524|526525|128827|61170	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.01620393904111784
-1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.612974175082366
-1926556	genus	2|1239|186801|186802|543314|1926556	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia	0.015452830898480738
-102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	2.234503757254663
-580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.16058158829570088
-1935188	genus	2|201174|84998|84999|1643824|1935188	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus	0.2702600720948352
-573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.01473671324190706
-562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	4.437045498776568
-28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.02196483422429677
-1318	species	2|1239|91061|186826|1300|1301|1318	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus parasanguinis	0.02154243356601368
-1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.017064078201496444
-666	species	2|1224|1236|135623|641|662|666	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae|Vibrio|Vibrio cholerae	0.02178808230583657
-47715	species	2|1239|91061|186826|33958|1578|47715	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus rhamnosus	0.04010974262963087
-84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.19699019285875438
-1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	0.047479324574106
-649756	species	2|1239|186801|186802|186803|207244|649756	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes hadrus	39.61069133500674
-301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	0.6177824675276021
-1624	species	2|1239|91061|186826|33958|1578|1624	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus salivarius	0.01729655883051751
-1596	species	2|1239|91061|186826|33958|1578|1596	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus gasseri	0.01729655883051751
-1261	species	2|1239|186801|186802|186804|1257|1261	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Peptostreptococcus|Peptostreptococcus anaerobius	0.007865969134143095
-216816	species	2|201174|1760|85004|31953|1678|216816	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium longum	0.014295548248620418
-103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.03507092315302996
-1358	species	2|1239|91061|186826|1300|1357|1358	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus lactis	0.04706783426357721
-28025	species	2|201174|1760|85004|31953|1678|28025	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium animalis	0.009756446167048927
-1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	3.45485577315223
-1305	species	2|1239|91061|186826|1300|1301|1305	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sanguinis	0.015001114164638334
-33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.2203885769841071
-817	species	2|976|200643|171549|815|816|817	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	7.824134973405195
-1309	species	2|1239|91061|186826|1300|1301|1309	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mutans	0.8371588497930182
-1311	species	2|1239|91061|186826|1300|1301|1311	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus agalactiae	0.15613899513072235
-187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	0.32032840697907833
-28026	species	2|201174|1760|85004|31953|1678|28026	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium pseudocatenulatum	0.027523531624820914
-1160721	species	2|1239|186801|186802|541000|1263|1160721	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruminococcus|Ruminococcus bicirculans	17.05775523379795
-1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	1.881102903938567
-1579	species	2|1239|91061|186826|33958|1578|1579	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus acidophilus	0.07967885589315042
-239935	species	2|74201|203494|48461|1647988|239934|239935	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia muciniphila	1.9083609390729999
-823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	1.0644650527384694
-39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	1.2410283633701975
-39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	1.550599542815907
-342942	species	2|1239|186801|186802|186803|1506553|342942	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] glycyrrhizinilyticum	0.07907837825364572
-39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	0.034499114623898666
-53443	species	2|1239|186801|186802|186803|572511|53443	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia hydrogenotrophica	0.695584899517572
-261299	species	2|1239|186801|186802|186804|1505657|261299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter|Intestinibacter bartlettii	0.1034874684711703
-28118	species	2|976|200643|171549|1853231|283168|28118	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter|Odoribacter splanchnicus	0.16226607352133376
-626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	0.0167947358190362
-1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	0.023293348993377108
-35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.12310331836517567
-154288	species	2|1239|526524|526525|128827|191303|154288	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter|Turicibacter sanguinis	0.0229163793893735
-40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	2.108190602387618
-457396	species	2|1239|186801|186802|31979|1485|457396	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium sp. 7_2_43FAA	0.01125503030336071
-1720300	species	2|1239|186801|186802|186803|2316020|1720300	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Mediterraneibacter|Mediterraneibacter massiliensis	0.8829110918432505
-853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	2.282593278613143
-626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	0.6699916579685622
-1472765	species	2|1239|1737404|1737405|1570339|162289|1472765	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae|Peptoniphilus|Peptoniphilus obesi	0.01233084234331106
-1323	species	2|1239|526524|526525|128827|1573536|1323	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus|Faecalicoccus pleomorphus	0.2621759999937144
-1468449	species	2|1239|526524|526525|128827|61170|1468449	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis	0.01784804331517921
-1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.6751685253934145
-1776384	species	2|1239|186801|186802|543314|1926556|1776384	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia|Emergencia timonensis	0.017020725301321385
-89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	3.774278461864284
-626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	2.4612237645557484
-765821	species	2|1239|186801|186802|186803|572511|765821	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|uncultured Blautia sp.	2.431941068137658
-1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.2976815366234131
-# Taxonomic Profiling Output
-# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
-# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_4.mgc.tsv -n 4 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_4.cami_precision.profile
-
-@SampleID: 4
-@Version:0.9.3
-@Ranks:domain|phylum|class|order|family|genus|species|strain
-@TaxonomyID: Jan 08 2019
-@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-2	domain	2	Bacteria	100.0
-1224	phylum	2|1224	Bacteria|Proteobacteria	2.058737653057511
-1239	phylum	2|1239	Bacteria|Firmicutes	68.22738114218704
-201174	phylum	2|201174	Bacteria|Actinobacteria	0.9345751158795138
-976	phylum	2|976	Bacteria|Bacteroidetes	19.9018984736392
-74201	phylum	2|74201	Bacteria|Verrucomicrobia	8.861404609371748
-508458	phylum	2|508458	Bacteria|Synergistetes	0.01600300586497548
-1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	0.7238534754318616
-91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	1.222575680922385
-84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	0.26514350417906696
-186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	62.14890543528988
-200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	19.92490985020066
-1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.6705122050893115
-29547	class	2|1224|29547	Bacteria|Proteobacteria|Epsilonproteobacteria	0.018265539056439337
-909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	3.313868713922863
-203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	8.871650522272962
-526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	1.5052945304906467
-28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	1.297802938993161
-28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	0.02119609496589134
-649775	class	2|508458|649775	Bacteria|Synergistetes|Synergistia	0.016021509184875438
-91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	0.7238534754318616
-186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	1.222575680922385
-1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.037447413991835814
-186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	62.14890543528988
-171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	19.92490985020066
-85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.6465051388216962
-2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.02400706626761515
-213849	order	2|1224|29547|213849	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales	0.018265539056439337
-1843489	order	2|1239|909932|1843489	Bacteria|Firmicutes|Negativicutes|Veillonellales	0.04219444937071202
-1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	3.259754405701323
-909929	order	2|1239|909932|909929	Bacteria|Firmicutes|Negativicutes|Selenomonadales	0.011919858850828519
-48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	8.871650522272962
-526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	1.5052945304906467
-213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	1.297802938993161
-80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	0.02119609496589134
-649776	order	2|508458|649775|649776	Bacteria|Synergistetes|Synergistia|Synergistales	0.016021509184875438
-84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.2276960901872312
-543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	0.7489549791310306
-81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.9082690587084308
-1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	0.2822741664327783
-1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.038746000560449814
-186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	0.5397684090321128
-815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	12.833630548498673
-186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	21.759205112548585
-171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	5.066251908887665
-33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.047335749012025814
-31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.6689243875846902
-2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.02483957378906237
-31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.1542932479037644
-72294	family	2|1224|29547|213849|72294	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	0.018898944174676816
-81850	family	2|1239|91061|186826|81850	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae	0.02709270128845263
-31977	family	2|1239|909932|1843489|31977	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae	0.04365765174924786
-909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	3.372794875976438
-1843491	family	2|1239|909932|909929|1843491	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae	0.01233321098795701
-1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	9.179298100078274
-541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	33.689776041563
-216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.10688904997710245
-128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	1.557494537132746
-2005519	family	2|976|200643|171549|2005519	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae	2.0513214279003478
-2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	0.4570598104214785
-1853231	family	2|976|200643|171549|1853231	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae	0.20759427491427884
-194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	1.3428076345283912
-995019	family	2|1224|28216|80840|995019	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae	0.02193112473953003
-649777	family	2|508458|649775|649776|649777	Bacteria|Synergistetes|Synergistia|Synergistales|Synergistaceae	0.016577096725337935
-990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	4.271559083067935
-84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.08142504533876382
-186806	family	2|1239|186801|186802|186806	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae	0.3148292478001363
-1643824	family	2|201174|84998|84999|1643824	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae	0.15416699954663488
-570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.12957107383588354
-561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	0.4876981355375812
-590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.13246180961140247
-1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.9092101740053504
-1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	0.26680114720700354
-84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.03878614775413904
-1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	0.3455763530075167
-816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	12.846928288753508
-841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	1.03208131341889
-1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.015765501429597616
-239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	5.07150137447695
-1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.04738479659000862
-1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.6696175026562681
-1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.024865311650148488
-572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	11.643886896905583
-1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.015622196677890218
-33042	genus	2|1239|186801|186802|186803|33042	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Coprococcus	0.015554795251313317
-194	genus	2|1224|29547|213849|72294|194	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	0.018918526571861757
-1243	genus	2|1239|91061|186826|81850|1243	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Leuconostoc	0.027120773758138754
-29465	genus	2|1239|909932|1843489|31977|29465	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella	0.04370288821689461
-904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	1.9524981246228628
-158846	genus	2|1239|909932|909929|1843491|158846	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae|Megamonas	0.012345990211700918
-239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	9.18880935423159
-1407607	genus	2|1239|186801|186802|186803|1407607	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter	0.07740911410635216
-580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.13883092426616045
-946234	genus	2|1239|186801|186802|541000|946234	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor	32.65892881754018
-459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.1069998045151352
-1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.0941399393933784
-207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	6.406539648486566
-1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	1.1810108364490155
-397864	genus	2|976|200643|171549|2005519|397864	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella	2.053446932403872
-375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.45753339913956886
-189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	1.1890945539934679
-1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	1.4258642424038317
-283168	genus	2|976|200643|171549|1853231|283168	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter	0.20780937653620637
-33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	1.4237915184831162
-1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	0.13255769374770648
-35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	1.2779011185672307
-40544	genus	2|1224|28216|80840|995019|40544	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	0.021953848971708958
-638847	genus	2|508458|649775|649776|649777|638847	Bacteria|Synergistetes|Synergistia|Synergistales|Synergistaceae|Pyramidobacter	0.016594273308815216
-216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	1.0657553421388388
-872	genus	2|1224|28221|213115|194924|872	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio	0.06629788429365921
-990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	4.275985116913554
-61170	genus	2|1239|526524|526525|128827|61170	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.03910417441228492
-1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.19475134437826577
-102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.0815094150032217
-1730	genus	2|1239|186801|186802|186806|1730	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium	0.31515546239280756
-1935188	genus	2|201174|84998|84999|1643824|1935188	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus	0.1543267417729746
-573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.15263227868628995
-562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	0.5744991959582035
-28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.15603751085297166
-1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.5429340860063574
-53346	species	2|1239|91061|186826|81852|1350|53346	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus mundtii	0.023507843292699112
-1352	species	2|1239|91061|186826|81852|1350|1352	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	0.4852963165895864
-1328	species	2|1239|91061|186826|1300|1301|1328	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus anginosus	0.05718080764794335
-84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.045689349774747916
-1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	0.407082419386629
-820	species	2|976|200643|171549|815|816|820	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	15.05415731817962
-301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	1.2157723015878719
-1363	species	2|1239|91061|186826|1300|1357|1363	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus garvieae	0.018571463032554077
-328814	species	2|976|200643|171549|171550|239759|328814	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|Alistipes shahii	0.12191374294490842
-1288121	species	2|976|200643|171549|171550|239759|1288121	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|Alistipes senegalensis	0.024566755153423152
-1596	species	2|1239|91061|186826|33958|1578|1596	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus gasseri	0.02229081598392354
-216816	species	2|201174|1760|85004|31953|1678|216816	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium longum	0.3875861896816524
-103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.029290867668612754
-1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	0.2571059065757951
-33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.11830840429758992
-1502	species	2|1239|186801|186802|31979|1485|1502	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium perfringens	0.018402652740625976
-1599	species	2|1239|91061|186826|33958|1578|1599	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus sakei	0.03352757977761871
-317735	species	2|1239|91061|186826|81852|1350|317735	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus caccae	0.01929417326818922
-197	species	2|1224|29547|213849|72294|194|197	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter jejuni	0.022285667121257565
-1245	species	2|1239|91061|186826|81850|1243|1245	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Leuconostoc|Leuconostoc mesenteroides	0.03194775944886594
-29466	species	2|1239|909932|1843489|31977|29465|29466	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella parvula	0.05148117721217426
-187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	2.3000059277841918
-1150298	species	2|1239|186801|186802|186803|1407607|1150298	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter|Fusicatenibacter saccharivorans	0.09118647493888
-1680	species	2|201174|1760|85004|31953|1678|1680	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium adolescentis	0.4012105861180416
-292800	species	2|1239|186801|186802|541000|946234|292800	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor|Flavonifractor plautii	38.47160154887905
-1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	2.484279941825976
-1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.1108950712502413
-105841	species	2|1239|186801|186802|186803|207244|105841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes caccae	7.546782750917995
-239935	species	2|74201|203494|48461|1647988|239934|239935	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia muciniphila	0.025525906734214208
-1262691	species	2|74201|203494|48461|1647988|239934|1262691	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia sp. CAG:344	0.006557503995810491
-487174	species	2|976|200643|171549|2005519|397864|487174	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella|Barnesiella intestinihominis	2.418921717444126
-823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.5389657059893582
-39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	0.03934974595067695
-39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	1.4007309345862464
-39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	1.679641157339285
-28118	species	2|976|200643|171549|1853231|283168|28118	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter|Odoribacter splanchnicus	0.24479552213384756
-626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	1.677199527693558
-1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	0.1561504605552523
-35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	1.5053433909927063
-40545	species	2|1224|28216|80840|995019|40544|40545	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|Sutterella wadsworthensis	0.025861219601613042
-40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	11.113690582699702
-638849	species	2|508458|649775|649776|649777|638847|638849	Bacteria|Synergistetes|Synergistia|Synergistales|Synergistaceae|Pyramidobacter|Pyramidobacter piscolens	0.019547740659120055
-853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	1.2554396716567764
-44742	species	2|1224|28221|213115|194924|872|44742	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio|Desulfovibrio fairfieldensis	0.07809765599873247
-626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	5.037029737438445
-1468449	species	2|1239|526524|526525|128827|61170|1468449	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis	0.04606397917372375
-1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.22941340678648395
-89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	0.5752918232861198
-626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.0960165519820118
-1262884	species	2|1239|186801|186802|186806|1730|1262884	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium|Eubacterium sp. CAG:202	0.3712471845866876
-1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.18179398813098635
-# Taxonomic Profiling Output
-# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
-# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_5.mgc.tsv -n 5 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_5.cami_precision.profile
-
-@SampleID: 5
-@Version:0.9.3
-@Ranks:domain|phylum|class|order|family|genus|species|strain
-@TaxonomyID: Jan 08 2019
-@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-2	domain	2	Bacteria	100.0
-1224	phylum	2|1224	Bacteria|Proteobacteria	0.6599764244946326
-1239	phylum	2|1239	Bacteria|Firmicutes	90.68917304329807
-201174	phylum	2|201174	Bacteria|Actinobacteria	1.429816595289713
-976	phylum	2|976	Bacteria|Bacteroidetes	5.9959834692451714
-74201	phylum	2|74201	Bacteria|Verrucomicrobia	1.2148606936839201
-32066	phylum	2|32066	Bacteria|Fusobacteria	0.010189773988488663
-1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	0.5894953960252434
-91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	18.916481565642602
-84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	1.240403418154399
-186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	69.68076747082375
-1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.18970676064445582
-200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	5.9972146214596975
-29547	class	2|1224|29547	Bacteria|Proteobacteria|Epsilonproteobacteria	0.01390515489145789
-909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	0.9124916652783662
-526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	1.1775205542234524
-203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	1.2151101404078881
-203490	class	2|32066|203490	Bacteria|Fusobacteria|Fusobacteriia	0.010191866249562398
-28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.04568315990550713
-28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	0.011028226293617868
-135624	order	2|1224|1236|135624	Bacteria|Proteobacteria|Gammaproteobacteria|Aeromonadales	0.013757492324677439
-91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	0.5757379037005659
-186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	18.895749453491963
-1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.020732112150643262
-1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.22642686090563924
-186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	69.68076747082375
-85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.16143550650036573
-2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.028271254144090117
-171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	5.9972146214596975
-213849	order	2|1224|29547|213849	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales	0.01390515489145789
-1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	0.2598060473153199
-909929	order	2|1239|909932|909929	Bacteria|Firmicutes|Negativicutes|Selenomonadales	0.6526856179630465
-526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	1.1775205542234524
-48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	1.2151101404078881
-203491	order	2|32066|203490|203491	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales	0.010191866249562398
-213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.04568315990550713
-80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	0.011028226293617868
-84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	1.01397655724876
-84642	family	2|1224|1236|135624|84642	Bacteria|Proteobacteria|Gammaproteobacteria|Aeromonadales|Aeromonadaceae	0.013989936647486873
-543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	0.585465476428435
-1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	1.6858491007455276
-81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.045684963056096685
-90964	family	2|1239|91061|1385|90964	Bacteria|Firmicutes|Bacilli|Bacillales|Staphylococcaceae	0.021082398500476173
-1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.23025253182785152
-186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	1.3760818676517672
-186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	41.80306402665738
-33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	17.421559430311504
-31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.16416309421041414
-2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.02874892059444378
-815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	4.207325173717781
-72294	family	2|1224|29547|213849|72294	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	0.014140094096657917
-81850	family	2|1239|91061|186826|81850	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae	0.06191542774976788
-909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	0.26419568746955646
-1843491	family	2|1239|909932|909929|1843491	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae	0.663713286588581
-541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	24.87823140163649
-171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	1.3215704740070349
-216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.005820530903263401
-128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	1.1974157474288083
-1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	1.235640441065905
-2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	0.37833976809507364
-1853231	family	2|976|200643|171549|1853231	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae	0.1913071554237619
-31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.0330238276920254
-203492	family	2|32066|203490|203491|203492	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae	0.010364066341892771
-194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.04645501504577737
-995019	family	2|1224|28216|80840|995019	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae	0.011214557387403835
-990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	1.0570173696920417
-543314	family	2|1239|186801|186802|543314	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis	0.0152596909902689
-84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.4645678780618249
-1643824	family	2|201174|84998|84999|1643824	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae	0.5665406599747095
-642	genus	2|1224|1236|135624|84642|642	Bacteria|Proteobacteria|Gammaproteobacteria|Aeromonadales|Aeromonadaceae|Aeromonas	0.014454185188792483
-570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.02688152086493548
-561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	0.5647064193525798
-590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.013305893912991262
-1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	1.6537758267108134
-1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.0472009940427133
-1279	genus	2|1239|91061|1385|90964|1279	Bacteria|Firmicutes|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus	0.02178200658289217
-84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.2378933385538924
-1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	0.41318885883741185
-207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	29.70731618327053
-841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	1.7227564111679832
-1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	17.99968453241795
-1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.16961075840960052
-1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.029702938099053344
-1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.08801727189571038
-572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	5.292337227751882
-816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	4.346943002155033
-194	genus	2|1224|29547|213849|72294|194	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	0.01460932553234685
-1243	genus	2|1239|91061|186826|81850|1243	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Leuconostoc	0.06397005799874089
-904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	0.25643145543200785
-158846	genus	2|1239|909932|909929|1843491|158846	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae|Megamonas	0.6857382558867264
-1407607	genus	2|1239|186801|186802|186803|1407607	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter	1.2328495343098287
-1263	genus	2|1239|186801|186802|541000|1263	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruminococcus	22.586121303059347
-239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	1.3654260810944723
-459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.006013682098265393
-1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.011947181768988948
-1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	0.6348166558767628
-239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	1.2766445061162006
-375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.39089477030000447
-189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	0.8728044158983906
-1505657	genus	2|1239|186801|186802|186804|1505657	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter	0.8619859626851208
-283168	genus	2|976|200643|171549|1853231|283168	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter	0.19765558073008815
-33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	0.016531424171260484
-1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.03411970569495436
-1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	0.012330806871119112
-180162	genus	2|32066|203490|203491|203492|180162	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae|Cetobacterium	0.010707992322578509
-35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.047996599794497906
-191303	genus	2|1239|526524|526525|128827|191303	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter	0.59644924527856
-40544	genus	2|1224|28216|80840|995019|40544	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	0.011586706457101411
-2316020	genus	2|1239|186801|186802|186803|2316020	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Mediterraneibacter	0.6306356594474875
-216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	3.117680859152952
-990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	1.0920939239595246
-1573536	genus	2|1239|526524|526525|128827|1573536	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus	0.3831262252655891
-61170	genus	2|1239|526524|526525|128827|61170	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.011611731740629056
-1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.1465715845665256
-1926556	genus	2|1239|186801|186802|543314|1926556	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia	0.01576607564814934
-102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.47998431383005885
-1935188	genus	2|201174|84998|84999|1643824|1935188	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus	0.5853410077969295
-654	species	2|1224|1236|135624|84642|642|654	Bacteria|Proteobacteria|Gammaproteobacteria|Aeromonadales|Aeromonadaceae|Aeromonas|Aeromonas veronii	0.016937129978594725
-573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.014239613716218949
-562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	0.6617118778675681
-28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.015591584841494097
-1303	species	2|1239|91061|186826|1300|1301|1303	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.13216503895113793
-1318	species	2|1239|91061|186826|1300|1301|1318	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus parasanguinis	0.014682118372863975
-1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.01693484596951854
-1290	species	2|1239|91061|1385|90964|1279|1290	Bacteria|Firmicutes|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|Staphylococcus hominis	0.02552372699466368
-84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.2787587362069574
-1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	0.48416657988184464
-649756	species	2|1239|186801|186802|186803|207244|649756	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes hadrus	34.810448941902465
-301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	2.0186920864992124
-1589	species	2|1239|91061|186826|33958|1578|1589	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus pentosus	0.012918997253879828
-1590	species	2|1239|91061|186826|33958|1578|1590	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus plantarum	0.01566116802771985
-1596	species	2|1239|91061|186826|33958|1578|1596	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus gasseri	11.482315777406287
-216816	species	2|201174|1760|85004|31953|1678|216816	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium longum	0.1493135962915172
-103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.03480531878890697
-1358	species	2|1239|91061|186826|1300|1357|1358	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus lactis	0.10313690844468132
-28025	species	2|201174|1760|85004|31953|1678|28025	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium animalis	0.01051713305665045
-1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	1.2044339668504023
-33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.18637960269462817
-817	species	2|976|200643|171549|815|816|817	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	5.034992409469996
-1309	species	2|1239|91061|186826|1300|1301|1309	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mutans	0.03679642424656711
-195	species	2|1224|29547|213849|72294|194|195	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter coli	0.017118920382507744
-1311	species	2|1239|91061|186826|1300|1301|1311	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus agalactiae	0.5337813782082076
-1245	species	2|1239|91061|186826|81850|1243|1245	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Leuconostoc|Leuconostoc mesenteroides	0.07495885606218884
-187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	0.30048133703308205
-1150298	species	2|1239|186801|186802|186803|1407607|1150298	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter|Fusicatenibacter saccharivorans	1.444628841675991
-28026	species	2|201174|1760|85004|31953|1678|28026	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium pseudocatenulatum	0.01781108948122674
-37734	species	2|1239|91061|186826|81852|1350|37734	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus casseliflavus	0.0383743506941709
-1160721	species	2|1239|186801|186802|541000|1263|1160721	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruminococcus|Ruminococcus bicirculans	19.775388716327665
-1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	1.4882184970229533
-1579	species	2|1239|91061|186826|33958|1578|1579	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus acidophilus	0.041983564780890895
-1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.013999472668730051
-239935	species	2|74201|203494|48461|1647988|239934|239935	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia muciniphila	1.4959469284588112
-823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.33898899387391906
-39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	1.7737312451296
-33039	species	2|1239|186801|186802|186803|572511|33039	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] torques	0.015894407803654417
-39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	1.0227350518121776
-342942	species	2|1239|186801|186802|186803|1506553|342942	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] glycyrrhizinilyticum	0.07346662041637952
-53443	species	2|1239|186801|186802|186803|572511|53443	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia hydrogenotrophica	0.056571629295838026
-261299	species	2|1239|186801|186802|186804|1505657|261299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter|Intestinibacter bartlettii	1.0100582010698353
-28118	species	2|976|200643|171549|1853231|283168|28118	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter|Odoribacter splanchnicus	0.2316089228202145
-626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	0.01937119777163395
-1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	0.014448997019841057
-188913	species	2|32066|203490|203491|203492|180162|188913	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae|Cetobacterium|Cetobacterium somerae	0.012547414842721953
-35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.05624147183891979
-154288	species	2|1239|526524|526525|128827|191303|154288	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter|Turicibacter sanguinis	0.6989074970999206
-40545	species	2|1224|28216|80840|995019|40544|40545	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|Sutterella wadsworthensis	0.013577074786610225
-40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	2.013206114382073
-1720300	species	2|1239|186801|186802|186803|2316020|1720300	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Mediterraneibacter|Mediterraneibacter massiliensis	0.7389664649848872
-853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	3.6532371249950595
-626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	1.2796941852715578
-1323	species	2|1239|526524|526525|128827|1573536|1323	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus|Faecalicoccus pleomorphus	0.4489397770109618
-1468449	species	2|1239|526524|526525|128827|61170|1468449	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis	0.013606398921753284
-1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.171749700626274
-1776384	species	2|1239|186801|186802|543314|1926556|1776384	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia|Emergencia timonensis	0.018474377421988084
-89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	0.630647886562889
-626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.5624361805831727
-765821	species	2|1239|186801|186802|186803|572511|765821	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|uncultured Blautia sp.	2.441186444297755
-1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.6858910828502017
-# Taxonomic Profiling Output
-# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
-# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_6.mgc.tsv -n 6 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_6.cami_precision.profile
-
-@SampleID: 6
-@Version:0.9.3
-@Ranks:domain|phylum|class|order|family|genus|species|strain
-@TaxonomyID: Jan 08 2019
-@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-2	domain	2	Bacteria	100.0
-1224	phylum	2|1224	Bacteria|Proteobacteria	0.9553411430362186
-1239	phylum	2|1239	Bacteria|Firmicutes	76.57842818667345
-201174	phylum	2|201174	Bacteria|Actinobacteria	2.181696572394307
-976	phylum	2|976	Bacteria|Bacteroidetes	15.462105770340317
-74201	phylum	2|74201	Bacteria|Verrucomicrobia	4.82242832755569
-1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	0.1962630618094544
-91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	4.273370913681101
-84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	0.4711094432747263
-186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	70.23031512767895
-29547	class	2|1224|29547	Bacteria|Proteobacteria|Epsilonproteobacteria	0.15379249612929077
-200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	15.580883563564326
-1737404	class	2|1239|1737404	Bacteria|Firmicutes|Tissierellia	0.008443796203698109
-1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	1.7273466254134464
-909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	1.466851177477251
-203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	4.859473565975074
-28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.4751671083748373
-526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	0.4195258429890744
-28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	0.13745727742878636
-91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	0.1962630618094544
-186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	4.257491830889586
-1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.20877467077739906
-186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	70.23031512767895
-213849	order	2|1224|29547|213849	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales	0.15379249612929072
-171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	15.580883563564324
-1737405	order	2|1239|1737404|1737405	Bacteria|Firmicutes|Tissierellia|Tissierellales	0.008443796203698107
-2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.06893164988268824
-1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	1.3240955062356305
-909929	order	2|1239|909932|909929	Bacteria|Firmicutes|Negativicutes|Selenomonadales	0.14275567124162045
-85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	1.658414975530758
-48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	4.859473565975074
-213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.47516710837483717
-526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	0.4195258429890743
-80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	0.13745727742878633
-1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.015879082791514093
-84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.26233477249732723
-543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	0.196893614192293
-1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	0.8788101082341137
-81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	3.244233575745266
-33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.14812658234340909
-1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.20944542035666955
-186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	2.2991492693817452
-186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	29.822466622343395
-72293	family	2|1224|29547|213849|72293	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Helicobacteraceae	0.03270265511872674
-171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	4.833701026593689
-1570339	family	2|1239|1737404|1737405|1570339	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae	0.008470924364073056
-72294	family	2|1224|29547|213849|72294	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	0.12158394430235493
-2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.06915311293175003
-31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.3611858231308228
-815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	7.864220873770399
-909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	1.3283495496040834
-1853231	family	2|976|200643|171549|1853231	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae	0.879303671000287
-1843491	family	2|1239|909932|909929|1843491	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae	0.14321431551138386
-31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	1.6637431177950999
-541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	30.50353879333748
-1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	4.8750860434739804
-2005519	family	2|976|200643|171549|2005519	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae	0.13251764134406924
-186806	family	2|1239|186801|186802|186806	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae	0.4472531031105842
-2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	1.704169737336578
-171552	family	2|976|200643|171549|171552	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae	0.013144279590703991
-194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.4766937214301413
-128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	0.4208736922354901
-171551	family	2|976|200643|171549|171551	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Porphyromonadaceae	0.03989532119958765
-995019	family	2|1224|28216|80840|995019	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae	0.0365931409523273
-80864	family	2|1224|28216|80840|80864	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae	0.1013057581092927
-990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	6.880996961620537
-84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.24743187670534794
-1643824	family	2|201174|84998|84999|1643824	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae	0.015745722834289475
-158876	genus	2|1224|1236|91347|543|158876	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Yokenella	0.01632380707140427
-570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.02500063671745097
-561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	0.15717650262031993
-590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.02305469892819096
-1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	0.954856827739154
-1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	3.650592054231937
-1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.16668026882101444
-84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.23567963572834974
-1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	0.1302397515585483
-207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	9.31601893451688
-841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	0.6649293544247148
-209	genus	2|1224|29547|213849|72293|209	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Helicobacteraceae|Helicobacter	0.03679884636582811
-239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	5.4391492314674235
-165779	genus	2|1239|1737404|1737405|1570339|165779	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae|Anaerococcus	0.009531955222546198
-28196	genus	2|1224|29547|213849|72294|28196	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Arcobacter	0.0520079733930553
-1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.07781492876512679
-1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.034029182899331066
-572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	3.818631359231283
-1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.40642637628818307
-816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	8.84925871218015
-33042	genus	2|1239|186801|186802|186803|33042	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Coprococcus	0.04182601116876878
-194	genus	2|1224|29547|213849|72294|194	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	0.08480504288010042
-904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	1.4681096267687235
-574697	genus	2|976|200643|171549|1853231|574697	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas	0.7106060068386004
-158846	genus	2|1239|909932|909929|1843491|158846	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae|Megamonas	0.16115271297567463
-1407607	genus	2|1239|186801|186802|186803|1407607	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter	0.5683013955851596
-1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	1.8721362886797142
-244127	genus	2|1239|186801|186802|541000|244127	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Anaerotruncus	0.033278956712635005
-1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	6.447882399910846
-239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	5.485717954174987
-397864	genus	2|976|200643|171549|2005519|397864	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella	0.14911622028481272
-1730	genus	2|1239|186801|186802|186806|1730	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium	0.5032740665323404
-375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	1.9176265693983812
-189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	0.32804802871629396
-283168	genus	2|976|200643|171549|1853231|283168	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter	0.2788353880749035
-33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	0.026623165371023716
-838	genus	2|976|200643|171549|171552|838	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	0.0147906744419301
-1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	0.15906607219366117
-35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.1839826063970529
-191303	genus	2|1239|526524|526525|128827|191303	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter	0.3684535459658697
-40544	genus	2|1224|28216|80840|995019|40544	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	0.04117663740326334
-283	genus	2|1224|28216|80840|80864|283	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas	0.06542017131584071
-216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	34.0541739324273
-872	genus	2|1224|28221|213115|194924|872	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio	0.35241968126972323
-990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	7.742880482184615
-1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	2.456890878322212
-1573535	genus	2|1239|526524|526525|128827|1573535	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemanella	0.10513694030396879
-1378	genus	2|1239|91061|1385||1378	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella	0.017925433358697836
-102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.27842410910772336
-1935188	genus	2|201174|84998|84999|1643824|1935188	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus	0.01771796306429352
-158877	species	2|1224|1236|91347|543|158876|158877	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Yokenella|Yokenella regensburgei	0.016026515642947523
-573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.024545321669340696
-562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	0.15431398245088673
-28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.022634823567803445
-1318	species	2|1239|91061|186826|1300|1301|1318	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus parasanguinis	0.06752074290663795
-1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.7594151879661688
-1352	species	2|1239|91061|186826|81852|1350|1352	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	2.5908134095299027
-1354	species	2|1239|91061|186826|81852|1350|1354	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus hirae	0.046675536797514676
-47715	species	2|1239|91061|186826|33958|1578|47715	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus rhamnosus	0.020365207111654685
-84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.23138740565865074
-1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	0.12786780721901245
-649756	species	2|1239|186801|186802|186803|207244|649756	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes hadrus	9.146354311279307
-301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	0.652819569205185
-210	species	2|1224|29547|213849|72293|209|210	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Helicobacteraceae|Helicobacter|Helicobacter pylori	0.03612866069444622
-328814	species	2|976|200643|171549|171550|239759|328814	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|Alistipes shahii	5.340090694599206
-1596	species	2|1239|91061|186826|33958|1578|1596	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus gasseri	0.14327945763755232
-28197	species	2|1224|29547|213849|72294|28196|28197	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Arcobacter|Arcobacter butzleri	0.051060797000101785
-103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.07639775253738455
-1358	species	2|1239|91061|186826|1300|1357|1358	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus lactis	0.03340943872144991
-1305	species	2|1239|91061|186826|1300|1301|1305	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sanguinis	0.7884804665963329
-33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.042852265542489054
-1502	species	2|1239|186801|186802|31979|1485|1502	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium perfringens	0.0966011942019376
-818	species	2|976|200643|171549|815|816|818	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides thetaiotaomicron	0.4078239073112169
-195	species	2|1224|29547|213849|72294|194|195	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter coli	0.06323282286423518
-197	species	2|1224|29547|213849|72294|194|197	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter jejuni	0.020027738864631453
-187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	1.4413722115221446
-544644	species	2|976|200643|171549|1853231|574697|544644	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|Butyricimonas synergistica	0.69766435211805
-1150298	species	2|1239|186801|186802|186803|1407607|1150298	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter|Fusicatenibacter saccharivorans	0.5579514120948842
-1689	species	2|201174|1760|85004|31953|1678|1689	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium dentium	0.38729359201838787
-28026	species	2|201174|1760|85004|31953|1678|28026	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium pseudocatenulatum	0.7505819552023498
-1680	species	2|201174|1760|85004|31953|1678|1680	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium adolescentis	0.006608073368148114
-1681	species	2|201174|1760|85004|31953|1678|1681	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium bifidum	0.02159414202409448
-1353	species	2|1239|91061|186826|81852|1350|1353	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus gallinarum	0.1872028333548009
-1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	0.015988854094429537
-169435	species	2|1239|186801|186802|541000|244127|169435	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Anaerotruncus|Anaerotruncus colihominis	0.03267287575766092
-1796613	species	2|976|200643|171549|815|816|1796613	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides caecimuris	0.022102239483608333
-239935	species	2|74201|203494|48461|1647988|239934|239935	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia muciniphila	5.280814634691149
-487174	species	2|976|200643|171549|2005519|397864|487174	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella|Barnesiella intestinihominis	0.1464004950902776
-84030	species	2|1239|186801|186802|186803|1506553|84030	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] saccharolyticum	6.1813401772949925
-1504823	species	2||||||1504823	Bacteria|Bacteria phylum incertae sedis|Bacteria class incertae sedis|Bacteria order incertae sedis|Bacteria fam. incertae sedis|Bacteria gen. incertae sedis|bacterium LF-3	0.012817897260072686
-39488	species	2|1239|186801|186802|186806|1730|39488	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium|[Eubacterium] hallii	0.4941083697380715
-823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	1.8827024895210998
-39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	11.371666840642913
-39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	0.0855470403550428
-88431	species	2|1239|186801|186802|186803|189330|88431	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea longicatena	0.2365265323637694
-28118	species	2|976|200643|171549|1853231|283168|28118	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter|Odoribacter splanchnicus	0.27375719948430843
-626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	0.026138300607027765
-165179	species	2|976|200643|171549|171552|838|165179	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|Prevotella copri	0.014521304636623902
-1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	0.15616913892223716
-1302	species	2|1239|91061|186826|1300|1301|1302	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus gordonii	0.08146563383802578
-35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.18063188976411795
-154288	species	2|1239|526524|526525|128827|191303|154288	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter|Turicibacter sanguinis	0.36174321910884416
-40545	species	2|1224|28216|80840|995019|40544|40545	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|Sutterella wadsworthensis	0.04042672279700057
-40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	3.6902447979844655
-225992	species	2|1224|28216|80840|80864|283|225992	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas|Comamonas kerstersii	0.06422873012229455
-853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	33.433974614400505
-44742	species	2|1224|28221|213115|194924|872|44742	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio|Desulfovibrio fairfieldensis	0.34600136537057957
-626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	4.953359978809639
-1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	2.412145642386516
-1851429	species	2|1239|186801|186802|990719|990721|1851429	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella sp. AF73-05CM02	2.648506094858046
-1735	species	2|1239|526524|526525|128827|1573535|1735	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemanella|Holdemanella biformis	0.10322217182932217
-89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	0.13203349475647436
-29391	species	2|1239|91061|1385||1378|29391	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella|Gemella morbillorum	0.017598972891136388
-626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.27335341078647
-1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.017395281074382294
-# Taxonomic Profiling Output
-# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
-# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_7.mgc.tsv -n 7 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_7.cami_precision.profile
-
-@SampleID: 7
-@Version:0.9.3
-@Ranks:domain|phylum|class|order|family|genus|species|strain
-@TaxonomyID: Jan 08 2019
-@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-2	domain	2	Bacteria	100.0
-1224	phylum	2|1224	Bacteria|Proteobacteria	1.3915374805453955
-1239	phylum	2|1239	Bacteria|Firmicutes	84.81401815634435
-201174	phylum	2|201174	Bacteria|Actinobacteria	0.6193040874849889
-976	phylum	2|976	Bacteria|Bacteroidetes	13.136542045919386
-74201	phylum	2|74201	Bacteria|Verrucomicrobia	0.03859822970587587
-1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	1.2930026165817448
-91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	5.316541222288804
-84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	0.5926649857054551
-186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	69.92965203125421
-1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.029173828902784534
-909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	0.04559019517689725
-200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	13.19030811997315
-526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	9.460080556133812
-28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.10423023698998148
-203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	0.03875620699316015
-135623	order	2|1224|1236|135623	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales	0.016536694924627286
-91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	1.2764659216571175
-1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.038721236585185254
-186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	5.27781998570362
-1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.05143065341408421
-186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	69.92965203125422
-2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.022010433328615703
-1843489	order	2|1239|909932|1843489	Bacteria|Firmicutes|Negativicutes|Veillonellales	0.045590195176897254
-171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	13.190308119973151
-526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	9.460080556133814
-85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.007163395574168833
-213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.10423023698998149
-84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.541234332291371
-48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	0.03875620699316016
-641	family	2|1224|1236|135623|641	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae	0.016856753584109714
-543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	1.3011712193978502
-81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.018943969535962273
-1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.05242606549993595
-186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	0.19618490728507712
-186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	67.75379423580488
-1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	4.959657035334783
-33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.4013682916421463
-2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.022436433192427236
-31977	family	2|1239|909932|1843489|31977	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae	0.04647256839720318
-31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	1.3648698210091148
-815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	12.477860354234618
-2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	0.9515774892965503
-128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	9.643175226211016
-31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.00730203916620828
-541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	0.03901883569731899
-216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.03325980572765929
-171552	family	2|976|200643|171549|171552	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae	0.016161454895764208
-194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.10624755605407502
-84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.5517096259125326
-1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	0.03950631212078039
-662	genus	2|1224|1236|135623|641|662	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae|Vibrio	0.017572979445193197
-570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.048581974754584596
-561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	1.290356817199692
-590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.0175178341133826
-1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.01974887902375499
-84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.05465359428942401
-1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	0.018267755381682245
-841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	7.115769732857492
-1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.023320335066936693
-1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	5.1470673497423665
-1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.41842201131946244
-1257	genus	2|1239|186801|186802|186804|1257	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Peptostreptococcus	0.010376114877782127
-1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.023389733814798343
-906	genus	2|1239|909932|1843489|31977|906	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera	0.02448399036767932
-572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	48.10302594845453
-1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.9115573536769525
-816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	13.008031613611376
-375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.9920090233554896
-33042	genus	2|1239|186801|186802|186803|33042	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Coprococcus	1.0242530494697644
-29465	genus	2|1239|909932|1843489|31977|29465	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella	0.023963148942657705
-123375	genus	2|1239|526524|526525|128827|123375	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Solobacterium	4.276026519115953
-1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.007612295186941292
-946234	genus	2|1239|186801|186802|541000|946234	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor	0.022110131663073653
-459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.034672980149288005
-1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.14899668628330814
-207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	8.076632741893178
-189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	0.0426495316094454
-1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	3.2797558174046335
-1505657	genus	2|1239|186801|186802|186804|1505657	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter	0.15208715608958195
-838	genus	2|976|200643|171549|171552|838	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	0.016848138241482218
-1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	1.9121207304967074
-35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.1107619037867594
-191303	genus	2|1239|526524|526525|128827|191303	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter	0.12933245774288057
-216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	0.018566573626770614
-1573536	genus	2|1239|526524|526525|128827|1573536	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus	2.1074641044538143
-580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.5113043610821318
-1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.02378957282656739
-1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	0.19774682896692783
-1378	genus	2|1239|91061|1385||1378	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella	0.022816143613577717
-102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.5751511919243737
-239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	0.041184894077605796
-670	species	2|1224|1236|135623|641|662|670	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae|Vibrio|Vibrio parahaemolyticus	0.017909610336130345
-573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.049512619071112
-562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	1.31507510508909
-28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.017853408631253575
-1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.0201271918056888
-84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.055700547550591055
-1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	0.01861769551498387
-301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	7.252080590805411
-1363	species	2|1239|91061|186826|1300|1357|1363	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus garvieae	0.023767063249543377
-1624	species	2|1239|91061|186826|33958|1578|1624	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus salivarius	0.01058800164366763
-1261	species	2|1239|186801|186802|186804|1257|1261	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Peptostreptococcus|Peptostreptococcus anaerobius	0.010574881444753185
-103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.023837791411258576
-1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	5.172596983770532
-907	species	2|1239|909932|1843489|31977|906|907	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera|Megasphaera elsdenii	0.024953009723041
-33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.2600738215938867
-1309	species	2|1239|91061|186826|1300|1301|1309	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mutans	0.021785867403307672
-1502	species	2|1239|186801|186802|31979|1485|1502	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium perfringens	0.9212470476724139
-818	species	2|976|200643|171549|815|816|818	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides thetaiotaomicron	3.6391667014774325
-328812	species	2|976|200643|171549|2005525|375288|328812	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.976321342110696
-1311	species	2|1239|91061|186826|1300|1301|1311	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus agalactiae	0.015131080365249279
-29466	species	2|1239|909932|1843489|31977|29465|29466	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella parvula	0.024422190973827498
-33035	species	2|1239|186801|186802|186803|572511|33035	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia producta	18.02782193515898
-102148	species	2|1239|526524|526525|128827|123375|102148	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Solobacterium|Solobacterium moorei	4.357938787965423
-1680	species	2|201174|1760|85004|31953|1678|1680	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium adolescentis	0.007758117568333628
-292800	species	2|1239|186801|186802|541000|946234|292800	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor|Flavonifractor plautii	0.0225336769897891
-1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	11.100520659356464
-1579	species	2|1239|91061|186826|33958|1578|1579	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus acidophilus	0.41584937069624567
-1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.15185089136598423
-105841	species	2|1239|186801|186802|186803|207244|105841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes caccae	8.231350050028388
-47678	species	2|976|200643|171549|815|816|47678	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides caccae	8.978004210521842
-39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	0.3735886620017504
-39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	0.043466533067195744
-39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	3.3425833604694053
-261299	species	2|1239|186801|186802|186804|1505657|261299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter|Intestinibacter bartlettii	0.1550005627212922
-165179	species	2|976|200643|171549|171552|838|165179	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|Prevotella copri	0.017170883954840108
-1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	1.9487496303991978
-35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.11288367707340777
-154288	species	2|1239|526524|526525|128827|191303|154288	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter|Turicibacter sanguinis	0.13180997162223507
-40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	19.636079026593688
-853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	0.01892223797163159
-1323	species	2|1239|526524|526525|128827|1573536|1323	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus|Faecalicoccus pleomorphus	2.1478350342277297
-1193532	species	2|1239|186801|186802|31979|580596|1193532	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus|uncultured Butyricicoccus sp.	0.0639656336632797
-1262805	species	2|1239|186801|186802|31979|1485|1262805	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium sp. CAG:43	0.007772248930359145
-1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.02424528980504551
-89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	0.2015348998187003
-29391	species	2|1239|91061|1385||1378|29391	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella|Gemella morbillorum	0.023253213421594227
-626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.5861688829633299
-# Taxonomic Profiling Output
-# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
-# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_8.mgc.tsv -n 8 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_8.cami_precision.profile
-
-@SampleID: 8
-@Version:0.9.3
-@Ranks:domain|phylum|class|order|family|genus|species|strain
-@TaxonomyID: Jan 08 2019
-@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-2	domain	2	Bacteria	100.0
-1224	phylum	2|1224	Bacteria|Proteobacteria	2.4016921930629938
-1239	phylum	2|1239	Bacteria|Firmicutes	70.62893459329297
-201174	phylum	2|201174	Bacteria|Actinobacteria	0.905870256531191
-976	phylum	2|976	Bacteria|Bacteroidetes	23.909803365766376
-74201	phylum	2|74201	Bacteria|Verrucomicrobia	2.1536995913464625
-1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	1.7861484082618186
-91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	1.646602896928901
-84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	0.4896387849651734
-186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	65.61713447495576
-200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	23.964391822490008
-29547	class	2|1224|29547	Bacteria|Proteobacteria|Epsilonproteobacteria	0.015492913937031826
-1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.4182996633674894
-909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	1.72208023543062
-203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	2.1586167015016327
-526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	1.5760599253923788
-28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.12432558912058045
-28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	0.4812085836485973
-135623	order	2|1224|1236|135623	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales	0.017092619968039152
-91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	1.7690557882937794
-186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	1.621709102985384
-1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.05255378885255532
-186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	65.61713447495576
-171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	23.964391822490008
-213849	order	2|1224|29547|213849	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales	0.015492913937031826
-85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.39767077849988536
-2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.020628884867604037
-1843489	order	2|1239|909932|1843489	Bacteria|Firmicutes|Negativicutes|Veillonellales	0.03497840703679651
-1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	1.6871018283938235
-48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	2.1586167015016327
-526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	1.5760599253923788
-213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.12432558912058045
-80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	0.4812085836485973
-1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.024893793943516738
-84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.4370849961126181
-641	family	2|1224|1236|135623|641	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae	0.017381229976481644
-543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	1.7989264112263315
-81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.7384948993513454
-1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.053441163021803934
-186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	1.2836958373227274
-815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	21.03236105945393
-186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	34.64109054218232
-1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	0.761226869702363
-33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.036415826679163384
-72294	family	2|1224|29547|213849|72294	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	0.015754512804293047
-31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.40438547565893945
-2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.020977204940649072
-31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.44890075992956335
-81850	family	2|1239|91061|186826|81850	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae	0.11295417174625635
-31977	family	2|1239|909932|1843489|31977	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae	0.035569019732162775
-909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	1.7155886533420497
-1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	2.1950650859862466
-541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	28.513406552084458
-171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	0.27187237636215106
-216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.053458686297048204
-128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	1.6026718005305325
-2005519	family	2|976|200643|171549|2005519	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae	1.276413445027667
-2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	1.6648474560871367
-1853231	family	2|976|200643|171549|1853231	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae	0.12353781215274712
-194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.12642483484141212
-995019	family	2|1224|28216|80840|995019	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae	0.48933382212281085
-990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	0.022316079832818872
-84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.4304603063447452
-186806	family	2|1239|186801|186802|186806	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae	0.09902320668524128
-1643824	family	2|201174|84998|84999|1643824	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae	0.014004898574599193
-662	genus	2|1224|1236|135623|641|662	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae|Vibrio	0.017591269436800595
-570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.03053668599059129
-561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	1.5871372896473244
-590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.2029911464321682
-1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.7474190704438365
-84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.05408696041675844
-1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	1.086968342186744
-816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	21.28652177029767
-841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	0.8381821599887613
-1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.020631866469566076
-1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.03685588532824113
-194	genus	2|1224|29547|213849|72294|194	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	0.01594489457655423
-1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.4092721785667978
-1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.02123069913011068
-1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	0.7497938735721753
-572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	26.584516164697526
-1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.030905749118758916
-33042	genus	2|1239|186801|186802|186803|33042	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Coprococcus	0.03513783398048858
-1243	genus	2|1239|91061|186826|81850|1243	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Leuconostoc	0.1143191403535678
-29465	genus	2|1239|909932|1843489|31977|29465	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella	0.0359988453382175
-904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	1.6136865923072983
-239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	2.2215908431765823
-1407607	genus	2|1239|186801|186802|186803|1407607	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter	0.11513426069047403
-946234	genus	2|1239|186801|186802|541000|946234	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor	10.327497356820455
-239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	0.2751577553188765
-459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.05410469544797627
-1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.5050370261015891
-207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	0.9876627888427914
-1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	3.0911019400871793
-397864	genus	2|976|200643|171549|2005519|397864	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella	1.291837968579811
-375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	1.6849659207563852
-189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	2.1739207139342405
-1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	1.0295726470533477
-1505657	genus	2|1239|186801|186802|186804|1505657	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter	0.015907622601056427
-283168	genus	2|976|200643|171549|1853231|283168	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter	0.1250306763187847
-33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	0.12263369598606759
-35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.12795258656651637
-191303	genus	2|1239|526524|526525|128827|191303	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter	0.06729975190917392
-40544	genus	2|1224|28216|80840|995019|40544	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	0.4952470637089101
-216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	18.53047287298752
-990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	0.022585753346768246
-580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.423419648392837
-61170	genus	2|1239|526524|526525|128827|61170	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.02012949278247622
-1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.19633239847525377
-1378	genus	2|1239|91061|1385||1378	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella	0.02562003001198387
-102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.43566210452333903
-1730	genus	2|1239|186801|186802|186806|1730	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium	0.10021982976193741
-1935188	genus	2|201174|84998|84999|1643824|1935188	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus	0.014174137537688154
-670	species	2|1224|1236|135623|641|662|670	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae|Vibrio|Vibrio parahaemolyticus	0.018023090819391786
-573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.03128628476239024
-562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	1.6260975148453867
-28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.20797406809231486
-1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.019717740371835362
-53346	species	2|1239|91061|186826|81852|1350|53346	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus mundtii	0.016108689446040884
-1352	species	2|1239|91061|186826|81852|1350|1352	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	0.710751341611636
-1354	species	2|1239|91061|186826|81852|1350|1354	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus hirae	0.01918855573355159
-84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.05541465914317664
-1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	1.1136506787879905
-820	species	2|976|200643|171549|815|816|820	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	21.657608039634766
-301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	0.8587574220805596
-1363	species	2|1239|91061|186826|1300|1357|1363	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus garvieae	0.02113832685528939
-1590	species	2|1239|91061|186826|33958|1578|1590	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus plantarum	0.020501782374688544
-196	species	2|1224|29547|213849|72294|194|196	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter fetus	0.01633630160070647
-216816	species	2|201174|1760|85004|31953|1678|216816	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium longum	0.13363359264576424
-103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.02175185935022322
-1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	0.7539564936065266
-33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.4189588908421835
-1309	species	2|1239|91061|186826|1300|1301|1309	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mutans	0.014242932123641637
-1502	species	2|1239|186801|186802|31979|1485|1502	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium perfringens	0.015957770590640775
-1599	species	2|1239|91061|186826|33958|1578|1599	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus sakei	0.017258822161921317
-1245	species	2|1239|91061|186826|81850|1243|1245	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Leuconostoc|Leuconostoc mesenteroides	0.11712538747640716
-29466	species	2|1239|909932|1843489|31977|29465|29466	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella parvula	0.03688252637223745
-187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	1.6532985360537373
-1150298	species	2|1239|186801|186802|186803|1407607|1150298	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter|Fusicatenibacter saccharivorans	0.1179605169657015
-28026	species	2|201174|1760|85004|31953|1678|28026	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium pseudocatenulatum	0.008354213460372538
-1680	species	2|201174|1760|85004|31953|1678|1680	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium adolescentis	0.2773309741933991
-292800	species	2|1239|186801|186802|541000|946234|292800	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor|Flavonifractor plautii	10.581011419768043
-1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	4.219770543501236
-1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.5174344137747435
-105841	species	2|1239|186801|186802|186803|207244|105841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes caccae	1.0119074240889405
-487174	species	2|976|200643|171549|2005519|397864|487174	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella|Barnesiella intestinihominis	1.3235493387955912
-1504823	species	2||||||1504823	Bacteria|Bacteria phylum incertae sedis|Bacteria class incertae sedis|Bacteria order incertae sedis|Bacteria fam. incertae sedis|Bacteria gen. incertae sedis|bacterium LF-3	0.019173411772686142
-823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	1.7263275925864987
-39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	0.910816603440674
-39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	2.227284995102652
-39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	1.0548460638198813
-53443	species	2|1239|186801|186802|186803|572511|53443	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia hydrogenotrophica	0.020744174369403477
-261299	species	2|1239|186801|186802|186804|1505657|261299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter|Intestinibacter bartlettii	0.016298114692034047
-28118	species	2|976|200643|171549|1853231|283168|28118	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter|Odoribacter splanchnicus	0.12809986468567655
-626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	0.12564404451965258
-35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.1310935004747352
-154288	species	2|1239|526524|526525|128827|191303|154288	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter|Turicibacter sanguinis	0.06895179140648657
-40545	species	2|1224|28216|80840|995019|40544|40545	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|Sutterella wadsworthensis	0.5074041324493627
-40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	22.577625507260638
-457396	species	2|1239|186801|186802|31979|1485|457396	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium sp. 7_2_43FAA	0.015706636870679812
-853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	18.985349335702733
-626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	0.02314017673685412
-1193532	species	2|1239|186801|186802|31979|580596|1193532	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus|uncultured Butyricicoccus sp.	0.04503264698552967
-1468449	species	2|1239|526524|526525|128827|61170|1468449	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis	0.02062362115879476
-1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.2011518646349653
-89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	2.9719382683997093
-29391	species	2|1239|91061|1385||1378|29391	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella|Gemella morbillorum	0.026248937256088636
-626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.44635651250758007
-1262884	species	2|1239|186801|186802|186806|1730|1262884	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium|Eubacterium sp. CAG:202	0.10267997430160995
-1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.01452207693402062
-# Taxonomic Profiling Output
-# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
-# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_9.mgc.tsv -n 9 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_9.cami_precision.profile
-
-@SampleID: 9
-@Version:0.9.3
-@Ranks:domain|phylum|class|order|family|genus|species|strain
-@TaxonomyID: Jan 08 2019
-@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-2	domain	2	Bacteria	100.0
-1224	phylum	2|1224	Bacteria|Proteobacteria	2.691650521000564
-1239	phylum	2|1239	Bacteria|Firmicutes	61.74832703569153
-201174	phylum	2|201174	Bacteria|Actinobacteria	1.741636628204547
-976	phylum	2|976	Bacteria|Bacteroidetes	33.60449198505812
-74201	phylum	2|74201	Bacteria|Verrucomicrobia	0.21389383004523968
-1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	1.8459569366226982
-91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	7.436792154090896
-84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	0.7000681989496543
-186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	53.065479311526985
-200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	33.610164712078706
-1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	1.041862432484141
-909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	0.05736576349663804
-29547	class	2|1224|29547	Bacteria|Proteobacteria|Epsilonproteobacteria	0.34616443808321795
-526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	1.1590903055121053
-1737404	class	2|1239|1737404	Bacteria|Firmicutes|Tissierellia	0.023142289960433923
-203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	0.21392993716180536
-28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.4419183768713312
-28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	0.05806514316142443
-91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	1.8459569366226978
-186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	7.415385267258526
-1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.05478133104191549
-186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	53.06547931152698
-171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	33.61016471207869
-85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	1.0257437991963638
-2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.016118633287776796
-1843489	order	2|1239|909932|1843489	Bacteria|Firmicutes|Negativicutes|Veillonellales	0.022680350072036122
-213849	order	2|1224|29547|213849	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales	0.3461644380832179
-526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	1.1590903055121051
-1737405	order	2|1239|1737404|1737405	Bacteria|Firmicutes|Tissierellia|Tissierellales	0.023142289960433916
-48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	0.21392993716180525
-1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	0.010471066025449735
-213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.4419183768713311
-909929	order	2|1239|909932|909929	Bacteria|Firmicutes|Negativicutes|Selenomonadales	0.02421434739915217
-80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	0.05806514316142442
-1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.02140688683236885
-84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.6452868679077387
-543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	1.8833103307603338
-81850	family	2|1239|91061|186826|81850	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae	0.01550593809863921
-81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	4.819259736721595
-1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.055889844793886735
-186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	0.8535770369951315
-815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	12.508979783666572
-186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	38.195138178419135
-1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	1.6310794510874465
-171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	0.6666509155831996
-33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	1.099592292121544
-31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	1.0464999780949453
-2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.016444797809935095
-31977	family	2|1239|909932|1843489|31977	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae	0.02313929255255266
-72294	family	2|1224|29547|213849|72294	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	0.3531691609105081
-541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	12.412913680580797
-216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.10353585367431864
-31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.5210064028466891
-128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	1.1825447838717789
-1570339	family	2|1239|1737404|1737405|1570339	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae	0.023610579908584662
-1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	0.21825886223156596
-2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	0.6181380705062226
-909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	0.010682950630409931
-194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.45086070427910924
-1843491	family	2|1239|909932|909929|1843491	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae	0.02470433069412599
-995019	family	2|1224|28216|80840|995019	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae	0.05924010566197719
-990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	0.03364580744225684
-543314	family	2|1239|186801|186802|543314	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis	0.01777080391933937
-84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.5864019512863153
-1643824	family	2|201174|84998|84999|1643824	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae	0.07194245563037638
-171552	family	2|976|200643|171549|171552	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae	20.496505919220695
-570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.012608851442177495
-561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	2.0838608321296337
-590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.08337061274571898
-46255	genus	2|1239|91061|186826|81850|46255	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Weissella	0.01794737072672085
-1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	5.578059229508478
-84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.06468978258482819
-1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	0.1045586269528844
-816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	14.478536942580892
-841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	0.38298424121821345
-1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.03360766637629989
-239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	0.7716160770904649
-1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	1.2727247064582303
-1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	1.2112729299508505
-1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.01903405527246195
-1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	1.8542876294247181
-906	genus	2|1239|909932|1843489|31977|906	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera	0.026782608001715093
-194	genus	2|1224|29547|213849|72294|194	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	0.4087761617378105
-946234	genus	2|1239|186801|186802|541000|946234	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor	0.014959158533922948
-459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.1198377252366043
-1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.1489378523354379
-1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.09592292835066535
-207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	9.25932483823691
-1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	2.3792685420413466
-150022	genus	2|1239|1737404|1737405|1570339|150022	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae|Finegoldia	0.02732810024112141
-239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	0.2526240392515158
-375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.7154648136154165
-572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	11.335616805317786
-189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	5.081399070150869
-1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	1.2256741622625382
-33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	0.012364996828927714
-35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.504647824413242
-52225	genus	2|1239|909932|909929|1843491|52225	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae|Mitsuokella	0.02859406368724629
-1905344	genus	2|1239|186801|186802|541000|1905344	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruthenibacterium	7.769532828246044
-40544	genus	2|1224|28216|80840|995019|40544	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	0.06856754692571136
-216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	6.582853104306106
-872	genus	2|1224|28221|213115|194924|872	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio	0.01720155705164063
-990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	0.03894338902455961
-580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.45410177051107714
-61170	genus	2|1239|526524|526525|128827|61170	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.025278809927863723
-1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.8834153627093064
-1926556	genus	2|1239|186801|186802|543314|1926556	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia	0.02056884298282072
-1573535	genus	2|1239|526524|526525|128827|1573535	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemanella	0.021862288795530347
-1378	genus	2|1239|91061|1385||1378	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella	0.025278809927863723
-102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.6787317960163671
-1935188	genus	2|201174|84998|84999|1643824|1935188	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus	0.0832699004713777
-838	genus	2|976|200643|171549|171552|838	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	23.72371074839807
-573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.016658383958396427
-562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	2.7531257717383335
-28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.11014640662029423
-137591	species	2|1239|91061|186826|81850|46255|137591	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Weissella|Weissella cibaria	0.023711453337399987
-1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	7.185833630667073
-53345	species	2|1239|91061|186826|81852|1350|53345	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus durans	0.14076810037357515
-84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.08546593172463873
-1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	0.13813928746257698
-820	species	2|976|200643|171549|815|816|820	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	18.718045523252027
-301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	0.5059857013531703
-1363	species	2|1239|91061|186826|1300|1357|1363	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus garvieae	0.044401301181910775
-328814	species	2|976|200643|171549|171550|239759|328814	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|Alistipes shahii	0.6571014390470888
-1596	species	2|1239|91061|186826|33958|1578|1596	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus gasseri	0.2986141721310735
-216816	species	2|201174|1760|85004|31953|1678|216816	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium longum	0.06473111043351819
-103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.02514714385113362
-1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	0.10363352861539436
-907	species	2|1239|909932|1843489|31977|906|907	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera|Megasphaera elsdenii	0.03538426711947534
-1305	species	2|1239|91061|186826|1300|1301|1305	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sanguinis	0.3837955771064859
-818	species	2|976|200643|171549|815|816|818	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides thetaiotaomicron	0.125580646507433
-197	species	2|1224|29547|213849|72294|194|197	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter jejuni	0.5400611060012636
-97478	species	2|1239|91061|186826|33958|1578|97478	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus mucosae	1.3828662490433683
-28026	species	2|201174|1760|85004|31953|1678|28026	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium pseudocatenulatum	1.5024517311056298
-37734	species	2|1239|91061|186826|81852|1350|37734	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus casseliflavus	0.04293964344175516
-292800	species	2|1239|186801|186802|541000|946234|292800	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor|Flavonifractor plautii	0.019763529429733372
-1681	species	2|201174|1760|85004|31953|1678|1681	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium bifidum	0.03310959096876132
-1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.12673009736112645
-105841	species	2|1239|186801|186802|186803|207244|105841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes caccae	12.233103788891164
-1260	species	2|1239|1737404|1737405|1570339|150022|1260	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae|Finegoldia|Finegoldia magna	0.036104952838712165
-239935	species	2|74201|203494|48461|1647988|239934|239935	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia muciniphila	0.33375825405442344
-1504823	species	2||||||1504823	Bacteria|Bacteria phylum incertae sedis|Bacteria class incertae sedis|Bacteria order incertae sedis|Bacteria fam. incertae sedis|Bacteria gen. incertae sedis|bacterium LF-3	0.025360107918902156
-823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.9452476800591022
-39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	0.6661085429104755
-33039	species	2|1239|186801|186802|186803|572511|33039	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] torques	4.442859613781379
-39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	0.7505256249440497
-39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	1.619318848864888
-53443	species	2|1239|186801|186802|186803|572511|53443	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia hydrogenotrophica	0.03177641782596005
-88431	species	2|1239|186801|186802|186803|189330|88431	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea longicatena	5.96284530694421
-626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	0.016336211570517168
-1302	species	2|1239|91061|186826|1300|1301|1302	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus gordonii	1.9623923900675244
-35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.6667234729028911
-187979	species	2|1239|909932|909929|1843491|52225|187979	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae|Mitsuokella|Mitsuokella jalaludinii	0.03777750051361768
-1550024	species	2|1239|186801|186802|541000|1905344|1550024	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruthenibacterium|Ruthenibacterium lactatiformans	10.264841458702813
-40545	species	2|1224|28216|80840|995019|40544|40545	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|Sutterella wadsworthensis	0.05882079988438682
-40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	10.501593802981313
-457396	species	2|1239|186801|186802|31979|1485|457396	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium sp. 7_2_43FAA	0.13793189746018436
-853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	8.69704073016782
-44742	species	2|1224|28221|213115|194924|872|44742	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio|Desulfovibrio fairfieldensis	0.022726109777926384
-626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	0.05145067574055592
-1193532	species	2|1239|186801|186802|31979|580596|1193532	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus|uncultured Butyricicoccus sp.	0.06107140100768873
-1468449	species	2|1239|526524|526525|128827|61170|1468449	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis	0.03339750045599351
-1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	1.1671382103472727
-1776384	species	2|1239|186801|186802|543314|1926556|1776384	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia|Emergencia timonensis	0.027174852964135052
-1735	species	2|1239|526524|526525|128827|1573535|1735	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemanella|Holdemanella biformis	0.028883709403304578
-89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	3.1133706921614475
-29391	species	2|1239|91061|1385||1378|29391	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella|Gemella morbillorum	0.03339750045599351
-626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.8967172715661758
-1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.11001334900255687
-# Taxonomic Profiling Output
-# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
 # call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_10.mgc.tsv -n 10 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_10.cami_precision.profile
 
 @SampleID: 10
@@ -3484,3 +1913,1574 @@
 89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	0.3257952137708858
 626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.4024949380567025
 1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.02114670011146505
+# Taxonomic Profiling Output
+# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
+# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_1.mgc.tsv -n 1 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_1.cami_precision.profile
+
+@SampleID: 1
+@Version:0.9.3
+@Ranks:domain|phylum|class|order|family|genus|species|strain
+@TaxonomyID: Jan 08 2019
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	domain	2	Bacteria	100.0
+1224	phylum	2|1224	Bacteria|Proteobacteria	2.966842166029954
+1239	phylum	2|1239	Bacteria|Firmicutes	68.35014685373895
+201174	phylum	2|201174	Bacteria|Actinobacteria	0.9956394284543566
+976	phylum	2|976	Bacteria|Bacteroidetes	27.515623764326268
+32066	phylum	2|32066	Bacteria|Fusobacteria	0.17174778745047453
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	1.1779213137718423
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	1.277726975087229
+84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	0.3345573451519628
+186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	61.567664660862874
+200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	28.398559166251914
+203490	class	2|32066|203490	Bacteria|Fusobacteria|Fusobacteriia	0.17725891825533122
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.6930306702748283
+29547	class	2|1224|29547	Bacteria|Proteobacteria|Epsilonproteobacteria	0.020223102058678173
+909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	4.331961891024993
+526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	0.15719665892413204
+28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.8004387664553714
+28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	1.0634605318808628
+91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	1.1779213137718423
+186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	1.2546715134613105
+1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.04986413793626943
+186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	61.56766466086289
+171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	28.398559166251918
+203491	order	2|32066|203490|203491	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales	0.17725891825533122
+85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.6751819328637115
+2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.017848737411117036
+213849	order	2|1224|29547|213849	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales	0.020223102058678173
+1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	4.331961891024994
+526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	0.1571966589241321
+213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.8004387664553716
+80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	1.063460531880863
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.023055461625918733
+84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.2846932072156934
+543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	1.3098708813595827
+81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.5841471929328178
+1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	0.6572846439629476
+33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.15378672476841224
+1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.055449868801226536
+186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	7.533981386391178
+815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	12.40914778966508
+186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	28.734000516666853
+203492	family	2|32066|203490|203491|203492	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae	0.19711528501039616
+31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.7508151377669703
+2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.019848135126268825
+31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	10.839838578175833
+72294	family	2|1224|29547|213849|72294	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	0.022488473727164844
+909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	4.8172239298762864
+1853231	family	2|976|200643|171549|1853231	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae	0.5490785162426713
+541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	8.992575620474065
+171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	0.2738502191173245
+216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.6242876063952537
+128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	0.1748056714521916
+2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	0.9062808957871529
+171552	family	2|976|200643|171549|171552	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae	17.441379943245533
+194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.8901031165943896
+186806	family	2|1239|186801|186802|186806	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae	0.021747751195849024
+995019	family	2|1224|28216|80840|995019	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae	1.1291463778646174
+80864	family	2|1224|28216|80840|80864	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae	0.05344193928313834
+990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	0.5204738657902614
+543314	family	2|1239|186801|186802|543314	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis	0.021245676746169184
+84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.316584255580367
+561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	0.1531566699407501
+544	genus	2|1224|1236|91347|543|544	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.03716385175705717
+590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	1.1348926841007196
+1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.5909892228470728
+1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	0.6649833220539885
+1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.15558800599343695
+84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.05609934493612793
+1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	7.243777681614295
+816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	12.5544943074854
+207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	5.540272669705126
+841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	1.624095747770115
+848	genus	2|32066|203490|203491|203492|848	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae|Fusobacterium	0.19942406727095408
+1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.7596093247370134
+1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.02008061340557766
+572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	1.660598990705954
+1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	10.420661585057617
+33042	genus	2|1239|186801|186802|186803|33042	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Coprococcus	11.654247574669617
+194	genus	2|1224|29547|213849|72294|194	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	0.022751877903079278
+904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	0.028999989240009152
+574697	genus	2|976|200643|171549|1853231|574697	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas	0.5555097919191757
+1407607	genus	2|1239|186801|186802|186803|1407607	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter	0.21596064174217328
+946234	genus	2|1239|186801|186802|541000|946234	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor	0.050288497090408425
+239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	0.27705778634334977
+459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.6315997950520367
+244127	genus	2|1239|186801|186802|541000|244127	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Anaerotruncus	0.02135138008843304
+1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.011070083502102136
+1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	2.510531112650901
+375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.9168960302510563
+1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	0.014897822861612477
+1505657	genus	2|1239|186801|186802|186804|1505657	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter	0.027312869895943063
+189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	4.117385365828889
+577309	genus	2|976|200643|171549|171552|577309	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Paraprevotella	17.64566825407081
+33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	4.844647374028808
+1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	0.01881914195428703
+35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.21618937698854288
+1730	genus	2|1239|186801|186802|186806|1730	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium	0.022002479398004208
+191303	genus	2|1239|526524|526525|128827|191303	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter	0.15088523813589927
+40544	genus	2|1224|28216|80840|995019|40544	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	1.142371902849398
+283	genus	2|1224|28216|80840|80864|283	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas	0.025199420850490133
+216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	9.026264455212118
+872	genus	2|1224|28221|213115|194924|872	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio	0.684339386128145
+990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	0.5265700994149507
+1164882	genus	2|1239|186801|186802|186803|1164882	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoanaerobaculum	0.560291199986338
+580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.5461424236036514
+1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.3511352476638278
+1926556	genus	2|1239|186801|186802|543314|1926556	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia	0.021494524224346827
+1378	genus	2|1239|91061|1385||1378	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella	0.02593840679783024
+102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.3202923602725899
+562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	0.20256646289814034
+546	species	2|1224|1236|91347|543|544|546	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.04915326247959187
+28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	1.5010198176559635
+1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.5125867768275086
+1354	species	2|1239|91061|186826|81852|1350|1354	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus hirae	0.26906116922253853
+1328	species	2|1239|91061|186826|1300|1301|1328	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus anginosus	0.1965291018703013
+76860	species	2|1239|91061|186826|1300|1301|76860	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus constellatus	0.020778821438283576
+47715	species	2|1239|91061|186826|33958|1578|47715	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus rhamnosus	0.11702439447777407
+84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.07419752518130832
+1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	9.580689000046512
+820	species	2|976|200643|171549|815|816|820	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	0.0591275458003006
+649756	species	2|1239|186801|186802|186803|207244|649756	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes hadrus	7.327617129750632
+301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	2.1480444251038744
+851	species	2|32066|203490|203491|203492|848|851	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae|Fusobacterium|Fusobacterium nucleatum	0.2637601610133318
+1596	species	2|1239|91061|186826|33958|1578|1596	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus gasseri	0.026383291709022497
+1685	species	2|201174|1760|85004|31953|1678|1685	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium breve	0.6309030005615521
+216816	species	2|201174|1760|85004|31953|1678|216816	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium longum	0.011205437232208746
+103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.026558809563869804
+1623	species	2|1239|91061|186826|33958|1578|1623	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus ruminis	0.020668686343908796
+1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	0.6162421911522298
+33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.14789323587774195
+817	species	2|976|200643|171549|815|816|817	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	1.1502504549890558
+1309	species	2|1239|91061|186826|1300|1301|1309	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mutans	0.045963128330651186
+1502	species	2|1239|186801|186802|31979|1485|1502	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium perfringens	0.05362357336611126
+818	species	2|976|200643|171549|815|816|818	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides thetaiotaomicron	13.60349592406557
+197	species	2|1224|29547|213849|72294|194|197	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter jejuni	0.03009184929980565
+187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	0.038355660557945995
+544644	species	2|976|200643|171549|1853231|574697|544644	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|Butyricimonas synergistica	0.7347225145198153
+1150298	species	2|1239|186801|186802|186803|1407607|1150298	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter|Fusicatenibacter saccharivorans	0.2856315911011133
+28026	species	2|201174|1760|85004|31953|1678|28026	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium pseudocatenulatum	0.022439697550624825
+292800	species	2|1239|186801|186802|541000|946234|292800	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor|Flavonifractor plautii	0.06651204275992868
+1681	species	2|201174|1760|85004|31953|1678|1681	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium bifidum	0.32622467770632585
+169435	species	2|1239|186801|186802|541000|244127|169435	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Anaerotruncus|Anaerotruncus colihominis	0.028239537619751412
+1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.014641397334346513
+1504823	species	2||||||1504823	Bacteria|Bacteria phylum incertae sedis|Bacteria class incertae sedis|Bacteria order incertae sedis|Bacteria fam. incertae sedis|Bacteria gen. incertae sedis|bacterium LF-3	0.027269175921920203
+823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	1.212695377649271
+39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	1.146143065800347
+39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	0.01970400168094116
+214856	species	2|976|200643|171549|171550|239759|214856	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|Alistipes finegoldii	0.01715319130614251
+261299	species	2|1239|186801|186802|186804|1505657|261299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter|Intestinibacter bartlettii	0.03612426052720161
+88431	species	2|1239|186801|186802|186803|189330|88431	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea longicatena	5.44569289908941
+454155	species	2|976|200643|171549|171552|577309|454155	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Paraprevotella|Paraprevotella xylaniphila	23.33832803418826
+626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	6.407576522298555
+1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	0.02489037546933262
+35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.28593411850534034
+1683	species	2|201174|1760|85004|31953|1678|1683	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium angulatum	0.013893677517071113
+1561	species	2|1239|186801|186802|31979|1485|1561	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium baratii	0.12604190519686778
+1736	species	2|1239|186801|186802|186806|1730|1736	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium|Eubacterium limosum	0.029100687736075274
+154288	species	2|1239|526524|526525|128827|191303|154288	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter|Turicibacter sanguinis	0.1995622456701151
+40545	species	2|1224|28216|80840|995019|40544|40545	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|Sutterella wadsworthensis	1.510911903242228
+40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	2.048430724219189
+225992	species	2|1224|28216|80840|80864|283|225992	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas|Comamonas kerstersii	0.03332899279372013
+853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	11.938222896742705
+44742	species	2|1224|28221|213115|194924|872|44742	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio|Desulfovibrio fairfieldensis	0.9051137565441382
+59620	species	2|1239|186801|186802|31979|1485|59620	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|uncultured Clostridium sp.	0.05187794443670874
+626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	0.6964466029959587
+1193532	species	2|1239|186801|186802|31979|580596|1193532	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus|uncultured Butyricicoccus sp.	0.04026649509753696
+1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.46441480573872884
+1776384	species	2|1239|186801|186802|543314|1926556|1776384	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia|Emergencia timonensis	0.028428861410271823
+89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	3.2923170895808007
+29391	species	2|1239|91061|1385||1378|29391	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella|Gemella morbillorum	0.034306382609926155
+626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.42362171062360465
+# Taxonomic Profiling Output
+# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
+# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_2.mgc.tsv -n 2 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_2.cami_precision.profile
+
+@SampleID: 2
+@Version:0.9.3
+@Ranks:domain|phylum|class|order|family|genus|species|strain
+@TaxonomyID: Jan 08 2019
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	domain	2	Bacteria	100.0
+1224	phylum	2|1224	Bacteria|Proteobacteria	3.195589270312819
+1239	phylum	2|1239	Bacteria|Firmicutes	62.55839910673288
+201174	phylum	2|201174	Bacteria|Actinobacteria	1.5687633679037267
+32066	phylum	2|32066	Bacteria|Fusobacteria	0.11167793551807326
+976	phylum	2|976	Bacteria|Bacteroidetes	31.29316850765726
+74201	phylum	2|74201	Bacteria|Verrucomicrobia	1.2724018118752438
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	2.7557666346339222
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	1.760167219932101
+84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	1.0981031392862572
+186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	55.22453623495952
+203490	class	2|32066|203490	Bacteria|Fusobacteria|Fusobacteriia	0.11167793551807326
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.47066022861746964
+200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	31.29316850765726
+909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	2.4298721547605293
+526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	3.143823497080732
+203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	1.2724018118752438
+28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.41333135232592344
+28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	0.026491283352973224
+91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	2.755766634633922
+186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	1.7369103432692254
+1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.15589313759596082
+186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	55.22453623495951
+203491	order	2|32066|203490|203491	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales	0.11167793551807323
+85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.4706602286174696
+171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	31.293168507657253
+1843489	order	2|1239|909932|1843489	Bacteria|Firmicutes|Negativicutes|Veillonellales	0.03969438734209571
+1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	2.3901777674184332
+526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	3.143823497080731
+48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	1.2724018118752436
+213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.41333135232592344
+80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	0.026491283352973218
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.023256876662875167
+84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.9422100016902961
+543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	2.8320007029507193
+81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.15964804817038122
+1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.16020568277023287
+186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	46.612055939355905
+1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	1.10066395119901
+33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.524647311510086
+203492	family	2|32066|203490|203491|203492	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae	0.11476733476500718
+31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.4836803238503122
+31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.4809725354130249
+815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	29.38324358769932
+2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	2.7756025560393023
+31977	family	2|1239|909932|1843489|31977	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae	0.04079247184547846
+909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	2.456298378982799
+128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	3.23079256486765
+541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	6.553776565679685
+216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.2531121633731424
+1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	1.3076008615457901
+186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	0.0902482470159998
+194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.4247655318949327
+80864	family	2|1224|28216|80840|80864	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae	0.027224124181927694
+990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	0.019626316846746757
+84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.9682748000425593
+570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.09744622605616848
+561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	2.747652492412133
+590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.018254389453564713
+1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.1614154736706206
+84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.16197928171025358
+841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	0.3127728188647023
+1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.019145352843856805
+1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	1.0937037866918575
+1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.5304555568824649
+848	genus	2|32066|203490|203491|203492|848	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae|Fusobacterium	0.11603789658134521
+1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.4890350334639538
+572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	33.31821577934224
+1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.2507220454319308
+816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	29.708538475997738
+375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	2.806330590564585
+33042	genus	2|1239|186801|186802|186803|33042	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Coprococcus	0.4468290235396733
+29465	genus	2|1239|909932|1843489|31977|29465	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella	0.04124407558121941
+904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	2.455930924263944
+123375	genus	2|1239|526524|526525|128827|123375	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Solobacterium	1.258528787640692
+1407607	genus	2|1239|186801|186802|186803|1407607	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter	2.3354298645218634
+946234	genus	2|1239|186801|186802|541000|946234	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor	0.016050924222820596
+459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.25591430782209307
+1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.18637536167127153
+207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	4.092299058874499
+1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	2.6885356925567443
+239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	1.3220769991078638
+189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	0.04845047918756478
+1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	1.1546899085085673
+1505657	genus	2|1239|186801|186802|186804|1505657	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter	0.03695426560736199
+33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	0.027560548783979833
+1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	2.754313178622803
+35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.4294680098850966
+283	genus	2|1224|28216|80840|80864|283	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas	0.027525515973761377
+216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	6.6102809401767795
+990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	0.019843595123983804
+1573536	genus	2|1239|526524|526525|128827|1573536	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus	0.6184972903876085
+61170	genus	2|1239|526524|526525|128827|61170	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.048468551309520366
+1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.05429309824693294
+1378	genus	2|1239|91061|1385||1378	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella	0.024164836469197377
+102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.9789943396325953
+580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.2355752223141605
+573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.10108281757852604
+562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	2.8501920176938107
+28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.01893562422908473
+1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.09637143811413296
+1354	species	2|1239|91061|186826|81852|1350|1354	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus hirae	0.018495260874629472
+84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.16802417956320423
+301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	0.32444517425024216
+1363	species	2|1239|91061|186826|1300|1357|1363	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus garvieae	0.01985983744384924
+1624	species	2|1239|91061|186826|33958|1578|1624	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus salivarius	0.021617790116535043
+1685	species	2|201174|1760|85004|31953|1678|1685	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium breve	0.01499664848405979
+1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	1.0402102921742467
+33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	1.9685915141261747
+1309	species	2|1239|91061|186826|1300|1301|1309	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mutans	0.02737182804241266
+1502	species	2|1239|186801|186802|31979|1485|1502	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium perfringens	0.26007873067041665
+818	species	2|976|200643|171549|815|816|818	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides thetaiotaomicron	8.45461202045142
+328812	species	2|976|200643|171549|2005525|375288|328812	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	2.819351731888349
+1311	species	2|1239|91061|186826|1300|1301|1311	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus agalactiae	0.019903903807385707
+29466	species	2|1239|909932|1843489|31977|29465|29466	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella parvula	0.042783261465336495
+187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	2.5475837048808763
+33035	species	2|1239|186801|186802|186803|572511|33035	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia producta	11.902120714331106
+102148	species	2|1239|526524|526525|128827|123375|102148	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Solobacterium|Solobacterium moorei	1.305495769380334
+1150298	species	2|1239|186801|186802|186803|1407607|1150298	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter|Fusicatenibacter saccharivorans	2.4225856712689144
+1680	species	2|201174|1760|85004|31953|1678|1680	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium adolescentis	0.013685041947457746
+292800	species	2|1239|186801|186802|541000|946234|292800	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor|Flavonifractor plautii	0.016649927974090224
+1681	species	2|201174|1760|85004|31953|1678|1681	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium bifidum	0.4786036204295904
+1353	species	2|1239|91061|186826|81852|1350|1353	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus gallinarum	0.05257263180680784
+1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	8.432679579161311
+1579	species	2|1239|91061|186826|33958|1578|1579	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus acidophilus	0.528633814896458
+1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.19333069578384557
+105841	species	2|1239|186801|186802|186803|207244|105841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes caccae	4.245019391582681
+47678	species	2|976|200643|171549|815|816|47678	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides caccae	20.912499207607524
+239935	species	2|74201|203494|48461|1647988|239934|239935	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia muciniphila	0.02339106522416349
+823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.020584137397620758
+39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	0.3047295264658239
+39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	0.05025860053816589
+39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	1.1977817315804395
+261299	species	2|1239|186801|186802|186804|1505657|261299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter|Intestinibacter bartlettii	0.03833336025742284
+626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	0.028589079719611676
+1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	2.8571012737669284
+35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.4454953080892537
+40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	12.258225034514888
+225992	species	2|1224|28216|80840|80864|283|225992	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas|Comamonas kerstersii	0.028552739521454245
+853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	6.856969730500917
+626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	0.020584137397620758
+1323	species	2|1239|526524|526525|128827|1573536|1323	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus|Faecalicoccus pleomorphus	0.6415789641871483
+1468449	species	2|1239|526524|526525|128827|61170|1468449	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis	0.05027734709286406
+1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.056319260047119186
+89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	2.7622488313906004
+29391	species	2|1239|91061|1385||1378|29391	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella|Gemella morbillorum	0.025066642962887416
+626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	1.0155293873202484
+# Taxonomic Profiling Output
+# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
+# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_3.mgc.tsv -n 3 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_3.cami_precision.profile
+
+@SampleID: 3
+@Version:0.9.3
+@Ranks:domain|phylum|class|order|family|genus|species|strain
+@TaxonomyID: Jan 08 2019
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	domain	2	Bacteria	100.0
+1224	phylum	2|1224	Bacteria|Proteobacteria	4.01735451721685
+1239	phylum	2|1239	Bacteria|Firmicutes	81.11169134685306
+201174	phylum	2|201174	Bacteria|Actinobacteria	2.6459374001680547
+976	phylum	2|976	Bacteria|Bacteroidetes	10.569262420472022
+74201	phylum	2|74201	Bacteria|Verrucomicrobia	1.6557543152899872
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	3.9126001826616714
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	4.078509395280923
+84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	2.553888097538929
+186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	75.69921742586152
+1737404	class	2|1239|1737404	Bacteria|Firmicutes|Tissierellia	0.021287850076379837
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.09310751760620707
+200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	10.573489486384217
+909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	0.8329474964752223
+203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	1.6564165169031835
+526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	0.4721749977535033
+28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.10636103345821968
+91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	3.893775320895986
+186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	4.078509395280923
+135623	order	2|1224|1236|135623	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales	0.01882486176568488
+1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.17019915280787587
+186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	75.69921742586152
+1737405	order	2|1239|1737404|1737405	Bacteria|Firmicutes|Tissierellia|Tissierellales	0.021287850076379837
+85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.06280630655497604
+2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.03030121105123102
+171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	10.573489486384217
+1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	0.2912737556295952
+909929	order	2|1239|909932|909929	Bacteria|Firmicutes|Negativicutes|Selenomonadales	0.5416737408456271
+48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	1.6564165169031835
+526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	0.4721749977535033
+213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.10636103345821968
+84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	2.3836889447310536
+543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	3.964275914209134
+1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	3.986329147793949
+81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.015010273549887713
+641	family	2|1224|1236|135623|641	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae	0.019165704216556792
+33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.15101535753112158
+1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.1732807741818562
+186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	0.733622251351906
+186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	50.34798611957512
+1570339	family	2|1239|1737404|1737405|1570339	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae	0.021673287328676346
+31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.06394347588577202
+2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.0308498439797296
+815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	6.923684436201015
+909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	0.29654755057051896
+1843491	family	2|1239|909932|909929|1843491	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae	0.5514812713178735
+541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	23.292364331724933
+171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	2.7621646055989837
+216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.0990209392268655
+1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	1.6864075506920821
+2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	0.9363477732127881
+128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	0.48072418581543697
+1853231	family	2|976|200643|171549|1853231	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae	0.1427359932755005
+31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.18190976321102126
+194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.10828680352614403
+990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	0.5893525535630159
+543314	family	2|1239|186801|186802|543314	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis	0.014972138534147366
+84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	2.164994882069072
+1643824	family	2|201174|84998|84999|1643824	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae	0.26185307185690815
+570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.04329147131769351
+561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	4.028319156066543
+590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.01994150442900749
+1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	4.071581304982664
+1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.015492190269101203
+662	genus	2|1224|1236|135623|641|662	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae|Vibrio	0.019781034328080864
+1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.1558638251763228
+84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.1788440906609965
+1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	0.043105682092218586
+207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	35.96188200771067
+841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	0.5608743360665759
+165779	genus	2|1239|1737404|1737405|1570339|165779	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae|Anaerococcus	0.011174160526101845
+1257	genus	2|1239|186801|186802|186804|1257	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Peptostreptococcus	0.007141381388321076
+1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.06599643181702544
+1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.03184030265122201
+1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.042732096943971634
+572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	6.661328073354163
+816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	7.145974808010293
+904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	0.29082078568315345
+158846	genus	2|1239|909932|909929|1843491|158846	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae|Megamonas	0.5691870142610581
+1263	genus	2|1239|186801|186802|541000|1263	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruminococcus	21.967855997787204
+239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	2.8508460876675
+459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.10220008489713255
+1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	3.5290958868846327
+239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	1.7405510006022584
+375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.9664099599817255
+189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	1.4077633063342814
+1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	0.031321167282396756
+1505657	genus	2|1239|186801|186802|186804|1505657	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter	0.09395453613675918
+283168	genus	2|976|200643|171549|1853231|283168	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter	0.1473186453747038
+33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	0.015247658839548733
+1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.027168531920687158
+1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	0.021147640695782143
+35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.11176343710753707
+191303	genus	2|1239|526524|526525|128827|191303	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter	0.02080539631774246
+2316020	genus	2|1239|186801|186802|186803|2316020	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Mediterraneibacter	0.80158016530515
+216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	2.072328136432546
+990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	0.608274184013602
+162289	genus	2|1239|1737404|1737405|1570339|162289	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae|Peptoniphilus	0.01119496485571146
+1573536	genus	2|1239|526524|526525|128827|1573536	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus	0.23802519116082743
+61170	genus	2|1239|526524|526525|128827|61170	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.01620393904111784
+1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.612974175082366
+1926556	genus	2|1239|186801|186802|543314|1926556	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia	0.015452830898480738
+102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	2.234503757254663
+580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.16058158829570088
+1935188	genus	2|201174|84998|84999|1643824|1935188	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus	0.2702600720948352
+573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.01473671324190706
+562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	4.437045498776568
+28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.02196483422429677
+1318	species	2|1239|91061|186826|1300|1301|1318	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus parasanguinis	0.02154243356601368
+1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.017064078201496444
+666	species	2|1224|1236|135623|641|662|666	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae|Vibrio|Vibrio cholerae	0.02178808230583657
+47715	species	2|1239|91061|186826|33958|1578|47715	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus rhamnosus	0.04010974262963087
+84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.19699019285875438
+1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	0.047479324574106
+649756	species	2|1239|186801|186802|186803|207244|649756	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes hadrus	39.61069133500674
+301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	0.6177824675276021
+1624	species	2|1239|91061|186826|33958|1578|1624	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus salivarius	0.01729655883051751
+1596	species	2|1239|91061|186826|33958|1578|1596	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus gasseri	0.01729655883051751
+1261	species	2|1239|186801|186802|186804|1257|1261	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Peptostreptococcus|Peptostreptococcus anaerobius	0.007865969134143095
+216816	species	2|201174|1760|85004|31953|1678|216816	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium longum	0.014295548248620418
+103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.03507092315302996
+1358	species	2|1239|91061|186826|1300|1357|1358	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus lactis	0.04706783426357721
+28025	species	2|201174|1760|85004|31953|1678|28025	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium animalis	0.009756446167048927
+1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	3.45485577315223
+1305	species	2|1239|91061|186826|1300|1301|1305	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sanguinis	0.015001114164638334
+33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.2203885769841071
+817	species	2|976|200643|171549|815|816|817	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	7.824134973405195
+1309	species	2|1239|91061|186826|1300|1301|1309	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mutans	0.8371588497930182
+1311	species	2|1239|91061|186826|1300|1301|1311	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus agalactiae	0.15613899513072235
+187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	0.32032840697907833
+28026	species	2|201174|1760|85004|31953|1678|28026	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium pseudocatenulatum	0.027523531624820914
+1160721	species	2|1239|186801|186802|541000|1263|1160721	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruminococcus|Ruminococcus bicirculans	17.05775523379795
+1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	1.881102903938567
+1579	species	2|1239|91061|186826|33958|1578|1579	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus acidophilus	0.07967885589315042
+239935	species	2|74201|203494|48461|1647988|239934|239935	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia muciniphila	1.9083609390729999
+823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	1.0644650527384694
+39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	1.2410283633701975
+39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	1.550599542815907
+342942	species	2|1239|186801|186802|186803|1506553|342942	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] glycyrrhizinilyticum	0.07907837825364572
+39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	0.034499114623898666
+53443	species	2|1239|186801|186802|186803|572511|53443	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia hydrogenotrophica	0.695584899517572
+261299	species	2|1239|186801|186802|186804|1505657|261299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter|Intestinibacter bartlettii	0.1034874684711703
+28118	species	2|976|200643|171549|1853231|283168|28118	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter|Odoribacter splanchnicus	0.16226607352133376
+626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	0.0167947358190362
+1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	0.023293348993377108
+35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.12310331836517567
+154288	species	2|1239|526524|526525|128827|191303|154288	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter|Turicibacter sanguinis	0.0229163793893735
+40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	2.108190602387618
+457396	species	2|1239|186801|186802|31979|1485|457396	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium sp. 7_2_43FAA	0.01125503030336071
+1720300	species	2|1239|186801|186802|186803|2316020|1720300	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Mediterraneibacter|Mediterraneibacter massiliensis	0.8829110918432505
+853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	2.282593278613143
+626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	0.6699916579685622
+1472765	species	2|1239|1737404|1737405|1570339|162289|1472765	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae|Peptoniphilus|Peptoniphilus obesi	0.01233084234331106
+1323	species	2|1239|526524|526525|128827|1573536|1323	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus|Faecalicoccus pleomorphus	0.2621759999937144
+1468449	species	2|1239|526524|526525|128827|61170|1468449	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis	0.01784804331517921
+1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.6751685253934145
+1776384	species	2|1239|186801|186802|543314|1926556|1776384	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia|Emergencia timonensis	0.017020725301321385
+89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	3.774278461864284
+626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	2.4612237645557484
+765821	species	2|1239|186801|186802|186803|572511|765821	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|uncultured Blautia sp.	2.431941068137658
+1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.2976815366234131
+# Taxonomic Profiling Output
+# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
+# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_4.mgc.tsv -n 4 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_4.cami_precision.profile
+
+@SampleID: 4
+@Version:0.9.3
+@Ranks:domain|phylum|class|order|family|genus|species|strain
+@TaxonomyID: Jan 08 2019
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	domain	2	Bacteria	100.0
+1224	phylum	2|1224	Bacteria|Proteobacteria	2.058737653057511
+1239	phylum	2|1239	Bacteria|Firmicutes	68.22738114218704
+201174	phylum	2|201174	Bacteria|Actinobacteria	0.9345751158795138
+976	phylum	2|976	Bacteria|Bacteroidetes	19.9018984736392
+74201	phylum	2|74201	Bacteria|Verrucomicrobia	8.861404609371748
+508458	phylum	2|508458	Bacteria|Synergistetes	0.01600300586497548
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	0.7238534754318616
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	1.222575680922385
+84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	0.26514350417906696
+186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	62.14890543528988
+200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	19.92490985020066
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.6705122050893115
+29547	class	2|1224|29547	Bacteria|Proteobacteria|Epsilonproteobacteria	0.018265539056439337
+909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	3.313868713922863
+203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	8.871650522272962
+526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	1.5052945304906467
+28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	1.297802938993161
+28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	0.02119609496589134
+649775	class	2|508458|649775	Bacteria|Synergistetes|Synergistia	0.016021509184875438
+91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	0.7238534754318616
+186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	1.222575680922385
+1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.037447413991835814
+186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	62.14890543528988
+171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	19.92490985020066
+85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.6465051388216962
+2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.02400706626761515
+213849	order	2|1224|29547|213849	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales	0.018265539056439337
+1843489	order	2|1239|909932|1843489	Bacteria|Firmicutes|Negativicutes|Veillonellales	0.04219444937071202
+1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	3.259754405701323
+909929	order	2|1239|909932|909929	Bacteria|Firmicutes|Negativicutes|Selenomonadales	0.011919858850828519
+48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	8.871650522272962
+526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	1.5052945304906467
+213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	1.297802938993161
+80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	0.02119609496589134
+649776	order	2|508458|649775|649776	Bacteria|Synergistetes|Synergistia|Synergistales	0.016021509184875438
+84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.2276960901872312
+543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	0.7489549791310306
+81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.9082690587084308
+1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	0.2822741664327783
+1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.038746000560449814
+186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	0.5397684090321128
+815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	12.833630548498673
+186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	21.759205112548585
+171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	5.066251908887665
+33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.047335749012025814
+31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.6689243875846902
+2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.02483957378906237
+31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.1542932479037644
+72294	family	2|1224|29547|213849|72294	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	0.018898944174676816
+81850	family	2|1239|91061|186826|81850	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae	0.02709270128845263
+31977	family	2|1239|909932|1843489|31977	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae	0.04365765174924786
+909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	3.372794875976438
+1843491	family	2|1239|909932|909929|1843491	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae	0.01233321098795701
+1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	9.179298100078274
+541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	33.689776041563
+216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.10688904997710245
+128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	1.557494537132746
+2005519	family	2|976|200643|171549|2005519	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae	2.0513214279003478
+2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	0.4570598104214785
+1853231	family	2|976|200643|171549|1853231	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae	0.20759427491427884
+194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	1.3428076345283912
+995019	family	2|1224|28216|80840|995019	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae	0.02193112473953003
+649777	family	2|508458|649775|649776|649777	Bacteria|Synergistetes|Synergistia|Synergistales|Synergistaceae	0.016577096725337935
+990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	4.271559083067935
+84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.08142504533876382
+186806	family	2|1239|186801|186802|186806	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae	0.3148292478001363
+1643824	family	2|201174|84998|84999|1643824	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae	0.15416699954663488
+570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.12957107383588354
+561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	0.4876981355375812
+590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.13246180961140247
+1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.9092101740053504
+1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	0.26680114720700354
+84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.03878614775413904
+1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	0.3455763530075167
+816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	12.846928288753508
+841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	1.03208131341889
+1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.015765501429597616
+239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	5.07150137447695
+1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.04738479659000862
+1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.6696175026562681
+1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.024865311650148488
+572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	11.643886896905583
+1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.015622196677890218
+33042	genus	2|1239|186801|186802|186803|33042	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Coprococcus	0.015554795251313317
+194	genus	2|1224|29547|213849|72294|194	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	0.018918526571861757
+1243	genus	2|1239|91061|186826|81850|1243	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Leuconostoc	0.027120773758138754
+29465	genus	2|1239|909932|1843489|31977|29465	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella	0.04370288821689461
+904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	1.9524981246228628
+158846	genus	2|1239|909932|909929|1843491|158846	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae|Megamonas	0.012345990211700918
+239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	9.18880935423159
+1407607	genus	2|1239|186801|186802|186803|1407607	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter	0.07740911410635216
+580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.13883092426616045
+946234	genus	2|1239|186801|186802|541000|946234	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor	32.65892881754018
+459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.1069998045151352
+1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.0941399393933784
+207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	6.406539648486566
+1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	1.1810108364490155
+397864	genus	2|976|200643|171549|2005519|397864	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella	2.053446932403872
+375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.45753339913956886
+189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	1.1890945539934679
+1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	1.4258642424038317
+283168	genus	2|976|200643|171549|1853231|283168	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter	0.20780937653620637
+33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	1.4237915184831162
+1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	0.13255769374770648
+35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	1.2779011185672307
+40544	genus	2|1224|28216|80840|995019|40544	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	0.021953848971708958
+638847	genus	2|508458|649775|649776|649777|638847	Bacteria|Synergistetes|Synergistia|Synergistales|Synergistaceae|Pyramidobacter	0.016594273308815216
+216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	1.0657553421388388
+872	genus	2|1224|28221|213115|194924|872	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio	0.06629788429365921
+990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	4.275985116913554
+61170	genus	2|1239|526524|526525|128827|61170	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.03910417441228492
+1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.19475134437826577
+102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.0815094150032217
+1730	genus	2|1239|186801|186802|186806|1730	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium	0.31515546239280756
+1935188	genus	2|201174|84998|84999|1643824|1935188	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus	0.1543267417729746
+573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.15263227868628995
+562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	0.5744991959582035
+28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.15603751085297166
+1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.5429340860063574
+53346	species	2|1239|91061|186826|81852|1350|53346	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus mundtii	0.023507843292699112
+1352	species	2|1239|91061|186826|81852|1350|1352	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	0.4852963165895864
+1328	species	2|1239|91061|186826|1300|1301|1328	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus anginosus	0.05718080764794335
+84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.045689349774747916
+1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	0.407082419386629
+820	species	2|976|200643|171549|815|816|820	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	15.05415731817962
+301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	1.2157723015878719
+1363	species	2|1239|91061|186826|1300|1357|1363	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus garvieae	0.018571463032554077
+328814	species	2|976|200643|171549|171550|239759|328814	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|Alistipes shahii	0.12191374294490842
+1288121	species	2|976|200643|171549|171550|239759|1288121	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|Alistipes senegalensis	0.024566755153423152
+1596	species	2|1239|91061|186826|33958|1578|1596	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus gasseri	0.02229081598392354
+216816	species	2|201174|1760|85004|31953|1678|216816	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium longum	0.3875861896816524
+103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.029290867668612754
+1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	0.2571059065757951
+33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.11830840429758992
+1502	species	2|1239|186801|186802|31979|1485|1502	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium perfringens	0.018402652740625976
+1599	species	2|1239|91061|186826|33958|1578|1599	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus sakei	0.03352757977761871
+317735	species	2|1239|91061|186826|81852|1350|317735	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus caccae	0.01929417326818922
+197	species	2|1224|29547|213849|72294|194|197	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter jejuni	0.022285667121257565
+1245	species	2|1239|91061|186826|81850|1243|1245	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Leuconostoc|Leuconostoc mesenteroides	0.03194775944886594
+29466	species	2|1239|909932|1843489|31977|29465|29466	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella parvula	0.05148117721217426
+187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	2.3000059277841918
+1150298	species	2|1239|186801|186802|186803|1407607|1150298	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter|Fusicatenibacter saccharivorans	0.09118647493888
+1680	species	2|201174|1760|85004|31953|1678|1680	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium adolescentis	0.4012105861180416
+292800	species	2|1239|186801|186802|541000|946234|292800	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor|Flavonifractor plautii	38.47160154887905
+1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	2.484279941825976
+1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.1108950712502413
+105841	species	2|1239|186801|186802|186803|207244|105841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes caccae	7.546782750917995
+239935	species	2|74201|203494|48461|1647988|239934|239935	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia muciniphila	0.025525906734214208
+1262691	species	2|74201|203494|48461|1647988|239934|1262691	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia sp. CAG:344	0.006557503995810491
+487174	species	2|976|200643|171549|2005519|397864|487174	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella|Barnesiella intestinihominis	2.418921717444126
+823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.5389657059893582
+39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	0.03934974595067695
+39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	1.4007309345862464
+39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	1.679641157339285
+28118	species	2|976|200643|171549|1853231|283168|28118	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter|Odoribacter splanchnicus	0.24479552213384756
+626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	1.677199527693558
+1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	0.1561504605552523
+35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	1.5053433909927063
+40545	species	2|1224|28216|80840|995019|40544|40545	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|Sutterella wadsworthensis	0.025861219601613042
+40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	11.113690582699702
+638849	species	2|508458|649775|649776|649777|638847|638849	Bacteria|Synergistetes|Synergistia|Synergistales|Synergistaceae|Pyramidobacter|Pyramidobacter piscolens	0.019547740659120055
+853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	1.2554396716567764
+44742	species	2|1224|28221|213115|194924|872|44742	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio|Desulfovibrio fairfieldensis	0.07809765599873247
+626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	5.037029737438445
+1468449	species	2|1239|526524|526525|128827|61170|1468449	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis	0.04606397917372375
+1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.22941340678648395
+89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	0.5752918232861198
+626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.0960165519820118
+1262884	species	2|1239|186801|186802|186806|1730|1262884	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium|Eubacterium sp. CAG:202	0.3712471845866876
+1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.18179398813098635
+# Taxonomic Profiling Output
+# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
+# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_5.mgc.tsv -n 5 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_5.cami_precision.profile
+
+@SampleID: 5
+@Version:0.9.3
+@Ranks:domain|phylum|class|order|family|genus|species|strain
+@TaxonomyID: Jan 08 2019
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	domain	2	Bacteria	100.0
+1224	phylum	2|1224	Bacteria|Proteobacteria	0.6599764244946326
+1239	phylum	2|1239	Bacteria|Firmicutes	90.68917304329807
+201174	phylum	2|201174	Bacteria|Actinobacteria	1.429816595289713
+976	phylum	2|976	Bacteria|Bacteroidetes	5.9959834692451714
+74201	phylum	2|74201	Bacteria|Verrucomicrobia	1.2148606936839201
+32066	phylum	2|32066	Bacteria|Fusobacteria	0.010189773988488663
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	0.5894953960252434
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	18.916481565642602
+84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	1.240403418154399
+186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	69.68076747082375
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.18970676064445582
+200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	5.9972146214596975
+29547	class	2|1224|29547	Bacteria|Proteobacteria|Epsilonproteobacteria	0.01390515489145789
+909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	0.9124916652783662
+526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	1.1775205542234524
+203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	1.2151101404078881
+203490	class	2|32066|203490	Bacteria|Fusobacteria|Fusobacteriia	0.010191866249562398
+28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.04568315990550713
+28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	0.011028226293617868
+135624	order	2|1224|1236|135624	Bacteria|Proteobacteria|Gammaproteobacteria|Aeromonadales	0.013757492324677439
+91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	0.5757379037005659
+186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	18.895749453491963
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.020732112150643262
+1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.22642686090563924
+186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	69.68076747082375
+85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.16143550650036573
+2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.028271254144090117
+171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	5.9972146214596975
+213849	order	2|1224|29547|213849	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales	0.01390515489145789
+1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	0.2598060473153199
+909929	order	2|1239|909932|909929	Bacteria|Firmicutes|Negativicutes|Selenomonadales	0.6526856179630465
+526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	1.1775205542234524
+48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	1.2151101404078881
+203491	order	2|32066|203490|203491	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales	0.010191866249562398
+213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.04568315990550713
+80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	0.011028226293617868
+84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	1.01397655724876
+84642	family	2|1224|1236|135624|84642	Bacteria|Proteobacteria|Gammaproteobacteria|Aeromonadales|Aeromonadaceae	0.013989936647486873
+543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	0.585465476428435
+1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	1.6858491007455276
+81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.045684963056096685
+90964	family	2|1239|91061|1385|90964	Bacteria|Firmicutes|Bacilli|Bacillales|Staphylococcaceae	0.021082398500476173
+1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.23025253182785152
+186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	1.3760818676517672
+186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	41.80306402665738
+33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	17.421559430311504
+31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.16416309421041414
+2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.02874892059444378
+815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	4.207325173717781
+72294	family	2|1224|29547|213849|72294	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	0.014140094096657917
+81850	family	2|1239|91061|186826|81850	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae	0.06191542774976788
+909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	0.26419568746955646
+1843491	family	2|1239|909932|909929|1843491	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae	0.663713286588581
+541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	24.87823140163649
+171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	1.3215704740070349
+216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.005820530903263401
+128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	1.1974157474288083
+1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	1.235640441065905
+2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	0.37833976809507364
+1853231	family	2|976|200643|171549|1853231	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae	0.1913071554237619
+31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.0330238276920254
+203492	family	2|32066|203490|203491|203492	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae	0.010364066341892771
+194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.04645501504577737
+995019	family	2|1224|28216|80840|995019	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae	0.011214557387403835
+990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	1.0570173696920417
+543314	family	2|1239|186801|186802|543314	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis	0.0152596909902689
+84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.4645678780618249
+1643824	family	2|201174|84998|84999|1643824	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae	0.5665406599747095
+642	genus	2|1224|1236|135624|84642|642	Bacteria|Proteobacteria|Gammaproteobacteria|Aeromonadales|Aeromonadaceae|Aeromonas	0.014454185188792483
+570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.02688152086493548
+561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	0.5647064193525798
+590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.013305893912991262
+1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	1.6537758267108134
+1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.0472009940427133
+1279	genus	2|1239|91061|1385|90964|1279	Bacteria|Firmicutes|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus	0.02178200658289217
+84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.2378933385538924
+1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	0.41318885883741185
+207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	29.70731618327053
+841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	1.7227564111679832
+1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	17.99968453241795
+1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.16961075840960052
+1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.029702938099053344
+1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.08801727189571038
+572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	5.292337227751882
+816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	4.346943002155033
+194	genus	2|1224|29547|213849|72294|194	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	0.01460932553234685
+1243	genus	2|1239|91061|186826|81850|1243	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Leuconostoc	0.06397005799874089
+904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	0.25643145543200785
+158846	genus	2|1239|909932|909929|1843491|158846	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae|Megamonas	0.6857382558867264
+1407607	genus	2|1239|186801|186802|186803|1407607	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter	1.2328495343098287
+1263	genus	2|1239|186801|186802|541000|1263	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruminococcus	22.586121303059347
+239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	1.3654260810944723
+459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.006013682098265393
+1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.011947181768988948
+1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	0.6348166558767628
+239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	1.2766445061162006
+375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.39089477030000447
+189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	0.8728044158983906
+1505657	genus	2|1239|186801|186802|186804|1505657	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter	0.8619859626851208
+283168	genus	2|976|200643|171549|1853231|283168	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter	0.19765558073008815
+33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	0.016531424171260484
+1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.03411970569495436
+1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	0.012330806871119112
+180162	genus	2|32066|203490|203491|203492|180162	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae|Cetobacterium	0.010707992322578509
+35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.047996599794497906
+191303	genus	2|1239|526524|526525|128827|191303	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter	0.59644924527856
+40544	genus	2|1224|28216|80840|995019|40544	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	0.011586706457101411
+2316020	genus	2|1239|186801|186802|186803|2316020	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Mediterraneibacter	0.6306356594474875
+216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	3.117680859152952
+990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	1.0920939239595246
+1573536	genus	2|1239|526524|526525|128827|1573536	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus	0.3831262252655891
+61170	genus	2|1239|526524|526525|128827|61170	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.011611731740629056
+1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.1465715845665256
+1926556	genus	2|1239|186801|186802|543314|1926556	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia	0.01576607564814934
+102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.47998431383005885
+1935188	genus	2|201174|84998|84999|1643824|1935188	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus	0.5853410077969295
+654	species	2|1224|1236|135624|84642|642|654	Bacteria|Proteobacteria|Gammaproteobacteria|Aeromonadales|Aeromonadaceae|Aeromonas|Aeromonas veronii	0.016937129978594725
+573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.014239613716218949
+562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	0.6617118778675681
+28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.015591584841494097
+1303	species	2|1239|91061|186826|1300|1301|1303	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.13216503895113793
+1318	species	2|1239|91061|186826|1300|1301|1318	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus parasanguinis	0.014682118372863975
+1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.01693484596951854
+1290	species	2|1239|91061|1385|90964|1279|1290	Bacteria|Firmicutes|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|Staphylococcus hominis	0.02552372699466368
+84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.2787587362069574
+1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	0.48416657988184464
+649756	species	2|1239|186801|186802|186803|207244|649756	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes hadrus	34.810448941902465
+301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	2.0186920864992124
+1589	species	2|1239|91061|186826|33958|1578|1589	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus pentosus	0.012918997253879828
+1590	species	2|1239|91061|186826|33958|1578|1590	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus plantarum	0.01566116802771985
+1596	species	2|1239|91061|186826|33958|1578|1596	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus gasseri	11.482315777406287
+216816	species	2|201174|1760|85004|31953|1678|216816	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium longum	0.1493135962915172
+103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.03480531878890697
+1358	species	2|1239|91061|186826|1300|1357|1358	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus lactis	0.10313690844468132
+28025	species	2|201174|1760|85004|31953|1678|28025	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium animalis	0.01051713305665045
+1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	1.2044339668504023
+33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.18637960269462817
+817	species	2|976|200643|171549|815|816|817	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	5.034992409469996
+1309	species	2|1239|91061|186826|1300|1301|1309	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mutans	0.03679642424656711
+195	species	2|1224|29547|213849|72294|194|195	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter coli	0.017118920382507744
+1311	species	2|1239|91061|186826|1300|1301|1311	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus agalactiae	0.5337813782082076
+1245	species	2|1239|91061|186826|81850|1243|1245	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Leuconostoc|Leuconostoc mesenteroides	0.07495885606218884
+187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	0.30048133703308205
+1150298	species	2|1239|186801|186802|186803|1407607|1150298	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter|Fusicatenibacter saccharivorans	1.444628841675991
+28026	species	2|201174|1760|85004|31953|1678|28026	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium pseudocatenulatum	0.01781108948122674
+37734	species	2|1239|91061|186826|81852|1350|37734	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus casseliflavus	0.0383743506941709
+1160721	species	2|1239|186801|186802|541000|1263|1160721	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruminococcus|Ruminococcus bicirculans	19.775388716327665
+1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	1.4882184970229533
+1579	species	2|1239|91061|186826|33958|1578|1579	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus acidophilus	0.041983564780890895
+1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.013999472668730051
+239935	species	2|74201|203494|48461|1647988|239934|239935	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia muciniphila	1.4959469284588112
+823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.33898899387391906
+39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	1.7737312451296
+33039	species	2|1239|186801|186802|186803|572511|33039	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] torques	0.015894407803654417
+39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	1.0227350518121776
+342942	species	2|1239|186801|186802|186803|1506553|342942	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] glycyrrhizinilyticum	0.07346662041637952
+53443	species	2|1239|186801|186802|186803|572511|53443	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia hydrogenotrophica	0.056571629295838026
+261299	species	2|1239|186801|186802|186804|1505657|261299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter|Intestinibacter bartlettii	1.0100582010698353
+28118	species	2|976|200643|171549|1853231|283168|28118	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter|Odoribacter splanchnicus	0.2316089228202145
+626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	0.01937119777163395
+1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	0.014448997019841057
+188913	species	2|32066|203490|203491|203492|180162|188913	Bacteria|Fusobacteria|Fusobacteriia|Fusobacteriales|Fusobacteriaceae|Cetobacterium|Cetobacterium somerae	0.012547414842721953
+35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.05624147183891979
+154288	species	2|1239|526524|526525|128827|191303|154288	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter|Turicibacter sanguinis	0.6989074970999206
+40545	species	2|1224|28216|80840|995019|40544|40545	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|Sutterella wadsworthensis	0.013577074786610225
+40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	2.013206114382073
+1720300	species	2|1239|186801|186802|186803|2316020|1720300	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Mediterraneibacter|Mediterraneibacter massiliensis	0.7389664649848872
+853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	3.6532371249950595
+626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	1.2796941852715578
+1323	species	2|1239|526524|526525|128827|1573536|1323	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus|Faecalicoccus pleomorphus	0.4489397770109618
+1468449	species	2|1239|526524|526525|128827|61170|1468449	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis	0.013606398921753284
+1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.171749700626274
+1776384	species	2|1239|186801|186802|543314|1926556|1776384	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia|Emergencia timonensis	0.018474377421988084
+89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	0.630647886562889
+626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.5624361805831727
+765821	species	2|1239|186801|186802|186803|572511|765821	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|uncultured Blautia sp.	2.441186444297755
+1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.6858910828502017
+# Taxonomic Profiling Output
+# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
+# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_6.mgc.tsv -n 6 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_6.cami_precision.profile
+
+@SampleID: 6
+@Version:0.9.3
+@Ranks:domain|phylum|class|order|family|genus|species|strain
+@TaxonomyID: Jan 08 2019
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	domain	2	Bacteria	100.0
+1224	phylum	2|1224	Bacteria|Proteobacteria	0.9553411430362186
+1239	phylum	2|1239	Bacteria|Firmicutes	76.57842818667345
+201174	phylum	2|201174	Bacteria|Actinobacteria	2.181696572394307
+976	phylum	2|976	Bacteria|Bacteroidetes	15.462105770340317
+74201	phylum	2|74201	Bacteria|Verrucomicrobia	4.82242832755569
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	0.1962630618094544
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	4.273370913681101
+84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	0.4711094432747263
+186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	70.23031512767895
+29547	class	2|1224|29547	Bacteria|Proteobacteria|Epsilonproteobacteria	0.15379249612929077
+200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	15.580883563564326
+1737404	class	2|1239|1737404	Bacteria|Firmicutes|Tissierellia	0.008443796203698109
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	1.7273466254134464
+909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	1.466851177477251
+203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	4.859473565975074
+28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.4751671083748373
+526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	0.4195258429890744
+28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	0.13745727742878636
+91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	0.1962630618094544
+186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	4.257491830889586
+1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.20877467077739906
+186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	70.23031512767895
+213849	order	2|1224|29547|213849	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales	0.15379249612929072
+171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	15.580883563564324
+1737405	order	2|1239|1737404|1737405	Bacteria|Firmicutes|Tissierellia|Tissierellales	0.008443796203698107
+2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.06893164988268824
+1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	1.3240955062356305
+909929	order	2|1239|909932|909929	Bacteria|Firmicutes|Negativicutes|Selenomonadales	0.14275567124162045
+85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	1.658414975530758
+48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	4.859473565975074
+213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.47516710837483717
+526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	0.4195258429890743
+80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	0.13745727742878633
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.015879082791514093
+84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.26233477249732723
+543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	0.196893614192293
+1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	0.8788101082341137
+81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	3.244233575745266
+33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.14812658234340909
+1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.20944542035666955
+186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	2.2991492693817452
+186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	29.822466622343395
+72293	family	2|1224|29547|213849|72293	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Helicobacteraceae	0.03270265511872674
+171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	4.833701026593689
+1570339	family	2|1239|1737404|1737405|1570339	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae	0.008470924364073056
+72294	family	2|1224|29547|213849|72294	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	0.12158394430235493
+2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.06915311293175003
+31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.3611858231308228
+815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	7.864220873770399
+909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	1.3283495496040834
+1853231	family	2|976|200643|171549|1853231	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae	0.879303671000287
+1843491	family	2|1239|909932|909929|1843491	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae	0.14321431551138386
+31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	1.6637431177950999
+541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	30.50353879333748
+1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	4.8750860434739804
+2005519	family	2|976|200643|171549|2005519	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae	0.13251764134406924
+186806	family	2|1239|186801|186802|186806	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae	0.4472531031105842
+2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	1.704169737336578
+171552	family	2|976|200643|171549|171552	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae	0.013144279590703991
+194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.4766937214301413
+128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	0.4208736922354901
+171551	family	2|976|200643|171549|171551	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Porphyromonadaceae	0.03989532119958765
+995019	family	2|1224|28216|80840|995019	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae	0.0365931409523273
+80864	family	2|1224|28216|80840|80864	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae	0.1013057581092927
+990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	6.880996961620537
+84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.24743187670534794
+1643824	family	2|201174|84998|84999|1643824	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae	0.015745722834289475
+158876	genus	2|1224|1236|91347|543|158876	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Yokenella	0.01632380707140427
+570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.02500063671745097
+561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	0.15717650262031993
+590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.02305469892819096
+1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	0.954856827739154
+1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	3.650592054231937
+1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.16668026882101444
+84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.23567963572834974
+1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	0.1302397515585483
+207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	9.31601893451688
+841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	0.6649293544247148
+209	genus	2|1224|29547|213849|72293|209	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Helicobacteraceae|Helicobacter	0.03679884636582811
+239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	5.4391492314674235
+165779	genus	2|1239|1737404|1737405|1570339|165779	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae|Anaerococcus	0.009531955222546198
+28196	genus	2|1224|29547|213849|72294|28196	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Arcobacter	0.0520079733930553
+1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.07781492876512679
+1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.034029182899331066
+572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	3.818631359231283
+1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.40642637628818307
+816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	8.84925871218015
+33042	genus	2|1239|186801|186802|186803|33042	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Coprococcus	0.04182601116876878
+194	genus	2|1224|29547|213849|72294|194	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	0.08480504288010042
+904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	1.4681096267687235
+574697	genus	2|976|200643|171549|1853231|574697	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas	0.7106060068386004
+158846	genus	2|1239|909932|909929|1843491|158846	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae|Megamonas	0.16115271297567463
+1407607	genus	2|1239|186801|186802|186803|1407607	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter	0.5683013955851596
+1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	1.8721362886797142
+244127	genus	2|1239|186801|186802|541000|244127	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Anaerotruncus	0.033278956712635005
+1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	6.447882399910846
+239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	5.485717954174987
+397864	genus	2|976|200643|171549|2005519|397864	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella	0.14911622028481272
+1730	genus	2|1239|186801|186802|186806|1730	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium	0.5032740665323404
+375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	1.9176265693983812
+189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	0.32804802871629396
+283168	genus	2|976|200643|171549|1853231|283168	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter	0.2788353880749035
+33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	0.026623165371023716
+838	genus	2|976|200643|171549|171552|838	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	0.0147906744419301
+1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	0.15906607219366117
+35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.1839826063970529
+191303	genus	2|1239|526524|526525|128827|191303	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter	0.3684535459658697
+40544	genus	2|1224|28216|80840|995019|40544	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	0.04117663740326334
+283	genus	2|1224|28216|80840|80864|283	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas	0.06542017131584071
+216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	34.0541739324273
+872	genus	2|1224|28221|213115|194924|872	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio	0.35241968126972323
+990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	7.742880482184615
+1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	2.456890878322212
+1573535	genus	2|1239|526524|526525|128827|1573535	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemanella	0.10513694030396879
+1378	genus	2|1239|91061|1385||1378	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella	0.017925433358697836
+102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.27842410910772336
+1935188	genus	2|201174|84998|84999|1643824|1935188	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus	0.01771796306429352
+158877	species	2|1224|1236|91347|543|158876|158877	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Yokenella|Yokenella regensburgei	0.016026515642947523
+573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.024545321669340696
+562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	0.15431398245088673
+28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.022634823567803445
+1318	species	2|1239|91061|186826|1300|1301|1318	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus parasanguinis	0.06752074290663795
+1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.7594151879661688
+1352	species	2|1239|91061|186826|81852|1350|1352	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	2.5908134095299027
+1354	species	2|1239|91061|186826|81852|1350|1354	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus hirae	0.046675536797514676
+47715	species	2|1239|91061|186826|33958|1578|47715	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus rhamnosus	0.020365207111654685
+84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.23138740565865074
+1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	0.12786780721901245
+649756	species	2|1239|186801|186802|186803|207244|649756	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes hadrus	9.146354311279307
+301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	0.652819569205185
+210	species	2|1224|29547|213849|72293|209|210	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Helicobacteraceae|Helicobacter|Helicobacter pylori	0.03612866069444622
+328814	species	2|976|200643|171549|171550|239759|328814	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|Alistipes shahii	5.340090694599206
+1596	species	2|1239|91061|186826|33958|1578|1596	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus gasseri	0.14327945763755232
+28197	species	2|1224|29547|213849|72294|28196|28197	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Arcobacter|Arcobacter butzleri	0.051060797000101785
+103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.07639775253738455
+1358	species	2|1239|91061|186826|1300|1357|1358	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus lactis	0.03340943872144991
+1305	species	2|1239|91061|186826|1300|1301|1305	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sanguinis	0.7884804665963329
+33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.042852265542489054
+1502	species	2|1239|186801|186802|31979|1485|1502	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium perfringens	0.0966011942019376
+818	species	2|976|200643|171549|815|816|818	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides thetaiotaomicron	0.4078239073112169
+195	species	2|1224|29547|213849|72294|194|195	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter coli	0.06323282286423518
+197	species	2|1224|29547|213849|72294|194|197	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter jejuni	0.020027738864631453
+187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	1.4413722115221446
+544644	species	2|976|200643|171549|1853231|574697|544644	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|Butyricimonas synergistica	0.69766435211805
+1150298	species	2|1239|186801|186802|186803|1407607|1150298	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter|Fusicatenibacter saccharivorans	0.5579514120948842
+1689	species	2|201174|1760|85004|31953|1678|1689	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium dentium	0.38729359201838787
+28026	species	2|201174|1760|85004|31953|1678|28026	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium pseudocatenulatum	0.7505819552023498
+1680	species	2|201174|1760|85004|31953|1678|1680	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium adolescentis	0.006608073368148114
+1681	species	2|201174|1760|85004|31953|1678|1681	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium bifidum	0.02159414202409448
+1353	species	2|1239|91061|186826|81852|1350|1353	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus gallinarum	0.1872028333548009
+1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	0.015988854094429537
+169435	species	2|1239|186801|186802|541000|244127|169435	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Anaerotruncus|Anaerotruncus colihominis	0.03267287575766092
+1796613	species	2|976|200643|171549|815|816|1796613	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides caecimuris	0.022102239483608333
+239935	species	2|74201|203494|48461|1647988|239934|239935	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia muciniphila	5.280814634691149
+487174	species	2|976|200643|171549|2005519|397864|487174	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella|Barnesiella intestinihominis	0.1464004950902776
+84030	species	2|1239|186801|186802|186803|1506553|84030	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] saccharolyticum	6.1813401772949925
+1504823	species	2||||||1504823	Bacteria|Bacteria phylum incertae sedis|Bacteria class incertae sedis|Bacteria order incertae sedis|Bacteria fam. incertae sedis|Bacteria gen. incertae sedis|bacterium LF-3	0.012817897260072686
+39488	species	2|1239|186801|186802|186806|1730|39488	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium|[Eubacterium] hallii	0.4941083697380715
+823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	1.8827024895210998
+39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	11.371666840642913
+39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	0.0855470403550428
+88431	species	2|1239|186801|186802|186803|189330|88431	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea longicatena	0.2365265323637694
+28118	species	2|976|200643|171549|1853231|283168|28118	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter|Odoribacter splanchnicus	0.27375719948430843
+626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	0.026138300607027765
+165179	species	2|976|200643|171549|171552|838|165179	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|Prevotella copri	0.014521304636623902
+1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	0.15616913892223716
+1302	species	2|1239|91061|186826|1300|1301|1302	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus gordonii	0.08146563383802578
+35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.18063188976411795
+154288	species	2|1239|526524|526525|128827|191303|154288	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter|Turicibacter sanguinis	0.36174321910884416
+40545	species	2|1224|28216|80840|995019|40544|40545	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|Sutterella wadsworthensis	0.04042672279700057
+40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	3.6902447979844655
+225992	species	2|1224|28216|80840|80864|283|225992	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas|Comamonas kerstersii	0.06422873012229455
+853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	33.433974614400505
+44742	species	2|1224|28221|213115|194924|872|44742	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio|Desulfovibrio fairfieldensis	0.34600136537057957
+626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	4.953359978809639
+1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	2.412145642386516
+1851429	species	2|1239|186801|186802|990719|990721|1851429	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella sp. AF73-05CM02	2.648506094858046
+1735	species	2|1239|526524|526525|128827|1573535|1735	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemanella|Holdemanella biformis	0.10322217182932217
+89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	0.13203349475647436
+29391	species	2|1239|91061|1385||1378|29391	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella|Gemella morbillorum	0.017598972891136388
+626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.27335341078647
+1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.017395281074382294
+# Taxonomic Profiling Output
+# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
+# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_7.mgc.tsv -n 7 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_7.cami_precision.profile
+
+@SampleID: 7
+@Version:0.9.3
+@Ranks:domain|phylum|class|order|family|genus|species|strain
+@TaxonomyID: Jan 08 2019
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	domain	2	Bacteria	100.0
+1224	phylum	2|1224	Bacteria|Proteobacteria	1.3915374805453955
+1239	phylum	2|1239	Bacteria|Firmicutes	84.81401815634435
+201174	phylum	2|201174	Bacteria|Actinobacteria	0.6193040874849889
+976	phylum	2|976	Bacteria|Bacteroidetes	13.136542045919386
+74201	phylum	2|74201	Bacteria|Verrucomicrobia	0.03859822970587587
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	1.2930026165817448
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	5.316541222288804
+84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	0.5926649857054551
+186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	69.92965203125421
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.029173828902784534
+909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	0.04559019517689725
+200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	13.19030811997315
+526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	9.460080556133812
+28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.10423023698998148
+203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	0.03875620699316015
+135623	order	2|1224|1236|135623	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales	0.016536694924627286
+91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	1.2764659216571175
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.038721236585185254
+186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	5.27781998570362
+1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.05143065341408421
+186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	69.92965203125422
+2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.022010433328615703
+1843489	order	2|1239|909932|1843489	Bacteria|Firmicutes|Negativicutes|Veillonellales	0.045590195176897254
+171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	13.190308119973151
+526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	9.460080556133814
+85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.007163395574168833
+213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.10423023698998149
+84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.541234332291371
+48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	0.03875620699316016
+641	family	2|1224|1236|135623|641	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae	0.016856753584109714
+543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	1.3011712193978502
+81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.018943969535962273
+1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.05242606549993595
+186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	0.19618490728507712
+186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	67.75379423580488
+1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	4.959657035334783
+33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.4013682916421463
+2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.022436433192427236
+31977	family	2|1239|909932|1843489|31977	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae	0.04647256839720318
+31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	1.3648698210091148
+815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	12.477860354234618
+2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	0.9515774892965503
+128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	9.643175226211016
+31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.00730203916620828
+541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	0.03901883569731899
+216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.03325980572765929
+171552	family	2|976|200643|171549|171552	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae	0.016161454895764208
+194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.10624755605407502
+84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.5517096259125326
+1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	0.03950631212078039
+662	genus	2|1224|1236|135623|641|662	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae|Vibrio	0.017572979445193197
+570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.048581974754584596
+561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	1.290356817199692
+590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.0175178341133826
+1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.01974887902375499
+84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.05465359428942401
+1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	0.018267755381682245
+841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	7.115769732857492
+1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.023320335066936693
+1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	5.1470673497423665
+1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.41842201131946244
+1257	genus	2|1239|186801|186802|186804|1257	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Peptostreptococcus	0.010376114877782127
+1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.023389733814798343
+906	genus	2|1239|909932|1843489|31977|906	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera	0.02448399036767932
+572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	48.10302594845453
+1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.9115573536769525
+816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	13.008031613611376
+375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.9920090233554896
+33042	genus	2|1239|186801|186802|186803|33042	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Coprococcus	1.0242530494697644
+29465	genus	2|1239|909932|1843489|31977|29465	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella	0.023963148942657705
+123375	genus	2|1239|526524|526525|128827|123375	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Solobacterium	4.276026519115953
+1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.007612295186941292
+946234	genus	2|1239|186801|186802|541000|946234	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor	0.022110131663073653
+459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.034672980149288005
+1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.14899668628330814
+207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	8.076632741893178
+189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	0.0426495316094454
+1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	3.2797558174046335
+1505657	genus	2|1239|186801|186802|186804|1505657	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter	0.15208715608958195
+838	genus	2|976|200643|171549|171552|838	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	0.016848138241482218
+1392389	genus	2|1239|186801|186802||1392389	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas	1.9121207304967074
+35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.1107619037867594
+191303	genus	2|1239|526524|526525|128827|191303	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter	0.12933245774288057
+216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	0.018566573626770614
+1573536	genus	2|1239|526524|526525|128827|1573536	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus	2.1074641044538143
+580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.5113043610821318
+1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.02378957282656739
+1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	0.19774682896692783
+1378	genus	2|1239|91061|1385||1378	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella	0.022816143613577717
+102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.5751511919243737
+239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	0.041184894077605796
+670	species	2|1224|1236|135623|641|662|670	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae|Vibrio|Vibrio parahaemolyticus	0.017909610336130345
+573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.049512619071112
+562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	1.31507510508909
+28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.017853408631253575
+1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.0201271918056888
+84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.055700547550591055
+1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	0.01861769551498387
+301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	7.252080590805411
+1363	species	2|1239|91061|186826|1300|1357|1363	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus garvieae	0.023767063249543377
+1624	species	2|1239|91061|186826|33958|1578|1624	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus salivarius	0.01058800164366763
+1261	species	2|1239|186801|186802|186804|1257|1261	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Peptostreptococcus|Peptostreptococcus anaerobius	0.010574881444753185
+103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.023837791411258576
+1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	5.172596983770532
+907	species	2|1239|909932|1843489|31977|906|907	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera|Megasphaera elsdenii	0.024953009723041
+33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.2600738215938867
+1309	species	2|1239|91061|186826|1300|1301|1309	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mutans	0.021785867403307672
+1502	species	2|1239|186801|186802|31979|1485|1502	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium perfringens	0.9212470476724139
+818	species	2|976|200643|171549|815|816|818	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides thetaiotaomicron	3.6391667014774325
+328812	species	2|976|200643|171549|2005525|375288|328812	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.976321342110696
+1311	species	2|1239|91061|186826|1300|1301|1311	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus agalactiae	0.015131080365249279
+29466	species	2|1239|909932|1843489|31977|29465|29466	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella parvula	0.024422190973827498
+33035	species	2|1239|186801|186802|186803|572511|33035	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia producta	18.02782193515898
+102148	species	2|1239|526524|526525|128827|123375|102148	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Solobacterium|Solobacterium moorei	4.357938787965423
+1680	species	2|201174|1760|85004|31953|1678|1680	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium adolescentis	0.007758117568333628
+292800	species	2|1239|186801|186802|541000|946234|292800	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor|Flavonifractor plautii	0.0225336769897891
+1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	11.100520659356464
+1579	species	2|1239|91061|186826|33958|1578|1579	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus acidophilus	0.41584937069624567
+1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.15185089136598423
+105841	species	2|1239|186801|186802|186803|207244|105841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes caccae	8.231350050028388
+47678	species	2|976|200643|171549|815|816|47678	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides caccae	8.978004210521842
+39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	0.3735886620017504
+39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	0.043466533067195744
+39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	3.3425833604694053
+261299	species	2|1239|186801|186802|186804|1505657|261299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter|Intestinibacter bartlettii	0.1550005627212922
+165179	species	2|976|200643|171549|171552|838|165179	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|Prevotella copri	0.017170883954840108
+1297617	species	2|1239|186801|186802||1392389|1297617	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales fam. incertae sedis|Intestinimonas|Intestinimonas butyriciproducens	1.9487496303991978
+35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.11288367707340777
+154288	species	2|1239|526524|526525|128827|191303|154288	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter|Turicibacter sanguinis	0.13180997162223507
+40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	19.636079026593688
+853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	0.01892223797163159
+1323	species	2|1239|526524|526525|128827|1573536|1323	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus|Faecalicoccus pleomorphus	2.1478350342277297
+1193532	species	2|1239|186801|186802|31979|580596|1193532	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus|uncultured Butyricicoccus sp.	0.0639656336632797
+1262805	species	2|1239|186801|186802|31979|1485|1262805	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium sp. CAG:43	0.007772248930359145
+1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.02424528980504551
+89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	0.2015348998187003
+29391	species	2|1239|91061|1385||1378|29391	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella|Gemella morbillorum	0.023253213421594227
+626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.5861688829633299
+# Taxonomic Profiling Output
+# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
+# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_8.mgc.tsv -n 8 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_8.cami_precision.profile
+
+@SampleID: 8
+@Version:0.9.3
+@Ranks:domain|phylum|class|order|family|genus|species|strain
+@TaxonomyID: Jan 08 2019
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	domain	2	Bacteria	100.0
+1224	phylum	2|1224	Bacteria|Proteobacteria	2.4016921930629938
+1239	phylum	2|1239	Bacteria|Firmicutes	70.62893459329297
+201174	phylum	2|201174	Bacteria|Actinobacteria	0.905870256531191
+976	phylum	2|976	Bacteria|Bacteroidetes	23.909803365766376
+74201	phylum	2|74201	Bacteria|Verrucomicrobia	2.1536995913464625
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	1.7861484082618186
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	1.646602896928901
+84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	0.4896387849651734
+186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	65.61713447495576
+200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	23.964391822490008
+29547	class	2|1224|29547	Bacteria|Proteobacteria|Epsilonproteobacteria	0.015492913937031826
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	0.4182996633674894
+909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	1.72208023543062
+203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	2.1586167015016327
+526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	1.5760599253923788
+28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.12432558912058045
+28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	0.4812085836485973
+135623	order	2|1224|1236|135623	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales	0.017092619968039152
+91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	1.7690557882937794
+186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	1.621709102985384
+1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.05255378885255532
+186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	65.61713447495576
+171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	23.964391822490008
+213849	order	2|1224|29547|213849	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales	0.015492913937031826
+85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	0.39767077849988536
+2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.020628884867604037
+1843489	order	2|1239|909932|1843489	Bacteria|Firmicutes|Negativicutes|Veillonellales	0.03497840703679651
+1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	1.6871018283938235
+48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	2.1586167015016327
+526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	1.5760599253923788
+213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.12432558912058045
+80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	0.4812085836485973
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.024893793943516738
+84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.4370849961126181
+641	family	2|1224|1236|135623|641	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae	0.017381229976481644
+543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	1.7989264112263315
+81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	0.7384948993513454
+1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.053441163021803934
+186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	1.2836958373227274
+815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	21.03236105945393
+186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	34.64109054218232
+1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	0.761226869702363
+33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	0.036415826679163384
+72294	family	2|1224|29547|213849|72294	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	0.015754512804293047
+31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	0.40438547565893945
+2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.020977204940649072
+31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.44890075992956335
+81850	family	2|1239|91061|186826|81850	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae	0.11295417174625635
+31977	family	2|1239|909932|1843489|31977	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae	0.035569019732162775
+909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	1.7155886533420497
+1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	2.1950650859862466
+541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	28.513406552084458
+171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	0.27187237636215106
+216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.053458686297048204
+128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	1.6026718005305325
+2005519	family	2|976|200643|171549|2005519	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae	1.276413445027667
+2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	1.6648474560871367
+1853231	family	2|976|200643|171549|1853231	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae	0.12353781215274712
+194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.12642483484141212
+995019	family	2|1224|28216|80840|995019	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae	0.48933382212281085
+990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	0.022316079832818872
+84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.4304603063447452
+186806	family	2|1239|186801|186802|186806	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae	0.09902320668524128
+1643824	family	2|201174|84998|84999|1643824	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae	0.014004898574599193
+662	genus	2|1224|1236|135623|641|662	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae|Vibrio	0.017591269436800595
+570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.03053668599059129
+561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	1.5871372896473244
+590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.2029911464321682
+1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	0.7474190704438365
+84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.05408696041675844
+1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	1.086968342186744
+816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	21.28652177029767
+841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	0.8381821599887613
+1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.020631866469566076
+1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.03685588532824113
+194	genus	2|1224|29547|213849|72294|194	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	0.01594489457655423
+1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	0.4092721785667978
+1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.02123069913011068
+1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	0.7497938735721753
+572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	26.584516164697526
+1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.030905749118758916
+33042	genus	2|1239|186801|186802|186803|33042	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Coprococcus	0.03513783398048858
+1243	genus	2|1239|91061|186826|81850|1243	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Leuconostoc	0.1143191403535678
+29465	genus	2|1239|909932|1843489|31977|29465	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella	0.0359988453382175
+904	genus	2|1239|909932|1843488|909930|904	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	1.6136865923072983
+239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	2.2215908431765823
+1407607	genus	2|1239|186801|186802|186803|1407607	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter	0.11513426069047403
+946234	genus	2|1239|186801|186802|541000|946234	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor	10.327497356820455
+239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	0.2751577553188765
+459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.05410469544797627
+1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.5050370261015891
+207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	0.9876627888427914
+1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	3.0911019400871793
+397864	genus	2|976|200643|171549|2005519|397864	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella	1.291837968579811
+375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	1.6849659207563852
+189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	2.1739207139342405
+1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	1.0295726470533477
+1505657	genus	2|1239|186801|186802|186804|1505657	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter	0.015907622601056427
+283168	genus	2|976|200643|171549|1853231|283168	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter	0.1250306763187847
+33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	0.12263369598606759
+35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.12795258656651637
+191303	genus	2|1239|526524|526525|128827|191303	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter	0.06729975190917392
+40544	genus	2|1224|28216|80840|995019|40544	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	0.4952470637089101
+216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	18.53047287298752
+990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	0.022585753346768246
+580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.423419648392837
+61170	genus	2|1239|526524|526525|128827|61170	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.02012949278247622
+1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.19633239847525377
+1378	genus	2|1239|91061|1385||1378	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella	0.02562003001198387
+102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.43566210452333903
+1730	genus	2|1239|186801|186802|186806|1730	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium	0.10021982976193741
+1935188	genus	2|201174|84998|84999|1643824|1935188	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus	0.014174137537688154
+670	species	2|1224|1236|135623|641|662|670	Bacteria|Proteobacteria|Gammaproteobacteria|Vibrionales|Vibrionaceae|Vibrio|Vibrio parahaemolyticus	0.018023090819391786
+573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.03128628476239024
+562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	1.6260975148453867
+28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.20797406809231486
+1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.019717740371835362
+53346	species	2|1239|91061|186826|81852|1350|53346	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus mundtii	0.016108689446040884
+1352	species	2|1239|91061|186826|81852|1350|1352	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	0.710751341611636
+1354	species	2|1239|91061|186826|81852|1350|1354	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus hirae	0.01918855573355159
+84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.05541465914317664
+1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	1.1136506787879905
+820	species	2|976|200643|171549|815|816|820	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	21.657608039634766
+301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	0.8587574220805596
+1363	species	2|1239|91061|186826|1300|1357|1363	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus garvieae	0.02113832685528939
+1590	species	2|1239|91061|186826|33958|1578|1590	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus plantarum	0.020501782374688544
+196	species	2|1224|29547|213849|72294|194|196	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter fetus	0.01633630160070647
+216816	species	2|201174|1760|85004|31953|1678|216816	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium longum	0.13363359264576424
+103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.02175185935022322
+1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	0.7539564936065266
+33038	species	2|1239|186801|186802|186803|572511|33038	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] gnavus	0.4189588908421835
+1309	species	2|1239|91061|186826|1300|1301|1309	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mutans	0.014242932123641637
+1502	species	2|1239|186801|186802|31979|1485|1502	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium perfringens	0.015957770590640775
+1599	species	2|1239|91061|186826|33958|1578|1599	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus sakei	0.017258822161921317
+1245	species	2|1239|91061|186826|81850|1243|1245	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Leuconostoc|Leuconostoc mesenteroides	0.11712538747640716
+29466	species	2|1239|909932|1843489|31977|29465|29466	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella parvula	0.03688252637223745
+187327	species	2|1239|909932|1843488|909930|904|187327	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|Acidaminococcus intestini	1.6532985360537373
+1150298	species	2|1239|186801|186802|186803|1407607|1150298	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Fusicatenibacter|Fusicatenibacter saccharivorans	0.1179605169657015
+28026	species	2|201174|1760|85004|31953|1678|28026	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium pseudocatenulatum	0.008354213460372538
+1680	species	2|201174|1760|85004|31953|1678|1680	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium adolescentis	0.2773309741933991
+292800	species	2|1239|186801|186802|541000|946234|292800	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor|Flavonifractor plautii	10.581011419768043
+1737424	species	2|1239|186801|186802|186803|572511|1737424	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia massiliensis	4.219770543501236
+1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.5174344137747435
+105841	species	2|1239|186801|186802|186803|207244|105841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes caccae	1.0119074240889405
+487174	species	2|976|200643|171549|2005519|397864|487174	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella|Barnesiella intestinihominis	1.3235493387955912
+1504823	species	2||||||1504823	Bacteria|Bacteria phylum incertae sedis|Bacteria class incertae sedis|Bacteria order incertae sedis|Bacteria fam. incertae sedis|Bacteria gen. incertae sedis|bacterium LF-3	0.019173411772686142
+823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	1.7263275925864987
+39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	0.910816603440674
+39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	2.227284995102652
+39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	1.0548460638198813
+53443	species	2|1239|186801|186802|186803|572511|53443	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia hydrogenotrophica	0.020744174369403477
+261299	species	2|1239|186801|186802|186804|1505657|261299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Intestinibacter|Intestinibacter bartlettii	0.016298114692034047
+28118	species	2|976|200643|171549|1853231|283168|28118	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter|Odoribacter splanchnicus	0.12809986468567655
+626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	0.12564404451965258
+35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.1310935004747352
+154288	species	2|1239|526524|526525|128827|191303|154288	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Turicibacter|Turicibacter sanguinis	0.06895179140648657
+40545	species	2|1224|28216|80840|995019|40544|40545	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|Sutterella wadsworthensis	0.5074041324493627
+40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	22.577625507260638
+457396	species	2|1239|186801|186802|31979|1485|457396	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium sp. 7_2_43FAA	0.015706636870679812
+853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	18.985349335702733
+626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	0.02314017673685412
+1193532	species	2|1239|186801|186802|31979|580596|1193532	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus|uncultured Butyricicoccus sp.	0.04503264698552967
+1468449	species	2|1239|526524|526525|128827|61170|1468449	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis	0.02062362115879476
+1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	0.2011518646349653
+89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	2.9719382683997093
+29391	species	2|1239|91061|1385||1378|29391	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella|Gemella morbillorum	0.026248937256088636
+626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.44635651250758007
+1262884	species	2|1239|186801|186802|186806|1730|1262884	Bacteria|Firmicutes|Clostridia|Clostridiales|Eubacteriaceae|Eubacterium|Eubacterium sp. CAG:202	0.10267997430160995
+1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.01452207693402062
+# Taxonomic Profiling Output
+# git tag version 3.1.0 |  motus version 3.1.0 | map_tax 3.1.0 | gene database: nr3.1.0 | calc_mgc 3.1.0 -y insert.scaled_counts -l 75 | calc_motu 3.1.0 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_3.1.0 meta_mOTU_3.1.0
+# call: python /home/yl2800/miniconda3/envs/motus/bin/motus profile -m /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_9.mgc.tsv -n 9 -C precision -o /projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/motus/results/sample_9.cami_precision.profile
+
+@SampleID: 9
+@Version:0.9.3
+@Ranks:domain|phylum|class|order|family|genus|species|strain
+@TaxonomyID: Jan 08 2019
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	domain	2	Bacteria	100.0
+1224	phylum	2|1224	Bacteria|Proteobacteria	2.691650521000564
+1239	phylum	2|1239	Bacteria|Firmicutes	61.74832703569153
+201174	phylum	2|201174	Bacteria|Actinobacteria	1.741636628204547
+976	phylum	2|976	Bacteria|Bacteroidetes	33.60449198505812
+74201	phylum	2|74201	Bacteria|Verrucomicrobia	0.21389383004523968
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	1.8459569366226982
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	7.436792154090896
+84998	class	2|201174|84998	Bacteria|Actinobacteria|Coriobacteriia	0.7000681989496543
+186801	class	2|1239|186801	Bacteria|Firmicutes|Clostridia	53.065479311526985
+200643	class	2|976|200643	Bacteria|Bacteroidetes|Bacteroidia	33.610164712078706
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	1.041862432484141
+909932	class	2|1239|909932	Bacteria|Firmicutes|Negativicutes	0.05736576349663804
+29547	class	2|1224|29547	Bacteria|Proteobacteria|Epsilonproteobacteria	0.34616443808321795
+526524	class	2|1239|526524	Bacteria|Firmicutes|Erysipelotrichia	1.1590903055121053
+1737404	class	2|1239|1737404	Bacteria|Firmicutes|Tissierellia	0.023142289960433923
+203494	class	2|74201|203494	Bacteria|Verrucomicrobia|Verrucomicrobiae	0.21392993716180536
+28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	0.4419183768713312
+28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	0.05806514316142443
+91347	order	2|1224|1236|91347	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales	1.8459569366226978
+186826	order	2|1239|91061|186826	Bacteria|Firmicutes|Bacilli|Lactobacillales	7.415385267258526
+1643822	order	2|201174|84998|1643822	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales	0.05478133104191549
+186802	order	2|1239|186801|186802	Bacteria|Firmicutes|Clostridia|Clostridiales	53.06547931152698
+171549	order	2|976|200643|171549	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	33.61016471207869
+85004	order	2|201174|1760|85004	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales	1.0257437991963638
+2037	order	2|201174|1760|2037	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales	0.016118633287776796
+1843489	order	2|1239|909932|1843489	Bacteria|Firmicutes|Negativicutes|Veillonellales	0.022680350072036122
+213849	order	2|1224|29547|213849	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales	0.3461644380832179
+526525	order	2|1239|526524|526525	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales	1.1590903055121051
+1737405	order	2|1239|1737404|1737405	Bacteria|Firmicutes|Tissierellia|Tissierellales	0.023142289960433916
+48461	order	2|74201|203494|48461	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales	0.21392993716180525
+1843488	order	2|1239|909932|1843488	Bacteria|Firmicutes|Negativicutes|Acidaminococcales	0.010471066025449735
+213115	order	2|1224|28221|213115	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales	0.4419183768713311
+909929	order	2|1239|909932|909929	Bacteria|Firmicutes|Negativicutes|Selenomonadales	0.02421434739915217
+80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	0.05806514316142442
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	0.02140688683236885
+84999	order	2|201174|84998|84999	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales	0.6452868679077387
+543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	1.8833103307603338
+81850	family	2|1239|91061|186826|81850	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae	0.01550593809863921
+81852	family	2|1239|91061|186826|81852	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae	4.819259736721595
+1643826	family	2|201174|84998|1643822|1643826	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae	0.055889844793886735
+186804	family	2|1239|186801|186802|186804	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae	0.8535770369951315
+815	family	2|976|200643|171549|815	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae	12.508979783666572
+186803	family	2|1239|186801|186802|186803	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	38.195138178419135
+1300	family	2|1239|91061|186826|1300	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae	1.6310794510874465
+171550	family	2|976|200643|171549|171550	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae	0.6666509155831996
+33958	family	2|1239|91061|186826|33958	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae	1.099592292121544
+31953	family	2|201174|1760|85004|31953	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae	1.0464999780949453
+2049	family	2|201174|1760|2037|2049	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae	0.016444797809935095
+31977	family	2|1239|909932|1843489|31977	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae	0.02313929255255266
+72294	family	2|1224|29547|213849|72294	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	0.3531691609105081
+541000	family	2|1239|186801|186802|541000	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae	12.412913680580797
+216572	family	2|1239|186801|186802|216572	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae	0.10353585367431864
+31979	family	2|1239|186801|186802|31979	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae	0.5210064028466891
+128827	family	2|1239|526524|526525|128827	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	1.1825447838717789
+1570339	family	2|1239|1737404|1737405|1570339	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae	0.023610579908584662
+1647988	family	2|74201|203494|48461|1647988	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	0.21825886223156596
+2005525	family	2|976|200643|171549|2005525	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae	0.6181380705062226
+909930	family	2|1239|909932|1843488|909930	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae	0.010682950630409931
+194924	family	2|1224|28221|213115|194924	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae	0.45086070427910924
+1843491	family	2|1239|909932|909929|1843491	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae	0.02470433069412599
+995019	family	2|1224|28216|80840|995019	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae	0.05924010566197719
+990719	family	2|1239|186801|186802|990719	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae	0.03364580744225684
+543314	family	2|1239|186801|186802|543314	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis	0.01777080391933937
+84107	family	2|201174|84998|84999|84107	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	0.5864019512863153
+1643824	family	2|201174|84998|84999|1643824	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae	0.07194245563037638
+171552	family	2|976|200643|171549|171552	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae	20.496505919220695
+570	genus	2|1224|1236|91347|543|570	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	0.012608851442177495
+561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	2.0838608321296337
+590	genus	2|1224|1236|91347|543|590	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.08337061274571898
+46255	genus	2|1239|91061|186826|81850|46255	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Weissella	0.01794737072672085
+1350	genus	2|1239|91061|186826|81852|1350	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	5.578059229508478
+84111	genus	2|201174|84998|1643822|1643826|84111	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	0.06468978258482819
+1870884	genus	2|1239|186801|186802|186804|1870884	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides	0.1045586269528844
+816	genus	2|976|200643|171549|815|816	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	14.478536942580892
+841	genus	2|1239|186801|186802|186803|841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia	0.38298424121821345
+1357	genus	2|1239|91061|186826|1300|1357	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.03360766637629989
+239759	genus	2|976|200643|171549|171550|239759	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	0.7716160770904649
+1578	genus	2|1239|91061|186826|33958|1578	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	1.2727247064582303
+1678	genus	2|201174|1760|85004|31953|1678	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	1.2112729299508505
+1654	genus	2|201174|1760|2037|2049|1654	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces	0.01903405527246195
+1301	genus	2|1239|91061|186826|1300|1301	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	1.8542876294247181
+906	genus	2|1239|909932|1843489|31977|906	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera	0.026782608001715093
+194	genus	2|1224|29547|213849|72294|194	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	0.4087761617378105
+946234	genus	2|1239|186801|186802|541000|946234	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor	0.014959158533922948
+459786	genus	2|1239|186801|186802|216572|459786	Bacteria|Firmicutes|Clostridia|Clostridiales|Oscillospiraceae|Oscillibacter	0.1198377252366043
+1485	genus	2|1239|186801|186802|31979|1485	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium	0.1489378523354379
+1505663	genus	2|1239|526524|526525|128827|1505663	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium	0.09592292835066535
+207244	genus	2|1239|186801|186802|186803|207244	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes	9.25932483823691
+1506553	genus	2|1239|186801|186802|186803|1506553	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium	2.3792685420413466
+150022	genus	2|1239|1737404|1737405|1570339|150022	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae|Finegoldia	0.02732810024112141
+239934	genus	2|74201|203494|48461|1647988|239934	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	0.2526240392515158
+375288	genus	2|976|200643|171549|2005525|375288	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.7154648136154165
+572511	genus	2|1239|186801|186802|186803|572511	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia	11.335616805317786
+189330	genus	2|1239|186801|186802|186803|189330	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea	5.081399070150869
+1573534	genus	2|1239|526524|526525|128827|1573534	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea	1.2256741622625382
+33024	genus	2|1239|909932|1843488|909930|33024	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	0.012364996828927714
+35832	genus	2|1224|28221|213115|194924|35832	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila	0.504647824413242
+52225	genus	2|1239|909932|909929|1843491|52225	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae|Mitsuokella	0.02859406368724629
+1905344	genus	2|1239|186801|186802|541000|1905344	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruthenibacterium	7.769532828246044
+40544	genus	2|1224|28216|80840|995019|40544	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	0.06856754692571136
+216851	genus	2|1239|186801|186802|541000|216851	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium	6.582853104306106
+872	genus	2|1224|28221|213115|194924|872	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio	0.01720155705164063
+990721	genus	2|1239|186801|186802|990719|990721	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella	0.03894338902455961
+580596	genus	2|1239|186801|186802|31979|580596	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus	0.45410177051107714
+61170	genus	2|1239|526524|526525|128827|61170	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.025278809927863723
+1501226	genus	2|1239|186801|186802|186804|1501226	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia	0.8834153627093064
+1926556	genus	2|1239|186801|186802|543314|1926556	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia	0.02056884298282072
+1573535	genus	2|1239|526524|526525|128827|1573535	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemanella	0.021862288795530347
+1378	genus	2|1239|91061|1385||1378	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella	0.025278809927863723
+102106	genus	2|201174|84998|84999|84107|102106	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	0.6787317960163671
+1935188	genus	2|201174|84998|84999|1643824|1935188	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus	0.0832699004713777
+838	genus	2|976|200643|171549|171552|838	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	23.72371074839807
+573	species	2|1224|1236|91347|543|570|573	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	0.016658383958396427
+562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	2.7531257717383335
+28901	species	2|1224|1236|91347|543|590|28901	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.11014640662029423
+137591	species	2|1239|91061|186826|81850|46255|137591	Bacteria|Firmicutes|Bacilli|Lactobacillales|Leuconostocaceae|Weissella|Weissella cibaria	0.023711453337399987
+1351	species	2|1239|91061|186826|81852|1350|1351	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	7.185833630667073
+53345	species	2|1239|91061|186826|81852|1350|53345	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus durans	0.14076810037357515
+84112	species	2|201174|84998|1643822|1643826|84111|84112	Bacteria|Actinobacteria|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|Eggerthella lenta	0.08546593172463873
+1496	species	2|1239|186801|186802|186804|1870884|1496	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Clostridioides|Clostridioides difficile	0.13813928746257698
+820	species	2|976|200643|171549|815|816|820	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	18.718045523252027
+301301	species	2|1239|186801|186802|186803|841|301301	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|Roseburia hominis	0.5059857013531703
+1363	species	2|1239|91061|186826|1300|1357|1363	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus garvieae	0.044401301181910775
+328814	species	2|976|200643|171549|171550|239759|328814	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|Alistipes shahii	0.6571014390470888
+1596	species	2|1239|91061|186826|33958|1578|1596	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus gasseri	0.2986141721310735
+216816	species	2|201174|1760|85004|31953|1678|216816	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium longum	0.06473111043351819
+103621	species	2|201174|1760|2037|2049|1654|103621	Bacteria|Actinobacteria|Actinobacteria|Actinomycetales|Actinomycetaceae|Actinomyces|Actinomyces urogenitalis	0.02514714385113362
+1304	species	2|1239|91061|186826|1300|1301|1304	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus salivarius	0.10363352861539436
+907	species	2|1239|909932|1843489|31977|906|907	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera|Megasphaera elsdenii	0.03538426711947534
+1305	species	2|1239|91061|186826|1300|1301|1305	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sanguinis	0.3837955771064859
+818	species	2|976|200643|171549|815|816|818	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides thetaiotaomicron	0.125580646507433
+197	species	2|1224|29547|213849|72294|194|197	Bacteria|Proteobacteria|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|Campylobacter jejuni	0.5400611060012636
+97478	species	2|1239|91061|186826|33958|1578|97478	Bacteria|Firmicutes|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus mucosae	1.3828662490433683
+28026	species	2|201174|1760|85004|31953|1678|28026	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium pseudocatenulatum	1.5024517311056298
+37734	species	2|1239|91061|186826|81852|1350|37734	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus casseliflavus	0.04293964344175516
+292800	species	2|1239|186801|186802|541000|946234|292800	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Flavonifractor|Flavonifractor plautii	0.019763529429733372
+1681	species	2|201174|1760|85004|31953|1678|1681	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|Bifidobacterium bifidum	0.03310959096876132
+1547	species	2|1239|526524|526525|128827|1505663|1547	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium|Erysipelatoclostridium ramosum	0.12673009736112645
+105841	species	2|1239|186801|186802|186803|207244|105841	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|Anaerostipes caccae	12.233103788891164
+1260	species	2|1239|1737404|1737405|1570339|150022|1260	Bacteria|Firmicutes|Tissierellia|Tissierellales|Peptoniphilaceae|Finegoldia|Finegoldia magna	0.036104952838712165
+239935	species	2|74201|203494|48461|1647988|239934|239935	Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|Akkermansia muciniphila	0.33375825405442344
+1504823	species	2||||||1504823	Bacteria|Bacteria phylum incertae sedis|Bacteria class incertae sedis|Bacteria order incertae sedis|Bacteria fam. incertae sedis|Bacteria gen. incertae sedis|bacterium LF-3	0.025360107918902156
+823	species	2|976|200643|171549|2005525|375288|823	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.9452476800591022
+39491	species	2|1239|186801|186802|186803||39491	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnospiraceae gen. incertae sedis|[Eubacterium] rectale	0.6661085429104755
+33039	species	2|1239|186801|186802|186803|572511|33039	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|[Ruminococcus] torques	4.442859613781379
+39486	species	2|1239|186801|186802|186803|189330|39486	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea formicigenerans	0.7505256249440497
+39483	species	2|1239|526524|526525|128827|1573534|39483	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalitalea|Faecalitalea cylindroides	1.619318848864888
+53443	species	2|1239|186801|186802|186803|572511|53443	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia hydrogenotrophica	0.03177641782596005
+88431	species	2|1239|186801|186802|186803|189330|88431	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Dorea|Dorea longicatena	5.96284530694421
+626940	species	2|1239|909932|1843488|909930|33024|626940	Bacteria|Firmicutes|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|Phascolarctobacterium succinatutens	0.016336211570517168
+1302	species	2|1239|91061|186826|1300|1301|1302	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus gordonii	1.9623923900675244
+35833	species	2|1224|28221|213115|194924|35832|35833	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Bilophila|Bilophila wadsworthia	0.6667234729028911
+187979	species	2|1239|909932|909929|1843491|52225|187979	Bacteria|Firmicutes|Negativicutes|Selenomonadales|Selenomonadaceae|Mitsuokella|Mitsuokella jalaludinii	0.03777750051361768
+1550024	species	2|1239|186801|186802|541000|1905344|1550024	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruthenibacterium|Ruthenibacterium lactatiformans	10.264841458702813
+40545	species	2|1224|28216|80840|995019|40544|40545	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|Sutterella wadsworthensis	0.05882079988438682
+40520	species	2|1239|186801|186802|186803|572511|40520	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Blautia|Blautia obeum	10.501593802981313
+457396	species	2|1239|186801|186802|31979|1485|457396	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Clostridium|Clostridium sp. 7_2_43FAA	0.13793189746018436
+853	species	2|1239|186801|186802|541000|216851|853	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Faecalibacterium|Faecalibacterium prausnitzii	8.69704073016782
+44742	species	2|1224|28221|213115|194924|872|44742	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio|Desulfovibrio fairfieldensis	0.022726109777926384
+626937	species	2|1239|186801|186802|990719|990721|626937	Bacteria|Firmicutes|Clostridia|Clostridiales|Christensenellaceae|Christensenella|Christensenella minuta	0.05145067574055592
+1193532	species	2|1239|186801|186802|31979|580596|1193532	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiaceae|Butyricicoccus|uncultured Butyricicoccus sp.	0.06107140100768873
+1468449	species	2|1239|526524|526525|128827|61170|1468449	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis	0.03339750045599351
+1720299	species	2|1239|186801|186802|186804|1501226|1720299	Bacteria|Firmicutes|Clostridia|Clostridiales|Peptostreptococcaceae|Romboutsia|Romboutsia sp. MT17	1.1671382103472727
+1776384	species	2|1239|186801|186802|543314|1926556|1776384	Bacteria|Firmicutes|Clostridia|Clostridiales|Clostridiales Family XIII. Incertae Sedis|Emergencia|Emergencia timonensis	0.027174852964135052
+1735	species	2|1239|526524|526525|128827|1573535|1735	Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemanella|Holdemanella biformis	0.028883709403304578
+89153	species	2|1239|186801|186802|186803|1506553|89153	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	3.1133706921614475
+29391	species	2|1239|91061|1385||1378|29391	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillales fam. incertae sedis|Gemella|Gemella morbillorum	0.03339750045599351
+626935	species	2|201174|84998|84999|84107|102106|626935	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|Collinsella tanakaei	0.8967172715661758
+1871022	species	2|201174|84998|84999|1643824|1935188|1871022	Bacteria|Actinobacteria|Coriobacteriia|Coriobacteriales|Atopobiaceae|Libanicoccus|Libanicoccus massiliensis	0.11001334900255687

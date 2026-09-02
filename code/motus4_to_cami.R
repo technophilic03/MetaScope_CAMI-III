@@ -2,15 +2,10 @@
 
 # Convert mOTUs 4 profiles into a CAMI III taxonomic profile.
 #
-# mOTUs 4 dropped the CAMI writer that version 3 had, and it names taxa with
-# GTDB lineages instead of NCBI taxids. OPAL scores against a gold standard
-# keyed on NCBI taxids, so every GTDB lineage has to be resolved to a taxid
-# before the profile can be compared.
-#
 # Unlike metascope_to_cami.R there is no genome length correction here. CAMI
 # defines PERCENTAGE as genome (cell) abundance, and mOTUs already reports that:
 # its abundances come from marker gene coverage, which is per genome copy, not
-# per read. Dividing by genome length again would double-correct.
+# per read. 
 #
 # Usage:
 #   Rscript code/motus4_to_cami.R --taxdump DIR --out FILE in1.motus4.relab ...

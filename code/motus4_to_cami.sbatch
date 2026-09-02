@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #SBATCH --job-name=motus4_to_cami
-#SBATCH --partition=p_wj183_1
+#SBATCH --partition=main,p_wj183_1
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
