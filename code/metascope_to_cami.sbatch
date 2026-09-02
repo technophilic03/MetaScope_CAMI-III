@@ -25,7 +25,7 @@ set -euo pipefail
 stem=/projectsp/f_wj183_1/work/Yaoan/CAMI-III
 
 taxDump="${stem}/db"
-genomeLengths="${stem}/db/genome_lengths.tsv"
+genomeLengths="${stem}/db/genome_lengths_new.tsv"
 sampleMap="${stem}/code/sample_map_toy.tsv"
 inDir="${stem}/output/toy/metascope/results"
 outFile="${stem}/output/toy/cami/metascope_toy.profile"

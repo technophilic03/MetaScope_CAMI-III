@@ -53,10 +53,10 @@ profileOut="${outDir}/${sampleName}.motus4"
 now=$SECONDS
 
 echo "PROFILING ${sampleName} AS SAMPLE ${sampleId}"
-motus --version
+motus --help
 
 motus profile -f "$readPath1" -r "$readPath2" \
-    -n "$sampleId" -t "$threads" -o "$profileOut"
+    -n "$sampleId" -t "$threads" -o "$profileOut" -db /home/yl2800/wejlab/reflib/motus_db_4.1 
 
 [[ -s "$profileOut" ]] || { echo "EMPTY OUTPUT: $profileOut" >&2; exit 1; }
 

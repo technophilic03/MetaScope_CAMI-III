@@ -1,16 +1,18 @@
 #!/bin/bash -l
 #SBATCH --job-name=metascope_metag
-#SBATCH --partition=p_wj183_1,main,mem
-#SBATCH --array=0-19
+#SBATCH --partition=p_wj183_1,mem
+#SBATCH --array=1-19
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=240G
 #SBATCH --time=3-00:00:00
 #SBATCH --mail-user=yl2800@rutgers.edu
+#SBATCH --requeue
 #SBATCH --mail-type=END,FAIL
 #SBATCH --output=/projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/logs/%x_%A_%a.out
 #SBATCH --error=/projectsp/f_wj183_1/work/Yaoan/CAMI-III/output/toy/logs/%x_%A_%a.err
+#SBATCH --open-mode=append
 
 set -euo pipefail
 
@@ -48,7 +50,10 @@ for f in "$readsTar" "$taxDB"; do
 done
 
 for lib in ${target//,/ }; do
-    [[ -e "${indexDir}/${lib}.1.bt2l" ]] || { echo "MISSING INDEX: ${lib}" >&2; exit 1; }
+    for ext in 1 2 3 4 rev.1 rev.2; do
+        [[ -e "${indexDir}/${lib}.${ext}.bt2l" ]] || {
+            echo "MISSING INDEX FILE: ${lib}.${ext}.bt2l" >&2; exit 1; }
+    done
 done
 
 ### SPLIT READS
@@ -86,7 +91,7 @@ echo "R1 Read Path: $readPath1"
 echo "R2 Read Path: $readPath2"
 
 # deactivate conda if something breaks
-conda deactivate
+conda deactivate || true
 
 export MODULEPATH=$MODULEPATH:/projects/community/modulefiles
 

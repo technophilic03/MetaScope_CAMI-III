@@ -24,7 +24,7 @@ set -euo pipefail
 
 stem=/projectsp/f_wj183_1/work/Yaoan/CAMI-III
 
-taxDump="${stem}/db"
+taxDump="${stem}/db/CAMI-III_reference"
 inDir="${stem}/output/toy/motus4/results"
 outFile="${stem}/output/toy/cami/motus4_toy.profile"
 

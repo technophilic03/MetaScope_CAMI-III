@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #SBATCH --job-name=motus4_metag
-#SBATCH --partition=p_wj183_1
+#SBATCH --partition=p_wj183_1,main
 #SBATCH --array=0-19
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -40,7 +40,7 @@ nproc --all
 
 stem=/projectsp/f_wj183_1/work/Yaoan/CAMI-III
 
-motusEnv="motus4"
+motusEnv="mOTUs4"
 
 # One array task per CAMI III toy sample: sample_0 .. sample_19.
 # The gold standard names its samples by bare index, so that index is the
