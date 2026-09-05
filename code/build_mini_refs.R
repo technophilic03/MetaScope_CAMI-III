@@ -161,9 +161,14 @@ draw_pairs <- function(fasta, n) {
                                width = read_len)))
     )
 }
-drawn <- Map(draw_pairs, refs$fasta, refs$pairs)
+# c() on a *named* list of DNAStringSets silently returns a list, so drop the
+# names Map() attaches before concatenating.
+drawn <- unname(Map(draw_pairs, refs$fasta, refs$pairs))
 r1 <- do.call(c, lapply(drawn, `[[`, "r1"))
 r2 <- do.call(c, lapply(drawn, `[[`, "r2"))
+n_pairs <- sum(refs$pairs)
+stopifnot(length(r1) == n_pairs, length(r2) == n_pairs,
+          all(width(r1) == read_len), all(width(r2) == read_len))
 
 ids <- sprintf("r%06d", seq_along(r1))
 write_fastq <- function(seqs, ids, path) {
@@ -172,8 +177,26 @@ write_fastq <- function(seqs, ids, path) {
     writeLines(as.vector(rbind(paste0("@", ids), as.character(seqs), "+",
                                strrep("I", read_len))), con)
 }
-write_fastq(r1, paste0(ids, "/1"), file.path(reads_dir, paste0(sample_name, "_R1.fq.gz")))
-write_fastq(r2, paste0(ids, "/2"), file.path(reads_dir, paste0(sample_name, "_R2.fq.gz")))
+fq1 <- file.path(reads_dir, paste0(sample_name, "_R1.fq.gz"))
+fq2 <- file.path(reads_dir, paste0(sample_name, "_R2.fq.gz"))
+write_fastq(r1, paste0(ids, "/1"), fq1)
+write_fastq(r2, paste0(ids, "/2"), fq2)
+
+# bowtie2 aborts on a quality line shorter than its sequence line, so check here.
+check_fastq <- function(path, n) {
+    lines <- readLines(path)
+    if (length(lines) != 4L * n) {
+        stop(path, " holds ", length(lines), " lines, expected ", 4L * n)
+    }
+    if (!all(lines[seq(3, length(lines), 4)] == "+")) stop(path, " has a bad third line")
+    seqs <- lines[seq(2, length(lines), 4)]
+    quals <- lines[seq(4, length(lines), 4)]
+    if (!all(nchar(seqs) == read_len) || !all(nchar(quals) == read_len)) {
+        stop(path, " has a record whose sequence and quality lengths differ")
+    }
+}
+check_fastq(fq1, n_pairs)
+check_fastq(fq2, n_pairs)
 
 ## 6. Expected answer ---------------------------------------------------------
 
