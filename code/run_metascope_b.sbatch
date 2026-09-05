@@ -31,7 +31,7 @@ mkdir -p "$workingDir"
 
 
 ### Run MetaScope
-indexDir="/home/yl2800/wejlab/reflib/2025_reference/bowtie_indices"
+indexDir="${stem}/db/bowtie_indices"
 expTag=$sampleName
 outDir="${stem}/output/toy/metascope_blast/results"
 mkdir -p "$outDir"
@@ -40,8 +40,10 @@ tmpDir="${workingDir}/"
 taxDB="${stem}/db/accessionTaxa.sql"
 
 ### Choose filter and targets to use
-target="target_reference"
-filter="filter_reference"
+target=$(paste -sd, "${stem}/db/manifests/libraries.txt")
+
+# CAMI provides no host genome, so there is nothing to filter against. "none"
+filter="none"
 
 ## No priors file exists for the CAMI toy samples; the EM step starts from uniform weights
 priors_df="NONE"
@@ -53,7 +55,7 @@ for f in "$readsTar" "$taxDB" "${blast_db}.nal"; do
     [[ -e "$f" ]] || { echo "MISSING INPUT: $f" >&2; exit 1; }
 done
 
-for lib in ${target//,/ } ${filter//,/ }; do
+for lib in ${target//,/ }; do
     for ext in 1 2 3 4 rev.1 rev.2; do
         [[ -e "${indexDir}/${lib}.${ext}.bt2l" ]] || {
             echo "MISSING INDEX FILE: ${lib}.${ext}.bt2l" >&2; exit 1; }
