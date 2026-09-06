@@ -27,34 +27,7 @@
 # and point args[12] of code/run_metascope_b.R at that alias:
 #
 #   blast_db="/projectsp/f_wj183_1/work/Yaoan/CAMI-III/db/blast_db/cami_refseq"
-#
-# WHY BUILD THIS AT ALL
-# The run so far searched /home/yl2800/wejlab/reflib/2024_blast_nt/nt. That is
-# NCBI nt from 2024, and it holds taxa the CAMI III reference does not. BLAST can
-# therefore move a read onto a taxon MetaScope could never report, and CAMI then
-# scores that as a false positive of the profiler rather than of the database.
-# Searching the same sequences the reads were aligned to removes that.
-# The cost is that BLAST stops being an outside opinion: it can no longer show
-# that a read came from something absent from the target index.
-#
-# WHY ONE DATABASE PER LIBRARY
-# The whole reference is 652.76 Gbp and makeblastdb is single threaded, so one
-# database would be a single serial job of several days with no restart point.
-# One per library builds them in parallel, lets a failed library be rebuilt
-# alone, and matches the bowtie2 layout, so a difference between the two steps
-# points at one library. blastdb_aliastool then presents them as one database.
-#
-# WHY A TAXID MAP IS NOT OPTIONAL
-# metascope_blast() asks blastn for the staxid column. blastn reads staxid out of
-# the database, never out of accessionTaxa.sql. A database built without
-# -taxid_map returns staxid 0 for every hit and the taxonomy joins downstream all
-# fail. db/blast_taxid_map.R writes that map, and says why it uses
-# accessionTaxa.sql rather than assembly_summary.txt.
-#
-# DISK
-# Expect roughly 200-250 GB for the finished databases: 652.76 Gbp at two bits a
-# base is 163 GB, and -parse_seqids adds accession indexes on top. Nothing large
-# is staged on the way, because makeblastdb reads the FASTA from a pipe.
+
 
 set -euo pipefail
 
@@ -73,11 +46,14 @@ module list
 
 export R_LIBS_USER="/home/yl2800/wejlab/work/Yaoan/R-4.5"
 
+
+# Check that the tools we need are on PATH. 
 for tool in makeblastdb blastdbcmd Rscript; do
     command -v "$tool" >/dev/null || {
         echo "$tool not on PATH" >&2; exit 1; }
 done
 
+# Check that the manifest, the accession-to-taxid database, and the R script exist. 
 lib=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "${manifest_dir}/libraries.txt")
 [[ -n "$lib" ]] || { echo "no library on line ${SLURM_ARRAY_TASK_ID}" >&2; exit 1; }
 manifest="${manifest_dir}/${lib}.manifest"
@@ -92,28 +68,16 @@ echo "Library: $lib"
 echo "Files in manifest: $(wc -l < "$manifest")"
 df -h "$db_dir"
 
-# One decompression of the whole library. Gzip members concatenate legally, so
-# the manifest can be fed through a single gzip. A 21458-name command line would
-# overrun ARG_MAX, which is why the names go through the pipe and not through
-# makeblastdb's -in.
+# Stream the FASTA files listed in the manifest, decompressing them on the fly. 
 stream_fasta() {
     while read -r f; do cat "$f"; done < "$manifest" | gzip -dc
 }
 
 
 ### STEP 1  LIST THE ACCESSIONS ##############################################
-#
-# The accession is the first token of the header with the ">" removed, which is
-# also the seq-id -parse_seqids will store. The two must be the same string or
-# makeblastdb matches nothing in the map.
 
 acc_file="${TMPDIR:-/tmp}/${lib}.acc"
 
-# pipefail turns both a truncated gzip and a library with no header at all into a
-# bare exit 1, so name the two possibilities here rather than leaving the log
-# blank. Letting the failure through matters: a short accession list would set a
-# low n_in, and step 4 would then compare it against an equally short database
-# and call the pair correct.
 echo "Step 1: reading FASTA headers"
 stream_fasta | LC_ALL=C grep '^>' | LC_ALL=C sed 's/^>//; s/[[:space:]].*//' > "$acc_file" || {
     echo "READING HEADERS FAILED for $manifest: a truncated gzip, or no '>' line at all" >&2
@@ -122,13 +86,7 @@ stream_fasta | LC_ALL=C grep '^>' | LC_ALL=C sed 's/^>//; s/[[:space:]].*//' > "
 n_in=$(wc -l < "$acc_file")
 echo "  $n_in sequences"
 
-# -parse_seqids refuses a repeated accession within one database: makeblastdb
-# stops with "Duplicate seq_ids are found" after it has already read the whole
-# library. Find them now instead, and name them. A repeat across two libraries is
-# fine and expected, because each library is its own database; RefSeq lists some
-# plasmids both in their parent assembly and in the plasmid collection.
-#
-# There is no right copy to drop, so this stops rather than deduplicating.
+# detect duplicates if any, because makeblastdb will silently drop duplicates and we want to know about them.
 dupes=$(LC_ALL=C sort "$acc_file" | LC_ALL=C uniq -d)
 if [[ -n "$dupes" ]]; then
     echo "DUPLICATE ACCESSIONS IN ${lib}: $(printf '%s\n' "$dupes" | wc -l); first three:" >&2
@@ -145,11 +103,6 @@ Rscript --vanilla "${stem}/db/blast_taxid_map.R" \
 
 
 ### STEP 3  BUILD THE DATABASE ###############################################
-#
-# makeblastdb takes its FASTA from standard input, which is its documented
-# default for -in. It splits the output into volumes on its own and writes a
-# .nal alias over them, so ${lib} is one name to blastn however many volumes it
-# ends up with.
 
 echo "Step 3: building the database"
 stream_fasta | makeblastdb \
@@ -162,10 +115,9 @@ stream_fasta | makeblastdb \
 
 
 ### STEP 4  COUNT THE SEQUENCES BACK OUT #####################################
-#
-# A database cut short by a full disk still opens and still answers queries, and
-# the missing sequences would read as a MetaScope result rather than as a broken
-# reference. Count them.
+
+# The count of sequences in the database should match the count of sequences in the manifest. 
+# If not, something went wrong (e.g., a truncated gzip file, or a duplicate accession that makeblastdb silently dropped).
 
 n_out=$(blastdbcmd -db "${db_dir}/${lib}" -info \
         | LC_ALL=C sed -n 's/^[[:space:]]*\([0-9,]*\) sequences;.*/\1/p' \
@@ -177,11 +129,8 @@ echo "Sequences out: $n_out"
 
 
 ### STEP 5  CHECK ONE TAXID CAME THROUGH #####################################
-#
-# The count above says nothing about taxids, and a database whose taxids are all
-# 0 fails silently: blastn still returns hits, and metascope_blast() drops them
-# at the first join. Ask the database for one accession and compare.
 
+# The taxid of one accession in the map should match the taxid of that accession in the database.
 read -r probe_acc probe_taxid < "${map_dir}/${lib}.taxid_map"
 db_taxid=$(blastdbcmd -db "${db_dir}/${lib}" -entry "$probe_acc" -outfmt '%T')
 echo "Taxid check: $probe_acc map=$probe_taxid db=$db_taxid"
