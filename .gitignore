@@ -23,6 +23,8 @@
 !/db/make_group_manifests.sh
 !/db/make_target_manifests.sh
 !/db/build_bowtie_indices.sbatch
+!/db/build_blast_db.sbatch
+!/db/blast_taxid_map.R
 !/db/readme.txt
 !/db/genome_lengths.tsv
 # --- R session / HPC job artifacts -------------------------------------------
