@@ -15,7 +15,10 @@ indexDir <- args[3]
 expTag <- args[4] 
 outDir <- args[5]
 tmpDir <- args[6]
-threads <- args[7]
+# metascope_blast() does `if (!is.numeric(num_threads)) num_threads <- 1`, so a
+# character here silently drops BLAST to one core.
+threads <- as.integer(args[7])
+stopifnot(!is.na(threads), threads >= 1)
 targets <- stringr::str_split(args[8], ",")[[1]]
 filters <- stringr::str_split(args[9], ",")[[1]]
 taxDB <- args[10]
