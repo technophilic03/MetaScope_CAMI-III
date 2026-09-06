@@ -1,12 +1,12 @@
 #!/bin/bash -l
 #SBATCH --job-name=metascope_b
-#SBATCH --partition=p_wj183_1
-#SBATCH --array=0
+#SBATCH --partition=main,mem
+#SBATCH --array=0-19
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
-#SBATCH --mem=240G
-#SBATCH --time=7-00:00:00
+#SBATCH --mem=480G
+#SBATCH --time=3-00:00:00
 #SBATCH --mail-user=yl2800@rutgers.edu
 #SBATCH --requeue
 #SBATCH --mail-type=END,FAIL
