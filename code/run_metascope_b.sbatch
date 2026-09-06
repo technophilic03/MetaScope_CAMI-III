@@ -49,7 +49,8 @@ filter="none"
 priors_df="NONE"
 
 # BLAST db
-blast_db="/home/yl2800/wejlab/reflib/2024_blast_nt/nt"
+blast_db="${stem}/db/blast_db/cami_refseq"
+
 
 for f in "$readsTar" "$taxDB" "${blast_db}.nal"; do
     [[ -e "$f" ]] || { echo "MISSING INPUT: $f" >&2; exit 1; }
