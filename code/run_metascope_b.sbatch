@@ -1,11 +1,15 @@
 #!/bin/bash -l
 #SBATCH --job-name=metascope_b
 #SBATCH --partition=main,mem
-#SBATCH --array=0
+#SBATCH --array=1-19
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
-#SBATCH --mem=480G
+# Job 61268832 ran sample_0 to the BLAST step and peaked at 231.6 GiB (MaxRSS
+# 242824892K). Alignment holds one bowtie2 index at a time, 126.6 GiB for a
+# 93.25 Gbp shard; the R stages add the rest. 320G leaves 38% over the measured
+# peak. 480G reserved twice what the job ever touched.
+#SBATCH --mem=320G
 #SBATCH --time=3-00:00:00
 #SBATCH --mail-user=yl2800@rutgers.edu
 #SBATCH --requeue
