@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH --job-name=metascope_b
 #SBATCH --partition=main,mem
-#SBATCH --array=0-19
+#SBATCH --array=0
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
