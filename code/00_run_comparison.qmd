@@ -1,0 +1,22 @@
+---
+title: "00_run_comparison_toy"
+format: html
+author: Yaoan Leng
+date: August 28, 2026
+format: html
+embed-resources: true
+---
+
+This notebook compares MetaScope's outputs for the CAMI III Toy Longitudinal Human Gut data set with the provided golden standards (taxonomic profiling).
+
+```{r}
+library(tidyverse)
+```
+
+# 1. Data loading
+## Read CAMI-III data
+```{r}
+
+```
+
+

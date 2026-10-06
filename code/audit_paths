@@ -1,0 +1,24 @@
+#!/bin/bash
+# Stage 1 definition-of-done check: in every script this project actually runs,
+# the only CAMI-III references may be the refdb assignment and its db/ inputs.
+#
+# OUT_OF_SCOPE lists scripts deliberately left pointing at CAMI-III. They are not
+# part of the strain-madness run, and they would write INTO the CAMI-III tree if
+# executed from here. Listed on every run so the hazard stays visible.
+set -euo pipefail
+cd "$(dirname "$0")"
+OUT_OF_SCOPE='run_metascope_metag\.sbatch|run_metascope_b_mini\.sbatch|build_mini_refs\.sbatch|build_mini_refs\.R|00_run_comparison\.qmd'
+ALLOWED='refdb=/projectsp|stays where CAMI-III|NOT copied into this project|refdb\}/db/CAMI-III_reference'
+
+bad=$(grep -rn 'CAMI-III' . --include='*.sbatch' --include='*.sh' --include='*.R' --include='*.qmd' \
+      | grep -Ev "^\./($OUT_OF_SCOPE):" | grep -Ev "$ALLOWED" || true)
+if [[ -n "$bad" ]]; then
+    echo "FAIL: unexpected CAMI-III reference in an in-scope script:" >&2
+    echo "$bad" >&2
+    exit 1
+fi
+echo "PASS: in-scope scripts reference CAMI-III only as \$refdb"
+echo
+echo "Out of scope, still pointing at CAMI-III (do not run these from CAMI-II):"
+grep -rlE 'CAMI-III' . --include='*.sbatch' --include='*.sh' --include='*.R' --include='*.qmd' \
+  | grep -E "($OUT_OF_SCOPE)\$" | sed 's|^\./|  |' | sort

@@ -1,0 +1,36 @@
+# --- strmg_db/ : CAMI II strain-madness short reads, 227 GB -------------------
+# Restore: see code/fetch_strmg_reads.sh (100 tarballs from frl.publisso.de,
+#          verified against the repository's own md5sums.txt).
+/strmg_db/*
+!/strmg_db/md5s.strmg_reads
+
+# --- db/ : CAMI II downloads and the abandoned 2019 reference build -----------
+# The reference database this project actually uses is CAMI-III/db/, which is
+# NOT copied here and NOT tracked here. What remains under db/ is the CAMI II
+# gold standards plus the superseded 2019 RefSeq build (see reports/).
+/db/*
+!/db/scripts/
+/db/scripts/*.log
+/db/scripts/*.err
+# The gold standards are small and worth versioning next to the results.
+!/db/taxonomic_profiling_cami2/
+/db/taxonomic_profiling_cami2/*/submissions/
+/db/taxonomic_profiling_cami2/*/runtime_evaluated/
+
+# --- refseq/ : 102 GB of taxonomizr SQLite from the abandoned build -----------
+/refseq/
+
+# --- R session / HPC job artifacts -------------------------------------------
+.Rhistory
+.RData
+.Rproj.user/
+slurm-*.out
+*_tmp/
+
+# output logs and scratch
+/output/*/logs/*.err
+/output/*/logs/*.out
+/output/*/*/scratch/*
+
+# bam files
+*.bam
