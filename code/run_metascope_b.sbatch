@@ -5,11 +5,21 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
-# Job 61268832 ran sample_0 to the BLAST step and peaked at 231.6 GiB (MaxRSS
-# 242824892K). Alignment holds one bowtie2 index at a time, 126.6 GiB for a
-# 93.25 Gbp shard; the R stages add the rest. 320G leaves 38% over the measured
-# peak. 480G reserved twice what the job ever touched.
-#SBATCH --mem=320G
+# 450G, not the 320G the CAMI III script settled on.
+#
+# Alignment holds one bowtie2 index at a time, 126.6 GiB for a 93.25 Gbp shard;
+# the R stages add the rest, and they scale with the number of ALIGNMENT RECORDS,
+# not the number of reads. CAMI III measured MaxRSS 278 GiB on a 480G request
+# (job 61355906_17), and five of its nineteen tasks still hit 303-311 GiB against
+# a 320G cap inside metascope_blast.
+#
+# Strain madness is far denser: sample_0 produced 6.52 alignments per read pair
+# against plasmid_01, where the CAMI III toy samples produced 0.75 -- 8.7x. So the
+# R stages here need more headroom than CAMI III did, not less.
+#
+# 450G is free in scheduling terms: a 504 GB node (117 of them in main) holds one
+# of these jobs either way, and that pool alone is six times the batch width.
+#SBATCH --mem=450G
 #SBATCH --time=3-00:00:00
 #SBATCH --mail-user=yl2800@rutgers.edu
 #SBATCH --requeue

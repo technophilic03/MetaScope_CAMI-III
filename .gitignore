@@ -40,3 +40,5 @@ slurm-*.out
 /output/*/cami/opal*/*
 !/output/*/cami/opal*/results.tsv
 !/output/*/cami/opal*/log.txt
+/output/*/.pilot_jobid
+/output/*/.metascope_batches
