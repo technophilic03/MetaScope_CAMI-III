@@ -34,3 +34,9 @@ slurm-*.out
 
 # bam files
 *.bam
+
+# OPAL output is derived from the profiles by the command recorded in the stage
+# report; keep results.tsv as the number of record, not the plots and HTML.
+/output/*/cami/opal*/*
+!/output/*/cami/opal*/results.tsv
+!/output/*/cami/opal*/log.txt

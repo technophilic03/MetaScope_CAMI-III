@@ -1,0 +1,10 @@
+2026-10-06 15:41:54,947 INFO /home/yl2800/miniconda3/envs/CAMI/bin/opal.py --collapse -g gold_standard.profile -o /projectsp/f_wj183_1/work/Yaoan/CAMI-II/output/strain_madness/cami/opal_collapse_check -l MetaScope,mOTUs-precision,mOTUs-recall metascope_toy.profile motus_toy_precision.profile motus_toy_recall.profile
+2026-10-06 15:41:54,949 INFO Loading profiles
+2026-10-06 15:41:55,454 INFO Computing metrics
+2026-10-06 15:42:24,908 INFO Saving computed metrics
+2026-10-06 15:42:25,411 INFO Creating beta diversity plots
+2026-10-06 15:42:35,551 INFO Creating rarefaction curves
+2026-10-06 15:42:36,622 INFO Creating more plots
+2026-10-06 15:42:39,071 INFO Computing rankings
+2026-10-06 15:42:39,995 INFO Creating HTML page
+2026-10-06 15:42:55,595 INFO OPAL finished successfully. All results have been saved to /projectsp/f_wj183_1/work/Yaoan/CAMI-II/output/strain_madness/cami/opal_collapse_check
