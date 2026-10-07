@@ -20,15 +20,27 @@
 # Sample 0 is not here: it ran as the pilot (job in output/strain_madness/.pilot_jobid).
 #
 # Usage:
-#   bash code/submit_metascope_batches.sh            # submit the whole chain
-#   bash code/submit_metascope_batches.sh 21 99      # resubmit from a given point
+#   bash code/submit_metascope_batches.sh metag          # whole align+EM chain
+#   bash code/submit_metascope_batches.sh metag 21 99   # resubmit from a point
+#   bash code/submit_metascope_batches.sh blast 0 99    # the BLAST stage after
 #
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-FIRST=${1:-1}
-LAST=${2:-99}
+# Which stage to submit:
+#   metag  align + metascope_id, 240G/32cpu, reaches the lab partition (tier 40)
+#   blast  metascope_blast + reassignment, 450G/32cpu on main,mem
+STAGE=${1:-metag}
+FIRST=${2:-1}
+LAST=${3:-99}
 WIDTH=20
+
+case "$STAGE" in
+    metag) SCRIPT=code/run_metascope_metag.sbatch ;;
+    blast) SCRIPT=code/run_metascope_blast_stage.sbatch ;;
+    *) echo "usage: $0 {metag|blast} [first] [last]" >&2; exit 1 ;;
+esac
+[[ -f "$SCRIPT" ]] || { echo "NO SUCH DRIVER: $SCRIPT" >&2; exit 1; }
 
 dep=""
 lo=$FIRST
@@ -44,9 +56,9 @@ while [[ $lo -le $LAST ]]; do
         [[ -s "$f" ]] || { echo "MISSING READS FOR BATCH ${lo}-${hi}: $f" >&2; exit 1; }
     done
 
-    jid=$(sbatch --parsable ${dep} --array="${lo}-${hi}" code/run_metascope_b.sbatch)
-    echo "batch ${lo}-${hi}  job ${jid}${dep:+  (starts after ${dep##*:})}"
-    echo "${lo}-${hi} ${jid}" >> output/strain_madness/.metascope_batches
+    jid=$(sbatch --parsable ${dep} --array="${lo}-${hi}" "$SCRIPT")
+    echo "${STAGE} batch ${lo}-${hi}  job ${jid}${dep:+  (starts after ${dep##*:})}"
+    echo "${STAGE} ${lo}-${hi} ${jid}" >> output/strain_madness/.metascope_batches
     dep="--dependency=afterany:${jid}"
     lo=$(( hi + 1 ))
 done

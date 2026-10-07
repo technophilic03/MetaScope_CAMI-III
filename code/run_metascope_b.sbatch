@@ -1,10 +1,24 @@
 #!/bin/bash -l
 #SBATCH --job-name=metascope_b
 #SBATCH --partition=main,mem
-#SBATCH --array=0-99%8
+# Submit through code/submit_metascope_batches.sh, which passes --array per
+# batch and overrides this. This default is the first batch only, so a bare
+# sbatch of this file does something sane rather than launching all 100.
+#SBATCH --array=1-20
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=32
+# 20, not the 32 CAMI III used. The cluster is CPU-fragmented: 98 main nodes
+# had >=450 GB free but ZERO had 32 idle cores, so a 32-core request matched
+# exactly one node cluster-wide and concurrency stalled at 3. At 20 cores, 20
+# nodes qualified; at 16, only 3 more.
+#
+# 20 rather than 16 because of the 72 h wall. Stage timings from CAMI III
+# sample 17 (job 61355906_17, result mtimes): ~6.3 h alignment, ~18.2 h
+# metascope_id, 3.1 h metascope_blast. metascope_id dominates and is
+# essentially single-threaded, so fewer cores stretch alignment and BLAST but
+# not the EM. At 16 cores this sample projects to 53-67 h against the 72 h
+# limit, and a timeout requeues from zero. 20 cores projects to 47-61 h.
+#SBATCH --cpus-per-task=20
 # 450G, not the 320G the CAMI III script settled on.
 #
 # Alignment holds one bowtie2 index at a time, 126.6 GiB for a 93.25 Gbp shard;

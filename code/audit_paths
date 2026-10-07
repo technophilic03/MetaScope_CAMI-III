@@ -7,7 +7,7 @@
 # executed from here. Listed on every run so the hazard stays visible.
 set -euo pipefail
 cd "$(dirname "$0")"
-OUT_OF_SCOPE='run_metascope_metag\.sbatch|run_metascope_b_mini\.sbatch|build_mini_refs\.sbatch|build_mini_refs\.R|00_run_comparison\.qmd'
+OUT_OF_SCOPE='run_metascope_b_mini\.sbatch|build_mini_refs\.sbatch|build_mini_refs\.R|00_run_comparison\.qmd'
 ALLOWED='refdb=/projectsp|stays where CAMI-III|NOT copied into this project|refdb\}/db/CAMI-III_reference'
 
 bad=$(grep -rn 'CAMI-III' . --include='*.sbatch' --include='*.sh' --include='*.R' --include='*.qmd' \

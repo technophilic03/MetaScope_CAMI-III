@@ -33,7 +33,7 @@ refdb=/projectsp/f_wj183_1/work/Yaoan/CAMI-III
 taxDump="${refdb}/db/CAMI-III_reference"
 genomeLengths="${refdb}/db/genome_lengths_new.tsv"
 sampleMap="${proj}/code/sample_map_strmg.tsv"
-inDir="${proj}/output/strain_madness/metascope_blast/results/"
+inDir="${proj}/output/strain_madness/metascope/results/"
 outFile="${proj}/output/strain_madness/cami/metascope_strmg.profile"
 
 for f in "${taxDump}/nodes.dmp" "${taxDump}/names.dmp" "${taxDump}/merged.dmp" \

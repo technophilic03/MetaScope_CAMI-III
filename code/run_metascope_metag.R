@@ -68,7 +68,11 @@ metascope_id(final_map, input_type = idInput, aligner = "bowtie2",
              maxitsEM = 100,
              accession_path = taxDB,
              tmp_dir = tmpDir,
-             update_bam = FALSE,
+             # TRUE, unlike the CAMI III version. This run is the first half of a
+             # split pipeline: BLAST runs as a separate job against the
+             # <expTag>.updated.bam written here, so it must be produced and the
+             # scratch directory must survive the job.
+             update_bam = TRUE,
              quiet = FALSE,
              out_dir = outDir)
 
