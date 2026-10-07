@@ -25,6 +25,6 @@ while :; do
   prss=$(awk -v k="${prss:-0}" 'BEGIN{printf "%.1f", k/1048576}')
   plibs=$(ls output/strain_madness/metascope_blast/scratch/strmgCAMI2_sample_0_${JID}/*.bam 2>/dev/null | wc -l)
   printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' \
-    "$(date '+%m-%d %H:%M')" "$brun" "$mrun" "$lab" "$pend" "$did" "$dre" "${pel:--}" "$prss" "$plibs" >> "$LOG"
+    "$(date '+%m-%dT%H:%M')" "$brun" "$mrun" "$lab" "$pend" "$did" "$dre" "${pel:--}" "$prss" "$plibs" >> "$LOG"
   sleep 900
 done
