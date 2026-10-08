@@ -1,23 +1,36 @@
 #!/bin/bash -l
 #SBATCH --job-name=metascope_metag
-# p_wj183_1 first: it is the lab partition at PriorityTier=40, above mem (20)
-# and main (10), so it is the only place this job is not competing with the
-# whole cluster. mem and main are listed as overflow.
-#SBATCH --partition=p_wj183_1,mem,main
+# mem ONLY. Measured, not assumed:
+#
+#   main (tier 10) is PreemptMode=REQUEUE and our priority is ~9, so tasks there
+#   were preempted after 00:00:09, 00:00:28, 00:00:38, 00:19:49, 00:36:41,
+#   01:11:02 and 02:33:00. A 35 h job cannot finish on main.
+#
+#   p_wj183_1 (tier 40) is never preempted, but its nodes are 244-250 GB and the
+#   EM step needs 237+ GiB, so it cannot hold this job. Three of its six nodes
+#   also went down mid-run, each taking ~34 h of alignment with it.
+#
+#   mem (tier 20) is preemptible only by tier 40, which is rare, and its nodes are
+#   1-2 TB. The three metascope_b jobs parked there have run 46+ h untouched.
+#SBATCH --partition=mem
 # Submit through code/submit_metascope_batches.sh metag, which passes --array
 # per batch and overrides this.
 #SBATCH --array=1-20
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
-# 240G, not the 450G the BLAST job uses. This is what lets the job onto the
-# lab nodes at all -- they are 244-250 GB, so 320G or more locks them out. It
-# is also the shape CAMI III proved for this exact driver: 113 metascope_metag
-# tasks ran at 240G, reaching 17 concurrent. The EM step fits; it is
-# metascope_blast that needs more, and that now runs separately.
+# 320G, raised from 240G, because 240G is demonstrably too small here.
 #
-# At 240G a 504 GB main node also takes two of these instead of one.
-#SBATCH --mem=240G
+# CAMI III ran this driver at 240G for 113 tasks, which is why it was the
+# starting point. Strain madness is denser: metascope_id's footprint scales with
+# alignment records, and sample_0 produces 6.52 alignments per read pair against
+# plasmid_01 where the CAMI III toy samples produce 0.75.
+#
+# The measurements: task 8 was OOM-killed at MaxRSS 234.1 GiB against the 240G
+# cap, while the pilot running the same EM step with a 320G cap sat at 236.8 GiB
+# and kept going. The EM step therefore wants more than 240G, and 320G is the
+# figure a surviving run has actually demonstrated.
+#SBATCH --mem=320G
 #SBATCH --time=3-00:00:00
 #SBATCH --mail-user=yl2800@rutgers.edu
 #SBATCH --requeue
