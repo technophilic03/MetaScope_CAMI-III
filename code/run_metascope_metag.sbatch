@@ -39,9 +39,29 @@ idx="${SLURM_ARRAY_TASK_ID}"
 sampleName="strmgCAMI2_sample_${idx}"
 readsTar="${proj}/strmg_db/${sampleName}_reads.tar.gz"
 
+### ALREADY DONE?
+# This job is requeued often -- 7 preemptions, 3 node failures and 2 OOM kills in
+# the first batch alone -- and SLURM_ARRAY_JOB_ID is unchanged across a requeue,
+# so without this guard a restart would re-run up to 35 h of finished alignment
+# and, worse, the rm -rf below would delete the .updated.bam the BLAST stage
+# needs. Both outputs must be present to count as done: the csv alone gives a
+# MetaScope profile, but only the bam lets metascope_blast run.
+idCsvDone="${proj}/output/strain_madness/metascope/results/${sampleName}.metascope_id.csv"
+for d in $(ls -dt "${proj}/output/strain_madness/metascope/scratch/${sampleName}_"* 2>/dev/null); do
+    if [[ -s "$idCsvDone" && -s "${d}/${sampleName}.updated.bam" ]]; then
+        echo "ALREADY COMPLETE, NOTHING TO DO: ${sampleName}"
+        echo "  id csv      : $idCsvDone"
+        echo "  updated bam : ${d}/${sampleName}.updated.bam"
+        exit 0
+    fi
+done
+
 ### MAKE WORKING DIR
 # NOT deleted at the end of the job. It holds <sampleName>.updated.bam, which
 # the BLAST stage reads; rebuilding it costs the whole alignment again.
+#
+# The rm -rf only runs when the guard above decided this sample really does need
+# redoing, so it clears a partial attempt rather than a finished one.
 workingDir="${proj}/output/strain_madness/metascope/scratch/${sampleName}_${SLURM_ARRAY_JOB_ID}"
 rm -rf "$workingDir"
 mkdir -p "$workingDir"
