@@ -27,6 +27,8 @@
 !/db/blast_taxid_map.R
 !/db/readme.txt
 !/db/genome_lengths.tsv
+!/db/build_genome_lengths_summary.R
+!/db/genome_lengths_summary.tsv
 # --- R session / HPC job artifacts -------------------------------------------
 .Rhistory
 .RData
