@@ -31,7 +31,11 @@ refdb=/projectsp/f_wj183_1/work/Yaoan/CAMI-III
 # reference, so the whole CAMI II chain uses this dump -- including
 # motus4_to_cami.sbatch, which already pointed here.
 taxDump="${refdb}/db/CAMI-III_reference"
-genomeLengths="${refdb}/db/genome_lengths_new.tsv"
+# genome_lengths_summary.tsv, not genome_lengths_new.tsv. The latter sums every
+# assembly of a taxon in the reference, so it gave E. coli a 1,457 Mb "genome"
+# (2,472 assemblies) and reported it at 1.75% of strain-madness sample_0 where
+# the truth is 35.1%. See db/build_genome_lengths_summary.R.
+genomeLengths="${refdb}/db/genome_lengths_summary.tsv"
 sampleMap="${proj}/code/sample_map_strmg.tsv"
 inDir="${proj}/output/strain_madness/metascope/results/"
 outFile="${proj}/output/strain_madness/cami/metascope_strmg.profile"
