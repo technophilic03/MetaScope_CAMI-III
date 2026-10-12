@@ -22,7 +22,8 @@
 #
 # Usage:
 #   conda activate motus
-#   bash code/finish_motus_cami.sh
+#   bash code/finish_motus_cami.sh               # all 100 samples
+#   bash code/finish_motus_cami.sh 0 1 2 5 ...   # only these sample indices
 
 set -euo pipefail
 
@@ -30,7 +31,9 @@ proj=/projectsp/f_wj183_1/work/Yaoan/CAMI-II
 
 resultsDir="${proj}/output/strain_madness/motus/results"
 camiDir="${proj}/output/strain_madness/cami"
-samples=({0..99})
+# A subset is for scoring before all 100 have run: every profiler must be
+# compared on the same samples, so the profile holds exactly the ones given.
+if [[ $# -gt 0 ]]; then samples=("$@"); else samples=({0..99}); fi
 
 [[ -d "$resultsDir" ]] || { echo "MISSING RESULTS DIR: $resultsDir" >&2; exit 1; }
 mkdir -p "$camiDir"
