@@ -19,18 +19,27 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
-# 320G, raised from 240G, because 240G is demonstrably too small here.
+# 450G, after 240G then 320G. 240G was demonstrably too small and 320G is thinner
+# than it looks.
 #
 # CAMI III ran this driver at 240G for 113 tasks, which is why it was the
 # starting point. Strain madness is denser: metascope_id's footprint scales with
 # alignment records, and sample_0 produces 6.52 alignments per read pair against
 # plasmid_01 where the CAMI III toy samples produce 0.75.
 #
-# The measurements: task 8 was OOM-killed at MaxRSS 234.1 GiB against the 240G
-# cap, while the pilot running the same EM step with a 320G cap sat at 236.8 GiB
-# and kept going. The EM step therefore wants more than 240G, and 320G is the
-# figure a surviving run has actually demonstrated.
-#SBATCH --mem=320G
+# The measurements. Twelve tasks were OOM-killed at 240G, peaking 223.4-236.9
+# GiB. Of the tasks that then survived at 320G most peaked 219-238 GiB, but
+# samples 24, 30 and 31 reached 238.3, 263.5 and 274.2 GiB -- 86% of the cap on a
+# sample whose only distinction is being later in the array. An OOM here costs
+# the whole 37-50 h run, so the cap wants real headroom rather than the smallest
+# figure that has happened to work.
+#
+# 450G is free. Concurrency on mem is bound by cpus, not memory: mem003-005 have
+# 40 cpus and the other ten nodes 64, so at 32 cpus per task the partition holds
+# 23 tasks -- and 23 x 450G is 10.4 TB against 22.3 TB free. Billing is cpu-only
+# (ReqTRES reports billing=32 at both 320G and 450G), so the larger request costs
+# nothing in fairshare either.
+#SBATCH --mem=450G
 #SBATCH --time=3-00:00:00
 #SBATCH --mail-user=yl2800@rutgers.edu
 #SBATCH --requeue
@@ -59,14 +68,21 @@ readsTar="${proj}/strmg_db/${sampleName}_reads.tar.gz"
 # and, worse, the rm -rf below would delete the .updated.bam the BLAST stage
 # needs. Both outputs must be present to count as done: the csv alone gives a
 # MetaScope profile, but only the bam lets metascope_blast run.
+# A non-empty bam is not a finished bam. The twelve tasks OOM-killed at 240G died
+# while metascope_id was writing it: sample 22 was left a 628 MB file with no
+# BGZF end-of-file block, which -s alone would have accepted as done. Test for
+# that block, which is what samtools quickcheck tests, by reading the last 28
+# bytes -- samtools is not loaded this early in the job.
 idCsvDone="${proj}/output/strain_madness/metascope/results/${sampleName}.metascope_id.csv"
+bgzfEof=1f8b08040000000000ff0600424302001b0003000000000000000000
 for d in $(ls -dt "${proj}/output/strain_madness/metascope/scratch/${sampleName}_"* 2>/dev/null); do
-    if [[ -s "$idCsvDone" && -s "${d}/${sampleName}.updated.bam" ]]; then
-        echo "ALREADY COMPLETE, NOTHING TO DO: ${sampleName}"
-        echo "  id csv      : $idCsvDone"
-        echo "  updated bam : ${d}/${sampleName}.updated.bam"
-        exit 0
-    fi
+    bam="${d}/${sampleName}.updated.bam"
+    [[ -s "$idCsvDone" && -s "$bam" ]] || continue
+    [[ "$(tail -c 28 "$bam" | od -An -tx1 | tr -d ' \n')" == "$bgzfEof" ]] || continue
+    echo "ALREADY COMPLETE, NOTHING TO DO: ${sampleName}"
+    echo "  id csv      : $idCsvDone"
+    echo "  updated bam : $bam"
+    exit 0
 done
 
 ### MAKE WORKING DIR

@@ -8,24 +8,24 @@
 #SBATCH --array=1-20
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-# 32 workers and 450G together, on purpose.
+# 32 workers, 96G. Both now measured rather than inferred.
 #
-# metascope_blast() sets BiocParallel::MulticoreParam(workers = num_threads), and
-# each forked worker rebuilds names(all_fastas). Peak memory therefore tracks the
-# worker count, not the sample. CAMI III ran this at 32 workers against a 320G
-# cap and five of nineteen tasks reached 303-311 GiB and were OOM-killed; its
-# recovery script dropped to 8 workers to cut the fork cost about fourfold.
+# This stage was first written at 450G because CAMI III ran the *combined*
+# metascope_b driver at 32 workers against a 320G cap and five of nineteen tasks
+# reached 303-311 GiB. Splitting the pipeline shows that peak belonged to
+# metascope_id, not to metascope_blast: the first fifteen tasks of this stage
+# peaked at 14.5-34.5 GiB and all fifteen completed. 450G was thirteen times what
+# the stage uses, and it confined the job to the 117 main nodes of 504 GB.
 #
-# The cheaper fix is to stop capping at 320G. At 450G that same 311 GiB peak has
-# 139 GiB of headroom, so the stage keeps all 32 workers AND stops dying. A
-# 504 GB main node holds one of these, and there are 117 of them.
+# 96G is 2.8x the observed peak and fits every main node, so the stage can use
+# all 509 of them. metascope_blast() still gets all 32 BiocParallel workers.
 #SBATCH --cpus-per-task=32
-#SBATCH --mem=450G
-# CAMI III's metascope_blast took 3.13 h (sample 17, job 61355906_17, from result
-# mtimes). Strain madness carries roughly twice the alignment volume, so 12 h is
-# about four times the expected cost -- cheap insurance, since a timeout here
-# throws away the BLAST work but not the alignment.
-#SBATCH --time=12:00:00
+#SBATCH --mem=96G
+# Measured at 16:53-41:04 over fifteen samples, against the 3.13 h estimated from
+# CAMI III result mtimes. 3 h is 4.4x the longest observed and still short enough
+# to schedule around a maintenance reservation; a timeout here throws away the
+# BLAST work but not the alignment.
+#SBATCH --time=3:00:00
 #SBATCH --mail-user=yl2800@rutgers.edu
 #SBATCH --requeue
 #SBATCH --mail-type=END,FAIL
@@ -67,14 +67,21 @@ blast_db="${refdb}/db/blast_db/cami_refseq"
 #
 # The glob is unambiguous despite the shared prefix: "..._sample_1_*" requires an
 # underscore right after the 1, so it cannot match "..._sample_10_<jobid>".
+#
+# A truncated bam is skipped, not taken: a metag task OOM-killed while writing it
+# leaves a non-empty file with no BGZF end-of-file block, and blasting that would
+# silently profile part of a sample. The last 28 bytes are that block; samtools
+# quickcheck tests the same thing but samtools is not loaded this early.
+bgzfEof=1f8b08040000000000ff0600424302001b0003000000000000000000
 bamPath=""
 tmpDir=""
 for d in $(ls -dt "${proj}/output/strain_madness/metascope/scratch/${sampleName}_"* 2>/dev/null); do
-    if [[ -s "${d}/${sampleName}.updated.bam" ]]; then
-        bamPath="${d}/${sampleName}.updated.bam"
-        tmpDir="${d}/"
-        break
-    fi
+    bam="${d}/${sampleName}.updated.bam"
+    [[ -s "$bam" ]] || continue
+    [[ "$(tail -c 28 "$bam" | od -An -tx1 | tr -d ' \n')" == "$bgzfEof" ]] || continue
+    bamPath="$bam"
+    tmpDir="${d}/"
+    break
 done
 
 [[ -n "$bamPath" ]] || {
