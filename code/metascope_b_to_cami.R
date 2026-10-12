@@ -184,7 +184,16 @@ read_reassigned <- function(path, sample_id) {
       call. = FALSE
     )
   }
-  kept <- distinct(raw)
+  # Copies of a genome's row come in two kinds, and both are dropped. Most are
+  # exact. The rest differ only in metascope_blast's per-hit diagnostics (best
+  # hit, uniqueness score, species group): it can attach several BLAST result
+  # rows to one EM row when a taxon is spread over several accessions. Across
+  # the first 21 strain-madness samples that was 14 genomes in 9 samples, at
+  # most 0.0304% of a sample's abundance (sample 18), and every copy carried
+  # the same EMProportion and blast_validated. Those two columns are all this
+  # converter reads, so copies are matched on them, and a disagreement stops
+  # the run below.
+  kept <- distinct(raw, TaxonomyID, Genome, EMProportion, blast_validated)
   em_all <- as.numeric(raw$EMProportion)
   em <- as.numeric(kept$EMProportion)
   if (anyNA(em)) {
@@ -206,12 +215,13 @@ read_reassigned <- function(path, sample_id) {
     100 * (sum(em_all) - sum(em)),
     nrow(kept)
   ))
-  # The copies are exact, so dropping them must leave one row per genome.
+  # Two rows left for one genome means its copies disagree on its abundance or
+  # on whether BLAST validated it, and there is no principled way to pick one.
   repeated <- count(kept, TaxonomyID, Genome) |> filter(n > 1)
   if (nrow(repeated) > 0) {
     stop(
       sample_id,
-      ": one genome still holds two rows after dropping copies: ",
+      ": copies of one genome disagree on EMProportion or blast_validated: ",
       str_c(repeated$Genome, collapse = ", "),
       call. = FALSE
     )
