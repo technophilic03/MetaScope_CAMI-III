@@ -30,10 +30,14 @@ slurm-*.out
 # output logs and scratch
 /output/*/logs/*.err
 /output/*/logs/*.out
+/output/*/logs/*.log
 /output/*/*/scratch/*
 
 # bam files
 *.bam
+# MetaPhlAn's bowtie2 hits: an alignment record like the bams, ~9 MB a sample
+# and rebuilt from the reads in about nine minutes.
+*.mapout.bz2
 
 # OPAL output is derived from the profiles by the command recorded in the stage
 # report; keep results.tsv as the number of record, not the plots and HTML.
@@ -42,3 +46,4 @@ slurm-*.out
 !/output/*/cami/opal*/log.txt
 /output/*/.pilot_jobid
 /output/*/.metascope_batches
+/output/*/.motus_jobs
