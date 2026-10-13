@@ -29,6 +29,8 @@
 !/db/genome_lengths.tsv
 !/db/build_genome_lengths_summary.R
 !/db/genome_lengths_summary.tsv
+!/db/assembly_summary_2025_reference.txt
+!/db/genome_lengths_2025_reference.tsv
 # --- R session / HPC job artifacts -------------------------------------------
 .Rhistory
 .RData

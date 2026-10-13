@@ -44,6 +44,17 @@
 #     db/genome_lengths_new.tsv \
 #     db/genome_lengths_summary.tsv
 #
+# metascope_toy.profile comes from an earlier run that aligned to the lab's 2025
+# reference, not to the CAMI III snapshot, so it gets its own table built the
+# same way. db/assembly_summary_2025_reference.txt holds the summary rows of the
+# genomes in that index, and db/genome_lengths.tsv was measured from the same
+# index, which makes it the matching fallback:
+#
+#   Rscript --vanilla db/build_genome_lengths_summary.R \
+#     db/assembly_summary_2025_reference.txt \
+#     db/genome_lengths.tsv \
+#     db/genome_lengths_2025_reference.tsv
+#
 # Reads two text files, so unlike build_genome_lengths.R it needs no
 # bowtie2-inspect pass and no SQLite query, and runs in seconds on a login node.
 
@@ -64,11 +75,15 @@ for (f in c(summary_path, fallback_path)) {
   if (!file.exists(f)) stop("not found: ", f)
 }
 
-# The CAMI copy carries no header and no comment lines, but guard anyway.
+# Header and comment lines are dropped by their first character only. readr's
+# comment = "#" cuts a line at any "#", and strain names carry them
+# ("okayama7#130", "str. MT#2"): it truncated 170 rows of the CAMI III summary
+# before column 26, so those assemblies lost their genome_size.
+lines <- read_lines(summary_path, progress = FALSE)
 raw <- read_tsv(
-  summary_path,
+  I(lines[!startsWith(lines, "#")]),
   col_names = FALSE,
-  comment = "#",
+  quote = "",
   col_types = cols(.default = col_character()),
   progress = FALSE
 )
