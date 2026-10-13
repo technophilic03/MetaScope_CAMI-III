@@ -2,24 +2,24 @@
 @Version:0.9.2
 @Ranks:acellular root,cellular root,other entries|realm,domain|kingdom|phylum|class|order|family|genus|species|strain
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-131567	cellular root	131567	cellular organisms	99.835447
-10239	acellular root	10239	Viruses	0.164552
-2	domain	131567|2	cellular organisms|Bacteria	99.835447
-2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.164552
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	54.185110
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	45.650336
-2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.164552
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	52.323027
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	45.645343
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	1.862070
-2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.164552
+131567	cellular root	131567	cellular organisms	99.835445
+10239	acellular root	10239	Viruses	0.164554
+2	domain	131567|2	cellular organisms|Bacteria	99.835445
+2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.164554
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	54.184741
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	45.650703
+2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.164554
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	52.322764
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	45.645710
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	1.861964
+2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.164554
 201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.004603
 1117	phylum	131567|2|1783272|1117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota	0.000389
 200940	phylum	131567|2|3379134|200940	cellular organisms|Bacteria|Pseudomonadati|Thermodesulfobacteriota	0.000012
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	52.322720
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	45.640747
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	1.862070
-2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.164552
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	52.322458
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	45.641114
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	1.861964
+2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.164554
 1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.004575
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.004211
 3028117	class	131567|2|1783272|1117|3028117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae	0.000389
@@ -28,13 +28,13 @@
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000062
 84998	class	131567|2|1783272|201174|84998	cellular organisms|Bacteria|Bacillati|Actinomycetota|Coriobacteriia	0.000027
 3031449	class	131567|2|3379134|200940|3031449	cellular organisms|Bacteria|Pseudomonadati|Thermodesulfobacteriota|Desulfovibrionia	0.000012
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	52.322641
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	40.121847
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	5.518900
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	1.862070
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	52.322379
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	40.122228
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	5.518885
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	1.861964
 85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.004523
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.003039
-186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.001057
+186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.001058
 1161	order	131567|2|1783272|1117|3028117|1161	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales	0.000389
 526525	order	131567|2|1783272|1239|526524|526525	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales	0.000384
 204457	order	131567|2|3379134|1224|28211|204457	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Sphingomonadales	0.000226
@@ -48,13 +48,13 @@
 72274	order	131567|2|3379134|1224|1236|72274	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Pseudomonadales	0.000017
 2887326	order	131567|2|3379134|1224|1236|2887326	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Moraxellales	0.000014
 213115	order	131567|2|3379134|200940|3031449|213115	cellular organisms|Bacteria|Pseudomonadati|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales	0.000012
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	52.321162
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	31.779605
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	7.594498
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	5.497105
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	1.284639
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.747611
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.535605
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	52.320900
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	31.779907
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	7.594570
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	5.497091
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	1.284528
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.747618
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.535610
 171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.036334
 186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.021170
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.004596
@@ -85,25 +85,25 @@
 186806	family	131567|2|1783272|1239|186801|186802|186806	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae	0.000014
 468	family	131567|2|3379134|1224|1236|2887326|468	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae	0.000014
 194924	family	131567|2|3379134|200940|3031449|213115|194924	cellular organisms|Bacteria|Pseudomonadati|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales|Desulfovibrionaceae	0.000012
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	41.032649
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	31.733333
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	10.166713
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	7.594498
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	5.497105
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	1.220696
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	1.068096
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.732479
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.535605
-3424927	genus	10239|2731341|2731360|2731618|2731619|||3424927	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus	0.089278
-3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.065635
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.063942
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	41.032280
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	31.733635
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	10.166810
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	7.594570
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	5.497091
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	1.220708
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	1.068106
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.732486
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.535610
+3424927	genus	10239|2731341|2731360|2731618|2731619|||3424927	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus	0.089279
+3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.065636
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.063819
 1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.046272
 838	genus	131567|2|3379134|976|200643|171549|171552|838	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	0.036058
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.032301
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.032302
 44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.021170
-590	genus	131567|2|3379134|1224|1236|91347|543|590	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.017820
+590	genus	131567|2|3379134|1224|1236|91347|543|590	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.017821
 2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.015131
-3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.007857
+3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.007858
 1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.004523
 2518495	genus	131567|2|3379134|976|200643|171549|2005473|2518495	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella	0.004191
 3424909	genus	10239|2731341|2731360|2731618|2731619|||3424909	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Norfolkplacevirus	0.001780
@@ -180,36 +180,36 @@
 2303321	genus	131567|2|3379134|1224|1236|91347|543|2303321	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Superficieibacter	0.000012
 2910984	genus	131567|2|3379134|200940|3031449|213115|194924|2910984	cellular organisms|Bacteria|Pseudomonadati|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales|Desulfovibrionaceae|Solidesulfovibrio	0.000012
 551	genus	131567|2|3379134|1224|1236|91347|1903409|551	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Erwiniaceae|Erwinia	0.000012
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	41.027668
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	30.689008
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	10.021166
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	7.419093
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	5.496305
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	1.219946
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.946177
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.714807
-2963155	species	131567|2|1783272|1239|91061|186826|1300|1301|2963155	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CF8_St5-17	0.533382
-328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.490989
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.174484
-1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.165000
-548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.115898
-68892	species	131567|2|1783272|1239|91061|186826|1300|1301|68892	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus infantis	0.113051
-3425981	species	10239|2731341|2731360|2731618|2731619|||3424927|3425981	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus|Adrianbuildvirus ARI0923	0.089278
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	41.027298
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	30.689299
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	10.021261
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	7.419163
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	5.496290
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	1.219958
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.946186
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.714814
+2963155	species	131567|2|1783272|1239|91061|186826|1300|1301|2963155	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CF8_St5-17	0.533387
+328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.490994
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.174486
+1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.165001
+548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.115899
+68892	species	131567|2|1783272|1239|91061|186826|1300|1301|68892	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus infantis	0.113052
+3425981	species	10239|2731341|2731360|2731618|2731619|||3424927|3425981	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus|Adrianbuildvirus ARI0923	0.089279
 2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.046272
 28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.042217
-823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.041136
+823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.041137
 2736295	species	131567|2|3379134|976|200643|171549|171552|838|2736295	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|Prevotella sp. PTAC	0.035966
-1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.028224
+1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.028225
 3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.026007
 1639133	species	131567|2|3379134|1224|1236|91347|543|544|1639133	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter portucalensis	0.024545
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.022260
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.021830
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.022137
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.021831
 3429266	species	10239|2731341|2731360|2731618|2731619|||3424908|3429266	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0462	0.021149
 1401	species	131567|2|1783272|1239|91061|1385|186822|44249|1401	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus|Paenibacillus lautus	0.020391
-712633	species	131567|2|1783272|1239|91061|186826|1300|1301|712633	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 431	0.018694
+712633	species	131567|2|1783272|1239|91061|186826|1300|1301|712633	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 431	0.018695
 712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.018379
-133448	species	131567|2|3379134|1224|1236|91347|543|544|133448	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter youngae	0.018232
-28901	species	131567|2|3379134|1224|1236|91347|543|590|28901	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.017676
+133448	species	131567|2|3379134|1224|1236|91347|543|544|133448	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter youngae	0.018233
+28901	species	131567|2|3379134|1224|1236|91347|543|590|28901	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.017677
 508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.017332
 3429263	species	10239|2731341|2731360|2731618|2731619|||3424908|3429263	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0004	0.015499
 820	species	131567|2|3379134|976|200643|171549|815|816|820	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	0.015372
@@ -217,7 +217,7 @@
 1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.014927
 2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.013020
 1796613	species	131567|2|3379134|976|200643|171549|815|816|1796613	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides caecimuris	0.009376
-2894201	species	131567|2|3379134|1224|1236|91347|543|544|2894201	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter meridianamericanus	0.008376
+2894201	species	131567|2|3379134|1224|1236|91347|543|544|2894201	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter meridianamericanus	0.008377
 2923521	species	131567|2|1783272|1239|91061|186826|81852|1350|2923521	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus sp. IsoGale004	0.008026
 2937417	species	131567|2|3379134|976|200643|171549|815|816|2937417	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides muris (ex Fokt et al. 2023)	0.007625
 2582648	species	131567|2|1783272|1239|91061|186826|1300|1301|2582648	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 2579	0.006634
@@ -227,7 +227,7 @@
 818	species	131567|2|3379134|976|200643|171549|815|816|818	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides thetaiotaomicron	0.006034
 1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.004918
 2250596	species	131567|2|1783272|1239|91061|186826|1300|1301|2250596	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 596553	0.004761
-3060519	species	10239|2731341|2731360|2731618|2731619|||3044785|3060519	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus IPP66	0.004668
+3060519	species	10239|2731341|2731360|2731618|2731619|||3044785|3060519	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus IPP66	0.004669
 1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.004523
 2582632	species	131567|2|1783272|1239|91061|186826|1300|1301|2582632	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. k-378	0.004265
 2094150	species	131567|2|3379134|976|200643|171549|2005473|2518495|2094150	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella|Duncaniella muris	0.004139
@@ -264,7 +264,7 @@
 1463165	species	131567|2|3379134|1224|1236|91347|543|570|1463165	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella quasipneumoniae	0.001604
 2972780	species	131567|2|1783272|1239|91061|186826|1300|1301|2972780	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. Marseille-Q5619	0.001597
 2963161	species	131567|2|1783272|1239|91061|186826|1300|1301|2963161	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CF4-2	0.001591
-2172545	species	131567|2|1783272|1239|91061|186826|1300|1301|2172545	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus halitosis	0.001580
+2172545	species	131567|2|1783272|1239|91061|186826|1300|1301|2172545	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus halitosis	0.001581
 3060517	species	10239|2731341|2731360|2731618|2731619|||3044785|3060517	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus IPP55	0.001561
 3429264	species	10239|2731341|2731360|2731618|2731619|||3424908|3429264	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0031	0.001511
 1702170	species	131567|2|3379134|1224|1236|91347|543|544|1702170	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. FDAARGOS_156	0.001475
@@ -1002,17 +1002,17 @@
 10239	acellular root	10239	Viruses	0.090011
 2	domain	131567|2	cellular organisms|Bacteria	99.909988
 2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.090011
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	57.638222
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	42.271743
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	57.638492
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	42.271473
 2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.090011
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	57.618631
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	40.016869
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	2.254874
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	57.618901
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	40.016754
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	2.254719
 2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.090011
 201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.019591
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	57.614393
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	40.016853
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	2.254874
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	57.614663
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	40.016738
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	2.254719
 2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.090011
 1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.019514
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.003434
@@ -1020,10 +1020,10 @@
 84998	class	131567|2|1783272|201174|84998	cellular organisms|Bacteria|Bacillati|Actinomycetota|Coriobacteriia	0.000076
 909932	class	131567|2|1783272|1239|909932	cellular organisms|Bacteria|Bacillati|Bacillota|Negativicutes	0.000044
 28211	class	131567|2|3379134|1224|28211	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria	0.000016
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	54.363858
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	40.016814
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	3.250534
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	2.254874
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	54.364150
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	40.016699
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	3.250512
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	2.254719
 85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.019476
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.002278
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.000827
@@ -1035,16 +1035,16 @@
 2887326	order	131567|2|3379134|1224|1236|2887326	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Moraxellales	0.000027
 3120395	order	131567|2|3379134|1224|28211|3120395	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Acetobacterales	0.000016
 135624	order	131567|2|3379134|1224|1236|135624	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Aeromonadales	0.000011
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	40.015100
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	37.455853
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	15.607188
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	3.245789
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	2.152012
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	1.300788
-171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.068575
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	40.014985
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	37.456054
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	15.607272
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	3.245767
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	2.151856
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	1.300795
+171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.068576
 2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.026303
 31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.019476
-2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.007525
+2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.007526
 186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.004640
 186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.002278
 1903409	family	131567|2|3379134|1224|1236|91347|1903409	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Erwiniaceae	0.001122
@@ -1071,16 +1071,16 @@
 1903412	family	131567|2|3379134|1224|1236|91347|1903412	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Hafniaceae	0.000015
 1903414	family	131567|2|3379134|1224|1236|91347|1903414	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Morganellaceae	0.000013
 84642	family	131567|2|3379134|1224|1236|135624|84642	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Aeromonadales|Aeromonadaceae	0.000011
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	37.448705
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	21.918709
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	17.824396
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	15.607188
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	3.245789
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	2.040363
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	1.105400
-2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.195388
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.150633
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.111613
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	37.448906
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	21.918827
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	17.824161
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	15.607272
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	3.245767
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	2.040374
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	1.105406
+2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.195389
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.150634
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.111446
 547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.102832
 838	genus	131567|2|3379134|976|200643|171549|171552|838	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	0.067821
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.054407
@@ -1167,32 +1167,32 @@
 642	genus	131567|2|3379134|1224|1236|135624|84642|642	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Aeromonadales|Aeromonadaceae|Aeromonas	0.000011
 447792	genus	131567|2|3379134|1224|1236|91347|543|447792	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Phytobacter	0.000009
 1386	genus	131567|2|1783272|1239|91061|1385|186817|1386	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Bacillaceae|Bacillus	0.000006
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	34.520668
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	21.078549
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	17.822087
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	11.008135
-1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	4.583766
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	3.244543
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	2.040076
-2963155	species	131567|2|1783272|1239|91061|186826|1300|1301|2963155	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CF8_St5-17	1.951144
-548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.782445
-508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.592669
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.504316
-68892	species	131567|2|1783272|1239|91061|186826|1300|1301|68892	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus infantis	0.393841
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.243563
-1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.193934
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.137572
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	34.520853
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	21.078662
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	17.821853
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	11.008194
+1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	4.583790
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	3.244521
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	2.040087
+2963155	species	131567|2|1783272|1239|91061|186826|1300|1301|2963155	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CF8_St5-17	1.951155
+548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.782449
+508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.592672
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.504319
+68892	species	131567|2|1783272|1239|91061|186826|1300|1301|68892	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus infantis	0.393844
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.243564
+1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.193935
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.137573
 1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.083508
 712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.072695
 2736295	species	131567|2|3379134|976|200643|171549|171552|838|2736295	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|Prevotella sp. PTAC	0.067515
 712633	species	131567|2|1783272|1239|91061|186826|1300|1301|712633	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 431	0.067510
 820	species	131567|2|3379134|976|200643|171549|815|816|820	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	0.035692
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.030164
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.029996
 3429266	species	10239|2731341|2731360|2731618|2731619|||3424908|3429266	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0462	0.023929
 3466459	species	131567|2|1783272|1239|91061|186826|1300|1301|3466459	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. KHUD_017	0.022283
 328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.019900
 1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.019476
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.016382
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.016383
 3369474	species	131567|2|1783272|1239|91061|186826|1300|1301|3369474	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. Marseille-Q7087	0.016328
 2937417	species	131567|2|3379134|976|200643|171549|815|816|2937417	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides muris (ex Fokt et al. 2023)	0.015398
 1796613	species	131567|2|3379134|976|200643|171549|815|816|1796613	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides caecimuris	0.015132
@@ -1232,7 +1232,7 @@
 113107	species	131567|2|1783272|1239|91061|186826|1300|1301|113107	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.003164
 3153454	species	131567|2|3379134|1224|1236|91347|543|570|3153454	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. GG_Kp143	0.003083
 3429264	species	10239|2731341|2731360|2731618|2731619|||3424908|3429264	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0031	0.002934
-1196034	species	131567|2|3379134|1224|1236|91347|543|570|1196034	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. 10982	0.002695
+1196034	species	131567|2|3379134|1224|1236|91347|543|570|1196034	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. 10982	0.002696
 1463165	species	131567|2|3379134|1224|1236|91347|543|570|1463165	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella quasipneumoniae	0.002618
 1852387	species	131567|2|1783272|1239|91061|186826|1300|1301|1852387	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus timonensis	0.002481
 2825889	species	131567|2|1783272|1239|91061|186826|1300|1301|2825889	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 9.1(2021)	0.002332
@@ -1543,10 +1543,10 @@
 3466483	species	131567|2|1783272|1239|91061|186826|1300|1301|3466483	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. KHUD_018	0.000052
 2558278	species	131567|2|3379134|976|200643|171549|2005519|397864|2558278	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella|Barnesiella sp. WM24	0.000051
 2819982	species	131567|2|3379134|1224|1236|91347|543|570|2819982	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. KBG1	0.000051
+3409964	species	131567|2|3379134|1224|1236|91347|543|570|3409964	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. R34	0.000051
 1714265	species	131567|2|3379134|1224|1236|91347|543|570|1714265	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. KGM-IMP216	0.000050
 2736289	species	131567|2|3379134|976|200643|171549|171552|558436|2736289	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Xylanibacter|Xylanibacter rodentium	0.000050
 3153407	species	131567|2|3379134|1224|1236|91347|543|570|3153407	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. GB_Kp059	0.000050
-3409964	species	131567|2|3379134|1224|1236|91347|543|570|3409964	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. R34	0.000050
 2094151	species	131567|2|3379134|976|200643|171549|2005473|2518497|2094151	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Paramuribaculum|Paramuribaculum intestinale	0.000049
 2926467	species	131567|2|3379134|1224|1236|91347|543|83654|2926467	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Leclercia|Leclercia tamurae	0.000049
 2985151	species	131567|2|3379134|1224|1236|91347|543|544|2985151	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cpo142	0.000049
@@ -1910,18 +1910,18 @@
 10239	acellular root	10239	Viruses	0.066717
 2	domain	131567|2	cellular organisms|Bacteria	99.933282
 2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.066717
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	58.492664
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	41.440618
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	58.493040
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	41.440241
 2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.066717
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	58.453620
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	38.432967
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	3.007618
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	58.453996
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	38.432652
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	3.007556
 2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.066717
 201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.039043
 29547	phylum	131567|2|3379134|29547	cellular organisms|Bacteria|Pseudomonadati|Campylobacterota	0.000032
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	58.451966
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	38.432868
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	3.007618
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	58.452342
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	38.432552
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	3.007556
 2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.066717
 1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.038817
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.001576
@@ -1930,11 +1930,11 @@
 909932	class	131567|2|1783272|1239|909932	cellular organisms|Bacteria|Bacillati|Bacillota|Negativicutes	0.000043
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.000033
 3031852	class	131567|2|3379134|29547|3031852	cellular organisms|Bacteria|Pseudomonadati|Campylobacterota|Epsilonproteobacteria	0.000032
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	52.851257
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	38.432827
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	5.600709
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	3.007618
-85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.038647
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	52.851659
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	38.432512
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	5.600683
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	3.007556
+85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.038648
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.001114
 3082720	order	131567|2|1783272|1239|186801|3082720	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales	0.000236
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.000226
@@ -1947,17 +1947,17 @@
 213849	order	131567|2|3379134|29547|3031852|213849	cellular organisms|Bacteria|Pseudomonadati|Campylobacterota|Epsilonproteobacteria|Campylobacterales	0.000032
 206389	order	131567|2|3379134|1224|28216|206389	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Rhodocyclales	0.000023
 85006	order	131567|2|1783272|201174|1760|85006	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Micrococcales	0.000023
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	38.432627
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	34.306291
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	16.100935
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	5.597686
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	2.455677
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	2.443828
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.482677
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	38.432311
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	34.306552
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	16.101057
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	5.597660
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	2.455696
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	2.443847
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.482596
 1853231	family	131567|2|3379134|976|200643|171549|1853231	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae	0.049533
-31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.038647
+31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.038648
 171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.017065
-186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.002868
+186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.002869
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.001647
 186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.001114
 2005519	family	131567|2|3379134|976|200643|171549|2005519	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae	0.000835
@@ -1982,29 +1982,29 @@
 31979	family	131567|2|1783272|1239|186801|186802|31979	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Clostridiaceae	0.000020
 186817	family	131567|2|1783272|1239|91061|1385|186817	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Bacillaceae	0.000015
 186806	family	131567|2|1783272|1239|186801|186802|186806	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae	0.000013
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	34.300690
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	32.850741
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	16.100935
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	5.597686
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	5.216834
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	2.455677
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	2.434082
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.351301
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.281040
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.131331
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	34.300951
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	32.850383
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	16.101057
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	5.597660
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	5.216873
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	2.455696
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	2.434100
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.351304
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.281043
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.131248
 547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.073405
-574697	genus	131567|2|3379134|976|200643|171549|1853231|574697	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas	0.049517
-1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.038647
+574697	genus	131567|2|3379134|976|200643|171549|1853231|574697	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas	0.049518
+1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.038648
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.022810
 2842814	genus	10239|2731341|2731360|2731618|2731619|||2842814	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Kwaitsingvirus	0.016568
 838	genus	131567|2|3379134|976|200643|171549|171552|838	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	0.016295
 3424928	genus	10239|2731341|2731360|2731618|2731619|||3424928	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Medawarvirus	0.015360
 2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.009746
 590	genus	131567|2|3379134|1224|1236|91347|543|590	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.008158
-1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.005600
+1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.005601
 3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.004270
 3424909	genus	10239|2731341|2731360|2731618|2731619|||3424909	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Norfolkplacevirus	0.003248
-44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.002868
+44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.002869
 3424910	genus	10239|2731341|2731360|2731618|2731619|||3424910	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus	0.002577
 2843432	genus	10239|2731341|2731360|2731618|2731619|||2843432	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Pankowvirus	0.001882
 2518495	genus	131567|2|3379134|976|200643|171549|2005473|2518495	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella	0.001451
@@ -2066,23 +2066,23 @@
 158483	genus	131567|2|3379134|1224|1236|91347|543|158483	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Cedecea	0.000010
 2800373	genus	131567|2|1783272|1239|91061|1385|186817|2800373	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Bacillaceae|Priestia	0.000008
 1386	genus	131567|2|1783272|1239|91061|1385|186817|1386	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Bacillaceae|Bacillus	0.000006
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	34.024157
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	32.842565
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	15.958757
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	5.597041
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	5.192236
-508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	2.386770
-823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	2.014225
-328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.373571
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.343945
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.244281
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.137653
-1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.123876
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.067474
-2746063	species	131567|2|3379134|976|200643|171549|815|816|2746063	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides sp. L10-4	0.066302
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	34.024416
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	32.842207
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	15.958878
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	5.597015
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	5.192275
+508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	2.386788
+823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	2.014240
+328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.373574
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.343947
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.244283
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.137654
+1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.123877
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.067475
+2746063	species	131567|2|3379134|976|200643|171549|815|816|2746063	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides sp. L10-4	0.066303
 544645	species	131567|2|3379134|976|200643|171549|1853231|574697|544645	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|Butyricimonas virosa	0.045115
 28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.043982
-1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.038647
+1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.038648
 820	species	131567|2|3379134|976|200643|171549|815|816|820	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	0.017509
 2320086	species	131567|2|3379134|976|200643|171549|2005525|375288|2320086	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. CH2-D42-20	0.016840
 658662	species	131567|2|3379134|976|200643|171549|2005525|375288|658662	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. D26	0.016721
@@ -2090,12 +2090,12 @@
 2736295	species	131567|2|3379134|976|200643|171549|171552|838|2736295	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|Prevotella sp. PTAC	0.016103
 151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.015941
 3430753	species	10239|2731341|2731360|2731618|2731619|||3424928|3430753	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Medawarvirus|Medawarvirus ARI01312	0.015360
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.015208
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.015124
 1591	species	131567|2|1783272|1239|91061|186826|33958|1578|1591	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus sp.	0.013797
 3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.011537
 3002975	species	131567|2|1783272|1239|91061|186826|81852|1350|3002975	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus sp. E5-100	0.010992
 33959	species	131567|2|1783272|1239|91061|186826|33958|1578|33959	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus johnsonii	0.010766
-2582647	species	131567|2|1783272|1239|91061|186826|1300|1301|2582647	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 563	0.010751
+2582647	species	131567|2|1783272|1239|91061|186826|1300|1301|2582647	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 563	0.010752
 2849180	species	131567|2|3379134|976|200643|171549|2005525|375288|2849180	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. MSK.9.14	0.009815
 1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.009646
 1796613	species	131567|2|3379134|976|200643|171549|815|816|1796613	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides caecimuris	0.009636
@@ -2108,7 +2108,7 @@
 3429266	species	10239|2731341|2731360|2731618|2731619|||3424908|3429266	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0462	0.007020
 162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	0.007004
 2582665	species	131567|2|1783272|1239|91061|186826|1300|1301|2582665	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 428	0.006890
-2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.005600
+2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.005601
 133448	species	131567|2|3379134|1224|1236|91347|543|544|133448	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter youngae	0.005427
 821	species	131567|2|3379134|976|200643|171549|815|909656|821	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola vulgatus	0.005037
 1869337	species	131567|2|3379134|976|200643|171549|2005525|375288|1869337	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp.	0.004724
@@ -2241,7 +2241,7 @@
 2035004	species	131567|2|1783272|1239|91061|186826|81852|1350|2035004	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus sp. H57	0.000325
 1702170	species	131567|2|3379134|1224|1236|91347|543|544|1702170	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. FDAARGOS_156	0.000321
 3374532	species	131567|2|3379134|1224|1236|91347|543|570|3374532	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. NA21	0.000317
-3392241	species	131567|2|1783272|1239|91061|186826|1300|1301|3392241	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CL8.13	0.000316
+3392241	species	131567|2|1783272|1239|91061|186826|1300|1301|3392241	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CL8.13	0.000317
 1259973	species	131567|2|3379134|1224|1236|91347|543|570|1259973	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella electrica	0.000309
 3074854	species	131567|2|1783272|1239|91061|186826|1300|1301|3074854	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. SN-1	0.000300
 622	species	131567|2|3379134|1224|1236|91347|543|620|622	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Shigella|Shigella dysenteriae	0.000296
@@ -2819,30 +2819,30 @@
 10239	acellular root	10239	Viruses	0.085057
 2	domain	131567|2	cellular organisms|Bacteria	99.914942
 2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.085057
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	57.776626
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	42.138316
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	57.776999
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	42.137943
 2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.085057
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	57.699785
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	41.815705
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.322610
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	57.700157
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	41.815346
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.322596
 2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.085057
-201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.076701
+201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.076702
 1117	phylum	131567|2|1783272|1117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota	0.000139
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	57.690757
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	41.815540
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.322610
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	57.691129
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	41.815181
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.322596
 2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.085057
-1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.076701
+1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.076702
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.008624
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.000346
 3028117	class	131567|2|1783272|1117|3028117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae	0.000139
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000129
 1737404	class	131567|2|1783272|1239|1737404	cellular organisms|Bacteria|Bacillati|Bacillota|Tissierellia	0.000057
 28211	class	131567|2|3379134|1224|28211	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria	0.000035
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	53.147395
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	41.815469
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	4.543361
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.322610
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	53.147789
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	41.815110
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	4.543340
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.322596
 85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.076694
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.005744
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.002194
@@ -2855,12 +2855,12 @@
 204458	order	131567|2|3379134|1224|28211|204458	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Caulobacterales	0.000035
 2887326	order	131567|2|3379134|1224|1236|2887326	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Moraxellales	0.000013
 85011	order	131567|2|1783272|201174|1760|85011	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales	0.000007
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	46.773136
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	41.813842
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	6.190234
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	4.539284
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.301464
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.183466
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	46.773482
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	41.813483
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	6.190280
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	4.539262
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.301450
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.183467
 31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.076694
 2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.015196
 186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.005694
@@ -2892,22 +2892,22 @@
 1903416	family	131567|2|3379134|1224|1236|91347|1903416	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Budviciaceae	0.000013
 468	family	131567|2|3379134|1224|1236|2887326|468	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae	0.000013
 2062	family	131567|2|1783272|201174|1760|85011|2062	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae	0.000007
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	46.571934
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	36.140831
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	6.190234
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	5.252177
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	4.539284
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.297345
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.226162
-1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.201202
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.181320
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.112263
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	46.572278
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	36.140430
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	6.190280
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	5.252216
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	4.539262
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.297347
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.226164
+1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.201204
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.181321
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.112264
 1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.076694
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.075287
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.075271
 3424927	genus	10239|2731341|2731360|2731618|2731619|||3424927	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus	0.030425
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.016664
 375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.015196
-3424909	genus	10239|2731341|2731360|2731618|2731619|||3424909	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Norfolkplacevirus	0.015035
+3424909	genus	10239|2731341|2731360|2731618|2731619|||3424909	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Norfolkplacevirus	0.015036
 3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.011290
 590	genus	131567|2|3379134|1224|1236|91347|543|590	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.008812
 2518495	genus	131567|2|3379134|976|200643|171549|2005473|2518495	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella	0.005234
@@ -2993,23 +2993,23 @@
 568	genus	131567|2|3379134|1224|1236|91347|1903412|568	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Hafniaceae|Hafnia	0.000010
 1330546	genus	131567|2|3379134|1224|1236|91347|543|1330546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Pluralibacter	0.000009
 1883	genus	131567|2|1783272|201174|1760|85011|2062|1883	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces	0.000007
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	45.523486
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	36.131291
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	6.183167
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	5.213356
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	4.538022
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.489479
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.278483
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.225701
-28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.208502
-2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.201129
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.121571
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	45.523823
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	36.130890
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	6.183213
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	5.213395
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	4.538000
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.489482
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.278485
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.225703
+28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.208504
+2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.201130
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.121572
 1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.076694
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.076252
-2582647	species	131567|2|1783272|1239|91061|186826|1300|1301|2582647	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 563	0.062994
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.076253
+2582647	species	131567|2|1783272|1239|91061|186826|1300|1301|2582647	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 563	0.062995
 2250596	species	131567|2|1783272|1239|91061|186826|1300|1301|2250596	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 596553	0.060653
-162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	0.060254
-2582648	species	131567|2|1783272|1239|91061|186826|1300|1301|2582648	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 2579	0.054133
+162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	0.060255
+2582648	species	131567|2|1783272|1239|91061|186826|1300|1301|2582648	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 2579	0.054134
 508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.048755
 3425981	species	10239|2731341|2731360|2731618|2731619|||3424927|3425981	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus|Adrianbuildvirus ARI0923	0.028859
 1329838	species	131567|2|3379134|1224|1236|91347|543|547|1329838	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter sp. BIDMC 26	0.025271
@@ -3017,7 +3017,7 @@
 548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.019998
 1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.017316
 2993430	species	131567|2|1783272|1239|91061|186826|1300|1301|2993430	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus parapneumoniae	0.015119
-3431194	species	10239|2731341|2731360|2731618|2731619|||3424909|3431194	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Norfolkplacevirus|Norfolkplacevirus ARI0746	0.015035
+3431194	species	10239|2731341|2731360|2731618|2731619|||3424909|3431194	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Norfolkplacevirus|Norfolkplacevirus ARI0746	0.015036
 2582637	species	131567|2|1783272|1239|91061|186826|1300|1301|2582637	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 68	0.011110
 1248330	species	131567|2|1783272|1239|91061|186826|33958|1578|1248330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus sp. PC121B	0.010508
 3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.010132
@@ -3032,7 +3032,7 @@
 3060519	species	10239|2731341|2731360|2731618|2731619|||3044785|3060519	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus IPP66	0.005567
 2582679	species	131567|2|1783272|1239|91061|186826|1300|1301|2582679	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 53	0.005293
 2094150	species	131567|2|3379134|976|200643|171549|2005473|2518495|2094150	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella|Duncaniella muris	0.004705
-2582643	species	131567|2|1783272|1239|91061|186826|1300|1301|2582643	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 339	0.004571
+2582643	species	131567|2|1783272|1239|91061|186826|1300|1301|2582643	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 339	0.004572
 2582661	species	131567|2|1783272|1239|91061|186826|1300|1301|2582661	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 1453	0.004090
 1463165	species	131567|2|3379134|1224|1236|91347|543|570|1463165	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella quasipneumoniae	0.004055
 3430753	species	10239|2731341|2731360|2731618|2731619|||3424928|3430753	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Medawarvirus|Medawarvirus ARI01312	0.004054
@@ -3046,7 +3046,7 @@
 2736608	species	131567|2|1783272|1239|91061|186826|1300|1301|2736608	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus thalassemiae	0.003207
 712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.003046
 2800167	species	131567|2|3379134|1224|1236|91347|543|561|2800167	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia sp. XD20	0.003044
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.002957
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.002941
 3060517	species	10239|2731341|2731360|2731618|2731619|||3044785|3060517	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus IPP55	0.002913
 3060521	species	10239|2731341|2731360|2731618|2731619|||3044785|3060521	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus SpGS-1	0.002808
 3381940	species	131567|2|3379134|1224|1236|91347|543|561|3381940	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia sp. WS1450	0.002763
@@ -3700,32 +3700,32 @@
 10239	acellular root	10239	Viruses	0.035277
 2	domain	131567|2	cellular organisms|Bacteria	99.964722
 2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.035277
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	52.777104
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	47.187618
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	52.776730
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	47.187992
 2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.035277
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	52.322564
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	47.174355
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.454540
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	52.322206
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	47.174729
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.454523
 2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.035277
 201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.013262
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	52.322068
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	46.248056
-186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.914823
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.454540
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	52.321711
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	46.248421
+186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.914831
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.454523
 2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.035277
 1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.013245
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.011476
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000416
 28211	class	131567|2|3379134|1224|28211	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria	0.000079
 84998	class	131567|2|1783272|201174|84998	cellular organisms|Bacteria|Bacillati|Actinomycetota|Coriobacteriia	0.000017
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	52.322026
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	41.566654
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	4.681401
-3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.642632
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.454540
-186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.259749
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	52.321669
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	41.567034
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	4.681387
+3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.642638
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.454523
+186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.259752
 85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.012715
-3082720	order	131567|2|1783272|1239|186801|3082720	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales	0.012440
+3082720	order	131567|2|1783272|1239|186801|3082720	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales	0.012441
 526525	order	131567|2|1783272|1239|526524|526525	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales	0.011476
 85004	order	131567|2|1783272|201174|1760|85004	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Bifidobacteriales	0.000521
 80840	order	131567|2|3379134|1224|28216|80840	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales	0.000416
@@ -3733,20 +3733,20 @@
 135614	order	131567|2|3379134|1224|1236|135614	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Lysobacterales	0.000041
 1643822	order	131567|2|1783272|201174|84998|1643822	cellular organisms|Bacteria|Bacillati|Actinomycetota|Coriobacteriia|Eggerthellales	0.000017
 85011	order	131567|2|1783272|201174|1760|85011	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales	0.000007
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	52.318421
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	38.477671
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	4.676369
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	2.353404
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.735302
-186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.642404
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.363844
-216572	family	131567|2|1783272|1239|186801|186802|216572	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae	0.175700
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.076725
-3082771	family	131567|2|1783272|1239|186801|186802|3082771	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Acutalibacteraceae	0.046095
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	52.318063
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	38.478023
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	4.676355
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	2.353425
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.735308
+186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.642410
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.363825
+216572	family	131567|2|1783272|1239|186801|186802|216572	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae	0.175702
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.076726
+3082771	family	131567|2|1783272|1239|186801|186802|3082771	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Acutalibacteraceae	0.046096
 31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.012715
 543314	family	131567|2|1783272|1239|186801|3082720|543314	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales|Anaerovoracaceae	0.012392
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.012356
-128827	family	131567|2|1783272|1239|526524|526525|128827	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	0.010901
+128827	family	131567|2|1783272|1239|526524|526525|128827	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	0.010902
 186806	family	131567|2|1783272|1239|186801|186802|186806	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae	0.005930
 186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.004704
 1903411	family	131567|2|3379134|1224|1236|91347|1903411	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Yersiniaceae	0.003251
@@ -3772,34 +3772,34 @@
 2005519	family	131567|2|3379134|976|200643|171549|2005519	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae	0.000017
 1903414	family	131567|2|3379134|1224|1236|91347|1903414	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Morganellaceae	0.000016
 2062	family	131567|2|1783272|201174|1760|85011|2062	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae	0.000007
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	45.145132
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	38.474654
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	6.445159
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	4.676369
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	2.353404
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.732949
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.392190
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.327005
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.324809
-1427378	genus	131567|2|1783272|1239|186801|3085636|186803|1427378	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Acetatifactor	0.142774
-2941495	genus	131567|2|1783272|1239|186801|3085636|186803|2941495	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Otoolea	0.136081
-244127	genus	131567|2|1783272|1239|186801|186802|216572|244127	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Anaerotruncus	0.104686
-3039590	genus	131567|2|1783272|1239|186801|3085636|186803|3039590	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Parablautia	0.100569
-2811390	genus	131567|2|1783272|1239|186801|3085636|186803|2811390	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Sporofaciens	0.091610
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.076725
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	45.144710
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	38.475006
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	6.445218
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	4.676355
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	2.353425
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.732956
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.392194
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.327008
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.324812
+1427378	genus	131567|2|1783272|1239|186801|3085636|186803|1427378	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Acetatifactor	0.142775
+2941495	genus	131567|2|1783272|1239|186801|3085636|186803|2941495	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Otoolea	0.136082
+244127	genus	131567|2|1783272|1239|186801|186802|216572|244127	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Anaerotruncus	0.104687
+3039590	genus	131567|2|1783272|1239|186801|3085636|186803|3039590	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Parablautia	0.100570
+2811390	genus	131567|2|1783272|1239|186801|3085636|186803|2811390	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Sporofaciens	0.091611
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.076726
 3032809	genus	131567|2|1783272|1239|186801|3085636|186803|3032809	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Petralouisia	0.056790
-1918385	genus	131567|2|1783272|1239|186801|186802|3082771|1918385	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Acutalibacteraceae|Acutalibacter	0.046095
-2840622	genus	131567|2|1783272|1239|186801|3085636|186803|2840622	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Candidatus Merdisoma	0.044891
-1017280	genus	131567|2|1783272|1239|186801|186802|216572|1017280	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Pseudoflavonifractor	0.042998
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.038982
+1918385	genus	131567|2|1783272|1239|186801|186802|3082771|1918385	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Acutalibacteraceae|Acutalibacter	0.046096
+2840622	genus	131567|2|1783272|1239|186801|3085636|186803|2840622	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Candidatus Merdisoma	0.044892
+1017280	genus	131567|2|1783272|1239|186801|186802|216572|1017280	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Pseudoflavonifractor	0.042999
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.038960
 1980681	genus	131567|2|1783272|1239|186801|186802||1980681	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales||Colidextribacter	0.022119
-841	genus	131567|2|1783272|1239|186801|3085636|186803|841	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Roseburia	0.019053
+841	genus	131567|2|1783272|1239|186801|3085636|186803|841	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Roseburia	0.019054
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.012810
 1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.012715
 2518495	genus	131567|2|3379134|976|200643|171549|2005473|2518495	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella	0.012209
 1432051	genus	131567|2|1783272|1239|186801|3085636|186803|1432051	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Eisenbergiella	0.012051
 459786	genus	131567|2|1783272|1239|186801|186802|216572|459786	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Oscillibacter	0.011868
-2941520	genus	131567|2|1783272|1239|186801|3082720|543314|2941520	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales|Anaerovoracaceae|Senimuribacter	0.011637
+2941520	genus	131567|2|1783272|1239|186801|3082720|543314|2941520	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales|Anaerovoracaceae|Senimuribacter	0.011638
 1924105	genus	131567|2|1783272|1239|186801|186802|216572|1924105	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Neglectibacter	0.011069
 3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.009892
 2676048	genus	131567|2|1783272|1239|186801|3085636|186803|2676048	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Schaedlerella	0.009274
@@ -3909,32 +3909,32 @@
 204037	genus	131567|2|3379134|1224|1236|91347|1903410|204037	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Pectobacteriaceae|Dickeya	0.000012
 1330546	genus	131567|2|3379134|1224|1236|91347|543|1330546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Pluralibacter	0.000011
 1883	genus	131567|2|1783272|201174|1760|85011|2062|1883	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces	0.000007
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	45.140359
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	37.799159
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	6.323013
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	4.675032
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	2.338266
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.731727
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.324597
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.306275
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.299240
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.241659
-28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.164354
-2941515	species	131567|2|1783272|1239|186801|3085636|186803|2941495|2941515	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Otoolea|Otoolea muris	0.136047
-548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.093482
-879566	species	131567|2|1783272|1239|186801|3085636|186803|1427378|879566	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Acetatifactor|Acetatifactor muris	0.087941
-2681861	species	131567|2|1783272|1239|186801|3085636|186803|2811390|2681861	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Sporofaciens|Sporofaciens musculi	0.085758
-1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.081227
-2320879	species	131567|2|1783272|1239|186801|3085636|186803|3039590|2320879	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Parablautia|Parablautia muri	0.077747
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	45.139936
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	37.799504
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	6.323070
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	4.675018
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	2.338287
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.731733
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.324600
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.306278
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.299243
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.241662
+28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.164355
+2941515	species	131567|2|1783272|1239|186801|3085636|186803|2941495|2941515	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Otoolea|Otoolea muris	0.136048
+548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.093483
+879566	species	131567|2|1783272|1239|186801|3085636|186803|1427378|879566	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Acetatifactor|Acetatifactor muris	0.087942
+2681861	species	131567|2|1783272|1239|186801|3085636|186803|2811390|2681861	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Sporofaciens|Sporofaciens musculi	0.085759
+1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.081228
+2320879	species	131567|2|1783272|1239|186801|3085636|186803|3039590|2320879	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Parablautia|Parablautia muri	0.077748
 2320853	species	131567|2|1783272|1239|186801|186802|216572|244127|2320853	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Anaerotruncus|Anaerotruncus sp. 1XD42-93	0.068389
-328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.057215
+328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.057216
 2250596	species	131567|2|1783272|1239|91061|186826|1300|1301|2250596	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 596553	0.047586
 2582647	species	131567|2|1783272|1239|91061|186826|1300|1301|2582647	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 563	0.042118
 2304576	species	131567|2|1783272|1239|186801|186802|216572|1017280|2304576	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Pseudoflavonifractor|Pseudoflavonifractor sp. 60	0.040213
-3114299	species	131567|2|1783272|1239|186801|3085636|186803|2840622|3114299	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Candidatus Merdisoma|Candidatus Merdisoma sp. JLR.KK011	0.038856
+3114299	species	131567|2|1783272|1239|186801|3085636|186803|2840622|3114299	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Candidatus Merdisoma|Candidatus Merdisoma sp. JLR.KK011	0.038857
 2941233	species	131567|2|1783272|1239|186801|3085636|186803|1427378|2941233	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Acetatifactor|Acetatifactor aquisgranensis	0.037268
 2582648	species	131567|2|1783272|1239|91061|186826|1300|1301|2582648	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 2579	0.035860
-3032835	species	131567|2|1783272|1239|186801|3085636|186803|3032809|3032835	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Petralouisia|Petralouisia sp.	0.035338
+3032835	species	131567|2|1783272|1239|186801|3085636|186803|3032809|3032835	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Petralouisia|Petralouisia sp.	0.035339
 1235835	species	131567|2|1783272|1239|186801|186802|216572|244127|1235835	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Anaerotruncus|Anaerotruncus sp. G3(2012)	0.034168
 2320100	species	131567|2|1783272|1239|186801|3085636|186803|3039590|2320100	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Parablautia|Parablautia intestinalis	0.022821
 2304568	species	131567|2|1783272|1239|186801|186802||1980681|2304568	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales||Colidextribacter|Colidextribacter sp. OB.20	0.022119
@@ -3944,18 +3944,18 @@
 712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.019630
 2320088	species	131567|2|1783272|1239|186801|3085636|186803|841|2320088	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Roseburia|Roseburia sp. 1XD42-69	0.019008
 823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.018336
-1671927	species	131567|2|1783272|1239|186801|3085636|186803|1427378|1671927	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Acetatifactor|uncultured Acetatifactor sp.	0.017564
+1671927	species	131567|2|1783272|1239|186801|3085636|186803|1427378|1671927	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Acetatifactor|uncultured Acetatifactor sp.	0.017565
 2320081	species	131567|2|1783272|1239|186801|186802|3082771|1918385|2320081	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Acutalibacteraceae|Acutalibacter|Acutalibacter sp. 1XD8-33	0.015191
 2972781	species	131567|2|1783272|1239|91061|186826|1300|1301|2972781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. Marseille-Q5855	0.013824
 1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.012762
 1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.012715
 2993430	species	131567|2|1783272|1239|91061|186826|1300|1301|2993430	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus parapneumoniae	0.012243
-2652274	species	131567|2|1783272|1239|186801|3085636|186803|1432051|2652274	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Eisenbergiella|Eisenbergiella porci	0.012027
+2652274	species	131567|2|1783272|1239|186801|3085636|186803|1432051|2652274	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Eisenbergiella|Eisenbergiella porci	0.012028
 2094150	species	131567|2|3379134|976|200643|171549|2005473|2518495|2094150	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella|Duncaniella muris	0.011765
-2941507	species	131567|2|1783272|1239|186801|3082720|543314|2941520|2941507	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales|Anaerovoracaceae|Senimuribacter|Senimuribacter intestinalis	0.011637
+2941507	species	131567|2|1783272|1239|186801|3082720|543314|2941520|2941507	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales|Anaerovoracaceae|Senimuribacter|Senimuribacter intestinalis	0.011638
 2305472	species	131567|2|1783272|1239|186801|186802|216572|1924105|2305472	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Neglectibacter|Neglectibacter sp. X4	0.010809
 2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.009855
-1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.009185
+1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.009186
 571	species	131567|2|3379134|1224|1236|91347|543|570|571	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella oxytoca	0.008884
 2582637	species	131567|2|1783272|1239|91061|186826|1300|1301|2582637	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 68	0.008867
 2044587	species	131567|2|1783272|1239|186801|3085636|186803|2676048|2044587	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Schaedlerella|Schaedlerella arabinosiphila	0.008304
@@ -3965,7 +3965,7 @@
 2941327	species	131567|2|1783272|1239|186801|186802||1918454|2941327	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales||Flintibacter|Flintibacter muris	0.006558
 3112626	species	131567|2|1783272|1239|186801|3085636|186803|2840622|3112626	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Candidatus Merdisoma|Candidatus Merdisoma sp. JLR.KK006	0.006034
 2582635	species	131567|2|1783272|1239|91061|186826|1300|1301|2582635	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. k-628	0.005992
-2972780	species	131567|2|1783272|1239|91061|186826|1300|1301|2972780	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. Marseille-Q5619	0.005969
+2972780	species	131567|2|1783272|1239|91061|186826|1300|1301|2972780	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. Marseille-Q5619	0.005970
 1323	species	131567|2|1783272|1239|526524|526525|128827|1573536|1323	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalicoccus|Faecalicoccus pleomorphus	0.005894
 3432559	species	10239|2731341|2731360|2731618|2731619|||3424910|3432559	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus|Spinunavirus ARI04601	0.005867
 3112621	species	131567|2|1783272|1239|186801|3085636|186803|2811390|3112621	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Sporofaciens|Sporofaciens sp. JLR.KK001	0.005852
@@ -3981,8 +3981,8 @@
 2582679	species	131567|2|1783272|1239|91061|186826|1300|1301|2582679	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 53	0.004211
 2589786	species	131567|2|1783272|1239|91061|186826|1300|1301|2589786	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus shenyangsis	0.004147
 2582652	species	131567|2|1783272|1239|91061|186826|1300|1301|2582652	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 4094	0.004069
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.003901
 2941517	species	131567|2|1783272|1239|186801|3085636|186803|2941498|2941517	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Hominisplanchenecus|Hominisplanchenecus murintestinalis	0.003898
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.003880
 3430753	species	10239|2731341|2731360|2731618|2731619|||3424928|3430753	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Medawarvirus|Medawarvirus ARI01312	0.003596
 3060521	species	10239|2731341|2731360|2731618|2731619|||3044785|3060521	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus SpGS-1	0.003303
 2883214	species	131567|2|1783272|1239|186801|3085636|186803|2719231|2883214	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Lacrimispora|Lacrimispora sp. 210928-DFI.3.58	0.003252
@@ -4109,7 +4109,7 @@
 3480127	species	131567|2|1783272|1239|91061|186826|1300|1301|3480127	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. V940	0.000353
 3420548	species	131567|2|1783272|1239|186801|3085636|186803|1924081|3420548	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Bariatricus|Bariatricus sp. SGI.019	0.000352
 550	species	131567|2|3379134|1224|1236|91347|543|547|550	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter cloacae	0.000345
-563038	species	131567|2|1783272|1239|91061|186826|1300|1301|563038	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. M334	0.000341
+563038	species	131567|2|1783272|1239|91061|186826|1300|1301|563038	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. M334	0.000342
 3153407	species	131567|2|3379134|1224|1236|91347|543|570|3153407	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. GB_Kp059	0.000337
 3381941	species	131567|2|3379134|1224|1236|91347|543|561|3381941	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia sp. WS1451	0.000336
 2026240	species	131567|2|3379134|1224|1236|91347|543|570|2026240	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella quasivariicola	0.000332
@@ -4677,7 +4677,7 @@
 460384	species	131567|2|1783272|1239|186801|3085636|186803|2719313|460384	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Enterocloster|Enterocloster lavalensis	0.000009
 2949651	species	131567|2|3379134|976|200643|171549|2005525|375288|2949651	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides caecihominis	0.000008
 3375367	species	131567|2|1783272|201174|1760|85011|2062|1883|3375367	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces|Streptomyces stephensoniae	0.000007
-1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	0.081227
+1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	0.081228
 1006551	strain	131567|2|3379134|1224|1236|91347|543|570|1134687|1006551	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella michiganensis|Klebsiella michiganensis KCTC 1686	0.001609
 1286820	strain	131567|2|1783272|1239|186801|3085636|186803|2719231|69825|1286820	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Lacrimispora|Lacrimispora indolis|Lacrimispora indolis SR3	0.000666
 1211819	strain	131567|2|1783272|1239|526524|526525|128827|61170|1468449|1211819	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis|Holdemania massiliensis AP2	0.000467
@@ -4692,36 +4692,36 @@
 10239	acellular root	10239	Viruses	0.102390
 2	domain	131567|2	cellular organisms|Bacteria	99.897609
 2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.102390
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	56.217245
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	43.680315
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	56.217478
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	43.680082
 2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.102390
 3384189	kingdom	131567|2|3384189	cellular organisms|Bacteria|Fusobacteriati	0.000030
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	49.217378
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	43.244400
-201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	6.999866
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.435890
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	49.217578
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	43.244180
+201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	6.999899
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.435877
 2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.102390
 32066	phylum	131567|2|3384189|32066	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota	0.000030
 203691	phylum	131567|2|3379134|203691	cellular organisms|Bacteria|Pseudomonadati|Spirochaetota	0.000024
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	49.168222
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	43.241076
-1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	6.999791
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.435890
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	49.168421
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	43.240856
+1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	6.999823
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.435877
 2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.102390
-186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.048181
+186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.048182
 28211	class	131567|2|3379134|1224|28211	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria	0.003287
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.000975
 84998	class	131567|2|1783272|201174|84998	cellular organisms|Bacteria|Bacillati|Actinomycetota|Coriobacteriia	0.000075
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000036
 203490	class	131567|2|3384189|32066|203490	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota|Fusobacteriia	0.000030
 203692	class	131567|2|3379134|203691|203692	cellular organisms|Bacteria|Pseudomonadati|Spirochaetota|Spirochaetia	0.000024
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	46.737413
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	43.241076
-85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	6.999701
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.430809
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.435890
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	46.737630
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	43.240856
+85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	6.999733
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.430790
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.435877
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.031689
-186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.013703
+186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.013704
 3120395	order	131567|2|3379134|1224|28211|3120395	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Acetobacterales	0.003287
 3082720	order	131567|2|1783272|1239|186801|3082720	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales	0.002788
 526525	order	131567|2|1783272|1239|526524|526525	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales	0.000975
@@ -4732,16 +4732,16 @@
 3120456	order	131567|2|3379134|203691|203692|3120456	cellular organisms|Bacteria|Pseudomonadati|Spirochaetota|Spirochaetia|Treponematales	0.000024
 2037	order	131567|2|1783272|201174|1760|2037	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Actinomycetales	0.000022
 80840	order	131567|2|3379134|1224|28216|80840	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales	0.000011
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	43.240080
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	42.095232
-31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	6.999701
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	3.151143
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.426529
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	1.491003
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.375305
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	43.239859
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	42.095428
+31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	6.999733
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	3.151157
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.426510
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	1.491010
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.375292
 2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.052268
 186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.031689
-216572	family	131567|2|1783272|1239|186801|186802|216572	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae	0.008712
+216572	family	131567|2|1783272|1239|186801|186802|216572	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae	0.008713
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.006843
 186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.004180
 433	family	131567|2|3379134|1224|28211|3120395|433	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Acetobacterales|Acetobacteraceae	0.003287
@@ -4770,19 +4770,19 @@
 1903412	family	131567|2|3379134|1224|1236|91347|1903412	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Hafniaceae	0.000014
 1903414	family	131567|2|3379134|1224|1236|91347|1903414	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Morganellaceae	0.000011
 80864	family	131567|2|3379134|1224|28216|80840|80864	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae	0.000011
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	42.009462
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	22.782149
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	18.023672
-1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	6.999701
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.426529
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	2.228595
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	1.793685
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	1.491003
-2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	1.357424
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.249907
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.194927
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.125308
-1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.085770
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	42.009657
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	22.781833
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	18.023756
+1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	6.999733
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.426510
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	2.228605
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	1.793693
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	1.491010
+2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	1.357430
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.249908
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.194928
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.125294
+1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.085771
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.079683
 375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.052268
 3424910	genus	10239|2731341|2731360|2731618|2731619|||3424910	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus	0.009135
@@ -4821,7 +4821,7 @@
 838	genus	131567|2|3379134|976|200643|171549|171552|838	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	0.000411
 620	genus	131567|2|3379134|1224|1236|91347|543|620	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Shigella	0.000378
 1730	genus	131567|2|1783272|1239|186801|186802|186806|1730	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Eubacterium	0.000356
-2941498	genus	131567|2|1783272|1239|186801|3085636|186803|2941498	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Hominisplanchenecus	0.000328
+2941498	genus	131567|2|1783272|1239|186801|3085636|186803|2941498	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Hominisplanchenecus	0.000329
 3119089	genus	131567|2|1783272|1239|186801|3085636|186803|3119089	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Fusibacillus	0.000313
 53335	genus	131567|2|3379134|1224|1236|91347|1903409|53335	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Erwiniaceae|Pantoea	0.000301
 1918540	genus	131567|2|3379134|976|200643|171549|2005473|1918540	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Muribaculum	0.000260
@@ -4834,7 +4834,7 @@
 1729679	genus	131567|2|1783272|1239|526524|526525|128827|1729679	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Faecalibaculum	0.000149
 613	genus	131567|2|3379134|1224|1236|91347|1903411|613	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Yersiniaceae|Serratia	0.000140
 61170	genus	131567|2|1783272|1239|526524|526525|128827|61170	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania	0.000131
-216851	genus	131567|2|1783272|1239|186801|186802|216572|216851	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium	0.000122
+216851	genus	131567|2|1783272|1239|186801|186802|216572|216851	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium	0.000124
 204037	genus	131567|2|3379134|1224|1236|91347|1903410|204037	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Pectobacteriaceae|Dickeya	0.000112
 1164882	genus	131567|2|1783272|1239|186801|3085636|186803|1164882	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Lachnoanaerobaculum	0.000109
 551	genus	131567|2|3379134|1224|1236|91347|1903409|551	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Erwiniaceae|Erwinia	0.000105
@@ -4888,27 +4888,27 @@
 626	genus	131567|2|3379134|1224|1236|91347|1903414|626	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Morganellaceae|Xenorhabdus	0.000011
 1263	genus	131567|2|1783272|1239|186801|186802|216572|1263	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus	0.000010
 1330545	genus	131567|2|3379134|1224|1236|91347|543|1330545	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Lelliottia	0.000010
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	37.250959
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	22.779412
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	17.812771
-1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	6.999680
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	4.219436
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.423123
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	2.098062
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	1.458537
-1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	1.344365
-508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	1.078522
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.699755
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.249524
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.165946
-712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.153766
-548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.143415
-162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	0.106615
-2582643	species	131567|2|1783272|1239|91061|186826|1300|1301|2582643	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 339	0.095402
-2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.085721
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	37.251132
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	22.779096
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	17.812853
+1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	6.999713
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	4.219455
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.423104
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	2.098072
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	1.458543
+1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	1.344371
+508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	1.078527
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.699758
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.249525
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.165947
+712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.153767
+548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.143416
+162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	0.106616
+2582643	species	131567|2|1783272|1239|91061|186826|1300|1301|2582643	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 339	0.095403
+2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.085722
 1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.063852
 28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.061244
-3429266	species	10239|2731341|2731360|2731618|2731619|||3424908|3429266	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0462	0.059910
+3429266	species	10239|2731341|2731360|2731618|2731619|||3424908|3429266	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0462	0.059911
 2582673	species	131567|2|1783272|1239|91061|186826|1300|1301|2582673	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 4155	0.048683
 823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.043940
 1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.031514
@@ -4966,14 +4966,14 @@
 2920177	species	131567|2|3379134|1224|1236|91347|543|570|2920177	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. K4-41	0.002844
 550	species	131567|2|3379134|1224|1236|91347|543|547|550	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter cloacae	0.002792
 2320853	species	131567|2|1783272|1239|186801|186802|216572|244127|2320853	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Anaerotruncus|Anaerotruncus sp. 1XD42-93	0.002760
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.002627
 2804128	species	131567|2|1783272|1239|91061|1385|90964|1279|2804128	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus sp. GDY8P57P	0.002622
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.002613
 2850493	species	131567|2|3379134|1224|1236|91347|543|547|2850493	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter cloacae complex sp. ECL112	0.002582
 208224	species	131567|2|3379134|1224|1236|91347|543|547|208224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter kobei	0.002534
 3391003	species	131567|2|3379134|1224|1236|91347|543|570|3391003	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. DR_172cip	0.002482
 2582650	species	131567|2|1783272|1239|91061|186826|1300|1301|2582650	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 2154	0.002478
 2985151	species	131567|2|3379134|1224|1236|91347|543|544|2985151	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cpo142	0.002445
-2320879	species	131567|2|1783272|1239|186801|3085636|186803|3039590|2320879	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Parablautia|Parablautia muri	0.002415
+2320879	species	131567|2|1783272|1239|186801|3085636|186803|3039590|2320879	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Parablautia|Parablautia muri	0.002416
 1134687	species	131567|2|3379134|1224|1236|91347|543|570|1134687	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella michiganensis	0.002335
 2304576	species	131567|2|1783272|1239|186801|186802|216572|1017280|2304576	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Pseudoflavonifractor|Pseudoflavonifractor sp. 60	0.002108
 2582645	species	131567|2|1783272|1239|91061|186826|1300|1301|2582645	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 1013	0.001939
@@ -5107,7 +5107,7 @@
 2880704	species	131567|2|3379134|976|200643|171549|2005473|2518495|2880704	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella|Duncaniella muricolitica	0.000345
 3018247	species	131567|2|1783272|1239|91061|186826|1300|1301|3018247	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. SPS1	0.000345
 1329834	species	131567|2|3379134|1224|1236|91347|543|547|1329834	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter sp. MGH 38	0.000340
-2941517	species	131567|2|1783272|1239|186801|3085636|186803|2941498|2941517	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Hominisplanchenecus|Hominisplanchenecus murintestinalis	0.000328
+2941517	species	131567|2|1783272|1239|186801|3085636|186803|2941498|2941517	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Hominisplanchenecus|Hominisplanchenecus murintestinalis	0.000329
 2898232	species	131567|2|1783272|1239|91061|186826|1300|1301|2898232	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. SM5	0.000321
 2797506	species	131567|2|3379134|1224|1236|91347|543|547|2797506	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter dykesii	0.000318
 3480124	species	131567|2|1783272|1239|91061|186826|1300|1301|3480124	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. V869	0.000317
@@ -5214,9 +5214,9 @@
 1979528	species	131567|2|1783272|1239|91061|186826|1300|1301|1979528	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. KR	0.000127
 691816	species	131567|2|3379134|976|200643|171549|815|816|691816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides rodentium	0.000127
 2942206	species	131567|2|1783272|1239|91061|186826|1300|1301|2942206	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. Marseille-Q0941	0.000126
+259315	species	131567|2|1783272|1239|186801|186802|216572|216851|259315	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|uncultured Faecalibacterium sp.	0.000124
 2985049	species	131567|2|3379134|1224|1236|91347|543|544|2985049	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf077	0.000124
 623	species	131567|2|3379134|1224|1236|91347|543|620|623	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Shigella|Shigella flexneri	0.000124
-259315	species	131567|2|1783272|1239|186801|186802|216572|216851|259315	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|uncultured Faecalibacterium sp.	0.000122
 2742652	species	131567|2|3379134|1224|1236|91347|543|544|2742652	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. RHBSTW-00509	0.000120
 3003666	species	131567|2|1783272|1239|91061|186826|1300|1301|3003666	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 20925_1_44	0.000120
 1869337	species	131567|2|3379134|976|200643|171549|2005525|375288|1869337	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp.	0.000119
@@ -5742,34 +5742,34 @@
 @Version:0.9.2
 @Ranks:acellular root,cellular root,other entries|realm,domain|kingdom|phylum|class|order|family|genus|species|strain
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-131567	cellular root	131567	cellular organisms	99.866685
-10239	acellular root	10239	Viruses	0.133314
-2	domain	131567|2	cellular organisms|Bacteria	99.866685
-2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.133314
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	73.396418
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	26.470266
-2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.133314
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	72.812950
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	25.666416
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.803850
-201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.583437
-2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.133314
+131567	cellular root	131567	cellular organisms	99.866684
+10239	acellular root	10239	Viruses	0.133315
+2	domain	131567|2	cellular organisms|Bacteria	99.866684
+2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.133315
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	73.396698
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	26.469985
+2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.133315
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	72.813228
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	25.666167
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.803818
+201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.583440
+2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.133315
 1117	phylum	131567|2|1783272|1117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota	0.000029
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	72.784845
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	25.666292
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.803850
-1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.583437
-2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.133314
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	72.785123
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	25.666042
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.803818
+1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.583440
+2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.133315
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.027519
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.000585
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000115
 3028117	class	131567|2|1783272|1117|3028117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae	0.000029
 28211	class	131567|2|3379134|1224|28211	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria	0.000009
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	68.094084
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	25.666222
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	4.690761
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.803850
-85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.583418
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	68.094397
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	25.665972
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	4.690726
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.803818
+85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.583421
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.019165
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.007940
 526525	order	131567|2|1783272|1239|526524|526525	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales	0.000585
@@ -5780,19 +5780,19 @@
 135614	order	131567|2|3379134|1224|1236|135614	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Lysobacterales	0.000019
 85006	order	131567|2|1783272|201174|1760|85006	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Micrococcales	0.000019
 356	order	131567|2|3379134|1224|28211|356	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales	0.000009
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	64.094099
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	25.665060
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	4.656856
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	3.881905
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.713356
-31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.583418
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	64.094394
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	25.664810
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	4.656820
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	3.881923
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.713324
+31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.583421
 33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.117868
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.068794
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.068795
 186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.033394
 186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.019165
 171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.016915
 216572	family	131567|2|1783272|1239|186801|186802|216572	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae	0.005148
-2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.003763
+2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.003764
 3082771	family	131567|2|1783272|1239|186801|186802|3082771	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Acutalibacteraceae	0.001685
 1853231	family	131567|2|3379134|976|200643|171549|1853231	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae	0.000968
 1903411	family	131567|2|3379134|1224|1236|91347|1903411	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Yersiniaceae	0.000921
@@ -5821,19 +5821,19 @@
 118882	family	131567|2|3379134|1224|28211|356|118882	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Brucellaceae	0.000009
 506	family	131567|2|3379134|1224|28216|80840|506	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales|Alcaligenaceae	0.000008
 119060	family	131567|2|3379134|1224|28216|80840|119060	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae	0.000006
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	64.054026
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	19.860616
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	5.115009
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	4.656856
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	3.881905
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.645284
-1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.583418
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.524409
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.155499
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	64.054320
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	19.860340
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	5.115032
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	4.656820
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	3.881923
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.645287
+1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.583421
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.524411
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.155500
 1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.116588
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.068794
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.068072
-3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.053688
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.068795
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.068037
+3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.053689
 1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.040073
 44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.033394
 3424910	genus	10239|2731341|2731360|2731618|2731619|||3424910	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus	0.029783
@@ -5933,18 +5933,18 @@
 1649459	genus	131567|2|1783272|1239|186801|3085636|186803|1649459	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Hungatella	0.000007
 1774128	genus	131567|2|1783272|1239|186801|3085636|186803|1774128	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Murimonas	0.000007
 1827195	genus	131567|2|3379134|1224|28216|80840|119060|1827195	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Caballeronia	0.000006
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	62.326225
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	19.857045
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	4.790595
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	4.655527
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	3.818142
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	1.316128
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.644599
-1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.583418
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.488968
-548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.307598
-712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.116333
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.109601
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	62.326512
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	19.856769
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	4.790617
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	4.655492
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	3.818160
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	1.316134
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.644602
+1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.583421
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.488970
+548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.307600
+712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.116334
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.109602
 1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.106186
 28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.083999
 1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.060773
@@ -5952,7 +5952,7 @@
 158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.044395
 2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.040073
 3429266	species	10239|2731341|2731360|2731618|2731619|||3424908|3429266	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0462	0.036924
-2937417	species	131567|2|3379134|976|200643|171549|815|816|2937417	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides muris (ex Fokt et al. 2023)	0.032569
+2937417	species	131567|2|3379134|976|200643|171549|815|816|2937417	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides muris (ex Fokt et al. 2023)	0.032570
 1401	species	131567|2|1783272|1239|91061|1385|186822|44249|1401	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus|Paenibacillus lautus	0.031670
 3432559	species	10239|2731341|2731360|2731618|2731619|||3424910|3432559	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus|Spinunavirus ARI04601	0.027020
 2582647	species	131567|2|1783272|1239|91061|186826|1300|1301|2582647	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 563	0.021415
@@ -5973,8 +5973,8 @@
 3429279	species	10239|2731341|2731360|2731618|2731619|||3424908|3429279	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus K13	0.007700
 2582644	species	131567|2|1783272|1239|91061|186826|1300|1301|2582644	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 477	0.007010
 508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.006868
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.006372
 2993430	species	131567|2|1783272|1239|91061|186826|1300|1301|2993430	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus parapneumoniae	0.006349
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.006336
 2589786	species	131567|2|1783272|1239|91061|186826|1300|1301|2589786	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus shenyangsis	0.006236
 162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	0.006139
 3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.006080
@@ -6009,7 +6009,7 @@
 2304576	species	131567|2|1783272|1239|186801|186802|216572|1017280|2304576	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Pseudoflavonifractor|Pseudoflavonifractor sp. 60	0.001381
 2972780	species	131567|2|1783272|1239|91061|186826|1300|1301|2972780	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. Marseille-Q5619	0.001377
 3425988	species	10239|2731341|2731360|2731618|2731619|||3424927|3425988	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus|Adrianbuildvirus SpSL1	0.001344
-571	species	131567|2|3379134|1224|1236|91347|543|570|571	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella oxytoca	0.001334
+571	species	131567|2|3379134|1224|1236|91347|543|570|571	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella oxytoca	0.001335
 2582679	species	131567|2|1783272|1239|91061|186826|1300|1301|2582679	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 53	0.001328
 2582636	species	131567|2|1783272|1239|91061|186826|1300|1301|2582636	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 5346	0.001323
 3430753	species	10239|2731341|2731360|2731618|2731619|||3424928|3430753	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Medawarvirus|Medawarvirus ARI01312	0.001312
@@ -6043,7 +6043,7 @@
 2320100	species	131567|2|1783272|1239|186801|3085636|186803|3039590|2320100	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Parablautia|Parablautia intestinalis	0.000771
 2985070	species	131567|2|3379134|1224|1236|91347|543|544|2985070	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf120	0.000766
 615	species	131567|2|3379134|1224|1236|91347|1903411|613|615	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Yersiniaceae|Serratia|Serratia marcescens	0.000766
-2582650	species	131567|2|1783272|1239|91061|186826|1300|1301|2582650	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 2154	0.000749
+2582650	species	131567|2|1783272|1239|91061|186826|1300|1301|2582650	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 2154	0.000750
 2894201	species	131567|2|3379134|1224|1236|91347|543|544|2894201	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter meridianamericanus	0.000731
 1196034	species	131567|2|3379134|1224|1236|91347|543|570|1196034	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. 10982	0.000714
 2582678	species	131567|2|1783272|1239|91061|186826|1300|1301|2582678	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 10824	0.000706
@@ -6750,22 +6750,22 @@
 10239	acellular root	10239	Viruses	0.025394
 2	domain	131567|2	cellular organisms|Bacteria	99.974605
 2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.025394
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	68.661910
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	31.312641
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	68.661967
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	31.312585
 2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.025394
 3384189	kingdom	131567|2|3384189	cellular organisms|Bacteria|Fusobacteriati	0.000031
 3384194	kingdom	131567|2|3384194	cellular organisms|Bacteria|Thermotogati	0.000021
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	68.659888
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	31.036164
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.276477
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	68.659944
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	31.036113
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.276471
 2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.025394
 201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.002022
 32066	phylum	131567|2|3384189|32066	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota	0.000031
 508458	phylum	131567|2|3384194|508458	cellular organisms|Bacteria|Thermotogati|Synergistota	0.000021
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	68.593470
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	31.035866
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.276477
-186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.065159
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	68.593526
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	31.035816
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.276471
+186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.065160
 2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.025394
 1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.001948
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.001257
@@ -6773,12 +6773,12 @@
 84998	class	131567|2|1783272|201174|84998	cellular organisms|Bacteria|Bacillati|Actinomycetota|Coriobacteriia	0.000074
 203490	class	131567|2|3384189|32066|203490	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota|Fusobacteriia	0.000031
 649775	class	131567|2|3384194|508458|649775	cellular organisms|Bacteria|Thermotogati|Synergistota|Synergistia	0.000021
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	36.857058
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	31.736412
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	31.035854
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.276477
-3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.046391
-186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.017677
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	36.856879
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	31.736646
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	31.035804
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.276471
+3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.046392
+186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.017678
 85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.001941
 526525	order	131567|2|1783272|1239|526524|526525	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales	0.001257
 3082720	order	131567|2|1783272|1239|186801|3082720	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales	0.001090
@@ -6788,14 +6788,14 @@
 649776	order	131567|2|3384194|508458|649775|649776	cellular organisms|Bacteria|Thermotogati|Synergistota|Synergistia|Synergistales	0.000021
 135614	order	131567|2|3379134|1224|1236|135614	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Lysobacterales	0.000011
 85011	order	131567|2|1783272|201174|1760|85011	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales	0.000007
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	36.855789
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	31.035419
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	22.127138
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	7.966272
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	1.643001
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.230099
-186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.046319
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.039536
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	36.855610
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	31.035369
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	22.127301
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	7.966330
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	1.643014
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.230100
+186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.046320
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.039528
 216572	family	131567|2|1783272|1239|186801|186802|216572	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae	0.012256
 1853231	family	131567|2|3379134|976|200643|171549|1853231	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae	0.004753
 3082771	family	131567|2|1783272|1239|186801|186802|3082771	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Acutalibacteraceae	0.003097
@@ -6826,22 +6826,22 @@
 32033	family	131567|2|3379134|1224|1236|135614|32033	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Lysobacterales|Lysobacteraceae	0.000011
 186817	family	131567|2|1783272|1239|91061|1385|186817	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Bacillaceae	0.000010
 2062	family	131567|2|1783272|201174|1760|85011|2062	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae	0.000007
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	36.855789
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	22.101745
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	15.675323
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	15.067910
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	7.966272
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	1.614657
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.230099
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.163988
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.123173
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	36.855610
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	22.101907
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	15.675439
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	15.067742
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	7.966330
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	1.614669
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.230100
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.163990
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.123174
 909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.030167
 2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.028344
-1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.025393
+1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.025394
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.013320
 1427378	genus	131567|2|1783272|1239|186801|3085636|186803|1427378	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Acetatifactor	0.010402
 2941495	genus	131567|2|1783272|1239|186801|3085636|186803|2941495	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Otoolea	0.009465
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.009369
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.009360
 3039590	genus	131567|2|1783272|1239|186801|3085636|186803|3039590	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Parablautia	0.008139
 244127	genus	131567|2|1783272|1239|186801|186802|216572|244127	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Anaerotruncus	0.006916
 2811390	genus	131567|2|1783272|1239|186801|3085636|186803|2811390	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Sporofaciens	0.006294
@@ -6932,23 +6932,23 @@
 1649459	genus	131567|2|1783272|1239|186801|3085636|186803|1649459	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Hungatella	0.000007
 1883	genus	131567|2|1783272|201174|1760|85011|2062|1883	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces	0.000007
 588605	genus	131567|2|1783272|1239|186801|3085636|186803|588605	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Robinsoniella	0.000007
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	36.854920
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	21.857981
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	15.634951
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	15.066175
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	7.960280
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	1.289049
-508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.321423
-823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.210840
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.147073
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	36.854741
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	21.858142
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	15.635066
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	15.066007
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	7.960339
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	1.289059
+508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.321426
+823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.210841
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.147074
 257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.074178
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.063133
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.063134
 712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.056588
-1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.054552
+1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.054553
 28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.032231
 671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.029566
 1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.028015
-2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.025393
+2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.025394
 571	species	131567|2|3379134|1224|1236|91347|543|570|571	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella oxytoca	0.016277
 328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.012269
 1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.009793
@@ -6996,7 +6996,7 @@
 712633	species	131567|2|1783272|1239|91061|186826|1300|1301|712633	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 431	0.001619
 2304568	species	131567|2|1783272|1239|186801|186802||1980681|2304568	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales||Colidextribacter|Colidextribacter sp. OB.20	0.001589
 2736295	species	131567|2|3379134|976|200643|171549|171552|838|2736295	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|Prevotella sp. PTAC	0.001569
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.001491
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.001483
 2026240	species	131567|2|3379134|1224|1236|91347|543|570|2026240	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella quasivariicola	0.001467
 2582665	species	131567|2|1783272|1239|91061|186826|1300|1301|2582665	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 428	0.001452
 1671927	species	131567|2|1783272|1239|186801|3085636|186803|1427378|1671927	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Acetatifactor|uncultured Acetatifactor sp.	0.001427
@@ -7612,7 +7612,7 @@
 1096246	species	131567|2|1783272|1239|186801|3085636|186803|1649459|1096246	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Hungatella|Hungatella effluvii	0.000007
 180332	species	131567|2|1783272|1239|186801|3085636|186803|588605|180332	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Robinsoniella|Robinsoniella peoriensis	0.000007
 68186	species	131567|2|1783272|201174|1760|85011|2062|1883|68186	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces|Streptomyces chryseus	0.000007
-1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	0.054552
+1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	0.054553
 1006551	strain	131567|2|3379134|1224|1236|91347|543|570|1134687|1006551	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella michiganensis|Klebsiella michiganensis KCTC 1686	0.003259
 1122152	strain	131567|2|1783272|1239|91061|186826|33958|1578|116089|1122152	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus psittaci|Lactobacillus psittaci DSM 15354	0.000205
 1211819	strain	131567|2|1783272|1239|526524|526525|128827|61170|1468449|1211819	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis|Holdemania massiliensis AP2	0.000110
@@ -7625,38 +7625,38 @@
 @Version:0.9.2
 @Ranks:acellular root,cellular root,other entries|realm,domain|kingdom|phylum|class|order|family|genus|species|strain
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-131567	cellular root	131567	cellular organisms	99.896189
-10239	acellular root	10239	Viruses	0.103810
-2	domain	131567|2	cellular organisms|Bacteria	99.896189
-2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.103810
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	54.625098
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	45.271051
-2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.103810
+131567	cellular root	131567	cellular organisms	99.896188
+10239	acellular root	10239	Viruses	0.103811
+2	domain	131567|2	cellular organisms|Bacteria	99.896188
+2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.103811
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	54.624858
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	45.271291
+2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.103811
 3384189	kingdom	131567|2|3384189	cellular organisms|Bacteria|Fusobacteriati	0.000039
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	54.205619
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	44.930025
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	54.205379
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	44.930262
 976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.419298
-201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.341026
-2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.103810
+201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.341028
+2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.103811
 203691	phylum	131567|2|3379134|203691	cellular organisms|Bacteria|Pseudomonadati|Spirochaetota	0.000180
 32066	phylum	131567|2|3384189|32066	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota	0.000039
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	54.205591
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	44.924786
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	54.205351
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	44.925023
 200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.419298
-1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.341026
-2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.103810
-186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.005045
+1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.341028
+2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.103811
+186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.005046
 203692	class	131567|2|3379134|203691|203692	cellular organisms|Bacteria|Pseudomonadati|Spirochaetota|Spirochaetia	0.000180
 1737404	class	131567|2|1783272|1239|1737404	cellular organisms|Bacteria|Bacillati|Bacillota|Tissierellia	0.000149
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.000043
 203490	class	131567|2|3384189|32066|203490	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota|Fusobacteriia	0.000039
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000018
 28211	class	131567|2|3379134|1224|28211	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria	0.000009
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	54.205582
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	42.377980
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.546806
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	54.205342
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	42.378233
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.546790
 171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.419298
-85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.341026
+85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.341028
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.003355
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.000992
 3082720	order	131567|2|1783272|1239|186801|3082720	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales	0.000698
@@ -7667,14 +7667,14 @@
 80840	order	131567|2|3379134|1224|28216|80840	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales	0.000018
 135622	order	131567|2|3379134|1224|1236|135622	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Alteromonadales	0.000009
 356	order	131567|2|3379134|1224|28211|356	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales	0.000009
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	54.205249
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	38.702237
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	3.300040
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.534923
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.375658
-31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.341026
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.287538
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.128289
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	54.205009
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	38.702468
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	3.300060
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.534907
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.375661
+31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.341028
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.287540
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.128287
 186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.011203
 186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.003304
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.002513
@@ -7700,26 +7700,26 @@
 1903410	family	131567|2|3379134|1224|1236|91347|1903410	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Pectobacteriaceae	0.000011
 267888	family	131567|2|3379134|1224|1236|135622|267888	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Alteromonadales|Pseudoalteromonadaceae	0.000009
 2831100	family	131567|2|3379134|1224|28211|356|2831100	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Alloboseaceae	0.000009
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	38.623578
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	30.465914
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	23.612356
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	3.300040
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.534923
-1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.341026
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.287538
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.213917
-2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.161712
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	38.623808
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	30.465532
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	23.612497
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	3.300060
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.534907
+1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.341028
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.287540
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.213918
+2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.161713
 909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.116589
-1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.078658
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.065485
+1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.078659
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.065486
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.055237
 547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.050473
 3424909	genus	10239|2731341|2731360|2731618|2731619|||3424909	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Norfolkplacevirus	0.017640
 3424927	genus	10239|2731341|2731360|2731618|2731619|||3424927	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus	0.013297
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.011700
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.011697
 44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.011203
 590	genus	131567|2|3379134|1224|1236|91347|543|590	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.008880
-3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.007858
+3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.007859
 3424928	genus	10239|2731341|2731360|2731618|2731619|||3424928	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Medawarvirus	0.005152
 3424910	genus	10239|2731341|2731360|2731618|2731619|||3424910	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus	0.004623
 2518495	genus	131567|2|3379134|976|200643|171549|2005473|2518495	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella	0.002384
@@ -7765,11 +7765,11 @@
 265975	genus	131567|2|1783272|1239|186801|3085636|186803|265975	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Oribacterium	0.000026
 613	genus	131567|2|3379134|1224|1236|91347|1903411|613	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Yersiniaceae|Serratia	0.000024
 1924105	genus	131567|2|1783272|1239|186801|186802|216572|1924105	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Neglectibacter	0.000022
+216851	genus	131567|2|1783272|1239|186801|186802|216572|216851	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium	0.000022
 2814934	genus	131567|2|3379134|976|200643|171549|2005473|2814934	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Heminiphilus	0.000022
 2941498	genus	131567|2|1783272|1239|186801|3085636|186803|2941498	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Hominisplanchenecus	0.000022
 1924110	genus	131567|2|1783272|1239|526524|526525|128827|1924110	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Massiliimicrobium	0.000021
 1937007	genus	131567|2|1783272|1239|526524|526525|128827|1937007	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Ileibacterium	0.000021
-216851	genus	131567|2|1783272|1239|186801|186802|216572|216851	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium	0.000021
 447792	genus	131567|2|3379134|1224|1236|91347|543|447792	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Phytobacter	0.000020
 459786	genus	131567|2|1783272|1239|186801|186802|216572|459786	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Oscillibacter	0.000020
 1870884	genus	131567|2|1783272|1239|186801|3082720|186804|1870884	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales|Peptostreptococcaceae|Clostridioides	0.000019
@@ -7788,25 +7788,25 @@
 1330545	genus	131567|2|3379134|1224|1236|91347|543|1330545	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Lelliottia	0.000011
 53246	genus	131567|2|3379134|1224|1236|135622|267888|53246	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Alteromonadales|Pseudoalteromonadaceae|Pseudoalteromonas	0.000009
 85413	genus	131567|2|3379134|1224|28211|356|2831100|85413	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Alloboseaceae|Allobosea	0.000009
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	37.960003
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	30.448203
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	23.404567
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	3.132503
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.532788
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.568298
-1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.341026
-1235803	species	131567|2|3379134|976|200643|171549|2005525|375288|1235803	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. ASF519	0.251373
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.198547
-548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.191721
-1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.160568
-1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.160290
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	37.960229
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	30.447822
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	23.404706
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	3.132521
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.532772
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.568301
+1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.341028
+1235803	species	131567|2|3379134|976|200643|171549|2005525|375288|1235803	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. ASF519	0.251375
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.198548
+548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.191722
+1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.160569
+1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.160291
 671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.111648
-2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.078658
+2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.078659
 546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.060659
 823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.033729
 158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.025102
-28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.023860
-3429266	species	10239|2731341|2731360|2731618|2731619|||3424908|3429266	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0462	0.023086
+28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.023861
+3429266	species	10239|2731341|2731360|2731618|2731619|||3424908|3429266	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0462	0.023087
 1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.022786
 3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.021797
 3431194	species	10239|2731341|2731360|2731618|2731619|||3424909|3431194	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Norfolkplacevirus|Norfolkplacevirus ARI0746	0.017640
@@ -7877,7 +7877,7 @@
 3046327	species	131567|2|1783272|1239|91061|186826|1300|1301|3046327	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. UMB1203	0.000556
 2998567	species	131567|2|3379134|1224|1236|91347|543|544|2998567	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. W3	0.000503
 3390281	species	131567|2|3379134|1224|1236|91347|543|570|3390281	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae complex sp. WS2972	0.000502
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.000502
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.000499
 3055796	species	131567|2|1783272|1239|91061|1385|186817|2800373|3055796	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Bacillaceae|Priestia|Priestia sp. BR_2	0.000496
 2582656	species	131567|2|1783272|1239|91061|186826|1300|1301|2582656	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 2877	0.000492
 3409964	species	131567|2|3379134|1224|1236|91347|543|570|3409964	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. R34	0.000481
@@ -8214,6 +8214,7 @@
 3381976	species	131567|2|3379134|1224|1236|91347|543|561|3381976	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia sp. WS3063	0.000023
 2304573	species	131567|2|1783272|1239|186801|186802|216572|1924105|2304573	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Neglectibacter|Neglectibacter sp. 59	0.000022
 2489010	species	131567|2|3379134|1224|1236|91347|543|570|2489010	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella africana	0.000022
+259315	species	131567|2|1783272|1239|186801|186802|216572|216851|259315	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|uncultured Faecalibacterium sp.	0.000022
 2601703	species	131567|2|3379134|976|200643|171549|2005473|2814934|2601703	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Heminiphilus|Heminiphilus faecis	0.000022
 2730947	species	131567|2|3379134|1224|1236|91347|543|561|2730947	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia sp. 79.0191	0.000022
 2742675	species	131567|2|3379134|1224|1236|91347|543|544|2742675	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. RHBSTW-00986	0.000022
@@ -8226,7 +8227,6 @@
 1965564	species	131567|2|1783272|1239|526524|526525|128827|1924110|1965564	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Massiliimicrobium|Massilimicrobiota sp. An142	0.000021
 2026236	species	131567|2|1783272|1239|91061|1385|186822|44249|2026236	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus|Paenibacillus sp. 7541	0.000021
 2093865	species	131567|2|3379134|1224|1236|91347|543|561|2093865	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia sp. MOD1-EC5287	0.000021
-259315	species	131567|2|1783272|1239|186801|186802|216572|216851|259315	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|uncultured Faecalibacterium sp.	0.000021
 2774847	species	131567|2|1783272|1239|91061|186826|81852|1350|2774847	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus sp. DIV0072	0.000021
 2920181	species	131567|2|3379134|1224|1236|91347|543|570|2920181	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. K4-130	0.000021
 2970253	species	131567|2|3379134|1224|1236|91347|543|570|2970253	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. C349492	0.000021
@@ -8387,36 +8387,36 @@
 @Version:0.9.2
 @Ranks:acellular root,cellular root,other entries|realm,domain|kingdom|phylum|class|order|family|genus|species|strain
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-131567	cellular root	131567	cellular organisms	99.661719
-10239	acellular root	10239	Viruses	0.338280
-2	domain	131567|2	cellular organisms|Bacteria	99.661719
-2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.338280
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	63.497087
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	36.164606
-2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.338280
+131567	cellular root	131567	cellular organisms	99.661717
+10239	acellular root	10239	Viruses	0.338282
+2	domain	131567|2	cellular organisms|Bacteria	99.661717
+2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.338282
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	63.497333
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	36.164359
+2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.338282
 3384189	kingdom	131567|2|3384189	cellular organisms|Bacteria|Fusobacteriati	0.000025
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	63.235110
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	33.788987
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	2.375619
-2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.338280
-201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.261966
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	63.235354
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	33.788742
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	2.375616
+2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.338282
+201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.261967
 32066	phylum	131567|2|3384189|32066	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota	0.000025
 1117	phylum	131567|2|1783272|1117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota	0.000011
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	63.233567
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	33.788954
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	2.375619
-2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.338280
-1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.261966
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	63.233811
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	33.788709
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	2.375616
+2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.338282
+1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.261967
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.001280
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.000262
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000032
 203490	class	131567|2|3384189|32066|203490	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota|Fusobacteriia	0.000025
 3028117	class	131567|2|1783272|1117|3028117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae	0.000011
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	56.995008
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	33.788898
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	6.238558
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	2.375619
-85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.261959
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	56.995297
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	33.788654
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	6.238514
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	2.375616
+85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.261961
 526525	order	131567|2|1783272|1239|526524|526525	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales	0.001280
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.000158
 3082720	order	131567|2|1783272|1239|186801|3082720	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales	0.000052
@@ -8428,15 +8428,15 @@
 1161	order	131567|2|1783272|1117|3028117|1161	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales	0.000011
 135622	order	131567|2|3379134|1224|1236|135622	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Alteromonadales	0.000007
 85011	order	131567|2|1783272|201174|1760|85011	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales	0.000006
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	51.746280
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	33.786244
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	6.238370
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	5.088414
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	1.874989
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.488631
-31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.261959
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.160313
-171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.008602
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	51.746542
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	33.785999
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	6.238326
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	5.088440
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	1.874998
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.488619
+31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.261961
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.160314
+171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.008603
 1903411	family	131567|2|3379134|1224|1236|91347|1903411	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Yersiniaceae	0.002143
 1853231	family	131567|2|3379134|976|200643|171549|1853231	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae	0.001862
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.001402
@@ -8458,20 +8458,20 @@
 1903412	family	131567|2|3379134|1224|1236|91347|1903412	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Hafniaceae	0.000010
 267888	family	131567|2|3379134|1224|1236|135622|267888	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Alteromonadales|Pseudoalteromonadaceae	0.000007
 2062	family	131567|2|1783272|201174|1760|85011|2062	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae	0.000006
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	51.743542
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	22.492196
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	10.661402
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	6.238370
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	5.088414
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	1.874989
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.470467
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.386723
-3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.287746
-1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.261959
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.239911
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.158018
-3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.042139
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.018163
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	51.743804
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	22.491894
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	10.661456
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	6.238326
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	5.088440
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	1.874998
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.470470
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.386725
+3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.287748
+1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.261961
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.239912
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.158019
+3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.042140
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.018148
 3424910	genus	10239|2731341|2731360|2731618|2731619|||3424910	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus	0.008393
 838	genus	131567|2|3379134|976|200643|171549|171552|838	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	0.008386
 590	genus	131567|2|3379134|1224|1236|91347|543|590	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.004664
@@ -8519,24 +8519,24 @@
 83654	genus	131567|2|3379134|1224|1236|91347|543|83654	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Leclercia	0.000010
 53246	genus	131567|2|3379134|1224|1236|135622|267888|53246	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Alteromonadales|Pseudoalteromonadaceae|Pseudoalteromonas	0.000007
 1883	genus	131567|2|1783272|201174|1760|85011|2062|1883	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces	0.000006
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	48.004922
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	22.489368
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	10.589657
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	6.215236
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	4.957391
-2963155	species	131567|2|1783272|1239|91061|186826|1300|1301|2963155	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CF8_St5-17	2.689155
-328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	1.785199
-68892	species	131567|2|1783272|1239|91061|186826|1300|1301|68892	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus infantis	0.561210
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.443918
-1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.349193
-3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.261970
-1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.261959
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.207859
-1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.123745
-508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.107132
-712633	species	131567|2|1783272|1239|91061|186826|1300|1301|712633	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 431	0.094021
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	48.005165
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	22.489066
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	10.589711
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	6.215192
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	4.957417
+2963155	species	131567|2|1783272|1239|91061|186826|1300|1301|2963155	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CF8_St5-17	2.689169
+328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	1.785208
+68892	species	131567|2|1783272|1239|91061|186826|1300|1301|68892	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus infantis	0.561213
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.443920
+1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.349195
+3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.261971
+1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.261961
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.207860
+1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.123746
+508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.107133
+712633	species	131567|2|1783272|1239|91061|186826|1300|1301|712633	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 431	0.094022
 712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.093836
-823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.085704
+823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.085705
 151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.049202
 257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.047387
 3060517	species	10239|2731341|2731360|2731618|2731619|||3044785|3060517	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus IPP55	0.039444
@@ -8579,8 +8579,8 @@
 3095078	species	131567|2|1783272|1239|91061|186826|1300|1301|3095078	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus wuxiensis	0.002744
 2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.002737
 3392238	species	131567|2|1783272|1239|91061|186826|1300|1301|3392238	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CL9.43	0.002693
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.002630
 3003666	species	131567|2|1783272|1239|91061|186826|1300|1301|3003666	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 20925_1_44	0.002622
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.002615
 1714265	species	131567|2|3379134|1224|1236|91347|543|570|1714265	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. KGM-IMP216	0.002288
 3018249	species	131567|2|1783272|1239|91061|186826|1300|1301|3018249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. SO4	0.002288
 1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.002271
@@ -9223,7 +9223,7 @@
 574930	species	131567|2|3379134|976|200643|171549|2005525|375288|574930	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides gordonii	0.000007
 237530	species	131567|2|1783272|1239|91061|1385|186822|44249|237530	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus|Paenibacillus cineris	0.000006
 3375367	species	131567|2|1783272|201174|1760|85011|2062|1883|3375367	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces|Streptomyces stephensoniae	0.000006
-1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	0.349193
+1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	0.349195
 1006551	strain	131567|2|3379134|1224|1236|91347|543|570|1134687|1006551	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella michiganensis|Klebsiella michiganensis KCTC 1686	0.000374
 1122152	strain	131567|2|1783272|1239|91061|186826|33958|1578|116089|1122152	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus psittaci|Lactobacillus psittaci DSM 15354	0.000065
 864570	strain	131567|2|1783272|1239|91061|186826|1300|1301|712630|864570	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 071|Streptococcus sp. oral taxon 071 str. 73H25AP	0.000051
@@ -9235,32 +9235,32 @@
 @Version:0.9.2
 @Ranks:acellular root,cellular root,other entries|realm,domain|kingdom|phylum|class|order|family|genus|species|strain
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-131567	cellular root	131567	cellular organisms	99.664846
-10239	acellular root	10239	Viruses	0.335153
-2	domain	131567|2	cellular organisms|Bacteria	99.664846
-2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.335153
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	65.899780
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	33.765066
-2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.335153
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	65.833479
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	28.929211
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	4.835854
-2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.335153
+131567	cellular root	131567	cellular organisms	99.664845
+10239	acellular root	10239	Viruses	0.335154
+2	domain	131567|2	cellular organisms|Bacteria	99.664845
+2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.335154
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	65.900020
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	33.764824
+2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.335154
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	65.833719
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	28.928974
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	4.835850
+2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.335154
 201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.066300
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	65.822718
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	28.928861
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	4.835854
-2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.335153
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	65.822958
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	28.928623
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	4.835850
+2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.335154
 1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.066255
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.010673
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000337
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.000087
 84998	class	131567|2|1783272|201174|84998	cellular organisms|Bacteria|Bacillati|Actinomycetota|Coriobacteriia	0.000045
 28211	class	131567|2|3379134|1224|28211	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria	0.000012
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	55.041554
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	28.928853
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	10.781164
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	4.835854
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	55.041863
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	28.928616
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	10.781095
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	4.835850
 85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.066255
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.007317
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.003117
@@ -9270,14 +9270,14 @@
 84999	order	131567|2|1783272|201174|84998|84999	cellular organisms|Bacteria|Bacillati|Actinomycetota|Coriobacteriia|Coriobacteriales	0.000045
 204458	order	131567|2|3379134|1224|28211|204458	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Caulobacterales	0.000012
 72274	order	131567|2|3379134|1224|1236|72274	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Pseudomonadales	0.000007
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	53.128798
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	28.928351
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	10.679748
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	4.650729
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	1.582941
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.329787
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.122706
-186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.095632
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	53.129096
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	28.928113
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	10.679678
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	4.650724
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	1.582950
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.329789
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.122707
+186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.095633
 31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.066255
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.048914
 171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.012925
@@ -9302,23 +9302,23 @@
 76892	family	131567|2|3379134|1224|28211|204458|76892	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Caulobacterales|Caulobacteraceae	0.000012
 1903414	family	131567|2|3379134|1224|1236|91347|1903414	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Morganellaceae	0.000011
 135621	family	131567|2|3379134|1224|1236|72274|135621	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae	0.000007
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	53.096563
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	21.627766
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	10.679748
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	6.642928
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	3.907391
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	1.582941
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.741376
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.430787
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.309474
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.221788
-3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.178880
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.122706
-3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.113618
-44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.095632
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	53.096861
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	21.627487
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	10.679678
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	6.642965
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	3.907382
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	1.582950
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.741380
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.430790
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.309475
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.221790
+3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.178881
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.122707
+3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.113619
+44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.095633
 1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.066255
 2518495	genus	131567|2|3379134|976|200643|171549|2005473|2518495	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella	0.039248
-1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.032234
+1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.032235
 3424909	genus	10239|2731341|2731360|2731618|2731619|||3424909	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Norfolkplacevirus	0.021195
 2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.020313
 3424910	genus	10239|2731341|2731360|2731618|2731619|||3424910	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus	0.013749
@@ -9400,32 +9400,32 @@
 1330545	genus	131567|2|3379134|1224|1236|91347|543|1330545	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Lelliottia	0.000009
 447792	genus	131567|2|3379134|1224|1236|91347|543|447792	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Phytobacter	0.000008
 286	genus	131567|2|3379134|1224|1236|72274|135621|286	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas	0.000007
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	51.687495
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	21.623954
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	10.654501
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	6.618714
-162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	3.696696
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	1.570614
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.734560
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.699176
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.403681
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.200217
-28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.192104
-508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.174157
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.132991
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	51.687785
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	21.623676
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	10.654431
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	6.618752
+162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	3.696716
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	1.570622
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.734564
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.699180
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.403683
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.200218
+28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.192105
+508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.174158
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.132992
 1401	species	131567|2|1783272|1239|91061|1385|186822|44249|1401	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus|Paenibacillus lautus	0.090117
-3060517	species	10239|2731341|2731360|2731618|2731619|||3044785|3060517	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus IPP55	0.086713
-3278714	species	131567|2|1783272|1239|91061|186826|1300|1301|3278714	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. E17BB	0.071845
-3060519	species	10239|2731341|2731360|2731618|2731619|||3044785|3060519	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus IPP66	0.070202
-328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.067182
+3060517	species	10239|2731341|2731360|2731618|2731619|||3044785|3060517	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus IPP55	0.086714
+3278714	species	131567|2|1783272|1239|91061|186826|1300|1301|3278714	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. E17BB	0.071846
+3060519	species	10239|2731341|2731360|2731618|2731619|||3044785|3060519	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus IPP66	0.070203
+328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.067183
 1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.066255
-2582682	species	131567|2|1783272|1239|91061|186826|1300|1301|2582682	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 4886	0.063245
+2582682	species	131567|2|1783272|1239|91061|186826|1300|1301|2582682	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 4886	0.063246
 2746063	species	131567|2|3379134|976|200643|171549|815|816|2746063	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides sp. L10-4	0.057167
 3429279	species	10239|2731341|2731360|2731618|2731619|||3424908|3429279	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus K13	0.054118
 1796613	species	131567|2|3379134|976|200643|171549|815|816|1796613	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides caecimuris	0.051451
 823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.050228
 1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.042277
-2937417	species	131567|2|3379134|976|200643|171549|815|816|2937417	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides muris (ex Fokt et al. 2023)	0.036119
+2937417	species	131567|2|3379134|976|200643|171549|815|816|2937417	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides muris (ex Fokt et al. 2023)	0.036120
 2589786	species	131567|2|1783272|1239|91061|186826|1300|1301|2589786	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus shenyangsis	0.031078
 1946734	species	131567|2|1783272|1239|91061|186826|1300|1357|1946734	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus sp. UBA7157	0.031038
 2582647	species	131567|2|1783272|1239|91061|186826|1300|1301|2582647	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 563	0.030703
@@ -9437,12 +9437,12 @@
 2582643	species	131567|2|1783272|1239|91061|186826|1300|1301|2582643	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 339	0.020456
 1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.020098
 820	species	131567|2|3379134|976|200643|171549|815|816|820	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	0.019814
-3429264	species	10239|2731341|2731360|2731618|2731619|||3424908|3429264	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0031	0.019655
+3429264	species	10239|2731341|2731360|2731618|2731619|||3424908|3429264	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0031	0.019656
 3060521	species	10239|2731341|2731360|2731618|2731619|||3044785|3060521	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus SpGS-1	0.019361
 2993430	species	131567|2|1783272|1239|91061|186826|1300|1301|2993430	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus parapneumoniae	0.017293
 1308	species	131567|2|1783272|1239|91061|186826|1300|1301|1308	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus thermophilus	0.014667
 1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.013818
-2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.013648
+2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.013649
 3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.013516
 2516960	species	131567|2|3379134|976|200643|171549|815|816|2516960	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides muris (ex Afrizal et al. 2022)	0.011969
 2582661	species	131567|2|1783272|1239|91061|186826|1300|1301|2582661	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 1453	0.011265
@@ -9461,7 +9461,7 @@
 2582660	species	131567|2|1783272|1239|91061|186826|1300|1301|2582660	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 646	0.006616
 1306	species	131567|2|1783272|1239|91061|186826|1300|1301|1306	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp.	0.006475
 821	species	131567|2|3379134|976|200643|171549|815|909656|821	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola vulgatus	0.006045
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.005682
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.005650
 3430753	species	10239|2731341|2731360|2731618|2731619|||3424928|3430753	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Medawarvirus|Medawarvirus ARI01312	0.005605
 2755405	species	131567|2|3379134|976|200643|171549|815|816|2755405	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides sp. CACC 737	0.005241
 2972781	species	131567|2|1783272|1239|91061|186826|1300|1301|2972781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. Marseille-Q5855	0.005112
@@ -9514,7 +9514,7 @@
 2582650	species	131567|2|1783272|1239|91061|186826|1300|1301|2582650	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 2154	0.001429
 1196034	species	131567|2|3379134|1224|1236|91347|543|570|1196034	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. 10982	0.001423
 2025877	species	131567|2|3379134|976|200643|171549|2005525|375288|2025877	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. AT13	0.001407
-2819619	species	131567|2|1783272|1239|91061|186826|1300|1301|2819619	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus toyakuensis	0.001369
+2819619	species	131567|2|1783272|1239|91061|186826|1300|1301|2819619	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus toyakuensis	0.001370
 2582642	species	131567|2|1783272|1239|91061|186826|1300|1301|2582642	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 2106	0.001368
 879566	species	131567|2|1783272|1239|186801|3085636|186803|1427378|879566	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Acetatifactor|Acetatifactor muris	0.001364
 2923521	species	131567|2|1783272|1239|91061|186826|81852|1350|2923521	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus sp. IsoGale004	0.001359
@@ -10187,28 +10187,28 @@
 10239	acellular root	10239	Viruses	0.108856
 2	domain	131567|2	cellular organisms|Bacteria	99.891143
 2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.108856
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	57.824420
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	42.066723
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	57.824761
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	42.066381
 2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.108856
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	57.562823
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	39.548029
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	2.518693
-201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.261597
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	57.563163
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	39.547836
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	2.518544
+201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.261598
 2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.108856
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	57.562222
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	39.547911
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	2.518693
-1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.261597
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	57.562562
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	39.547717
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	2.518544
+1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.261598
 2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.108856
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.000539
 28211	class	131567|2|3379134|1224|28211	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria	0.000092
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.000061
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000025
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	54.688206
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	39.547874
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.874016
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	2.518693
-85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.261597
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	54.688562
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	39.547681
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.873999
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	2.518544
+85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.261598
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.000368
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.000110
 3120395	order	131567|2|3379134|1224|28211|3120395	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Acetobacterales	0.000092
@@ -10217,14 +10217,14 @@
 80840	order	131567|2|3379134|1224|28216|80840	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales	0.000025
 135614	order	131567|2|3379134|1224|1236|135614	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Lysobacterales	0.000023
 2887326	order	131567|2|3379134|1224|1236|2887326	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Moraxellales	0.000013
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	52.799350
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	39.547334
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.873234
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	2.130742
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	1.642285
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.361183
-31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.261597
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.246452
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	52.799694
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	39.547140
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.873218
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	2.130756
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	1.642296
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.361020
+31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.261598
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.246453
 1853231	family	131567|2|3379134|976|200643|171549|1853231	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae	0.015620
 171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.009580
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.001270
@@ -10248,21 +10248,21 @@
 1903412	family	131567|2|3379134|1224|1236|91347|1903412	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Hafniaceae	0.000013
 468	family	131567|2|3379134|1224|1236|2887326|468	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae	0.000013
 3082771	family	131567|2|1783272|1239|186801|186802|3082771	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Acutalibacteraceae	0.000012
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	52.695434
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	24.369406
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	14.734981
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.873234
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	2.130742
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	1.642268
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.321794
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.274926
-1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.261597
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.200939
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	52.695777
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	24.369114
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	14.735077
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.873218
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	2.130756
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	1.642279
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.321796
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.274928
+1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.261598
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.200940
 547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.113795
-1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.103916
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.086227
-2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.045512
-3424910	genus	10239|2731341|2731360|2731618|2731619|||3424910	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus	0.037771
+1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.103917
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.086063
+2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.045513
+3424910	genus	10239|2731341|2731360|2731618|2731619|||3424910	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus	0.037772
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.036679
 3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.029647
 574697	genus	131567|2|3379134|976|200643|171549|1853231|574697	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas	0.015620
@@ -10327,32 +10327,32 @@
 122277	genus	131567|2|3379134|1224|1236|91347|1903410|122277	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Pectobacteriaceae|Pectobacterium	0.000010
 2719313	genus	131567|2|1783272|1239|186801|3085636|186803|2719313	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Enterocloster	0.000009
 447792	genus	131567|2|3379134|1224|1236|91347|543|447792	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Phytobacter	0.000009
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	51.182574
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	24.364081
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	14.652152
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.872785
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	1.633925
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	1.146993
-1235803	species	131567|2|3379134|976|200643|171549|2005525|375288|1235803	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. ASF519	1.055076
-823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	1.037151
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.302448
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.271680
-1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.261597
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.187902
-2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.103916
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	51.182908
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	24.363788
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	14.652247
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.872768
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	1.633936
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	1.147000
+1235803	species	131567|2|3379134|976|200643|171549|2005525|375288|1235803	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. ASF519	1.055083
+823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	1.037157
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.302450
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.271682
+1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.261598
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.187903
+2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.103917
 28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.088718
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.083179
-548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.062391
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.083180
+548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.062392
 712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.060988
 1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.045216
-3432559	species	10239|2731341|2731360|2731618|2731619|||3424910|3432559	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus|Spinunavirus ARI04601	0.037771
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.029778
-1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.026994
-2582647	species	131567|2|1783272|1239|91061|186826|1300|1301|2582647	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 563	0.026800
+3432559	species	10239|2731341|2731360|2731618|2731619|||3424910|3432559	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus|Spinunavirus ARI04601	0.037772
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.029612
+1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.026995
+2582647	species	131567|2|1783272|1239|91061|186826|1300|1301|2582647	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 563	0.026801
 2516960	species	131567|2|3379134|976|200643|171549|815|816|2516960	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides muris (ex Afrizal et al. 2022)	0.026250
 2582643	species	131567|2|1783272|1239|91061|186826|1300|1301|2582643	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 339	0.023727
 2250596	species	131567|2|1783272|1239|91061|186826|1300|1301|2250596	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 596553	0.018372
-3060521	species	10239|2731341|2731360|2731618|2731619|||3044785|3060521	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus SpGS-1	0.018299
+3060521	species	10239|2731341|2731360|2731618|2731619|||3044785|3060521	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus SpGS-1	0.018300
 2582648	species	131567|2|1783272|1239|91061|186826|1300|1301|2582648	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 2579	0.016831
 544645	species	131567|2|3379134|976|200643|171549|1853231|574697|544645	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|Butyricimonas virosa	0.013322
 508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.012911
@@ -11020,7 +11020,7 @@
 2763058	species	131567|2|3379134|976|200643|171549|2005525|375288|2763058	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides segnis	0.000008
 2972763	species	131567|2|3379134|976|200643|171549|815|816|2972763	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides sp. BFG-606	0.000008
 574930	species	131567|2|3379134|976|200643|171549|2005525|375288|574930	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides gordonii	0.000007
-1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	0.026994
+1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	0.026995
 1006551	strain	131567|2|3379134|1224|1236|91347|543|570|1134687|1006551	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella michiganensis|Klebsiella michiganensis KCTC 1686	0.001567
 1033732	strain	131567|2|3379134|976|200643|171549|171550|239759|1288121|1033732	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|Alistipes senegalensis|Alistipes senegalensis JC50	0.000092
 861455	strain	131567|2|1783272|1239|91061|186826|1300|1301|712622|861455	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 058|Streptococcus sp. oral taxon 058 str. F0407	0.000086
@@ -11029,26 +11029,26 @@
 @Version:0.9.2
 @Ranks:acellular root,cellular root,other entries|realm,domain|kingdom|phylum|class|order|family|genus|species|strain
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-131567	cellular root	131567	cellular organisms	99.769218
-10239	acellular root	10239	Viruses	0.230781
-2	domain	131567|2	cellular organisms|Bacteria	99.769218
-2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.230781
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	53.041192
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	46.727990
-2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.230781
+131567	cellular root	131567	cellular organisms	99.769216
+10239	acellular root	10239	Viruses	0.230783
+2	domain	131567|2	cellular organisms|Bacteria	99.769216
+2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.230783
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	53.041563
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	46.727617
+2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.230783
 3384189	kingdom	131567|2|3384189	cellular organisms|Bacteria|Fusobacteriati	0.000035
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	53.027430
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	46.242772
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.485193
-2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.230781
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	53.027800
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	46.242420
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.485172
+2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.230783
 201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.013750
 32066	phylum	131567|2|3384189|32066	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota	0.000035
 203691	phylum	131567|2|3379134|203691	cellular organisms|Bacteria|Pseudomonadati|Spirochaetota	0.000024
 1117	phylum	131567|2|1783272|1117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota	0.000012
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	53.025442
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	46.242737
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.485193
-2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.230781
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	53.025813
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	46.242385
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.485172
+2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.230783
 1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.013750
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.001965
 203490	class	131567|2|3384189|32066|203490	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota|Fusobacteriia	0.000035
@@ -11056,10 +11056,10 @@
 203692	class	131567|2|3379134|203691|203692	cellular organisms|Bacteria|Pseudomonadati|Spirochaetota|Spirochaetia	0.000024
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.000021
 3028117	class	131567|2|1783272|1117|3028117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae	0.000012
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	47.312521
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	46.242719
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	5.712921
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.485193
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	47.312913
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	46.242367
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	5.712899
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.485172
 85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.013750
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.001254
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.000528
@@ -11070,15 +11070,15 @@
 526525	order	131567|2|1783272|1239|526524|526525	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales	0.000021
 135619	order	131567|2|3379134|1224|1236|135619	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Oceanospirillales	0.000018
 1161	order	131567|2|1783272|1117|3028117|1161	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales	0.000012
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	46.242528
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	41.662343
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	5.711436
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	5.251323
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.398853
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.335328
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.136446
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	46.242176
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	41.662689
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	5.711414
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	5.251367
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.398856
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.335306
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.136447
 31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.013750
-171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.009139
+171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.009140
 1853231	family	131567|2|3379134|976|200643|171549|1853231	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae	0.002829
 186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.001404
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.001344
@@ -11102,20 +11102,20 @@
 28256	family	131567|2|3379134|1224|1236|135619|28256	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Oceanospirillales|Halomonadaceae	0.000018
 1903414	family	131567|2|3379134|1224|1236|91347|1903414	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Morganellaceae	0.000013
 1892259	family	131567|2|1783272|1117|3028117|1161|1892259	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales|Aphanizomenonaceae	0.000012
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	41.343061
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	39.782842
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	6.229031
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	5.711436
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	5.251305
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.365215
-1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.319282
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.313789
-3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.200508
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.182026
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.136446
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.041340
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	41.343404
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	39.782436
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	6.229082
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	5.711414
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	5.251349
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.365218
+1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.319285
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.313791
+3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.200510
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.182027
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.136447
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.041341
 2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.033637
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.021524
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.021499
 1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.013750
 3424928	genus	10239|2731341|2731360|2731618|2731619|||3424928	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Medawarvirus	0.010813
 838	genus	131567|2|3379134|976|200643|171549|171552|838	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	0.009016
@@ -11130,7 +11130,7 @@
 1198140	genus	10239|2731341|2731360|2731618|2731619||3424631|1198140	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes||Andersonviridae|Felixounavirus	0.001278
 2518495	genus	131567|2|3379134|976|200643|171549|2005473|2518495	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella	0.001271
 620	genus	131567|2|3379134|1224|1236|91347|543|620	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Shigella	0.001027
-2843432	genus	10239|2731341|2731360|2731618|2731619|||2843432	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Pankowvirus	0.000961
+2843432	genus	10239|2731341|2731360|2731618|2731619|||2843432	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Pankowvirus	0.000962
 2941495	genus	131567|2|1783272|1239|186801|3085636|186803|2941495	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Otoolea	0.000243
 2994443	genus	131567|2|3379134|1224|1236|91347|543|2994443	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Pseudenterobacter	0.000230
 2811390	genus	131567|2|1783272|1239|186801|3085636|186803|2811390	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Sporofaciens	0.000216
@@ -11182,17 +11182,17 @@
 122277	genus	131567|2|3379134|1224|1236|91347|1903410|122277	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Pectobacteriaceae|Pectobacterium	0.000010
 1330546	genus	131567|2|3379134|1224|1236|91347|543|1330546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Pluralibacter	0.000010
 2943317	genus	131567|2|3379134|1224|1236|91347|543|2943317	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Entomohabitans	0.000010
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	41.227375
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	39.778305
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	6.199639
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	5.699470
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	5.238504
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.352607
-2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.319256
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.313225
-3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.189561
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.171466
-823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.118190
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	41.227718
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	39.777899
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	6.199690
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	5.699447
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	5.238547
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.352610
+2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.319258
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.313227
+3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.189563
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.171468
+823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.118191
 257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.051497
 546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.034326
 1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.033492
@@ -11204,7 +11204,7 @@
 1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.011188
 3430753	species	10239|2731341|2731360|2731618|2731619|||3424928|3430753	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Medawarvirus|Medawarvirus ARI01312	0.010813
 76860	species	131567|2|1783272|1239|91061|186826|1300|1301|76860	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus constellatus	0.009632
-2736295	species	131567|2|3379134|976|200643|171549|171552|838|2736295	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|Prevotella sp. PTAC	0.008883
+2736295	species	131567|2|3379134|976|200643|171549|171552|838|2736295	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|Prevotella sp. PTAC	0.008884
 1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.007789
 3425981	species	10239|2731341|2731360|2731618|2731619|||3424927|3425981	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus|Adrianbuildvirus ARI0923	0.006679
 28901	species	131567|2|3379134|1224|1236|91347|543|590|28901	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.005663
@@ -11212,7 +11212,7 @@
 3429266	species	10239|2731341|2731360|2731618|2731619|||3424908|3429266	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0462	0.005466
 820	species	131567|2|3379134|976|200643|171549|815|816|820	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	0.005459
 3431194	species	10239|2731341|2731360|2731618|2731619|||3424909|3431194	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Norfolkplacevirus|Norfolkplacevirus ARI0746	0.004979
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.004440
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.004416
 3409964	species	131567|2|3379134|1224|1236|91347|543|570|3409964	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. R34	0.004291
 2079228	species	131567|2|3379134|1224|1236|91347|543|544|2079228	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. SL156	0.003735
 712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.003492
@@ -11252,7 +11252,7 @@
 1463165	species	131567|2|3379134|1224|1236|91347|543|570|1463165	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella quasipneumoniae	0.001050
 3412372	species	131567|2|3379134|1224|1236|91347|543|547|3412372	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter cloacae complex sp. IR5450	0.001043
 2582635	species	131567|2|1783272|1239|91061|186826|1300|1301|2582635	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. k-628	0.000993
-2844123	species	10239|2731341|2731360|2731618|2731619|||2843432|2844123	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Pankowvirus|Pankowvirus pv2851	0.000961
+2844123	species	10239|2731341|2731360|2731618|2731619|||2843432|2844123	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Pankowvirus|Pankowvirus pv2851	0.000962
 3046327	species	131567|2|1783272|1239|91061|186826|1300|1301|3046327	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. UMB1203	0.000863
 68892	species	131567|2|1783272|1239|91061|186826|1300|1301|68892	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus infantis	0.000850
 1134687	species	131567|2|3379134|1224|1236|91347|543|570|1134687	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella michiganensis	0.000844
@@ -11310,7 +11310,7 @@
 1755099	species	131567|2|3379134|1224|1236|91347|543|2994443|1755099	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Pseudenterobacter|Pseudenterobacter timonensis	0.000230
 1869337	species	131567|2|3379134|976|200643|171549|2005525|375288|1869337	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp.	0.000229
 2079206	species	131567|2|3379134|1224|1236|91347|543|547|2079206	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter sp. 301B	0.000226
-2293114	species	131567|2|3379134|976|200643|171549|2005525|375288|2293114	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. AF19-14	0.000225
+2293114	species	131567|2|3379134|976|200643|171549|2005525|375288|2293114	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. AF19-14	0.000226
 3278714	species	131567|2|1783272|1239|91061|186826|1300|1301|3278714	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. E17BB	0.000223
 1259973	species	131567|2|3379134|1224|1236|91347|543|570|1259973	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella electrica	0.000222
 2985035	species	131567|2|3379134|1224|1236|91347|543|544|2985035	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cb223	0.000219
@@ -11772,31 +11772,31 @@
 10239	acellular root	10239	Viruses	0.045267
 2	domain	131567|2	cellular organisms|Bacteria	99.954732
 2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.045267
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	69.690432
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	30.264289
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	69.690682
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	30.264039
 2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.045267
 3384194	kingdom	131567|2|3384194	cellular organisms|Bacteria|Thermotogati	0.000010
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	69.541458
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	30.050441
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.213847
-201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.148974
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	69.541706
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	30.050197
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.213842
+201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.148975
 2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.045267
 1297	phylum	131567|2|3384194|1297	cellular organisms|Bacteria|Thermotogati|Deinococcota	0.000010
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	69.541198
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	30.050013
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.213847
-1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.148974
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	69.541446
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	30.049768
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.213842
+1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.148975
 2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.045267
 28211	class	131567|2|3379134|1224|28211	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria	0.000313
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.000238
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000114
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.000021
 188787	class	131567|2|3384194|1297|188787	cellular organisms|Bacteria|Thermotogati|Deinococcota|Deinococci	0.000010
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	44.641479
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	30.049969
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	24.899718
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.213847
-85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.148893
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	44.641833
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	30.049724
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	24.899612
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.213842
+85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.148894
 204457	order	131567|2|3379134|1224|28211|204457	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Sphingomonadales	0.000313
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.000171
 80840	order	131567|2|3379134|1224|28216|80840	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales	0.000114
@@ -11806,13 +11806,13 @@
 526525	order	131567|2|1783272|1239|526524|526525	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales	0.000021
 135619	order	131567|2|3379134|1224|1236|135619	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Oceanospirillales	0.000016
 118964	order	131567|2|3384194|1297|188787|118964	cellular organisms|Bacteria|Thermotogati|Deinococcota|Deinococci|Deinococcales	0.000010
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	42.905134
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	30.049810
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	24.884635
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	1.452920
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.283424
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.197064
-31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.148893
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	42.905474
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	30.049565
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	24.884528
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	1.452931
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.283426
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.197059
+31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.148894
 186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.014880
 2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.014038
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.002341
@@ -11836,17 +11836,17 @@
 171550	family	131567|2|3379134|976|200643|171549|171550	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae	0.000012
 183710	family	131567|2|3384194|1297|188787|118964|183710	cellular organisms|Bacteria|Thermotogati|Deinococcota|Deinococci|Deinococcales|Deinococcaceae	0.000010
 80864	family	131567|2|3379134|1224|28216|80840|80864	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae	0.000009
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	42.899413
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	26.118762
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	24.884635
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	2.805315
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	1.452920
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	1.030995
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.283191
-1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.148893
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.099140
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.097893
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.084601
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	42.899753
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	26.118486
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	24.884528
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	2.805337
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	1.452931
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	1.031003
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.283193
+1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.148894
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.099141
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.097887
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.084602
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.037497
 44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.014868
 375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.014038
@@ -11903,19 +11903,19 @@
 283	genus	131567|2|3379134|1224|28216|80840|80864|283	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Comamonas	0.000009
 551	genus	131567|2|3379134|1224|1236|91347|1903409|551	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Erwiniaceae|Erwinia	0.000009
 2676048	genus	131567|2|1783272|1239|186801|3085636|186803|2676048	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Schaedlerella	0.000007
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	42.756220
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	26.117587
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	24.883740
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	2.787180
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	1.291485
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.895985
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.262067
-1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.160474
-1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.148893
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.098946
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.088613
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	42.756560
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	26.117311
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	24.883634
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	2.787202
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	1.291495
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.895992
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.262069
+1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.160476
+1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.148894
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.098947
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.088614
 162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	0.088554
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.074797
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.074798
 1639133	species	131567|2|3379134|1224|1236|91347|543|544|1639133	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter portucalensis	0.029615
 133448	species	131567|2|3379134|1224|1236|91347|543|544|133448	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter youngae	0.021865
 508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.020715
@@ -11931,7 +11931,7 @@
 2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.006298
 1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.006080
 2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.005721
-28901	species	131567|2|3379134|1224|1236|91347|543|590|28901	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.005692
+28901	species	131567|2|3379134|1224|1236|91347|543|590|28901	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.005693
 3429279	species	10239|2731341|2731360|2731618|2731619|||3424908|3429279	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus K13	0.004976
 2079228	species	131567|2|3379134|1224|1236|91347|543|544|2079228	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. SL156	0.004883
 328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.004850
@@ -11969,8 +11969,8 @@
 2169921	species	10239|2731341|2731360|2731618|2731619|||2842814|2169921	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Kwaitsingvirus|Kwaitsingvirus HK446	0.001254
 820	species	131567|2|3379134|976|200643|171549|815|816|820	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	0.001248
 2870756	species	131567|2|3379134|1224|1236|91347|543|547|2870756	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter sp. M607	0.001224
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.001176
 2589786	species	131567|2|1783272|1239|91061|186826|1300|1301|2589786	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus shenyangsis	0.001174
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.001170
 3429264	species	10239|2731341|2731360|2731618|2731619|||3424908|3429264	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0031	0.001169
 1779184	species	131567|2|3379134|1224|1236|91347|543|544|1779184	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. AATXQ	0.001133
 2985012	species	131567|2|3379134|1224|1236|91347|543|544|2985012	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cb011	0.001066
@@ -11989,7 +11989,7 @@
 2985073	species	131567|2|3379134|1224|1236|91347|543|544|2985073	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf123	0.000611
 3055793	species	131567|2|1783272|1239|91061|1385|186822|44249|3055793	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus|Paenibacillus sp. CR_12	0.000599
 3456034	species	131567|2|3379134|1224|1236|91347|543|544|3456034	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii complex sp. 2025EL-00176	0.000576
-1463165	species	131567|2|3379134|1224|1236|91347|543|570|1463165	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella quasipneumoniae	0.000567
+1463165	species	131567|2|3379134|1224|1236|91347|543|570|1463165	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella quasipneumoniae	0.000568
 2664853	species	131567|2|3379134|1224|1236|91347|543|544|2664853	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. H12-3-2	0.000529
 1896336	species	131567|2|3379134|1224|1236|91347|543|544|1896336	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp.	0.000524
 2923521	species	131567|2|1783272|1239|91061|186826|81852|1350|2923521	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus sp. IsoGale004	0.000520
@@ -12512,36 +12512,36 @@
 @Version:0.9.2
 @Ranks:acellular root,cellular root,other entries|realm,domain|kingdom|phylum|class|order|family|genus|species|strain
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-131567	cellular root	131567	cellular organisms	99.616753
-10239	acellular root	10239	Viruses	0.383246
-2	domain	131567|2	cellular organisms|Bacteria	99.616753
-2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.383246
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	53.707768
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	45.908985
-2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.383246
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	53.144917
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	45.881166
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.562850
-2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.383246
+131567	cellular root	131567	cellular organisms	99.616751
+10239	acellular root	10239	Viruses	0.383248
+2	domain	131567|2	cellular organisms|Bacteria	99.616751
+2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.383248
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	53.707518
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	45.909233
+2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.383248
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	53.144686
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	45.881413
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.562831
+2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.383248
 201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.026918
 1117	phylum	131567|2|1783272|1117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota	0.000900
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	53.144765
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	45.770860
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.562850
-2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.383246
-186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.108732
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	53.144534
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	45.771107
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.562831
+2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.383248
+186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.108733
 1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.026884
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.001572
 3028117	class	131567|2|1783272|1117|3028117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae	0.000900
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000152
 84998	class	131567|2|1783272|201174|84998	cellular organisms|Bacteria|Bacillati|Actinomycetota|Coriobacteriia	0.000034
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	53.144686
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	43.632216
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.138643
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.562850
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	53.144455
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	43.632472
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.138634
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.562831
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.076999
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.030039
-85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.026868
+85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.026869
 3082720	order	131567|2|1783272|1239|186801|3082720	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales	0.001694
 526525	order	131567|2|1783272|1239|526524|526525	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales	0.001572
 1161	order	131567|2|1783272|1117|3028117|1161	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales	0.000900
@@ -12551,16 +12551,16 @@
 135615	order	131567|2|3379134|1224|1236|135615	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Cardiobacteriales	0.000024
 85011	order	131567|2|1783272|201174|1760|85011	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales	0.000015
 72274	order	131567|2|3379134|1224|1236|72274	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Pseudomonadales	0.000009
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	53.143335
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	33.748637
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	9.486053
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	1.788393
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.397476
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.355732
-186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.345101
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.192165
-186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.076974
-31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.026868
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	53.143105
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	33.748835
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	9.486109
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	1.788382
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.397479
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.355712
+186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.345103
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.192166
+186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.076975
+31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.026869
 216572	family	131567|2|1783272|1239|186801|186802|216572	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae	0.019717
 171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.008855
 3082771	family	131567|2|1783272|1239|186801|186802|3082771	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Acutalibacteraceae	0.005444
@@ -12589,22 +12589,22 @@
 3118652	family	131567|2|1783272|1239|186801|3085636|3118652	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Anaerotignaceae	0.000024
 2062	family	131567|2|1783272|201174|1760|85011|2062	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae	0.000015
 135621	family	131567|2|3379134|1224|1236|72274|135621	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae	0.000009
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	33.738158
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	29.307643
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	23.323734
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	9.486053
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	1.788393
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.466314
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.359308
-44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.345082
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.326576
-3424927	genus	10239|2731341|2731360|2731618|2731619|||3424927	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus	0.276448
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.192165
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	33.738356
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	29.307272
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	23.323871
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	9.486109
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	1.788382
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.466317
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.359310
+44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.345084
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.326578
+3424927	genus	10239|2731341|2731360|2731618|2731619|||3424927	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus	0.276449
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.192166
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.070906
 2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.038168
 547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.029948
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.029143
-1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.026868
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.029121
+1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.026869
 1427378	genus	131567|2|1783272|1239|186801|3085636|186803|1427378	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Acetatifactor	0.018119
 3424909	genus	10239|2731341|2731360|2731618|2731619|||3424909	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Norfolkplacevirus	0.017796
 2941495	genus	131567|2|1783272|1239|186801|3085636|186803|2941495	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Otoolea	0.016987
@@ -12683,9 +12683,9 @@
 447792	genus	131567|2|3379134|1224|1236|91347|543|447792	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Phytobacter	0.000030
 264995	genus	131567|2|1783272|1239|186801|186802|186806|264995	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Anaerofustis	0.000027
 1330545	genus	131567|2|3379134|1224|1236|91347|543|1330545	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Lelliottia	0.000026
+216851	genus	131567|2|1783272|1239|186801|186802|216572|216851	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium	0.000026
 1649295	genus	131567|2|3379134|1224|1236|91347|543|1649295	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Franconibacter	0.000025
 1903434	genus	131567|2|3379134|1224|1236|91347|543|1903434	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Atlantibacter	0.000025
-216851	genus	131567|2|1783272|1239|186801|186802|216572|216851	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium	0.000025
 112008	genus	131567|2|3379134|1224|1236|135615|3018589|112008	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Cardiobacteriales|Ignatzschineriaceae|Ignatzschineria	0.000024
 122277	genus	131567|2|3379134|1224|1236|91347|1903410|122277	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Pectobacteriaceae|Pectobacterium	0.000024
 2039240	genus	131567|2|1783272|1239|186801|3085636|3118652|2039240	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Anaerotignaceae|Anaerotignum	0.000024
@@ -12709,24 +12709,24 @@
 71655	genus	131567|2|3379134|1224|1236|91347|1903410|71655	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Pectobacteriaceae|Brenneria	0.000011
 2918511	genus	131567|2|1783272|1239|186801|3085636|186803|2918511	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Diplocloster	0.000010
 286	genus	131567|2|3379134|1224|1236|72274|135621|286	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas	0.000009
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	33.106059
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	29.303931
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	23.195559
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	9.440759
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	1.787474
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.463676
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.402163
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.328048
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.325740
-1401	species	131567|2|1783272|1239|91061|1385|186822|44249|1401	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus|Paenibacillus lautus	0.325207
-3425981	species	10239|2731341|2731360|2731618|2731619|||3424927|3425981	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus|Adrianbuildvirus ARI0923	0.276448
-823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.175018
-548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.073380
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	33.106253
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	29.303560
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	23.195695
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	9.440814
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	1.787463
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.463679
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.402165
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.328050
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.325742
+1401	species	131567|2|1783272|1239|91061|1385|186822|44249|1401	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus|Paenibacillus lautus	0.325209
+3425981	species	10239|2731341|2731360|2731618|2731619|||3424927|3425981	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus|Adrianbuildvirus ARI0923	0.276449
+823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.175019
+548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.073381
 28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.043076
 1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.037822
 1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.034721
-1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.031620
-1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.026868
+1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.031621
+1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.026869
 1248330	species	131567|2|1783272|1239|91061|186826|33958|1578|1248330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus sp. PC121B	0.023431
 158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.022284
 3429263	species	10239|2731341|2731360|2731618|2731619|||3424908|3429263	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0004	0.021516
@@ -12765,7 +12765,7 @@
 2589786	species	131567|2|1783272|1239|91061|186826|1300|1301|2589786	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus shenyangsis	0.004568
 3032835	species	131567|2|1783272|1239|186801|3085636|186803|3032809|3032835	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Petralouisia|Petralouisia sp.	0.004144
 1463165	species	131567|2|3379134|1224|1236|91347|543|570|1463165	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella quasipneumoniae	0.004094
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.004025
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.004002
 1134687	species	131567|2|3379134|1224|1236|91347|543|570|1134687	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella michiganensis	0.003990
 3055796	species	131567|2|1783272|1239|91061|1385|186817|2800373|3055796	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Bacillaceae|Priestia|Priestia sp. BR_2	0.003889
 2894201	species	131567|2|3379134|1224|1236|91347|543|544|2894201	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter meridianamericanus	0.003838
@@ -13306,11 +13306,11 @@
 2292936	species	131567|2|3379134|976|200643|171549|815|816|2292936	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides sp. AF39-16AC	0.000026
 2488306	species	131567|2|3379134|1224|1236|91347|543|1504576|2488306	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Pseudocitrobacter|Pseudocitrobacter vendiensis	0.000026
 2592044	species	131567|2|1783272|1239|91061|186826|1300|1301|2592044	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. Marseille-P7376	0.000026
+259315	species	131567|2|1783272|1239|186801|186802|216572|216851|259315	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|uncultured Faecalibacterium sp.	0.000026
 3038144	species	131567|2|3379134|976|200643|171549|2005473|1918540|3038144	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Muribaculum|Muribaculum caecicola	0.000026
 33945	species	131567|2|1783272|1239|91061|186826|81852|1350|33945	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus avium	0.000026
 61646	species	131567|2|3379134|1224|1236|91347|543|1330545|61646	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Lelliottia|Lelliottia amnigena	0.000026
 2587036	species	131567|2|3379134|1224|1236|91347|543|1903434|2587036	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Atlantibacter|Atlantibacter sp. RC6	0.000025
-259315	species	131567|2|1783272|1239|186801|186802|216572|216851|259315	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|uncultured Faecalibacterium sp.	0.000025
 286549	species	131567|2|3379134|1224|1236|91347|543|579|286549	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Kluyvera|uncultured Kluyvera sp.	0.000025
 2947821	species	131567|2|3379134|1224|1236|91347|543|590|2947821	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella sp. NW229	0.000025
 2971264	species	131567|2|3379134|1224|1236|91347|543|544|2971264	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter enshiensis	0.000025
@@ -13561,18 +13561,18 @@
 10239	acellular root	10239	Viruses	0.055044
 2	domain	131567|2	cellular organisms|Bacteria	99.944955
 2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.055044
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	66.451170
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	33.493785
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	66.451439
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	33.493515
 2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.055044
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	66.438988
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	32.749403
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.744381
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	66.439257
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	32.749173
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.744341
 2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.055044
 201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.012137
 1117	phylum	131567|2|1783272|1117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota	0.000044
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	66.433292
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	32.748917
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.744381
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	66.433561
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	32.748687
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.744341
 2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.055044
 1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.012137
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.005561
@@ -13580,12 +13580,12 @@
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.000093
 3028117	class	131567|2|1783272|1117|3028117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae	0.000044
 909932	class	131567|2|1783272|1239|909932	cellular organisms|Bacteria|Bacillati|Bacillota|Negativicutes	0.000040
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	64.338245
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	32.748917
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.095046
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.744381
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	64.338531
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	32.748687
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.095030
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.744341
 85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.012113
-3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.003839
+3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.003840
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.001609
 80840	order	131567|2|3379134|1224|28216|80840	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales	0.000486
 3082720	order	131567|2|1783272|1239|186801|3082720	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales	0.000111
@@ -13593,15 +13593,15 @@
 1161	order	131567|2|1783272|1117|3028117|1161	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales	0.000044
 1843489	order	131567|2|1783272|1239|909932|1843489	cellular organisms|Bacteria|Bacillati|Bacillota|Negativicutes|Veillonellales	0.000040
 85006	order	131567|2|1783272|201174|1760|85006	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Micrococcales	0.000024
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	42.575118
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	32.747938
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	21.525919
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.093370
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.449692
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.281687
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.237207
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	42.575307
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	32.747708
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	21.526015
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.093353
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.449651
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.281688
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.237208
 31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.012113
-171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.010746
+171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.010747
 186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.003822
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.001704
 186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.001648
@@ -13628,18 +13628,18 @@
 1903412	family	131567|2|3379134|1224|1236|91347|1903412	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Hafniaceae	0.000012
 85020	family	131567|2|1783272|201174|1760|85006|85020	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Micrococcales|Dermabacteraceae	0.000010
 506	family	131567|2|3379134|1224|28216|80840|506	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales|Alcaligenaceae	0.000009
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	42.570906
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	21.525919
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	20.281140
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	10.308847
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.093370
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	1.893121
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.404629
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.281687
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.246383
-2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.192937
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.045048
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.044250
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	42.571095
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	21.526015
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	20.280854
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	10.308893
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.093353
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	1.893130
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.404630
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.281688
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.246384
+2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.192938
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.045005
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.044251
 3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.021757
 590	genus	131567|2|3379134|1224|1236|91347|543|590	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.016773
 1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.012113
@@ -13723,18 +13723,18 @@
 517	genus	131567|2|3379134|1224|28216|80840|506|517	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales|Alcaligenaceae|Bordetella	0.000009
 447792	genus	131567|2|3379134|1224|1236|91347|543|447792	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Phytobacter	0.000008
 1649459	genus	131567|2|1783272|1239|186801|3085636|186803|1649459	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Hungatella	0.000006
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	42.367592
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	21.488584
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	20.274980
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	10.276695
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.090840
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	1.791385
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.404457
-1235803	species	131567|2|3379134|976|200643|171549|2005525|375288|1235803	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. ASF519	0.256723
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.232747
-1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.191572
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.151910
-2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.063486
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	42.367780
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	21.488680
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	20.274695
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	10.276740
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.090824
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	1.791393
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.404459
+1235803	species	131567|2|3379134|976|200643|171549|2005525|375288|1235803	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. ASF519	0.256724
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.232748
+1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.191573
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.151911
+2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.063487
 151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.040530
 1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.031474
 823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.022424
@@ -13747,7 +13747,7 @@
 3425981	species	10239|2731341|2731360|2731618|2731619|||3424927|3425981	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus|Adrianbuildvirus ARI0923	0.010169
 1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.009217
 2169921	species	10239|2731341|2731360|2731618|2731619|||2842814|2169921	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Kwaitsingvirus|Kwaitsingvirus HK446	0.009065
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.007771
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.007728
 2985058	species	131567|2|3379134|1224|1236|91347|543|544|2985058	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf095	0.007456
 820	species	131567|2|3379134|976|200643|171549|815|816|820	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	0.007152
 571	species	131567|2|3379134|1224|1236|91347|543|570|571	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella oxytoca	0.006771
@@ -13823,7 +13823,7 @@
 68892	species	131567|2|1783272|1239|91061|186826|1300|1301|68892	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus infantis	0.000517
 1639133	species	131567|2|3379134|1224|1236|91347|543|544|1639133	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter portucalensis	0.000492
 2576429	species	131567|2|3379134|1224|1236|91347|543|544|2576429	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. wls706	0.000487
-2769350	species	131567|2|3379134|1224|1236|91347|543|570|2769350	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. K5	0.000472
+2769350	species	131567|2|3379134|1224|1236|91347|543|570|2769350	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. K5	0.000473
 3153424	species	131567|2|3379134|1224|1236|91347|543|570|3153424	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. CN_Kp105	0.000471
 3153500	species	131567|2|3379134|1224|1236|91347|543|570|3153500	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. CB_Kp194	0.000468
 2681861	species	131567|2|1783272|1239|186801|3085636|186803|2811390|2681861	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Sporofaciens|Sporofaciens musculi	0.000463
@@ -14414,28 +14414,28 @@
 @Version:0.9.2
 @Ranks:acellular root,cellular root,other entries|realm,domain|kingdom|phylum|class|order|family|genus|species|strain
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-131567	cellular root	131567	cellular organisms	99.966640
-10239	acellular root	10239	Viruses	0.033359
-2	domain	131567|2	cellular organisms|Bacteria	99.966640
-2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.033359
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	76.442889
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	23.522637
-2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.033359
+131567	cellular root	131567	cellular organisms	99.966639
+10239	acellular root	10239	Viruses	0.033360
+2	domain	131567|2	cellular organisms|Bacteria	99.966639
+2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.033360
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	76.443121
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	23.522406
+2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.033360
 3384189	kingdom	131567|2|3384189	cellular organisms|Bacteria|Fusobacteriati	0.001098
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	76.016214
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	23.154963
-201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.426675
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.357779
-2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.033359
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	76.016443
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	23.154749
+201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.426677
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.357761
+2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.033360
 203691	phylum	131567|2|3379134|203691	cellular organisms|Bacteria|Pseudomonadati|Spirochaetota	0.009894
 32066	phylum	131567|2|3384189|32066	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota	0.001098
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	75.692318
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	23.148974
-1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.426628
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.357779
-186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.242361
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	75.692546
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	23.148761
+1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.426630
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.357761
+186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.242362
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.080101
-2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.033359
+2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.033360
 203692	class	131567|2|3379134|203691|203692	cellular organisms|Bacteria|Pseudomonadati|Spirochaetota|Spirochaetia	0.009894
 28211	class	131567|2|3379134|1224|28211	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria	0.005975
 1737404	class	131567|2|1783272|1239|1737404	cellular organisms|Bacteria|Bacillati|Bacillota|Tissierellia	0.001410
@@ -14443,11 +14443,11 @@
 84998	class	131567|2|1783272|201174|84998	cellular organisms|Bacteria|Bacillati|Actinomycetota|Coriobacteriia	0.000046
 909932	class	131567|2|1783272|1239|909932	cellular organisms|Bacteria|Bacillati|Bacillota|Negativicutes	0.000022
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000013
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	74.832461
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	23.148921
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	0.859856
-85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.426617
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.357779
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	74.832698
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	23.148707
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	0.859848
+85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.426619
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.357761
 3082720	order	131567|2|1783272|1239|186801|3082720	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales	0.212581
 526525	order	131567|2|1783272|1239|526524|526525	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales	0.080101
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.025868
@@ -14462,16 +14462,16 @@
 84999	order	131567|2|1783272|201174|84998|84999	cellular organisms|Bacteria|Bacillati|Actinomycetota|Coriobacteriia|Coriobacteriales	0.000020
 80840	order	131567|2|3379134|1224|28216|80840	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales	0.000013
 85006	order	131567|2|1783272|201174|1760|85006	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Micrococcales	0.000011
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	72.138851
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	23.147611
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	1.539610
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	1.153999
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	0.850922
-31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.426617
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.263938
-186804	family	131567|2|1783272|1239|186801|3082720|186804	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales|Peptostreptococcaceae	0.210393
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	72.139079
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	23.147398
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	1.539615
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	1.154002
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	0.850915
+31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.426619
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.263919
+186804	family	131567|2|1783272|1239|186801|3082720|186804	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales|Peptostreptococcaceae	0.210394
 2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.086064
-128827	family	131567|2|1783272|1239|526524|526525|128827	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	0.046685
+128827	family	131567|2|1783272|1239|526524|526525|128827	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	0.046686
 2810280	family	131567|2|1783272|1239|526524|526525|2810280	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae	0.033415
 186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.025868
 2845253	family	131567|2|3379134|203691|203692|3120456|2845253	cellular organisms|Bacteria|Pseudomonadati|Spirochaetota|Spirochaetia|Treponematales|Treponemataceae	0.009894
@@ -14502,20 +14502,20 @@
 1268	family	131567|2|1783272|201174|1760|85006|1268	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae	0.000011
 1903411	family	131567|2|3379134|1224|1236|91347|1903411	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Yersiniaceae	0.000009
 1903412	family	131567|2|3379134|1224|1236|91347|1903412	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Hafniaceae	0.000008
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	72.096291
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	15.480162
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	4.245221
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	3.372547
-2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	1.530122
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	1.153999
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	0.850922
-1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.426617
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	72.096519
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	15.479924
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	4.245234
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	3.372558
+2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	1.530126
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	1.154002
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	0.850915
+1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.426619
 909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.207644
-1257	genus	131567|2|1783272|1239|186801|3082720|186804|1257	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales|Peptostreptococcaceae|Peptostreptococcus	0.205596
+1257	genus	131567|2|1783272|1239|186801|3082720|186804|1257	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales|Peptostreptococcaceae|Peptostreptococcus	0.205597
 375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.086064
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.056270
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.056251
 123375	genus	131567|2|1783272|1239|526524|526525|128827|123375	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Solobacterium	0.046569
-1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.042539
+1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.042540
 544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.041382
 1279384	genus	131567|2|1783272|1239|526524|526525|2810280|1279384	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Eggerthia	0.033415
 1164882	genus	131567|2|1783272|1239|186801|3085636|186803|1164882	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Lachnoanaerobaculum	0.017372
@@ -14620,30 +14620,30 @@
 551	genus	131567|2|3379134|1224|1236|91347|1903409|551	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Erwiniaceae|Erwinia	0.000008
 568	genus	131567|2|3379134|1224|1236|91347|1903412|568	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Hafniaceae|Hafnia	0.000008
 2719313	genus	131567|2|1783272|1239|186801|3085636|186803|2719313	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Enterocloster	0.000007
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	71.581895
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	15.477505
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	4.198172
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	3.273455
-1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	1.517541
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	1.152589
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	0.850841
-1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.426617
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	71.582122
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	15.477267
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	4.198186
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	3.273465
+1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	1.517546
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	1.152592
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	0.850834
+1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.426619
 76860	species	131567|2|1783272|1239|91061|186826|1300|1301|76860	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus constellatus	0.265687
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.207505
-341694	species	131567|2|1783272|1239|186801|3082720|186804|1257|341694	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales|Peptostreptococcaceae|Peptostreptococcus|Peptostreptococcus stomatis	0.205345
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.207506
+341694	species	131567|2|1783272|1239|186801|3082720|186804|1257|341694	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales|Peptostreptococcaceae|Peptostreptococcus|Peptostreptococcus stomatis	0.205346
 1328	species	131567|2|1783272|1239|91061|186826|1300|1301|1328	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus anginosus	0.074552
 2079206	species	131567|2|3379134|1224|1236|91347|543|547|2079206	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter sp. 301B	0.063411
 823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.049268
 712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.046760
 102148	species	131567|2|1783272|1239|526524|526525|128827|123375|102148	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Solobacterium|Solobacterium moorei	0.046522
 162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	0.043310
-2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.042539
+2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.042540
 546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.034641
 328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.034602
 31973	species	131567|2|1783272|1239|526524|526525|2810280|1279384|31973	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Eggerthia|Eggerthia catenaformis	0.033415
 257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.031497
-548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.021458
-2490855	species	131567|2|1783272|1239|186801|3085636|186803|1164882|2490855	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Lachnoanaerobaculum|Lachnoanaerobaculum gingivalis	0.016933
+548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.021459
+2490855	species	131567|2|1783272|1239|186801|3085636|186803|1164882|2490855	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Lachnoanaerobaculum|Lachnoanaerobaculum gingivalis	0.016934
 28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.016905
 575	species	131567|2|3379134|1224|1236|91347|543|570|575	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella planticola	0.016097
 1336	species	131567|2|1783272|1239|91061|186826|1300|1301|1336	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus equi	0.013573
@@ -14665,7 +14665,7 @@
 28901	species	131567|2|3379134|1224|1236|91347|543|590|28901	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.003929
 151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.003761
 1338	species	131567|2|1783272|1239|91061|186826|1300|1301|1338	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus intermedius	0.003654
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.003464
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.003445
 2759747	species	131567|2|1783272|1239|91061|186826|33958|2742598|2759747	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus balticus	0.003376
 3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.003350
 3695464	species	131567|2|1783272|1239|91061|186826|33958|2742598|3695464	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus secundus	0.003284
@@ -15344,32 +15344,32 @@
 @Version:0.9.2
 @Ranks:acellular root,cellular root,other entries|realm,domain|kingdom|phylum|class|order|family|genus|species|strain
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-131567	cellular root	131567	cellular organisms	99.825444
-10239	acellular root	10239	Viruses	0.174555
-2	domain	131567|2	cellular organisms|Bacteria	99.825444
-2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.174555
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	71.810522
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	28.014922
-2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.174555
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	71.807641
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	27.417687
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.597234
-2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.174555
+131567	cellular root	131567	cellular organisms	99.825443
+10239	acellular root	10239	Viruses	0.174556
+2	domain	131567|2	cellular organisms|Bacteria	99.825443
+2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.174556
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	71.810812
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	28.014631
+2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.174556
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	71.807931
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	27.417427
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.597203
+2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.174556
 201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.002871
 1117	phylum	131567|2|1783272|1117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota	0.000010
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	71.803200
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	27.417687
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.597234
-2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.174555
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	71.803490
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	27.417427
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.597203
+2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.174556
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.004279
 1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.002871
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.000139
 1737404	class	131567|2|1783272|1239|1737404	cellular organisms|Bacteria|Bacillati|Bacillota|Tissierellia	0.000021
 3028117	class	131567|2|1783272|1117|3028117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae	0.000010
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	69.367929
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	27.417653
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.435271
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.597234
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	69.368232
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	27.417393
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.435257
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.597203
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.002876
 85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.002864
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.001196
@@ -15379,15 +15379,15 @@
 1737405	order	131567|2|1783272|1239|1737404|1737405	cellular organisms|Bacteria|Bacillati|Bacillota|Tissierellia|Tissierellales	0.000021
 1161	order	131567|2|1783272|1117|3028117|1161	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales	0.000010
 85011	order	131567|2|1783272|201174|1760|85011	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales	0.000006
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	64.108602
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	27.416427
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	4.796310
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.018370
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.517643
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.463015
-186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.411229
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.061284
-171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.015050
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	64.108883
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	27.416167
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	4.796331
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.018354
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.517612
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.463017
+186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.411231
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.061285
+171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.015051
 186817	family	131567|2|1783272|1239|91061|1385|186817	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Bacillaceae	0.005671
 186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.002876
 31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.002864
@@ -15411,20 +15411,20 @@
 171550	family	131567|2|3379134|976|200643|171549|171550	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae	0.000013
 1892259	family	131567|2|1783272|1117|3028117|1161|1892259	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales|Aphanizomenonaceae	0.000010
 2062	family	131567|2|1783272|201174|1760|85011|2062	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae	0.000006
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	63.735865
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	20.527766
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	6.356530
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	4.796310
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.018370
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.489846
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.443857
-44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.411229
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.391565
-1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.372737
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	63.736144
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	20.527476
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	6.356558
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	4.796331
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.018354
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.489848
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.443859
+44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.411231
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.391567
+1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.372738
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.146351
 544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.132729
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.061284
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.027796
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.061285
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.027763
 2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.019158
 3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.018827
 838	genus	131567|2|3379134|976|200643|171549|171552|838	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	0.014890
@@ -15499,19 +15499,19 @@
 568	genus	131567|2|3379134|1224|1236|91347|1903412|568	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Hafniaceae|Hafnia	0.000009
 1883	genus	131567|2|1783272|201174|1760|85011|2062|1883	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces	0.000006
 84406	genus	131567|2|1783272|1239|91061|1385|186817|84406	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Bacillaceae|Virgibacillus	0.000006
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	63.569691
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	20.524602
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	6.138286
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	4.781744
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.018088
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.489525
-1401	species	131567|2|1783272|1239|91061|1385|186822|44249|1401	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus|Paenibacillus lautus	0.387566
-2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.372617
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.348972
-1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.310160
-548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.199348
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.116149
-3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.098663
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	63.569969
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	20.524312
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	6.138312
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	4.781765
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.018073
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.489527
+1401	species	131567|2|1783272|1239|91061|1385|186822|44249|1401	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus|Paenibacillus lautus	0.387568
+2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.372618
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.348973
+1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.310162
+548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.199349
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.116150
+3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.098664
 508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.093912
 257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.077638
 158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.073198
@@ -15527,7 +15527,7 @@
 3429264	species	10239|2731341|2731360|2731618|2731619|||3424908|3429264	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0031	0.009115
 820	species	131567|2|3379134|976|200643|171549|815|816|820	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	0.008749
 3060519	species	10239|2731341|2731360|2731618|2731619|||3044785|3060519	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus IPP66	0.008501
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.005984
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.005950
 2937417	species	131567|2|3379134|976|200643|171549|815|816|2937417	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides muris (ex Fokt et al. 2023)	0.005787
 28901	species	131567|2|3379134|1224|1236|91347|543|590|28901	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.005616
 3060511	species	10239|2731341|2731360|2731618|2731619|||3044785|3060511	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus BHN167	0.005194
@@ -15541,7 +15541,7 @@
 1463165	species	131567|2|3379134|1224|1236|91347|543|570|1463165	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella quasipneumoniae	0.002982
 1796613	species	131567|2|3379134|976|200643|171549|815|816|1796613	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides caecimuris	0.002874
 1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.002864
-2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.002799
+2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.002800
 3060510	species	10239|2731341|2731360|2731618|2731619|||3044785|3060510	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus ARI04684	0.002679
 2582647	species	131567|2|1783272|1239|91061|186826|1300|1301|2582647	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 563	0.002560
 68892	species	131567|2|1783272|1239|91061|186826|1300|1301|68892	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus infantis	0.002486
@@ -16009,6 +16009,7 @@
 1739549	species	131567|2|1783272|1239|91061|186826|1300|1301|1739549	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. HMSC072D05	0.000023
 2137852	species	131567|2|3379134|1224|1236|91347|543|561|2137852	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia sp. 4726-5	0.000023
 2162637	species	131567|2|3379134|976|200643|171549|815|816|2162637	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides sp. PHL 2737	0.000023
+2582682	species	131567|2|1783272|1239|91061|186826|1300|1301|2582682	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 4886	0.000023
 2598453	species	131567|2|1783272|1239|91061|186826|1300|1301|2598453	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 116-D4	0.000023
 2870760	species	131567|2|3379134|1224|1236|91347|543|570|2870760	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. M621	0.000023
 3003655	species	131567|2|1783272|1239|91061|186826|1300|1301|3003655	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 27098_8_70	0.000023
@@ -16024,7 +16025,6 @@
 2107999	species	131567|2|1783272|1239|91061|186826|33958|1578|2107999	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus paragasseri	0.000022
 2582667	species	131567|2|1783272|1239|91061|186826|1300|1301|2582667	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 1055	0.000022
 2582671	species	131567|2|1783272|1239|91061|186826|1300|1301|2582671	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 1559	0.000022
-2582682	species	131567|2|1783272|1239|91061|186826|1300|1301|2582682	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 4886	0.000022
 2898231	species	131567|2|1783272|1239|91061|186826|1300|1301|2898231	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. SM3	0.000022
 2985151	species	131567|2|3379134|1224|1236|91347|543|544|2985151	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cpo142	0.000022
 3153402	species	131567|2|3379134|1224|1236|91347|543|570|3153402	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. GB_Kp051	0.000022
@@ -16306,7 +16306,7 @@
 574930	species	131567|2|3379134|976|200643|171549|2005525|375288|574930	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides gordonii	0.000006
 59845	species	131567|2|1783272|1239|91061|1385|186822|44249|59845	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus|Paenibacillus illinoisensis	0.000006
 68186	species	131567|2|1783272|201174|1760|85011|2062|1883|68186	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces|Streptomyces chryseus	0.000006
-1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	0.310160
+1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	0.310162
 1006551	strain	131567|2|3379134|1224|1236|91347|543|570|1134687|1006551	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella michiganensis|Klebsiella michiganensis KCTC 1686	0.000097
 1154756	strain	131567|2|3379134|1224|1236|91347|1903411|613|2338073|1154756	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Yersiniaceae|Serratia|Serratia inhibens|Serratia inhibens PRI-2C	0.000095
 1211819	strain	131567|2|1783272|1239|526524|526525|128827|61170|1468449|1211819	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis|Holdemania massiliensis AP2	0.000036
@@ -16322,21 +16322,21 @@
 10239	acellular root	10239	Viruses	0.089065
 2	domain	131567|2	cellular organisms|Bacteria	99.910934
 2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.089065
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	56.307886
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	43.603048
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	56.308224
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	43.602709
 2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.089065
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	55.456515
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	41.394292
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	2.208671
-201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.851359
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	55.456848
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	41.393954
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	2.208670
+201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.851365
 2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.089065
 29547	phylum	131567|2|3379134|29547	cellular organisms|Bacteria|Pseudomonadati|Campylobacterota	0.000060
 203691	phylum	131567|2|3379134|203691	cellular organisms|Bacteria|Pseudomonadati|Spirochaetota	0.000023
 1117	phylum	131567|2|1783272|1117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota	0.000011
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	55.446938
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	41.394279
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	2.208671
-1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.851334
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	55.447271
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	41.393940
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	2.208670
+1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.851340
 2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.089065
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.009527
 3031852	class	131567|2|3379134|29547|3031852	cellular organisms|Bacteria|Pseudomonadati|Campylobacterota|Epsilonproteobacteria	0.000060
@@ -16345,11 +16345,11 @@
 203692	class	131567|2|3379134|203691|203692	cellular organisms|Bacteria|Pseudomonadati|Spirochaetota|Spirochaetia	0.000023
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000013
 3028117	class	131567|2|1783272|1117|3028117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae	0.000011
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	52.491559
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	41.394254
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.955378
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	2.208671
-85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.851313
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	52.491908
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	41.393916
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.955362
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	2.208670
+85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.851319
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.006483
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.002340
 3082720	order	131567|2|1783272|1239|186801|3082720	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Peptostreptococcales	0.000703
@@ -16362,14 +16362,14 @@
 80840	order	131567|2|3379134|1224|28216|80840	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales	0.000013
 1161	order	131567|2|1783272|1117|3028117|1161	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales	0.000011
 135614	order	131567|2|3379134|1224|1236|135614	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Lysobacterales	0.000011
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	45.059645
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	41.393809
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	6.179831
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.935485
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	1.927065
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	1.251964
-31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.851313
-2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.253276
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	45.059945
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	41.393471
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	6.179872
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.935469
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	1.927063
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	1.251972
+31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.851319
+2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.253277
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.020513
 186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.019446
 186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.006421
@@ -16401,18 +16401,18 @@
 80864	family	131567|2|3379134|1224|28216|80840|80864	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae	0.000013
 1892259	family	131567|2|1783272|1117|3028117|1161|1892259	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales|Aphanizomenonaceae	0.000011
 32033	family	131567|2|3379134|1224|1236|135614|32033	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Lysobacterales|Lysobacteraceae	0.000011
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	45.053667
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	33.182659
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	7.817518
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	6.179831
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.935485
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	1.590146
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	1.123389
-1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.851313
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.336076
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.279221
-375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.253276
-2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.128575
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	45.053967
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	33.182266
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	7.817570
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	6.179872
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.935469
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	1.590141
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	1.123396
+1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.851319
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.336079
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.279223
+375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.253277
+2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.128576
 544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.108927
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.076448
 44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.019446
@@ -16498,20 +16498,20 @@
 2100764	genus	131567|2|3379134|1224|1236|91347|1903409|2100764	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Erwiniaceae|Mixta	0.000011
 40323	genus	131567|2|3379134|1224|1236|135614|32033|40323	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Lysobacterales|Lysobacteraceae|Stenotrophomonas	0.000011
 882045	genus	131567|2|1783272|1117|3028117|1161|1892259|882045	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales|Aphanizomenonaceae|Cuspidothrix	0.000011
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	44.671707
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	33.177875
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	7.710429
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	6.120563
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.930513
-162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	1.504753
-1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.851313
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.712679
-508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.405281
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.331925
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.273213
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.232828
-823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.199991
-1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.127422
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	44.672004
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	33.177482
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	7.710481
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	6.120604
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.930497
+162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	1.504763
+1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.851319
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.712684
+508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.405284
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.331928
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	0.273215
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.232830
+823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.199993
+1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.127423
 546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.101536
 548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.082630
 3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.056776
@@ -16525,7 +16525,7 @@
 2530391	species	131567|2|3379134|976|200643|171549|2005473|2518495|2530391	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella|Duncaniella freteri	0.011417
 2582647	species	131567|2|1783272|1239|91061|186826|1300|1301|2582647	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 563	0.010173
 2937417	species	131567|2|3379134|976|200643|171549|815|816|2937417	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides muris (ex Fokt et al. 2023)	0.009916
-3429266	species	10239|2731341|2731360|2731618|2731619|||3424908|3429266	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0462	0.009026
+3429266	species	10239|2731341|2731360|2731618|2731619|||3424908|3429266	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0462	0.009027
 820	species	131567|2|3379134|976|200643|171549|815|816|820	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	0.008317
 1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.007540
 2516960	species	131567|2|3379134|976|200643|171549|815|816|2516960	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides muris (ex Afrizal et al. 2022)	0.007093
@@ -16550,15 +16550,15 @@
 2736291	species	131567|2|3379134|976|200643|171549|171552|2974369|2736291	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Palleniella|Palleniella intestinalis	0.002934
 2589786	species	131567|2|1783272|1239|91061|186826|1300|1301|2589786	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus shenyangsis	0.002837
 3060519	species	10239|2731341|2731360|2731618|2731619|||3044785|3060519	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus IPP66	0.002801
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.002767
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.002751
 1328	species	131567|2|1783272|1239|91061|186826|1300|1301|1328	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus anginosus	0.002636
 3432559	species	10239|2731341|2731360|2731618|2731619|||3424910|3432559	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Spinunavirus|Spinunavirus ARI04601	0.002544
 3429264	species	10239|2731341|2731360|2731618|2731619|||3424908|3429264	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0031	0.002542
 1196034	species	131567|2|3379134|1224|1236|91347|543|570|1196034	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella sp. 10982	0.002419
-2755405	species	131567|2|3379134|976|200643|171549|815|816|2755405	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides sp. CACC 737	0.002344
+2755405	species	131567|2|3379134|976|200643|171549|815|816|2755405	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides sp. CACC 737	0.002345
 3278714	species	131567|2|1783272|1239|91061|186826|1300|1301|3278714	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. E17BB	0.002326
 2320086	species	131567|2|3379134|976|200643|171549|2005525|375288|2320086	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. CH2-D42-20	0.002280
-2774931	species	131567|2|1783272|1239|91061|186826|81852|1350|2774931	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus sp. AZ077	0.002279
+2774931	species	131567|2|1783272|1239|91061|186826|81852|1350|2774931	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus sp. AZ077	0.002280
 2972781	species	131567|2|1783272|1239|91061|186826|1300|1301|2972781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. Marseille-Q5855	0.002276
 33959	species	131567|2|1783272|1239|91061|186826|33958|1578|33959	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus johnsonii	0.002226
 1591	species	131567|2|1783272|1239|91061|186826|33958|1578|1591	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus sp.	0.002152
@@ -17241,31 +17241,31 @@
 @Version:0.9.2
 @Ranks:acellular root,cellular root,other entries|realm,domain|kingdom|phylum|class|order|family|genus|species|strain
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-131567	cellular root	131567	cellular organisms	99.876318
-10239	acellular root	10239	Viruses	0.123681
-2	domain	131567|2	cellular organisms|Bacteria	99.876318
-2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.123681
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	73.552431
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	26.323830
-2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.123681
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	73.023699
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	25.093253
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	1.230577
-201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.528732
-2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.123681
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	72.970276
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	25.093140
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	1.230577
-1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.528732
-2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.123681
+131567	cellular root	131567	cellular organisms	99.876317
+10239	acellular root	10239	Viruses	0.123682
+2	domain	131567|2	cellular organisms|Bacteria	99.876317
+2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.123682
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	73.552608
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	26.323653
+2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.123682
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	73.023873
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	25.093143
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	1.230509
+201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.528735
+2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.123682
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	72.970450
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	25.093030
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	1.230509
+1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.528735
+2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.123682
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.050730
 526524	class	131567|2|1783272|1239|526524	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia	0.002692
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000113
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	57.368324
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	25.093078
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	15.601951
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	1.230577
-85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.528719
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	57.368611
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	25.092968
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	15.601839
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	1.230509
+85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.528721
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.035937
 186802	order	131567|2|1783272|1239|186801|186802	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales	0.013872
 526525	order	131567|2|1783272|1239|526524|526525	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales	0.002692
@@ -17275,17 +17275,17 @@
 72274	order	131567|2|3379134|1224|1236|72274	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Pseudomonadales	0.000015
 85006	order	131567|2|1783272|201174|1760|85006	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Micrococcales	0.000013
 206389	order	131567|2|3379134|1224|28216|206389	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Rhodocyclales	0.000012
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	50.338684
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	25.083498
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	15.599771
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	5.773579
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	1.256060
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	1.130565
-31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.528719
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	50.338935
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	25.083388
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	15.599659
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	5.773608
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	1.256067
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	1.130498
+31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.528721
 2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.060379
 186803	family	131567|2|1783272|1239|186801|3085636|186803	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae	0.035923
 171552	family	131567|2|3379134|976|200643|171549|171552	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	0.034299
-216572	family	131567|2|1783272|1239|186801|186802|216572	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae	0.009350
+216572	family	131567|2|1783272|1239|186801|186802|216572	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae	0.009351
 1903411	family	131567|2|3379134|1224|1236|91347|1903411	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Yersiniaceae	0.009130
 2005473	family	131567|2|3379134|976|200643|171549|2005473	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	0.004744
 128827	family	131567|2|1783272|1239|526524|526525|128827	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	0.002642
@@ -17313,21 +17313,21 @@
 85023	family	131567|2|1783272|201174|1760|85006|85023	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae	0.000013
 2008795	family	131567|2|3379134|1224|28216|206389|2008795	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Rhodocyclales|Azonexaceae	0.000012
 186817	family	131567|2|1783272|1239|91061|1385|186817	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Bacillaceae	0.000010
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	49.953651
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	15.599771
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	12.711900
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	11.434896
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	5.773579
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	1.170386
-909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	1.082116
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.697477
-1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.528719
-1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.385032
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.224663
-3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.109145
-2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.085674
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	49.953900
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	15.599659
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	12.711728
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	11.434953
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	5.773608
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	1.170391
+909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	1.082121
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.697481
+1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.528721
+1357	genus	131567|2|1783272|1239|91061|186826|1300|1357	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus	0.385034
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	0.224665
+3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.109146
+2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.085675
 375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.060379
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.048449
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.048376
 838	genus	131567|2|3379134|976|200643|171549|171552|838	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	0.033932
 590	genus	131567|2|3379134|1224|1236|91347|543|590	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.012033
 613	genus	131567|2|3379134|1224|1236|91347|1903411|613	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Yersiniaceae|Serratia	0.009120
@@ -17335,7 +17335,7 @@
 1427378	genus	131567|2|1783272|1239|186801|3085636|186803|1427378	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Acetatifactor	0.008390
 2941495	genus	131567|2|1783272|1239|186801|3085636|186803|2941495	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Otoolea	0.007619
 2811390	genus	131567|2|1783272|1239|186801|3085636|186803|2811390	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Sporofaciens	0.005767
-244127	genus	131567|2|1783272|1239|186801|186802|216572|244127	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Anaerotruncus	0.005135
+244127	genus	131567|2|1783272|1239|186801|186802|216572|244127	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Anaerotruncus	0.005136
 2518495	genus	131567|2|3379134|976|200643|171549|2005473|2518495	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Duncaniella	0.004534
 3039590	genus	131567|2|1783272|1239|186801|3085636|186803|3039590	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales|Lachnospiraceae|Parablautia	0.003807
 3044785	genus	10239|2731341|2731360|2731618|2731619|||3044785	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus	0.003745
@@ -17426,22 +17426,22 @@
 3016631	genus	131567|2|3379134|1224|1236|91347|543|3016631	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Silvania	0.000009
 629	genus	131567|2|3379134|1224|1236|91347|1903411|629	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Yersiniaceae|Yersinia	0.000009
 447792	genus	131567|2|3379134|1224|1236|91347|543|447792	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Phytobacter	0.000008
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	48.332791
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	15.598969
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	12.707976
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	10.834906
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	5.521603
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	1.166019
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	1.095144
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	1.081868
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.661957
-548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.577240
-1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.528719
-2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.384967
-1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.250336
-712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.204280
-1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.148732
-2582632	species	131567|2|1783272|1239|91061|186826|1300|1301|2582632	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. k-378	0.095123
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	48.333032
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	15.598857
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	12.707804
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	10.834960
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	5.521631
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	1.166025
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	1.095149
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	1.081873
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.661961
+548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.577243
+1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.528721
+2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.384969
+1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.250338
+712623	species	131567|2|1783272|1239|91061|186826|1300|1301|712623	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 061	0.204281
+1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	0.148733
+2582632	species	131567|2|1783272|1239|91061|186826|1300|1301|2582632	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. k-378	0.095124
 1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.084934
 158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.068725
 28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.056953
@@ -17450,12 +17450,12 @@
 2736295	species	131567|2|3379134|976|200643|171549|171552|838|2736295	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|Prevotella sp. PTAC	0.033749
 328812	species	131567|2|3379134|976|200643|171549|2005525|375288|328812	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides goldsteinii	0.029297
 823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.028128
-2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.023752
+2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.023753
 3429263	species	10239|2731341|2731360|2731618|2731619|||3424908|3429263	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0004	0.023011
 2963155	species	131567|2|1783272|1239|91061|186826|1300|1301|2963155	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CF8_St5-17	0.019978
 3429279	species	10239|2731341|2731360|2731618|2731619|||3424908|3429279	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus K13	0.017613
 820	species	131567|2|3379134|976|200643|171549|815|816|820	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides uniformis	0.015782
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.013208
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.013135
 28901	species	131567|2|3379134|1224|1236|91347|543|590|28901	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.011871
 1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.011619
 3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.011452
@@ -18149,7 +18149,7 @@
 871324	species	131567|2|3379134|976|200643|171549|815|816|871324	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides stercorirosoris	0.000007
 2293113	species	131567|2|3379134|976|200643|171549|2005525|375288|2293113	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. AF17-3	0.000006
 2949651	species	131567|2|3379134|976|200643|171549|2005525|375288|2949651	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides caecihominis	0.000006
-1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	0.148732
+1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	0.148733
 1006551	strain	131567|2|3379134|1224|1236|91347|543|570|1134687|1006551	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella michiganensis|Klebsiella michiganensis KCTC 1686	0.002086
 861455	strain	131567|2|1783272|1239|91061|186826|1300|1301|712622|861455	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. oral taxon 058|Streptococcus sp. oral taxon 058 str. F0407	0.000068
 1211819	strain	131567|2|1783272|1239|526524|526525|128827|61170|1468449|1211819	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Holdemania|Holdemania massiliensis|Holdemania massiliensis AP2	0.000049
@@ -18163,21 +18163,21 @@
 10239	acellular root	10239	Viruses	0.074382
 2	domain	131567|2	cellular organisms|Bacteria	99.925617
 2731341	realm	10239|2731341	Viruses|Duplodnaviria	0.074382
-1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	53.560651
-3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	46.364933
+1783272	kingdom	131567|2|1783272	cellular organisms|Bacteria|Bacillati	53.560997
+3379134	kingdom	131567|2|3379134	cellular organisms|Bacteria|Pseudomonadati	46.364586
 2731360	kingdom	10239|2731341|2731360	Viruses|Duplodnaviria|Heunggongvirae	0.074382
 3384189	kingdom	131567|2|3384189	cellular organisms|Bacteria|Fusobacteriati	0.000032
-1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	53.223687
-1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	46.114124
-201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.336952
-976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.250808
+1239	phylum	131567|2|1783272|1239	cellular organisms|Bacteria|Bacillati|Bacillota	53.224030
+1224	phylum	131567|2|3379134|1224	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota	46.113791
+201174	phylum	131567|2|1783272|201174	cellular organisms|Bacteria|Bacillati|Actinomycetota	0.336954
+976	phylum	131567|2|3379134|976	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota	0.250795
 2731618	phylum	10239|2731341|2731360|2731618	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota	0.074382
 32066	phylum	131567|2|3384189|32066	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota	0.000032
 1117	phylum	131567|2|1783272|1117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota	0.000012
-91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	53.222671
-1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	46.113176
-1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.336952
-200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.250808
+91061	class	131567|2|1783272|1239|91061	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli	53.223014
+1236	class	131567|2|3379134|1224|1236	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria	46.112842
+1760	class	131567|2|1783272|201174|1760	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes	0.336954
+200643	class	131567|2|3379134|976|200643	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia	0.250795
 2731619	class	10239|2731341|2731360|2731618|2731619	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes	0.074382
 28216	class	131567|2|3379134|1224|28216	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria	0.000910
 186801	class	131567|2|1783272|1239|186801	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia	0.000756
@@ -18185,11 +18185,11 @@
 28211	class	131567|2|3379134|1224|28211	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria	0.000037
 203490	class	131567|2|3384189|32066|203490	cellular organisms|Bacteria|Fusobacteriati|Fusobacteriota|Fusobacteriia	0.000032
 3028117	class	131567|2|1783272|1117|3028117	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae	0.000012
-186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	50.523235
-91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	46.113139
-1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.699435
-85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.336945
-171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.250808
+186826	order	131567|2|1783272|1239|91061|186826	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales	50.523592
+91347	order	131567|2|3379134|1224|1236|91347	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales	46.112805
+1385	order	131567|2|1783272|1239|91061|1385	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales	2.699421
+85009	order	131567|2|1783272|201174|1760|85009	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales	0.336947
+171549	order	131567|2|3379134|976|200643|171549	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales	0.250795
 80840	order	131567|2|3379134|1224|28216|80840	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales	0.000910
 3085636	order	131567|2|1783272|1239|186801|3085636	cellular organisms|Bacteria|Bacillati|Bacillota|Clostridia|Lachnospirales	0.000469
 526525	order	131567|2|1783272|1239|526524|526525	cellular organisms|Bacteria|Bacillati|Bacillota|Erysipelotrichia|Erysipelotrichales	0.000259
@@ -18203,13 +18203,13 @@
 1161	order	131567|2|1783272|1117|3028117|1161	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales	0.000012
 356	order	131567|2|3379134|1224|28211|356	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales	0.000006
 85011	order	131567|2|1783272|201174|1760|85011	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales	0.000006
-543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	46.109049
-1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	43.223012
-81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	6.630497
-90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.669481
-33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.669668
-31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.336945
-815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.157806
+543	family	131567|2|3379134|1224|1236|91347|543	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	46.108715
+1300	family	131567|2|1783272|1239|91061|186826|1300	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	43.223317
+81852	family	131567|2|1783272|1239|91061|186826|81852	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	6.630544
+90964	family	131567|2|1783272|1239|91061|1385|90964	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae	2.669467
+33958	family	131567|2|1783272|1239|91061|186826|33958	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	0.669673
+31957	family	131567|2|1783272|201174|1760|85009|31957	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	0.336947
+815	family	131567|2|3379134|976|200643|171549|815	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	0.157793
 2005525	family	131567|2|3379134|976|200643|171549|2005525	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	0.090124
 186822	family	131567|2|1783272|1239|91061|1385|186822	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae	0.029752
 1903409	family	131567|2|3379134|1224|1236|91347|1903409	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Erwiniaceae	0.002785
@@ -18237,20 +18237,20 @@
 119060	family	131567|2|3379134|1224|28216|80840|119060	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae	0.000007
 2062	family	131567|2|1783272|201174|1760|85011|2062	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae	0.000006
 41294	family	131567|2|3379134|1224|28211|356|41294	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Nitrobacteraceae	0.000006
-1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	43.219481
-561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	35.672155
-570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	8.290639
-1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	6.630497
-1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.669481
-547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	1.950547
-1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.450094
-1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.336945
-2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.219573
-544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.175649
+1301	genus	131567|2|1783272|1239|91061|186826|1300|1301	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	43.219786
+561	genus	131567|2|3379134|1224|1236|91347|543|561	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	35.671747
+570	genus	131567|2|3379134|1224|1236|91347|543|570	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella	8.290698
+1350	genus	131567|2|1783272|1239|91061|186826|81852|1350	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	6.630544
+1279	genus	131567|2|1783272|1239|91061|1385|90964|1279	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus	2.669467
+547	genus	131567|2|3379134|1224|1236|91347|543|547	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	1.950561
+1578	genus	131567|2|1783272|1239|91061|186826|33958|1578	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	0.450098
+1912216	genus	131567|2|1783272|201174|1760|85009|31957|1912216	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	0.336947
+2742598	genus	131567|2|1783272|1239|91061|186826|33958|2742598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	0.219575
+544	genus	131567|2|3379134|1224|1236|91347|543|544	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	0.175651
 909656	genus	131567|2|3379134|976|200643|171549|815|909656	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	0.111895
 375288	genus	131567|2|3379134|976|200643|171549|2005525|375288	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	0.090124
 3424908	genus	10239|2731341|2731360|2731618|2731619|||3424908	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus	0.053490
-816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.045911
+816	genus	131567|2|3379134|976|200643|171549|815|816	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	0.045897
 44249	genus	131567|2|1783272|1239|91061|1385|186822|44249	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus	0.029752
 590	genus	131567|2|3379134|1224|1236|91347|543|590	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella	0.016967
 3424927	genus	10239|2731341|2731360|2731618|2731619|||3424927	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus	0.008185
@@ -18323,35 +18323,35 @@
 1822464	genus	131567|2|3379134|1224|28216|80840|119060|1822464	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Paraburkholderia	0.000007
 1883	genus	131567|2|1783272|201174|1760|85011|2062|1883	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces	0.000006
 374	genus	131567|2|3379134|1224|28211|356|41294|374	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Nitrobacteraceae|Bradyrhizobium	0.000006
-1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	41.355305
-562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	35.664846
-573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	7.631841
-1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	6.200595
-1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.669154
-1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	1.534462
-257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	1.443814
-548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.642867
-1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.426288
-151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.421461
-158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.383296
-1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.336945
-1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.218059
-2963155	species	131567|2|1783272|1239|91061|186826|1300|1301|2963155	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CF8_St5-17	0.172549
-546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.150600
-671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.111823
+1313	species	131567|2|1783272|1239|91061|186826|1300|1301|1313	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pneumoniae	41.355598
+562	species	131567|2|3379134|1224|1236|91347|543|561|562	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	35.664438
+573	species	131567|2|3379134|1224|1236|91347|543|570|573	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae	7.631895
+1352	species	131567|2|1783272|1239|91061|186826|81852|1350|1352	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecium	6.200639
+1280	species	131567|2|1783272|1239|91061|1385|90964|1279|1280	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Staphylococcaceae|Staphylococcus|Staphylococcus aureus	2.669140
+1812935	species	131567|2|3379134|1224|1236|91347|543|547|1812935	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii	1.534473
+257758	species	131567|2|1783272|1239|91061|186826|1300|1301|257758	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus pseudopneumoniae	1.443824
+548	species	131567|2|3379134|1224|1236|91347|543|570|548	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella aerogenes	0.642872
+1351	species	131567|2|1783272|1239|91061|186826|81852|1350|1351	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|Enterococcus faecalis	0.426291
+151781	species	131567|2|1783272|1239|91061|186826|33958|1578|151781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus intestinalis	0.421464
+158836	species	131567|2|3379134|1224|1236|91347|543|547|158836	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter hormaechei	0.383299
+1747	species	131567|2|1783272|201174|1760|85009|31957|1912216|1747	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|Cutibacterium acnes	0.336947
+1598	species	131567|2|1783272|1239|91061|186826|33958|2742598|1598	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|Limosilactobacillus reuteri	0.218060
+2963155	species	131567|2|1783272|1239|91061|186826|1300|1301|2963155	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. CF8_St5-17	0.172550
+546	species	131567|2|3379134|1224|1236|91347|543|544|546	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii	0.150601
+671267	species	131567|2|3379134|976|200643|171549|815|909656|671267	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola sartorii	0.111824
 1235803	species	131567|2|3379134|976|200643|171549|2005525|375288|1235803	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides sp. ASF519	0.070066
-28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.066183
-68892	species	131567|2|1783272|1239|91061|186826|1300|1301|68892	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus infantis	0.037121
-162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	0.036851
-508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.027954
+28037	species	131567|2|1783272|1239|91061|186826|1300|1301|28037	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus mitis	0.066184
+68892	species	131567|2|1783272|1239|91061|186826|1300|1301|68892	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus infantis	0.037122
+162156	species	131567|2|3379134|976|200643|171549|815|816|162156	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	0.036852
+508451	species	131567|2|1783272|1239|91061|186826|33958|1578|508451	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus taiwanensis	0.027955
 1401	species	131567|2|1783272|1239|91061|1385|186822|44249|1401	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Caryophanales|Paenibacillaceae|Paenibacillus|Paenibacillus lautus	0.027930
-3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.021507
+3429270	species	10239|2731341|2731360|2731618|2731619|||3424908|3429270	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus DCC1738	0.021508
 2582632	species	131567|2|1783272|1239|91061|186826|1300|1301|2582632	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. k-378	0.020956
-823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.018800
+823	species	131567|2|3379134|976|200643|171549|2005525|375288|823	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|Parabacteroides distasonis	0.018801
 3429266	species	10239|2731341|2731360|2731618|2731619|||3424908|3429266	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Hinxtonvirus|Hinxtonvirus ARI0462	0.017260
 28901	species	131567|2|3379134|1224|1236|91347|543|590|28901	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Salmonella|Salmonella enterica	0.016714
 2582658	species	131567|2|1783272|1239|91061|186826|1300|1301|2582658	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 1449	0.009569
-1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.009381
+1303	species	131567|2|1783272|1239|91061|186826|1300|1301|1303	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus oralis	0.009382
 2582647	species	131567|2|1783272|1239|91061|186826|1300|1301|2582647	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 563	0.008708
 3425981	species	10239|2731341|2731360|2731618|2731619|||3424927|3425981	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Adrianbuildvirus|Adrianbuildvirus ARI0923	0.008185
 2079206	species	131567|2|3379134|1224|1236|91347|543|547|2079206	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter sp. 301B	0.008052
@@ -18370,13 +18370,13 @@
 2582648	species	131567|2|1783272|1239|91061|186826|1300|1301|2582648	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 2579	0.003552
 2941330	species	131567|2|1783272|1239|91061|186826|1300|1357|2941330	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Lactococcus|Lactococcus muris	0.003530
 2582682	species	131567|2|1783272|1239|91061|186826|1300|1301|2582682	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 4886	0.003282
-2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.002966
+2985083	species	131567|2|3379134|1224|1236|91347|543|544|2985083	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter sp. Cf140	0.002967
 3060521	species	10239|2731341|2731360|2731618|2731619|||3044785|3060521	Viruses|Duplodnaviria|Heunggongvirae|Uroviricota|Caudoviricetes|||Paclarkvirus|Paclarkvirus SpGS-1	0.002912
-817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.002638
-3381994	species	131567|2|3379134|1224|1236|91347|543|561|3381994	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia sp. WS470	0.002619
+817	species	131567|2|3379134|976|200643|171549|815|816|817	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides fragilis	0.002623
+3381994	species	131567|2|3379134|1224|1236|91347|543|561|3381994	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia sp. WS470	0.002620
 1639133	species	131567|2|3379134|1224|1236|91347|543|544|1639133	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter portucalensis	0.002591
 3025079	species	131567|2|3379134|1224|1236|91347|543|544|3025079	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter freundii complex sp. 2022EL-00793	0.002442
-2972781	species	131567|2|1783272|1239|91061|186826|1300|1301|2972781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. Marseille-Q5855	0.002428
+2972781	species	131567|2|1783272|1239|91061|186826|1300|1301|2972781	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. Marseille-Q5855	0.002429
 2582643	species	131567|2|1783272|1239|91061|186826|1300|1301|2582643	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus sp. 339	0.002289
 1796613	species	131567|2|3379134|976|200643|171549|815|816|1796613	cellular organisms|Bacteria|Pseudomonadati|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides caecimuris	0.002236
 133448	species	131567|2|3379134|1224|1236|91347|543|544|133448	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|Citrobacter youngae	0.002121
@@ -19092,7 +19092,7 @@
 2793821	species	131567|2|3379134|1224|28211|356|41294|374|2793821	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Nitrobacteraceae|Bradyrhizobium|Bradyrhizobium sp. BRP22	0.000006
 3375367	species	131567|2|1783272|201174|1760|85011|2062|1883|3375367	cellular organisms|Bacteria|Bacillati|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces|Streptomyces stephensoniae	0.000006
 3390282	species	131567|2|3379134|1224|1236|91347|543|570|3390282	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella pneumoniae complex sp. WS3221	0.000006
-1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	1.534462
+1329832	strain	131567|2|3379134|1224|1236|91347|543|547|1812935|1329832	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|Enterobacter roggenkampii|Enterobacter roggenkampii MGH 34	1.534473
 1006551	strain	131567|2|3379134|1224|1236|91347|543|570|1134687|1006551	cellular organisms|Bacteria|Pseudomonadati|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Klebsiella|Klebsiella michiganensis|Klebsiella michiganensis KCTC 1686	0.000385
 1122152	strain	131567|2|1783272|1239|91061|186826|33958|1578|116089|1122152	cellular organisms|Bacteria|Bacillati|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|Lactobacillus psittaci|Lactobacillus psittaci DSM 15354	0.000035
 2052836	strain	131567|2|1783272|1117|3028117|1161|1892259|882045|230752|2052836	cellular organisms|Bacteria|Bacillati|Cyanobacteriota|Cyanophyceae|Nostocales|Aphanizomenonaceae|Cuspidothrix|Cuspidothrix issatschenkoi|Cuspidothrix issatschenkoi CHARLIE-1	0.000012
