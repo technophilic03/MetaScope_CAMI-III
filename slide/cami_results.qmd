@@ -1,4 +1,8 @@
 ---
 title: "Benchmarking MetaScope Metagenomic Profiling Performance using CAMI Challenge Datasets"
+subtitle: "WEJ Lab presentation"
+author: "Yaoan Leng"
+date: "October 15, 2026"
+date-format: long
 format: revealjs
 ---
